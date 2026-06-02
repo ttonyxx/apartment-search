@@ -6,7 +6,7 @@ name: Sync apartment listings
 
 on:
   schedule:
-    - cron: '0 * * * *' # top of every hour (UTC)
+    - cron: '17 * * * *' # 17 min past every hour (UTC) — avoids the congested :00 slot GitHub routinely delays/drops
   workflow_dispatch: {} # allow manual runs from the Actions tab
 
 permissions:
