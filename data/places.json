@@ -62,6 +62,15 @@
       "vibe": "",
       "lat": 37.7845376,
       "lon": -122.3972187
+    },
+    {
+      "category": "friends",
+      "name": "Juan & Justin",
+      "address": "70 Webster Street",
+      "type": "",
+      "vibe": "",
+      "lat": 37.7709315,
+      "lon": -122.4282773
     }
   ]
 }
