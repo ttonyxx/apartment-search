@@ -22,7 +22,7 @@
   const LS_VIEW_KEY = 'apartment-search-view';
 
   const state = {
-    settings: { name: '', repo: '', branch: 'main', token: '' },
+    settings: { name: '', repo: '', branch: 'main', token: '', showOffMarket: false },
     apartments: [],
     sha: null,
     loading: false,
@@ -250,6 +250,10 @@
     }
     if (nb) list = list.filter(a => a.neighborhood === nb);
     if (st) list = list.filter(a => a.status === st);
+    // Hide off-market listings unless the user opts in (or explicitly filters to them).
+    if (!state.settings.showOffMarket && st !== 'off_market') {
+      list = list.filter(a => a.status !== 'off_market');
+    }
     if (ld) {
       list = list.filter(a => ld === 'unknown' ? !a.laundry : a.laundry === ld);
     }
@@ -1055,6 +1059,7 @@
     $('settingRepo').value = state.settings.repo || '';
     $('settingBranch').value = state.settings.branch || 'main';
     $('settingToken').value = state.settings.token || '';
+    $('settingShowOffMarket').checked = Boolean(state.settings.showOffMarket);
     msg('settingsMsg', '', '');
     $('settingsModal').classList.remove('hidden');
   }
@@ -1087,7 +1092,11 @@
     state.settings.repo = $('settingRepo').value.trim();
     state.settings.branch = $('settingBranch').value.trim() || 'main';
     state.settings.token = $('settingToken').value.trim();
+    state.settings.showOffMarket = $('settingShowOffMarket').checked;
     if (!hasSettings()) {
+      // Still persist UI preferences (e.g. off-market visibility) and reflect them.
+      saveSettings();
+      render();
       msg('settingsMsg', 'Name, repo, and token are all required.', 'error');
       return;
     }

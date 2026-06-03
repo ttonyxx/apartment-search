@@ -682,6 +682,31 @@ label small {
   line-height: 1.5;
 }
 
+.setting-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.setting-toggle input {
+  display: block;
+  margin: 2px 0 0;
+  width: 16px;
+  height: 16px;
+  flex: none;
+  cursor: pointer;
+}
+
+.setting-toggle span {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.setting-toggle small {
+  margin-top: 4px;
+}
+
 .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
