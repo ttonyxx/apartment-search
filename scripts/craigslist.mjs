@@ -3,6 +3,10 @@
 // array format into objects, converts them to our apartment shape, and can
 // check whether an individual posting has been taken down.
 
+import { sleep, titleCase, detectLaundry, formatPosted } from './listing-utils.mjs';
+// Re-export so existing importers (e.g. sync-listings.mjs) keep working.
+export { sleep, titleCase, detectLaundry, formatPosted };
+
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/124.0 Safari/537.36';
@@ -241,23 +245,3 @@ export async function isListingGone(url) {
   }
 }
 
-export function titleCase(s) {
-  if (!s) return '';
-  return s.replace(/\b([a-z])/g, c => c.toUpperCase());
-}
-
-export function detectLaundry(text) {
-  if (!text) return null;
-  const t = text.toLowerCase();
-  if (/\b(in[- ]?unit|w\/?d in[- ]?unit|in[- ]?unit w\/?d|laundry in unit|in apartment)\b/.test(t)) return 'in_unit';
-  if (/\b(no laundry|no on[- ]?site laundry)\b/.test(t)) return 'none';
-  if (/\b(on[- ]?site laundry|laundry on[- ]?site|shared laundry|building laundry|laundry room|coin[- ]?op|on site|laundry)\b/.test(t)) return 'shared';
-  return null;
-}
-
-export function formatPosted(iso) {
-  const d = new Date(iso);
-  return d.toLocaleString(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
-}
-
-export const sleep = ms => new Promise(r => setTimeout(r, ms));

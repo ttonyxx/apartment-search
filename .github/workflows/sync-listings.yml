@@ -1,8 +1,9 @@
 name: Sync apartment listings
 
-# Runs every hour: adds new Craigslist listings matching data/search-criteria.json
-# and marks any listings that have been taken down as off-market. Commits the
-# updated data/apartments.json back to the repo so the site picks it up.
+# Runs every hour: adds new listings (Craigslist, Zumper, ...) matching
+# data/search-criteria.json and marks any listings that have been taken down as
+# off-market. Commits the updated data/apartments.json back to the repo so the
+# site picks it up.
 
 on:
   schedule:
@@ -35,7 +36,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/apartments.json
-            git commit -m "Auto-sync Craigslist listings (add new, mark off-market)"
+            git commit -m "Auto-sync listings (add new, mark off-market)"
             git push
           else
             echo "No changes to commit."

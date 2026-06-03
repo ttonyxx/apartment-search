@@ -1,4 +1,5 @@
 {
+  "sources": ["craigslist", "zumper"],
   "price_by_beds": {
     "2": 4500,
     "3": 7000,
