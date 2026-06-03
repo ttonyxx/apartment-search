@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Hourly sync (run by .github/workflows/sync-listings.yml). For each enabled
-// source (Craigslist, Zumper, ...):
+// source (Craigslist, Redfin, ...):
 //   1. Fetch listings matching data/search-criteria.json and ADD any new ones.
 //   2. Re-check every existing listing from that source; if the posting has been
 //      taken down, mark it status: "off_market" (preserving the previous status
@@ -10,7 +10,7 @@
 //   node scripts/sync-listings.mjs                  # all sources: add new + off-market sweep
 //   node scripts/sync-listings.mjs --dry-run        # show what would change, write nothing
 //   node scripts/sync-listings.mjs --no-offmarket   # only add new listings
-//   node scripts/sync-listings.mjs --sources=zumper # restrict to specific source(s)
+//   node scripts/sync-listings.mjs --sources=redfin # restrict to specific source(s)
 //   node scripts/sync-listings.mjs --max-price=4000 --min-beds=1   # override criteria
 //
 // Criteria precedence: CLI args > data/search-criteria.json > built-in defaults.

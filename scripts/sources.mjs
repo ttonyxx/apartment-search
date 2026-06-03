@@ -8,11 +8,11 @@
 //   isMine(apt) -> bool          which existing apartments belong to this source
 //   isListingGone(url) -> bool   OPTIONAL; omit to skip the off-market sweep
 //
-// To add a source: write an adapter module (see craigslist.mjs / zumper.mjs)
+// To add a source: write an adapter module (see craigslist.mjs / redfin.mjs)
 // and register it here.
 
 import * as craigslist from './craigslist.mjs';
-import * as zumper from './zumper.mjs';
+import * as redfin from './redfin.mjs';
 
 export const SOURCES = {
   craigslist: {
@@ -23,13 +23,13 @@ export const SOURCES = {
     isMine: craigslist.isCraigslist,
     isListingGone: craigslist.isListingGone,
   },
-  zumper: {
-    id: 'zumper',
-    label: 'Zumper',
-    fetchListings: zumper.fetchListings,
-    toApartment: zumper.toApartment,
-    isMine: zumper.isZumper,
-    isListingGone: zumper.isListingGone,
+  redfin: {
+    id: 'redfin',
+    label: 'Redfin',
+    fetchListings: redfin.fetchListings,
+    toApartment: redfin.toApartment,
+    isMine: redfin.isRedfin,
+    isListingGone: redfin.isListingGone,
   },
 };
 
