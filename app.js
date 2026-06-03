@@ -27,7 +27,7 @@
     sha: null,
     loading: false,
     readOnly: false,
-    view: 'list',              // 'list' | 'grid' | 'map'
+    view: 'map',               // 'list' | 'grid' | 'map'
     map: null,
     markerLayer: null,
     neighborhoodLayer: null,
