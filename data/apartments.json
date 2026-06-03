@@ -1453,14 +1453,16 @@
       "bathrooms": null,
       "sqft": 1125,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7593,
       "lon": -122.4836,
       "notes": "From Craigslist · posted May 20, 11:44 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-29T22:02:02.234Z"
+      "added_at": "2026-05-29T22:02:02.234Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-03T04:42:59.239Z"
     },
     {
       "id": "cl_7933430415",
@@ -2499,14 +2501,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.719,
       "lon": -122.4096,
       "notes": "From Craigslist · posted May 28, 4:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-29T22:02:02.234Z"
+      "added_at": "2026-05-29T22:02:02.234Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-03T04:42:59.239Z"
     },
     {
       "id": "cl_7935793898",
@@ -3389,14 +3393,16 @@
       "bathrooms": null,
       "sqft": 821,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7753,
       "lon": -122.4159,
       "notes": "From Craigslist · posted May 31, 12:10 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T05:21:46.706Z"
+      "added_at": "2026-05-31T05:21:46.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-03T04:42:59.239Z"
     },
     {
       "id": "cl_7937789105",
@@ -3408,14 +3414,16 @@
       "bathrooms": null,
       "sqft": 886,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7753,
       "lon": -122.4159,
       "notes": "From Craigslist · posted May 31, 1:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-31T05:21:46.706Z"
+      "added_at": "2026-05-31T05:21:46.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-03T04:42:59.239Z"
     },
     {
       "id": "cl_7937803338",
@@ -6202,14 +6210,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7561,
       "lon": -122.4765,
       "notes": "From Craigslist · posted Jun 1, 9:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-01T23:06:02.585Z"
+      "added_at": "2026-06-01T23:06:02.585Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-03T04:42:59.239Z"
     },
     {
       "id": "cl_7938157092",
@@ -6878,6 +6888,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-02T23:50:23.621Z"
+    },
+    {
+      "id": "cl_7938416329",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-weeks-free-on/7938416329.html",
+      "address": "TMLP 12-mo. | 2 Weeks Free on Select Homes",
+      "neighborhood": "Downtown / Civic / Van Ness",
+      "price": 3917,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 578,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7791,
+      "lon": -122.4142,
+      "notes": "From Craigslist · posted Jun 3, 12:22 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-03T04:42:59.239Z"
+    },
+    {
+      "id": "cl_7938441904",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remod-3bd-25ba-1750sqft/7938441904.html",
+      "address": "Remod 3bd/2.5ba 1750sqft Top Flr Flat! Pkg+Yard! 35th Av. Avail 6/7!",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7788,
+      "lon": -122.4954,
+      "notes": "From Craigslist · posted Jun 3, 4:00 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-03T04:42:59.239Z"
+    },
+    {
+      "id": "cl_7938430301",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-and-centrally/7938430301.html",
+      "address": "spacious and centrally located single-family home ....",
+      "neighborhood": "Dellbrook Ave, San Francisco, CA",
+      "price": 4000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Jun 3, 2:29 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-03T04:42:59.239Z"
     }
   ]
 }
