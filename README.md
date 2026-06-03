@@ -81,12 +81,13 @@ The script uses Craigslist's JSON API — no auth, no rate limit issues at norma
 
 ## Automatic hourly sync (GitHub Action)
 
-`.github/workflows/sync-listings.yml` runs every hour and:
+`.github/workflows/sync-listings.yml` runs every hour and, for each enabled source
+(Craigslist and Zumper):
 
-1. **Adds** new Craigslist listings matching `data/search-criteria.json`.
-2. **Marks listings off-market** — it re-checks every Craigslist listing's URL and, if the
-   posting has been deleted/expired/removed, flips its `status` to `off_market` (keeping the
-   prior status in `prev_status`). Nothing is ever deleted from the file.
+1. **Adds** new listings matching `data/search-criteria.json`.
+2. **Marks listings off-market** — it re-checks every listing from that source and, if the
+   posting has been taken down, flips its `status` to `off_market` (keeping the prior status
+   in `prev_status`). Nothing is ever deleted from the file.
 
 It then commits the updated `data/apartments.json` back to `main`, so the live site picks it up.
 
@@ -94,6 +95,7 @@ It then commits the updated `data/apartments.json` back to `main`, so the live s
 
 ```json
 {
+  "sources": ["craigslist", "zumper"],
   "price_by_beds": {
     "2": 4500,
     "3": 7000,
@@ -107,6 +109,9 @@ It then commits the updated `data/apartments.json` back to `main`, so the live s
 }
 ```
 
+`sources` selects which sites to pull from (omit it to use all). Restrict a single run with
+`node scripts/sync-listings.mjs --sources=zumper`.
+
 `price_by_beds` is a **per-bedroom price ceiling** — in the example above, 2BR ≤ $4,500,
 3BR ≤ $7,000, 4BR ≤ $8,500. The bedroom range and the overall price ceiling for the search
 are derived from these keys, so only listings whose bedroom count appears here (and whose
@@ -116,6 +121,22 @@ are skipped.
 `bbox` is a **geographic gate**. Craigslist tags lots of out-of-city posts (Fremont, Oakland,
 etc.) as San Francisco; the box keeps only listings whose coordinates fall inside SF, which is
 far more reliable than filtering on title text. Remove the `bbox` key to disable it.
+
+### Sources
+
+Each source is a small adapter module registered in `scripts/sources.mjs`:
+
+- `scripts/craigslist.mjs` — Craigslist's public JSON API. One listing = one posting.
+- `scripts/zumper.mjs` — Zumper (same backend as PadMapper). Listings are server-rendered
+  into the search page HTML; the adapter pages through them and filters locally. One listing =
+  one **building**, which can span a bedroom/price range — `bedrooms`/`price` reflect the
+  building's cheapest unit, and the bedroom range is noted in the listing's notes. A building
+  is kept if its bedroom range overlaps your `price_by_beds` and its cheapest unit is within
+  the cap, so you'll occasionally see a studio price on a card whose building also has larger
+  units — click through to Zumper for the full unit mix.
+
+To add another source, write an adapter exposing `fetchListings`, `toApartment`, `isMine`, and
+(optionally) `isListingGone`, then register it in `scripts/sources.mjs`.
 
 **Requirements / notes:**
 

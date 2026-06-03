@@ -1,14 +1,16 @@
 #!/usr/bin/env node
-// Hourly sync (run by .github/workflows/sync-listings.yml):
-//   1. Fetch Craigslist listings matching data/search-criteria.json and ADD any new ones.
-//   2. Re-check every existing Craigslist listing's URL; if the posting has been
-//      deleted/expired/removed, mark it status: "off_market" (preserving the
-//      previous status in prev_status). Nothing is ever deleted from the file.
+// Hourly sync (run by .github/workflows/sync-listings.yml). For each enabled
+// source (Craigslist, Zumper, ...):
+//   1. Fetch listings matching data/search-criteria.json and ADD any new ones.
+//   2. Re-check every existing listing from that source; if the posting has been
+//      taken down, mark it status: "off_market" (preserving the previous status
+//      in prev_status). Nothing is ever deleted from the file.
 //
 // Usage:
-//   node scripts/sync-listings.mjs                 # add new + off-market sweep
-//   node scripts/sync-listings.mjs --dry-run       # show what would change, write nothing
-//   node scripts/sync-listings.mjs --no-offmarket  # only add new listings
+//   node scripts/sync-listings.mjs                  # all sources: add new + off-market sweep
+//   node scripts/sync-listings.mjs --dry-run        # show what would change, write nothing
+//   node scripts/sync-listings.mjs --no-offmarket   # only add new listings
+//   node scripts/sync-listings.mjs --sources=zumper # restrict to specific source(s)
 //   node scripts/sync-listings.mjs --max-price=4000 --min-beds=1   # override criteria
 //
 // Criteria precedence: CLI args > data/search-criteria.json > built-in defaults.
@@ -16,7 +18,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchListings, toApartment, isCraigslist, isListingGone, sleep } from './craigslist.mjs';
+import { sleep } from './listing-utils.mjs';
+import { resolveSources } from './sources.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = path.resolve(__dirname, '..', 'data', 'apartments.json');
@@ -67,44 +70,64 @@ const criteria = {
 
 console.log('Search criteria:', JSON.stringify(criteria));
 
+// Which sources to pull from: --sources=a,b > config "sources" > all registered.
+const sourceIds = args['sources']
+  ? String(args['sources']).split(',').map(s => s.trim()).filter(Boolean)
+  : (fileCriteria.sources || null);
+const sources = resolveSources(sourceIds);
+console.log('Sources:', sources.map(s => s.label).join(', '));
+
 const db = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
 const byUrl = new Map(db.apartments.map(a => [a.url, a]));
 const now = new Date().toISOString();
 
-// ---- 1. Add new matching listings -------------------------------------------
-const { listings, totalAvailable } = await fetchListings(criteria);
-console.log(`Craigslist: ${totalAvailable} available, ${listings.length} match after filters.`);
-
+// ---- 1. Add new matching listings (per source) -----------------------------
 const added = [];
-for (const l of listings) {
-  if (byUrl.has(l.url)) continue;
-  const apt = toApartment(l, now);
-  db.apartments.push(apt);
-  byUrl.set(apt.url, apt);
-  added.push(apt);
+for (const src of sources) {
+  let listings, totalAvailable;
+  try {
+    ({ listings, totalAvailable } = await src.fetchListings(criteria));
+  } catch (err) {
+    console.error(`${src.label}: fetch failed — ${err.message}. Skipping.`);
+    continue;
+  }
+  console.log(`${src.label}: ${totalAvailable} available, ${listings.length} match after filters.`);
+  let n = 0;
+  for (const l of listings) {
+    if (!l.url || byUrl.has(l.url)) continue;
+    const apt = src.toApartment(l, now);
+    db.apartments.push(apt);
+    byUrl.set(apt.url, apt);
+    added.push(apt);
+    n++;
+  }
+  console.log(`  ${src.label}: added ${n} new listing(s).`);
 }
-console.log(`Added ${added.length} new listing(s).`);
+console.log(`Added ${added.length} new listing(s) total.`);
 added.slice(0, 10).forEach(a => console.log(`  + ${a.price ? '$' + a.price : 'n/a'} · ${a.bedrooms ?? '?'}bd · ${a.address}`));
 
-// ---- 2. Off-market sweep ----------------------------------------------------
+// ---- 2. Off-market sweep (per source) ---------------------------------------
 const wentOffMarket = [];
 if (!skipOffMarket) {
   const addedUrls = new Set(added.map(a => a.url));
-  // Skip ones we just added this run — they came straight from the live search.
-  const toCheck = db.apartments.filter(
-    a => isCraigslist(a) && a.status !== 'off_market' && !addedUrls.has(a.url)
-  );
-  console.log(`Re-checking ${toCheck.length} active Craigslist listing(s) for removal...`);
-  for (const apt of toCheck) {
-    const gone = await isListingGone(apt.url);
-    if (gone) {
-      apt.prev_status = apt.status;
-      apt.status = 'off_market';
-      apt.off_market_at = now;
-      wentOffMarket.push(apt);
-      console.log(`  - off-market: ${apt.address} (was ${apt.prev_status})`);
+  for (const src of sources) {
+    if (!src.isListingGone) continue; // source doesn't support removal checks
+    // Skip ones we just added this run — they came straight from the live search.
+    const toCheck = db.apartments.filter(
+      a => src.isMine(a) && a.status !== 'off_market' && !addedUrls.has(a.url)
+    );
+    console.log(`Re-checking ${toCheck.length} active ${src.label} listing(s) for removal...`);
+    for (const apt of toCheck) {
+      const gone = await src.isListingGone(apt.url);
+      if (gone) {
+        apt.prev_status = apt.status;
+        apt.status = 'off_market';
+        apt.off_market_at = now;
+        wentOffMarket.push(apt);
+        console.log(`  - off-market: ${apt.address} (was ${apt.prev_status})`);
+      }
+      if (checkDelay) await sleep(checkDelay);
     }
-    if (checkDelay) await sleep(checkDelay);
   }
 }
 console.log(`Marked ${wentOffMarket.length} listing(s) off-market.`);
