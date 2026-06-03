@@ -1,4 +1,4 @@
-// Small helpers shared across listing-source adapters (craigslist.mjs, zumper.mjs).
+// Small helpers shared across listing-source adapters (craigslist.mjs, redfin.mjs).
 
 export const sleep = ms => new Promise(r => setTimeout(r, ms));
 

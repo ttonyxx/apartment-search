@@ -1,6 +1,6 @@
 name: Sync apartment listings
 
-# Runs every hour: adds new listings (Craigslist, Zumper, ...) matching
+# Runs every hour: adds new listings (Craigslist, Redfin, ...) matching
 # data/search-criteria.json and marks any listings that have been taken down as
 # off-market. Commits the updated data/apartments.json back to the repo so the
 # site picks it up.

@@ -82,7 +82,7 @@ The script uses Craigslist's JSON API — no auth, no rate limit issues at norma
 ## Automatic hourly sync (GitHub Action)
 
 `.github/workflows/sync-listings.yml` runs every hour and, for each enabled source
-(Craigslist and Zumper):
+(Craigslist and Redfin):
 
 1. **Adds** new listings matching `data/search-criteria.json`.
 2. **Marks listings off-market** — it re-checks every listing from that source and, if the
@@ -95,7 +95,7 @@ It then commits the updated `data/apartments.json` back to `main`, so the live s
 
 ```json
 {
-  "sources": ["craigslist", "zumper"],
+  "sources": ["craigslist", "redfin"],
   "price_by_beds": {
     "2": 4500,
     "3": 7000,
@@ -110,7 +110,7 @@ It then commits the updated `data/apartments.json` back to `main`, so the live s
 ```
 
 `sources` selects which sites to pull from (omit it to use all). Restrict a single run with
-`node scripts/sync-listings.mjs --sources=zumper`.
+`node scripts/sync-listings.mjs --sources=redfin`.
 
 `price_by_beds` is a **per-bedroom price ceiling** — in the example above, 2BR ≤ $4,500,
 3BR ≤ $7,000, 4BR ≤ $8,500. The bedroom range and the overall price ceiling for the search
@@ -127,16 +127,22 @@ far more reliable than filtering on title text. Remove the `bbox` key to disable
 Each source is a small adapter module registered in `scripts/sources.mjs`:
 
 - `scripts/craigslist.mjs` — Craigslist's public JSON API. One listing = one posting.
-- `scripts/zumper.mjs` — Zumper (same backend as PadMapper). Listings are server-rendered
-  into the search page HTML; the adapter pages through them and filters locally. One listing =
-  one **building**, which can span a bedroom/price range — `bedrooms`/`price` reflect the
-  building's cheapest unit, and the bedroom range is noted in the listing's notes. A building
-  is kept if its bedroom range overlaps your `price_by_beds` and its cheapest unit is within
-  the cap, so you'll occasionally see a studio price on a card whose building also has larger
-  units — click through to Zumper for the full unit mix.
+- `scripts/redfin.mjs` — Redfin's public JSON "stingray" rentals API, which (unlike most
+  commercial rental sites) serves cleanly to datacenter IPs, so it works from GitHub Actions.
+  One listing = one **building**, which can span a bedroom/price range — `bedrooms`/`price`
+  reflect the building's cheapest unit, the bedroom range is noted in the listing's notes, and a
+  building is kept if its range overlaps your `price_by_beds` and its cheapest unit is within the
+  cap. You'll occasionally see a studio price on a card whose building also has larger units —
+  click through to Redfin for the full unit mix. The off-market sweep doesn't probe each listing
+  page (those are bot-walled); instead it fetches the full live SF rental set from the same API
+  once and marks a listing gone when its id drops out. The SF region is pinned in the adapter
+  (`REGION_ID`/`MARKET`).
 
 To add another source, write an adapter exposing `fetchListings`, `toApartment`, `isMine`, and
-(optionally) `isListingGone`, then register it in `scripts/sources.mjs`.
+(optionally) `isListingGone`, then register it in `scripts/sources.mjs`. Prefer sites with an
+open JSON API that isn't behind a bot wall (like Craigslist and Redfin). HTML-scrape sources get
+blocked from CI's datacenter IPs — we previously shipped a Zumper adapter and it silently returned
+**0 results from GitHub Actions** (it only worked when run locally), so we dropped it for Redfin.
 
 **Requirements / notes:**
 
