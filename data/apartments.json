@@ -6003,14 +6003,16 @@
       "bathrooms": null,
       "sqft": 897,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7753,
       "lon": -122.4159,
       "notes": "From Craigslist · posted Jun 1, 8:16 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-01T20:57:50.210Z"
+      "added_at": "2026-06-01T20:57:50.210Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-04T23:12:25.636Z"
     },
     {
       "id": "cl_7938141578",
@@ -11185,6 +11187,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-06-04T21:44:34.327Z"
+    },
+    {
+      "id": "cl_7938826456",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-washer-dryer-in-unit/7938826456.html",
+      "address": "Washer/Dryer In Unit + Furnished Available + Oversized Closets",
+      "neighborhood": "Northwest San Francisco",
+      "price": 1800,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 959,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.777,
+      "lon": -122.445,
+      "notes": "From Craigslist · posted Jun 4, 9:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-04T23:12:25.636Z"
+    },
+    {
+      "id": "cl_7938848706",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-745pm-800pm/7938848706.html",
+      "address": "OPEN TUE 7:45pm-8:00pm Spacious 2-1BR,Laundry(660 Bush Street #203)",
+      "neighborhood": "Lower Nob Hill",
+      "price": 3750,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7712,
+      "lon": -122.4413,
+      "notes": "From Craigslist · posted Jun 4, 11:02 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-04T23:12:25.636Z"
     }
   ]
 }
