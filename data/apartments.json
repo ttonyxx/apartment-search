@@ -7283,14 +7283,16 @@
       "bathrooms": null,
       "sqft": 578,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7791,
       "lon": -122.4142,
       "notes": "From Craigslist · posted Jun 3, 8:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-05T22:18:35.884Z"
     },
     {
       "id": "cl_7938610608",
@@ -8168,7 +8170,7 @@
       "bathrooms": 1,
       "sqft": 850,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7738224,
       "lon": -122.4302828,
@@ -8176,7 +8178,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-05T22:18:35.884Z"
     },
     {
       "id": "rf_916610",
@@ -12011,14 +12015,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7318,
       "lon": -122.4836,
       "notes": "From Craigslist · posted Jun 5, 6:50 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-05T20:49:40.721Z"
+      "added_at": "2026-06-05T20:49:40.721Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-05T22:18:35.884Z"
     },
     {
       "id": "cl_7939010716",
@@ -12133,6 +12139,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-05T20:49:40.721Z"
+    },
+    {
+      "id": "cl_7939066293",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spectacular-top-floor-bed/7939066293.html",
+      "address": "SPECTACULAR, TOP FLOOR 2 BED/1 BATH FULLY RENOVATED!!!",
+      "neighborhood": "Bayview",
+      "price": 3750,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7394,
+      "lon": -122.3887,
+      "notes": "From Craigslist · posted Jun 5, 10:15 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-05T22:18:35.884Z"
     }
   ]
 }
