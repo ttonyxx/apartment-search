@@ -107,7 +107,7 @@ export async function fetchListings(criteria = {}) {
     bbox = null,
   } = criteria;
 
-  // Tiered mode: per-bedroom price caps, e.g. { "2": 4500, "3": 7000 }. Derive
+  // Tiered mode: per-bedroom price caps, e.g. { "2": 4500, "3": 7000, "4": 8500, "5": 10000 }. Derive
   // the bedroom range and overall ceiling, then enforce exact caps below.
   let capByBeds = null;
   if (priceByBeds && typeof priceByBeds === 'object') {

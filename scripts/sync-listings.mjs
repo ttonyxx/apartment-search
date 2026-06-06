@@ -53,7 +53,7 @@ const bbox = b
   : null;
 
 const criteria = {
-  // Per-bedroom price caps, e.g. { "2": 4500, "3": 7000, "4": 8500 }. When set,
+  // Per-bedroom price caps, e.g. { "2": 4500, "3": 7000, "4": 8500, "5": 10000 }. When set,
   // the bedroom range + overall price ceiling are derived from it (see craigslist.mjs).
   priceByBeds: fileCriteria.price_by_beds || null,
   bbox,
