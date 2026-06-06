@@ -9939,14 +9939,16 @@
       "bathrooms": null,
       "sqft": 1017,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7236,
       "lon": -122.4388,
       "notes": "From Craigslist · posted Jun 4, 12:42 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-04T04:27:46.662Z"
+      "added_at": "2026-06-04T04:27:46.662Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-06T16:10:19.803Z"
     },
     {
       "id": "cl_7938655143",
@@ -12950,14 +12952,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7347,
       "lon": -122.496,
       "notes": "From Craigslist · posted Jun 6, 11:48 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-06T12:08:31.172Z"
+      "added_at": "2026-06-06T12:08:31.172Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-06T16:10:19.803Z"
     },
     {
       "id": "cl_7939146220",
@@ -13086,14 +13090,16 @@
       "bathrooms": null,
       "sqft": 950,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8027,
       "lon": -122.4287,
       "notes": "From Craigslist · posted Jun 6, 1:15 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-06T14:45:32.426Z"
+      "added_at": "2026-06-06T14:45:32.426Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-06T16:10:19.803Z"
     },
     {
       "id": "cl_7939149981",
@@ -13285,6 +13291,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-06-06T14:45:32.426Z"
+    },
+    {
+      "id": "cl_7939173580",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-sunny-spacious-newly/7939173580.html",
+      "address": "Sunny spacious, newly updated 2-bedroom 1 bathroom upper unit",
+      "neighborhood": "San Francisco",
+      "price": 3500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.768,
+      "lon": -122.393,
+      "notes": "From Craigslist · posted Jun 6, 2:46 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-06T16:10:19.803Z"
+    },
+    {
+      "id": "cl_7939186096",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-this-top-floor-bedrooms/7939186096.html",
+      "address": "This top floor 2 bedrooms 1 bathroom apartment",
+      "neighborhood": "San Francisco, CA",
+      "price": 1450,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7583,
+      "lon": -122.438,
+      "notes": "From Craigslist · posted Jun 6, 3:41 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-06T16:10:19.803Z"
     }
   ]
 }
