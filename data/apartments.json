@@ -11363,14 +11363,16 @@
       "bathrooms": null,
       "sqft": 500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7812,
       "lon": -122.4614,
       "notes": "From Craigslist · posted Jun 5, 1:30 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-05T04:11:02.772Z"
+      "added_at": "2026-06-05T04:11:02.772Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-07T11:51:36.145Z"
     },
     {
       "id": "cl_7938861769",
@@ -14169,14 +14171,16 @@
       "bathrooms": null,
       "sqft": 832,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7986,
       "lon": -122.4039,
       "notes": "From Craigslist · posted Jun 7, 4:35 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-07T05:25:36.922Z"
+      "added_at": "2026-06-07T05:25:36.922Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-07T11:51:36.145Z"
     },
     {
       "id": "cl_7939320389",
@@ -14624,6 +14628,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-07T09:21:42.915Z"
+    },
+    {
+      "id": "cl_7939346624",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-renovated-2br-with/7939346624.html",
+      "address": "Newly Renovated 2BR with Parking Included rent for Mission Dolores🏡",
+      "neighborhood": "Mission Dolores",
+      "price": 1194,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7582,
+      "lon": -122.4328,
+      "notes": "From Craigslist · posted Jun 7, 10:43 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-07T11:51:36.145Z"
     }
   ]
 }
