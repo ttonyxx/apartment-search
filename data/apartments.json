@@ -11154,14 +11154,16 @@
       "bathrooms": null,
       "sqft": 988,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7236,
       "lon": -122.4388,
       "notes": "From Craigslist · posted Jun 4, 8:49 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-04T21:44:34.327Z"
+      "added_at": "2026-06-04T21:44:34.327Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-07T00:08:59.719Z"
     },
     {
       "id": "cl_7938802291",
@@ -11332,14 +11334,16 @@
       "bathrooms": null,
       "sqft": 880,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7816,
       "lon": -122.4121,
       "notes": "From Craigslist · posted Jun 5, 12:11 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-05T04:11:02.772Z"
+      "added_at": "2026-06-05T04:11:02.772Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-07T00:08:59.719Z"
     },
     {
       "id": "cl_7938866776",
@@ -14037,14 +14041,16 @@
       "bathrooms": null,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.739,
       "lon": -122.3982,
       "notes": "From Craigslist · posted Jun 6, 8:50 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-06T22:07:03.718Z"
+      "added_at": "2026-06-06T22:07:03.718Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-07T00:08:59.719Z"
     },
     {
       "id": "cl_7939258481",
@@ -14083,6 +14089,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-06T22:07:03.718Z"
+    },
+    {
+      "id": "cl_7939287086",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-single-family-beauty/7939287086.html",
+      "address": "3/2 single-family Beauty",
+      "neighborhood": "San Francisco",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1490,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7441,
+      "lon": -122.4863,
+      "notes": "From Craigslist · posted Jun 6, 11:06 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-07T00:08:59.719Z"
     }
   ]
 }
