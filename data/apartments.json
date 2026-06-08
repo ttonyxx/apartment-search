@@ -14951,14 +14951,16 @@
       "bathrooms": null,
       "sqft": 711,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7198,
       "lon": -122.4638,
       "notes": "From Craigslist · posted Jun 7, 10:02 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-07T22:08:39.491Z"
+      "added_at": "2026-06-07T22:08:39.491Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-08T00:13:46.692Z"
     },
     {
       "id": "cl_7939445510",
@@ -15035,6 +15037,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-07T22:08:39.491Z"
+    },
+    {
+      "id": "cl_7939465418",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-bedroom-home/7939465418.html",
+      "address": "Charming 2 Bedroom Home – 1 Bath – nob hill San Francisco – Pets OK",
+      "neighborhood": "Nob Hill",
+      "price": 2000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7931,
+      "lon": -122.4178,
+      "notes": "From Craigslist · posted Jun 7, 10:27 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-08T00:13:46.692Z"
     }
   ]
 }
