@@ -7484,7 +7484,7 @@
       "bathrooms": 2.5,
       "sqft": 1750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7800736,
       "lon": -122.4957006,
@@ -7492,7 +7492,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_747377",
@@ -7546,7 +7548,7 @@
       "bathrooms": 2,
       "sqft": 850,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7361508,
       "lon": -122.3909808,
@@ -7554,7 +7556,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_201811612",
@@ -7630,7 +7634,7 @@
       "bathrooms": 2,
       "sqft": 1500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.727183,
       "lon": -122.4037486,
@@ -7638,7 +7642,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_202107328",
@@ -7650,7 +7656,7 @@
       "bathrooms": 2,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7605997,
       "lon": -122.4986914,
@@ -7658,7 +7664,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_202107269",
@@ -7670,7 +7678,7 @@
       "bathrooms": 1,
       "sqft": 1216,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7441913,
       "lon": -122.4882055,
@@ -7678,7 +7686,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_193253089",
@@ -7734,7 +7744,7 @@
       "bathrooms": 3,
       "sqft": 2140,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7098289,
       "lon": -122.4251145,
@@ -7742,7 +7752,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_40629091",
@@ -7774,7 +7786,7 @@
       "bathrooms": 2,
       "sqft": 1340,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7824413,
       "lon": -122.4521537,
@@ -7782,7 +7794,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_818802",
@@ -7836,7 +7850,7 @@
       "bathrooms": 2,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7394549,
       "lon": -122.3983801,
@@ -7844,7 +7858,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_179970830",
@@ -7978,7 +7994,7 @@
       "bathrooms": 2.5,
       "sqft": 1437,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7274038,
       "lon": -122.3690697,
@@ -7986,7 +8002,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_177390282",
@@ -7998,7 +8016,7 @@
       "bathrooms": 1,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7422654,
       "lon": -122.4897622,
@@ -8006,7 +8024,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_177389648",
@@ -8038,7 +8058,7 @@
       "bathrooms": 2.5,
       "sqft": 1527,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.729469,
       "lon": -122.36935,
@@ -8046,7 +8066,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_179448731",
@@ -8058,7 +8080,7 @@
       "bathrooms": 2,
       "sqft": 1330,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7096327,
       "lon": -122.424348,
@@ -8066,7 +8088,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_1491675",
@@ -8100,7 +8124,7 @@
       "bathrooms": 1,
       "sqft": 1488,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7297313,
       "lon": -122.4313135,
@@ -8108,7 +8132,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_1128843",
@@ -8162,7 +8188,7 @@
       "bathrooms": 1,
       "sqft": 721,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7805538,
       "lon": -122.4042707,
@@ -8170,7 +8196,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_202075611",
@@ -8550,7 +8578,7 @@
       "bathrooms": 1,
       "sqft": 718,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7552153,
       "lon": -122.4140746,
@@ -8558,7 +8586,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_110043174",
@@ -8870,7 +8900,7 @@
       "bathrooms": 1,
       "sqft": 464,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7755224,
       "lon": -122.4132286,
@@ -8878,7 +8908,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_181176053",
@@ -9112,7 +9144,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7320183,
       "lon": -122.4000158,
@@ -9120,7 +9152,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_110052582",
@@ -9372,7 +9406,7 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7708851,
       "lon": -122.4435169,
@@ -9380,7 +9414,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_1450835",
@@ -9572,7 +9608,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7388772,
       "lon": -122.3883135,
@@ -9580,7 +9616,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_200953311",
@@ -9592,7 +9630,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7388772,
       "lon": -122.3883135,
@@ -9600,7 +9638,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_200960291",
@@ -9612,7 +9652,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7388223,
       "lon": -122.3882103,
@@ -9620,7 +9660,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_188762172",
@@ -9672,7 +9714,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7317025,
       "lon": -122.4838488,
@@ -9680,7 +9722,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_12353119",
@@ -9714,7 +9758,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7275508,
       "lon": -122.392433,
@@ -9722,7 +9766,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_196044613",
@@ -10163,7 +10209,7 @@
       "bathrooms": 2,
       "sqft": 700,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.709257,
       "lon": -122.4454632,
@@ -10171,7 +10217,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-04T12:00:36.071Z"
+      "added_at": "2026-06-04T12:00:36.071Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_195806905",
@@ -10183,7 +10231,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7833789,
       "lon": -122.441803,
@@ -10191,7 +10239,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-04T12:00:36.071Z"
+      "added_at": "2026-06-04T12:00:36.071Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "cl_7938729393",
@@ -11659,7 +11709,7 @@
       "bathrooms": 1,
       "sqft": 836,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7570572,
       "lon": -122.4618947,
@@ -11667,7 +11717,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-05T12:11:39.851Z"
+      "added_at": "2026-06-05T12:11:39.851Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_200186564",
@@ -11950,7 +12002,7 @@
       "bathrooms": 1,
       "sqft": 1030,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7296756,
       "lon": -122.4518329,
@@ -11958,7 +12010,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-05T15:57:49.809Z"
+      "added_at": "2026-06-05T15:57:49.809Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_202146601",
@@ -11970,7 +12024,7 @@
       "bathrooms": 2,
       "sqft": 1194,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7619649,
       "lon": -122.507735,
@@ -11978,7 +12032,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-05T15:57:49.809Z"
+      "added_at": "2026-06-05T15:57:49.809Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_202148158",
@@ -11990,7 +12046,7 @@
       "bathrooms": 2,
       "sqft": 925,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7317916,
       "lon": -122.4423629,
@@ -11998,7 +12054,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-05T15:57:49.809Z"
+      "added_at": "2026-06-05T15:57:49.809Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_784859",
@@ -12010,7 +12068,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7139517,
       "lon": -122.4028649,
@@ -12018,7 +12076,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-05T15:57:49.809Z"
+      "added_at": "2026-06-05T15:57:49.809Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "cl_7938975403",
@@ -13194,7 +13254,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7624608,
       "lon": -122.5073278,
@@ -13202,7 +13262,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-06T12:08:31.172Z"
+      "added_at": "2026-06-06T12:08:31.172Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "cl_7939170816",
@@ -13466,7 +13528,7 @@
       "bathrooms": 1,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.744717,
       "lon": -122.5024795,
@@ -13474,7 +13536,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-06T14:45:32.426Z"
+      "added_at": "2026-06-06T14:45:32.426Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "cl_7939173580",
@@ -16573,7 +16637,7 @@
       "bathrooms": 1,
       "sqft": 1089,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7326765,
       "lon": -122.4346811,
@@ -16581,7 +16645,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-09T15:14:15.779Z"
+      "added_at": "2026-06-09T15:14:15.779Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_196607994",
@@ -16593,7 +16659,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7287785,
       "lon": -122.3692242,
@@ -16601,7 +16667,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-09T15:14:15.779Z"
+      "added_at": "2026-06-09T15:14:15.779Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "rf_196608002",
@@ -16613,7 +16681,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7287785,
       "lon": -122.3692242,
@@ -16621,7 +16689,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-09T15:14:15.779Z"
+      "added_at": "2026-06-09T15:14:15.779Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "cl_7939836387",
@@ -17885,14 +17955,16 @@
       "bathrooms": null,
       "sqft": 1449,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7859,
       "lon": -122.3928,
       "notes": "From Craigslist · posted Jun 10, 7:29 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-10T08:52:48.854Z"
+      "added_at": "2026-06-10T08:52:48.854Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "cl_7939979351",
@@ -18284,14 +18356,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8002,
       "lon": -122.4091,
       "notes": "From Craigslist · posted Jun 10, 4:59 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-10T08:52:48.854Z"
+      "added_at": "2026-06-10T08:52:48.854Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-10T12:26:37.112Z"
     },
     {
       "id": "cl_7939981530",
@@ -18501,6 +18575,257 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-10T08:52:48.854Z"
+    },
+    {
+      "id": "cl_7939991678",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-modern-bright-apartment/7939991678.html",
+      "address": "***Modern Bright Apartment 2-Bedroom 1-Bathroom located in Daly City**",
+      "neighborhood": "Daly City",
+      "price": 1575,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7055,
+      "lon": -122.4526,
+      "notes": "From Craigslist · posted Jun 10, 10:28 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "cl_7939994690",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-2br-condo-with/7939994690.html",
+      "address": "Spacious 2BR Condo with Garage Parking & Private Deck in NOPA",
+      "neighborhood": "City Of San Francisco",
+      "price": 1700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 950,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7736,
+      "lon": -122.4485,
+      "notes": "From Craigslist · posted Jun 10, 11:12 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "cl_7939993736",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-870-mint-hill-bed-bath/7939993736.html",
+      "address": "870$ Mint Hill 2-bed 1 bath Laguna ST..",
+      "neighborhood": "San Francisco",
+      "price": 870,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7813,
+      "lon": -122.4167,
+      "notes": "From Craigslist · posted Jun 10, 11:00 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "cl_7939989012",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-2br-2ba-house/7939989012.html",
+      "address": "**Renovated 2BR/2BA House + Office & Garage..",
+      "neighborhood": "San Francisco, CA",
+      "price": 925,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7309,
+      "lon": -122.3886,
+      "notes": "From Craigslist · posted Jun 10, 9:33 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "cl_7939988157",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-centrally-located/7939988157.html",
+      "address": "Great centrally located 2 Bedroom 1 Bathroom",
+      "neighborhood": "3380 20th St APT 101, San Francisco, CA",
+      "price": 1085,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7497,
+      "lon": -122.4148,
+      "notes": "From Craigslist · posted Jun 10, 9:14 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "cl_7939988158",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedroom-bath-plus-flex/7939988158.html",
+      "address": "2 bedroom 1 bath plus flex bonus room.",
+      "neighborhood": "2579 18th Ave, San Francisco, CA",
+      "price": 1095,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7435,
+      "lon": -122.4874,
+      "notes": "From Craigslist · posted Jun 10, 9:14 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "cl_7939992279",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-mint-hill-bed-bath-laguna/7939992279.html",
+      "address": "Mint Hill 2-bed 1 bath Laguna St Hayes Valley!",
+      "neighborhood": "San Francisco",
+      "price": 1487,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7788,
+      "lon": -122.4273,
+      "notes": "From Craigslist · posted Jun 10, 10:39 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "cl_7939993035",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-remodeled-bed-bath/7939993035.html",
+      "address": "Newly Remodeled 2 Bed 1 Bath Apartment with Eat-In Kitchen",
+      "neighborhood": "San Francisco, CA",
+      "price": 2000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7788,
+      "lon": -122.4458,
+      "notes": "From Craigslist · posted Jun 10, 10:51 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "cl_7939999347",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bush-st-2br-2pkg-yard-wd/7939999347.html",
+      "address": "Bush St 2BR-2Pkg/Yard/W&D/FP/Wine Fridge/Walk Score",
+      "neighborhood": "San Francisco, CA",
+      "price": 3350,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7859,
+      "lon": -122.4423,
+      "notes": "From Craigslist · posted Jun 10, 12:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "rf_186070820",
+      "url": "https://www.redfin.com/CA/San-Francisco/1674-Filbert-St-94123/unit-7/apartment/186070820",
+      "address": "1674 Filbert St Unit 7",
+      "neighborhood": "",
+      "price": 5900,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 895,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7992611,
+      "lon": -122.4270384,
+      "notes": "From Redfin · updated Jun 10, 11:34 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "rf_69054819",
+      "url": "https://www.redfin.com/CA/San-Francisco/1080-Sutter-St-94109/unit-201/home/69054819",
+      "address": "1080 Sutter St #201",
+      "neighborhood": "",
+      "price": 6800,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1151,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.788251,
+      "lon": -122.418101,
+      "notes": "From Redfin · updated Jun 10, 12:17 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "rf_1742087",
+      "url": "https://www.redfin.com/CA/San-Francisco/783-Guerrero-St-94110/unit-779/apartment/1742087",
+      "address": "783 Guerrero St #779",
+      "neighborhood": "",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1008,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587633,
+      "lon": -122.423391,
+      "notes": "From Redfin · updated Jun 10, 11:29 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-06-10T12:26:37.112Z"
+    },
+    {
+      "id": "rf_194784881",
+      "url": "https://www.redfin.com/CA/San-Francisco/1692-1698-Page-St-94117/apartment/194784881",
+      "address": "1692-1698 Page St",
+      "neighborhood": "",
+      "price": 3950,
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "sqft": 675,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.770931,
+      "lon": -122.448633,
+      "notes": "From Redfin · updated Jun 10, 12:22 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-06-10T12:26:37.112Z"
     }
   ]
 }
