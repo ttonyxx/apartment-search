@@ -7970,7 +7970,7 @@
       "bathrooms": 2,
       "sqft": 1117,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7380965,
       "lon": -122.3892756,
@@ -7978,7 +7978,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-11T23:28:05.711Z"
     },
     {
       "id": "rf_2022274",
@@ -19776,14 +19778,16 @@
       "bathrooms": null,
       "sqft": 1049,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.719,
       "lon": -122.4096,
       "notes": "From Craigslist · posted Jun 11, 12:14 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-11T00:20:01.494Z"
+      "added_at": "2026-06-11T00:20:01.494Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-11T23:28:05.711Z"
     },
     {
       "id": "cl_7940147594",
@@ -20534,14 +20538,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7143,
       "lon": -122.4635,
       "notes": "From Craigslist · posted Jun 11, 6:12 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-11T18:19:05.981Z"
+      "added_at": "2026-06-11T18:19:05.981Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-11T23:28:05.711Z"
     },
     {
       "id": "cl_7940262216",
@@ -20961,6 +20967,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-11T21:24:52.140Z"
+    },
+    {
+      "id": "cl_7940355626",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-furnished-including/7940355626.html",
+      "address": "Fully furnished including utilities and cleaning - 7/01/26",
+      "neighborhood": "Twin Peaks / Diamond Hts",
+      "price": 1600,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Jun 11, 9:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-11T23:28:05.711Z"
+    },
+    {
+      "id": "cl_7940350895",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-bedroom-home/7940350895.html",
+      "address": "Charming 2 Bedroom Home – 1 Bath – nob hill San Francisco – Pets OK",
+      "neighborhood": "Nob Hill",
+      "price": 2500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7931,
+      "lon": -122.4178,
+      "notes": "From Craigslist · posted Jun 11, 9:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-11T23:28:05.711Z"
+    },
+    {
+      "id": "cl_7940367518",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-one-larger-bedroom-one/7940367518.html",
+      "address": "One larger bedroom, One smaller ,One Bathroom, Lower Floor Unit",
+      "neighborhood": "Cole Valley / Ashbury Hts",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7712,
+      "lon": -122.4413,
+      "notes": "From Craigslist · posted Jun 11, 10:17 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-11T23:28:05.711Z"
     }
   ]
 }
