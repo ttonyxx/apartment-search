@@ -21805,6 +21805,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-12T21:51:45.056Z"
+    },
+    {
+      "id": "cl_7940592797",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-from-bdr-ba-on-levels-as/7940592797.html",
+      "address": "From 9/1/26 - 4 bdr/2 ba on 2 levels as private part of the property.",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 5300,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Jun 12, 10:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-12T23:21:43.175Z"
+    },
+    {
+      "id": "cl_7940593221",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-two-bedroom-one-bathroom/7940593221.html",
+      "address": "Two Bedroom ,One Bathroom Many upgrades",
+      "neighborhood": "Haight/Cole",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7712,
+      "lon": -122.4413,
+      "notes": "From Craigslist · posted Jun 12, 10:28 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-12T23:21:43.175Z"
     }
   ]
 }
