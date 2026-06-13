@@ -21499,7 +21499,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7139517,
       "lon": -122.4028649,
@@ -21507,7 +21507,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-12T12:57:04.198Z"
+      "added_at": "2026-06-12T12:57:04.198Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-13T11:18:47.965Z"
     },
     {
       "id": "rf_202232127",
@@ -22083,14 +22085,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7431,
       "lon": -122.4747,
       "notes": "From Craigslist · posted Jun 13, 8:02 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-13T08:24:31.861Z"
+      "added_at": "2026-06-13T08:24:31.861Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-13T11:18:47.965Z"
     },
     {
       "id": "cl_7940644655",
@@ -22110,6 +22114,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-13T08:24:31.861Z"
+    },
+    {
+      "id": "cl_7940661261",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedrooms-bath-daly-city/7940661261.html",
+      "address": "3 Bedrooms – 3 Bath – (Daly City), CA– Pets OK – NO Smoking",
+      "neighborhood": "City Of San Francisco",
+      "price": 4900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1901,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4409,
+      "notes": "From Craigslist · posted Jun 13, 11:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-13T11:18:47.965Z"
+    },
+    {
+      "id": "cl_7940656707",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedrooms-15-bath-san/7940656707.html",
+      "address": "$3700 / 2 Bedrooms – 1.5 Bath – (San Francisco) – Pets OK",
+      "neighborhood": "City Of San Francisco",
+      "price": 3700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1220,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7745,
+      "lon": -122.4462,
+      "notes": "From Craigslist · posted Jun 13, 9:40 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-13T11:18:47.965Z"
+    },
+    {
+      "id": "cl_7940658685",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedrooms-bath-san/7940658685.html",
+      "address": "2 Bedrooms – 1 Bath –San Francisco, CA– Pets OK – NO Smoking",
+      "neighborhood": "City Of San Francisco",
+      "price": 1550,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7644,
+      "lon": -122.5013,
+      "notes": "From Craigslist · posted Jun 13, 10:26 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-13T11:18:47.965Z"
     }
   ]
 }
