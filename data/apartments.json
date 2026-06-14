@@ -23680,6 +23680,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-14T19:42:30.545Z"
+    },
+    {
+      "id": "cl_7940961021",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-nice-bm-ba-apartment-on/7940961021.html",
+      "address": "Nice 2 Bm 2 Ba apartment on Golden Gate Ave / Arguello Blvd / USF",
+      "neighborhood": "USF / Panhandle",
+      "price": 2980,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 750,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7763,
+      "lon": -122.4578,
+      "notes": "From Craigslist · posted Jun 14, 8:55 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-14T21:17:58.003Z"
     }
   ]
 }
