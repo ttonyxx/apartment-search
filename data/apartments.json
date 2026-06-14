@@ -23661,6 +23661,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-14T17:23:33.904Z"
+    },
+    {
+      "id": "cl_7940910769",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-remodeled-multi/7940910769.html",
+      "address": "Newly Remodeled Multi-Campus Hub with Modern Upgrades",
+      "neighborhood": "City Of San Francisco",
+      "price": 1960,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7864,
+      "lon": -122.3892,
+      "notes": "From Craigslist · posted Jun 14, 5:24 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-14T19:42:30.545Z"
     }
   ]
 }
