@@ -6186,14 +6186,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7143,
       "lon": -122.4653,
       "notes": "From Craigslist · posted Jun 1, 4:47 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-01T20:57:50.210Z"
+      "added_at": "2026-06-01T20:57:50.210Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-16T22:16:46.559Z"
     },
     {
       "id": "cl_7938150633",
@@ -23810,14 +23812,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7864,
       "lon": -122.3892,
       "notes": "From Craigslist · posted Jun 14, 5:24 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-14T19:42:30.545Z"
+      "added_at": "2026-06-14T19:42:30.545Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-16T22:16:46.559Z"
     },
     {
       "id": "cl_7940961021",
@@ -24694,14 +24698,16 @@
       "bathrooms": null,
       "sqft": 509,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7855,
       "lon": -122.4139,
       "notes": "From Craigslist · posted Jun 15, 4:31 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-15T20:27:32.423Z"
+      "added_at": "2026-06-15T20:27:32.423Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-16T22:16:46.559Z"
     },
     {
       "id": "cl_7941153327",
@@ -25889,6 +25895,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-16T19:48:46.287Z"
+    },
+    {
+      "id": "cl_7941391222",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-630pm-700pm/7941391222.html",
+      "address": "OPEN TUE 6:30pm-7:00pm Spacious 2-1BR,Bright(797 Bush Street #304)",
+      "neighborhood": "Downtown / Civic / Van Ness",
+      "price": 3300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.79,
+      "lon": -122.4104,
+      "notes": "From Craigslist · posted Jun 16, 7:49 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-16T22:16:46.559Z"
+    },
+    {
+      "id": "cl_7941402178",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-710pm-730pm-3rd/7941402178.html",
+      "address": "OPEN TUE 7:10pm-7:30pm 3rd Floor 1-2BR (660 Bush Street #306)",
+      "neighborhood": "City Of San Francisco",
+      "price": 3750,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7929,
+      "lon": -122.4079,
+      "notes": "From Craigslist · posted Jun 16, 8:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-16T22:16:46.559Z"
     }
   ]
 }
