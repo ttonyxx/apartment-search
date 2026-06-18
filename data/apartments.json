@@ -6213,14 +6213,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.711,
       "lon": -122.441,
       "notes": "From Craigslist · posted Jun 1, 8:51 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-01T20:57:50.210Z"
+      "added_at": "2026-06-01T20:57:50.210Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T04:23:40.257Z"
     },
     {
       "id": "cl_7938161361",
@@ -15410,14 +15412,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7737,
       "lon": -122.5004,
       "notes": "From Craigslist · posted Jun 8, 12:55 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-08T05:54:47.219Z"
+      "added_at": "2026-06-08T05:54:47.219Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T04:23:40.257Z"
     },
     {
       "id": "cl_7939521047",
@@ -23735,7 +23739,7 @@
       "bathrooms": 3.5,
       "sqft": 2150,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7447146,
       "lon": -122.4724519,
@@ -23743,7 +23747,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-14T15:08:38.935Z"
+      "added_at": "2026-06-14T15:08:38.935Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T04:23:40.257Z"
     },
     {
       "id": "rf_202249177",
@@ -23755,7 +23761,7 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7976127,
       "lon": -122.4222513,
@@ -23763,7 +23769,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-14T15:08:38.935Z"
+      "added_at": "2026-06-14T15:08:38.935Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T04:23:40.257Z"
     },
     {
       "id": "cl_7940889889",
@@ -25577,7 +25585,7 @@
       "bathrooms": 1,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7136817,
       "lon": -122.447036,
@@ -25585,7 +25593,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-16T15:59:53.905Z"
+      "added_at": "2026-06-16T15:59:53.905Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T04:23:40.257Z"
     },
     {
       "id": "rf_202272904",
@@ -25597,7 +25607,7 @@
       "bathrooms": 2.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7781984,
       "lon": -122.4382723,
@@ -25605,7 +25615,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-16T15:59:53.905Z"
+      "added_at": "2026-06-16T15:59:53.905Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T04:23:40.257Z"
     },
     {
       "id": "cl_7941367376",
@@ -26583,14 +26595,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8002,
       "lon": -122.4082,
       "notes": "From Craigslist · posted Jun 17, 7:33 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-17T21:12:19.120Z"
+      "added_at": "2026-06-17T21:12:19.120Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T04:23:40.257Z"
     },
     {
       "id": "cl_7941595194",
@@ -26662,14 +26676,16 @@
       "bathrooms": null,
       "sqft": 980,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7624,
       "lon": -122.504,
       "notes": "From Craigslist · posted Jun 17, 10:08 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-17T23:42:26.553Z"
+      "added_at": "2026-06-17T23:42:26.553Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-18T04:23:40.257Z"
     },
     {
       "id": "cl_7941648606",
@@ -26727,6 +26743,83 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-17T23:42:26.553Z"
+    },
+    {
+      "id": "cl_7941680729",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-level-huge-flat-3bdoffice/7941680729.html",
+      "address": "2 Level Huge Flat (3BD+Office), W/D, DW, SS App, Fireplace, Wood Flrs",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 7000,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7822,
+      "lon": -122.4806,
+      "notes": "From Craigslist · posted Jun 18, 1:52 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-18T04:23:40.257Z"
+    },
+    {
+      "id": "cl_7941675708",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-42-jasper-place-unit/7941675708.html",
+      "address": "42 Jasper Place Unit A",
+      "neighborhood": "City Of San Francisco",
+      "price": 6500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8002,
+      "lon": -122.4082,
+      "notes": "From Craigslist · posted Jun 18, 1:07 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-18T04:23:40.257Z"
+    },
+    {
+      "id": "cl_7941663473",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-bedroom-bath-apartment-with/7941663473.html",
+      "address": "2 bedroom 1 bath apartment with parking on Mission Street",
+      "neighborhood": "Mission District",
+      "price": 2950,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7096,
+      "lon": -122.4502,
+      "notes": "From Craigslist · posted Jun 18, 12:21 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-18T04:23:40.257Z"
+    },
+    {
+      "id": "rf_200469769",
+      "url": "https://www.redfin.com/CA/San-Francisco/799-S-Van-Ness-Ave-94110/apartment/200469769",
+      "address": "799 S Van Ness Ave",
+      "neighborhood": "",
+      "price": 3800,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 700,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7605585,
+      "lon": -122.4166889,
+      "notes": "From Redfin · 1–2bd · updated Jun 18, 2:34 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-06-18T04:23:40.257Z"
     }
   ]
 }
