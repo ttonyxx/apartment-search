@@ -2266,14 +2266,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7309,
       "lon": -122.3886,
       "notes": "From Craigslist · posted May 20, 4:51 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-05-29T22:02:02.234Z"
+      "added_at": "2026-05-29T22:02:02.234Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-19T12:11:35.234Z"
     },
     {
       "id": "cl_7937547918",
@@ -21319,14 +21321,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7856,
       "lon": -122.4358,
       "notes": "From Craigslist · posted Jun 12, 2:45 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-12T04:23:52.374Z"
+      "added_at": "2026-06-12T04:23:52.374Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-19T12:11:35.234Z"
     },
     {
       "id": "cl_7940389817",
@@ -27407,6 +27411,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-19T07:13:01.188Z"
+    },
+    {
+      "id": "cl_7941927442",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-789-arguello-blvd-3br/7941927442.html",
+      "address": "789 Arguello Blvd, 3BR with Gold Cabinetry",
+      "neighborhood": "Inner Richmond",
+      "price": 5000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1159,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7758,
+      "lon": -122.4585,
+      "notes": "From Craigslist · posted Jun 19, 10:20 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-19T12:11:35.234Z"
     }
   ]
 }
