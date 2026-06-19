@@ -27388,6 +27388,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-18T22:57:39.148Z"
+    },
+    {
+      "id": "cl_7941910385",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-bedroom-bathroom/7941910385.html",
+      "address": "Modern 2 Bedroom, 1 Bathroom Apartment",
+      "neighborhood": "San Francisco, CA",
+      "price": 1200,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 700,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7574,
+      "lon": -122.4121,
+      "notes": "From Craigslist · posted Jun 19, 3:56 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-19T07:13:01.188Z"
     }
   ]
 }
