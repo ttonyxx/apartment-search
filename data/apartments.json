@@ -30619,14 +30619,16 @@
       "bathrooms": null,
       "sqft": 687,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7509,
       "lon": -122.4022,
       "notes": "From Craigslist · posted Jun 21, 8:46 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-21T10:33:55.147Z"
+      "added_at": "2026-06-21T10:33:55.147Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-21T19:49:40.831Z"
     },
     {
       "id": "cl_7942339780",
@@ -30893,6 +30895,25 @@
       "added_at": "2026-06-21T15:56:59.123Z",
       "prev_status": "to_see",
       "off_market_at": "2026-06-21T17:46:05.872Z"
+    },
+    {
+      "id": "cl_7942410869",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-flat-with/7942410869.html",
+      "address": "Top-Floor Flat with Sweeping Golden Gate Bridge Views",
+      "neighborhood": "City Of San Francisco",
+      "price": 2920,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.78,
+      "lon": -122.4871,
+      "notes": "From Craigslist · posted Jun 21, 6:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-21T19:49:40.831Z"
     }
   ]
 }
