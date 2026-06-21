@@ -30150,14 +30150,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7517,
       "lon": -122.4457,
       "notes": "From Craigslist · posted Jun 21, 4:34 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-21T06:07:11.266Z"
+      "added_at": "2026-06-21T06:07:11.266Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-21T21:19:18.975Z"
     },
     {
       "id": "cl_7942336100",
@@ -30914,6 +30916,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-21T19:49:40.831Z"
+    },
+    {
+      "id": "cl_7942442451",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-victorian-full-floor/7942442451.html",
+      "address": "Victorian Full-Floor Residence Steps from Fillmore Street",
+      "neighborhood": "City Of San Francisco",
+      "price": 2895,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 2075,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7906,
+      "lon": -122.4419,
+      "notes": "From Craigslist · posted Jun 21, 8:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-21T21:19:18.975Z"
     }
   ]
 }
