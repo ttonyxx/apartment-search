@@ -32215,14 +32215,16 @@
       "bathrooms": null,
       "sqft": 1825,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7441,
       "lon": -122.4863,
       "notes": "From Craigslist · posted Jun 23, 8:02 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-23T21:01:27.863Z"
+      "added_at": "2026-06-23T21:01:27.863Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-23T23:11:12.691Z"
     },
     {
       "id": "cl_7942865245",
@@ -32299,6 +32301,26 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-23T21:01:27.863Z"
+    },
+    {
+      "id": "rf_182098301",
+      "url": "https://www.redfin.com/CA/San-Francisco/Konrad-on-the-Park/apartment/182098301",
+      "address": "971 Eddy St",
+      "neighborhood": "",
+      "price": 3877,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 574,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7822526,
+      "lon": -122.4237315,
+      "notes": "From Redfin · 0–2bd · updated Jun 23, 10:48 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-06-23T23:11:12.691Z"
     }
   ]
 }
