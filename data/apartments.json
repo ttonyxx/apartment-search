@@ -31954,14 +31954,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7509,
       "lon": -122.4153,
       "notes": "From Craigslist · posted Jun 23, 7:05 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-23T09:50:49.758Z"
+      "added_at": "2026-06-23T09:50:49.758Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-23T12:36:46.087Z"
     },
     {
       "id": "cl_7942730700",
@@ -32057,6 +32059,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-23T09:50:49.758Z"
+    },
+    {
+      "id": "cl_7942744930",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedroom-bath-private/7942744930.html",
+      "address": "2 bedroom; 1 bath. Private backyard and patio.",
+      "neighborhood": "San Francisco, CA",
+      "price": 1650,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 907,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7956,
+      "lon": -122.4169,
+      "notes": "From Craigslist · posted Jun 23, 11:27 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-23T12:36:46.087Z"
+    },
+    {
+      "id": "cl_7942745076",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-convenient-outer-richmond/7942745076.html",
+      "address": "Convenient Outer Richmond Location 2 Bedrooms 1 Bathroom",
+      "neighborhood": "San Francisco",
+      "price": 777,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Jun 23, 11:24 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-23T12:36:46.087Z"
     }
   ]
 }
