@@ -33931,6 +33931,26 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-06-25T09:30:13.337Z"
+    },
+    {
+      "id": "rf_191139239",
+      "url": "https://www.redfin.com/CA/San-Francisco/3111-Vicente-St-94116/unit-205/home/191139239",
+      "address": "3111 Vicente St Unit 205",
+      "neighborhood": "",
+      "price": 6495,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7380688,
+      "lon": -122.5002964,
+      "notes": "From Redfin · updated Jun 25, 11:34 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-06-25T12:24:49.984Z"
     }
   ]
 }
