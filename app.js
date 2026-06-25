@@ -148,7 +148,15 @@
       if (!res.ok) throw new Error(`GitHub returned ${res.status}: ${await res.text()}`);
       const body = await res.json();
       state.sha = body.sha;
-      const content = b64decode(body.content);
+      let content = b64decode(body.content);
+      if (!content) {
+        // File > 1MB: Contents API returns empty content, fetch the blob directly
+        const blobUrl = `https://api.github.com/repos/${state.settings.repo}/git/blobs/${body.sha}`;
+        const blobRes = await fetch(blobUrl, { headers: ghHeaders() });
+        if (!blobRes.ok) throw new Error(`Blob fetch failed: ${blobRes.status}: ${await blobRes.text()}`);
+        const blob = await blobRes.json();
+        content = b64decode(blob.content);
+      }
       const parsed = JSON.parse(content);
       state.apartments = Array.isArray(parsed.apartments) ? parsed.apartments : [];
       setSync(`Synced (${state.apartments.length} apt${state.apartments.length === 1 ? '' : 's'})`, 'ok');
