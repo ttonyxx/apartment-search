@@ -38,7 +38,7 @@
     placesLoaded: false,
     sortKey: 'posted',          // 'address' | 'price' | 'beds' | 'sqft' | 'ppsf' | 'status' | 'posted'
     sortDir: 'desc',            // 'asc' | 'desc'
-    filterBeds: '',             // '' | '0' | '1' | '2' | '3+'
+    filterBeds: '',             // '' | '0' | '1' | '2' | '3' | '4+'
     priceMin: null,
     priceMax: null,
   };
@@ -269,7 +269,7 @@
     if (state.filterBeds !== '') {
       list = list.filter(a => {
         if (a.bedrooms == null) return false;
-        if (state.filterBeds === '3+') return Number(a.bedrooms) >= 3;
+        if (state.filterBeds === '4+') return Number(a.bedrooms) >= 4;
         return Number(a.bedrooms) === Number(state.filterBeds);
       });
     }
