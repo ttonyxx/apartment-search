@@ -32290,14 +32290,16 @@
       "bathrooms": null,
       "sqft": 988,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7236,
       "lon": -122.4388,
       "notes": "From Craigslist · posted Jun 23, 8:42 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-23T21:01:27.863Z"
+      "added_at": "2026-06-23T21:01:27.863Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T21:00:24.598Z"
     },
     {
       "id": "cl_7942861363",
@@ -33262,7 +33264,7 @@
       "bathrooms": 1,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7284394,
       "lon": -122.4007223,
@@ -33270,7 +33272,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-24T13:25:09.296Z"
+      "added_at": "2026-06-24T13:25:09.296Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T21:00:24.598Z"
     },
     {
       "id": "rf_202360425",
@@ -33856,14 +33860,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7636,
       "lon": -122.424,
       "notes": "From Craigslist · posted Jun 25, 4:35 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-25T05:08:26.223Z"
+      "added_at": "2026-06-25T05:08:26.223Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T21:00:24.598Z"
     },
     {
       "id": "cl_7943158231",
@@ -33875,14 +33881,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7798,
       "lon": -122.4739,
       "notes": "From Craigslist · posted Jun 25, 3:12 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-25T05:08:26.223Z"
+      "added_at": "2026-06-25T05:08:26.223Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T21:00:24.598Z"
     },
     {
       "id": "cl_7943162513",
@@ -34035,14 +34043,16 @@
       "bathrooms": null,
       "sqft": 831,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7887,
       "lon": -122.4432,
       "notes": "From Craigslist · posted Jun 25, 5:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-25T18:13:55.990Z"
+      "added_at": "2026-06-25T18:13:55.990Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T21:00:24.598Z"
     },
     {
       "id": "cl_7943247731",
@@ -34054,14 +34064,16 @@
       "bathrooms": null,
       "sqft": 805,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7782,
       "lon": -122.4428,
       "notes": "From Craigslist · posted Jun 25, 4:50 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-25T18:13:55.990Z"
+      "added_at": "2026-06-25T18:13:55.990Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T21:00:24.598Z"
     },
     {
       "id": "cl_7943231016",
@@ -34092,14 +34104,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7257,
       "lon": -122.4567,
       "notes": "From Craigslist · posted Jun 25, 4:35 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-25T18:13:55.990Z"
+      "added_at": "2026-06-25T18:13:55.990Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-25T21:00:24.598Z"
     },
     {
       "id": "cl_7943263050",
@@ -34196,6 +34210,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-06-25T18:13:55.990Z"
+    },
+    {
+      "id": "cl_7943303748",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-dishwasher-the-pet-pad/7943303748.html",
+      "address": "Dishwasher, The Pet Pad, Stainless steel appliances, Fire pits",
+      "neighborhood": "Downtown / Civic / Van Ness",
+      "price": 4438,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 781,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7816,
+      "lon": -122.4121,
+      "notes": "From Craigslist · posted Jun 25, 8:22 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-25T21:00:24.598Z"
     }
   ]
 }
