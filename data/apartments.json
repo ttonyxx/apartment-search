@@ -33438,14 +33438,16 @@
       "bathrooms": null,
       "sqft": 781,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7816,
       "lon": -122.4121,
       "notes": "From Craigslist · posted Jun 24, 6:38 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T18:53:35.291Z"
+      "added_at": "2026-06-24T18:53:35.291Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-26T21:26:54.934Z"
     },
     {
       "id": "cl_7943025547",
@@ -35042,6 +35044,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-26T19:56:10.438Z"
+    },
+    {
+      "id": "cl_7943522675",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-lovely-west-side/7943522675.html",
+      "address": "LOVELY WEST SIDE VICTORIAN next to Rec Park",
+      "neighborhood": "San Francisco",
+      "price": 700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7809,
+      "lon": -122.5052,
+      "notes": "From Craigslist · posted Jun 26, 8:15 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-26T21:26:54.934Z"
     }
   ]
 }
