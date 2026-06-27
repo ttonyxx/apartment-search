@@ -33625,14 +33625,16 @@
       "bathrooms": null,
       "sqft": 1172,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7195,
       "lon": -122.4411,
       "notes": "From Craigslist · posted Jun 24, 10:02 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T22:21:30.195Z"
+      "added_at": "2026-06-24T22:21:30.195Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-27T19:26:56.796Z"
     },
     {
       "id": "cl_7943095123",
@@ -37928,14 +37930,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7354,
       "lon": -122.4571,
       "notes": "From Craigslist · posted Jun 27, 1:15 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-27T13:51:51.079Z"
+      "added_at": "2026-06-27T13:51:51.079Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-27T19:26:56.796Z"
     },
     {
       "id": "cl_7943629273",
@@ -38156,14 +38160,16 @@
       "bathrooms": null,
       "sqft": 1385,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7625,
       "lon": -122.4043,
       "notes": "From Craigslist · posted Jun 27, 2:13 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-27T15:19:00.794Z"
+      "added_at": "2026-06-27T15:19:00.794Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-27T19:26:56.796Z"
     },
     {
       "id": "cl_7943662298",
@@ -38216,14 +38222,16 @@
       "bathrooms": null,
       "sqft": 1215,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7995,
       "lon": -122.4168,
       "notes": "From Craigslist · posted Jun 27, 5:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-27T17:15:42.928Z"
+      "added_at": "2026-06-27T17:15:42.928Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-27T19:26:56.796Z"
     },
     {
       "id": "cl_7943679554",
@@ -38319,6 +38327,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-27T17:15:42.928Z"
+    },
+    {
+      "id": "cl_7943719240",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2bd-office-15ba-apartment/7943719240.html",
+      "address": "2BD/office/1.5BA apartment",
+      "neighborhood": "City Of San Francisco",
+      "price": 2745,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7767,
+      "lon": -122.4393,
+      "notes": "From Craigslist · posted Jun 27, 7:24 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-27T19:26:56.796Z"
     }
   ]
 }
