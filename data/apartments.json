@@ -32555,14 +32555,16 @@
       "bathrooms": null,
       "sqft": 1550,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7926,
       "lon": -122.4194,
       "notes": "From Craigslist · posted Jun 24, 2:54 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T03:58:30.310Z"
+      "added_at": "2026-06-24T03:58:30.310Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-27T23:07:03.636Z"
     },
     {
       "id": "cl_7942908486",
@@ -34261,14 +34263,16 @@
       "bathrooms": null,
       "sqft": 781,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7816,
       "lon": -122.4121,
       "notes": "From Craigslist · posted Jun 25, 8:22 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-25T21:00:24.598Z"
+      "added_at": "2026-06-25T21:00:24.598Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-27T23:07:03.636Z"
     },
     {
       "id": "cl_7943341474",
@@ -36634,14 +36638,16 @@
       "bathrooms": null,
       "sqft": 907,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8014,
       "lon": -122.4171,
       "notes": "From Craigslist · posted Jun 27, 4:20 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-27T06:56:18.517Z"
+      "added_at": "2026-06-27T06:56:18.517Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-27T23:07:03.636Z"
     },
     {
       "id": "cl_7943600356",
@@ -38388,6 +38394,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-27T21:09:30.245Z"
+    },
+    {
+      "id": "cl_7943749263",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-2br-2ba-san/7943749263.html",
+      "address": "Bright 2BR/2BA San Francisco Apartment with In-Unit Laundry",
+      "neighborhood": "45 Bartlett St, # 705, San Francisco, CA",
+      "price": 2000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 920,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Jun 27, 9:15 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-27T23:07:03.636Z"
     }
   ]
 }
