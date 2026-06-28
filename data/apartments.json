@@ -34963,14 +34963,16 @@
       "bathrooms": null,
       "sqft": 1960,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745,
       "lon": -122.4383,
       "notes": "From Craigslist · posted Jun 26, 4:13 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-26T17:03:17.853Z"
+      "added_at": "2026-06-26T17:03:17.853Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-28T17:17:55.722Z"
     },
     {
       "id": "cl_7943468748",
@@ -37811,7 +37813,7 @@
       "bathrooms": 1,
       "sqft": 550,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7197225,
       "lon": -122.4600189,
@@ -37819,7 +37821,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-27T11:38:16.968Z"
+      "added_at": "2026-06-27T11:38:16.968Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-28T17:17:55.722Z"
     },
     {
       "id": "cl_7943630179",
@@ -38885,14 +38889,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7209,
       "lon": -122.4582,
       "notes": "From Craigslist · posted Jun 28, 5:10 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-28T08:24:18.601Z"
+      "added_at": "2026-06-28T08:24:18.601Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-28T17:17:55.722Z"
     },
     {
       "id": "cl_7943819608",
@@ -39204,6 +39210,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-06-28T13:56:59.579Z"
+    },
+    {
+      "id": "cl_7943869179",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-spacious-home/7943869179.html",
+      "address": "Modern Spacious Home/Double Pkg/Garden/Hdwd Flrs/Steps to Tower Market",
+      "neighborhood": "Twin Peaks / Diamond Hts",
+      "price": 7800,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1960,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Jun 28, 4:25 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-28T17:17:55.722Z"
+    },
+    {
+      "id": "cl_7943870959",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-dishwasher-exposed/7943870959.html",
+      "address": "Dishwasher, Exposed concrete ceilings, Hex tile baths",
+      "neighborhood": "Downtown / Civic / Van Ness",
+      "price": 4497,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 753,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7816,
+      "lon": -122.4121,
+      "notes": "From Craigslist · posted Jun 28, 4:34 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-28T17:17:55.722Z"
     }
   ]
 }
