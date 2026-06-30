@@ -7968,7 +7968,7 @@
       "bathrooms": 2,
       "sqft": 910,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7228248,
       "lon": -122.4382514,
@@ -7976,7 +7976,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-03T22:44:30.403Z"
+      "added_at": "2026-06-03T22:44:30.403Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-30T22:23:12.704Z"
     },
     {
       "id": "rf_1948724",
@@ -26928,14 +26930,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7096,
       "lon": -122.4502,
       "notes": "From Craigslist · posted Jun 18, 12:21 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-18T04:23:40.257Z"
+      "added_at": "2026-06-18T04:23:40.257Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-30T22:23:12.704Z"
     },
     {
       "id": "rf_200469769",
@@ -39993,14 +39997,16 @@
       "bathrooms": null,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7628,
       "lon": -122.4206,
       "notes": "From Craigslist · posted Jun 30, 9:45 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-30T09:47:01.084Z"
+      "added_at": "2026-06-30T09:47:01.084Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-30T22:23:12.704Z"
     },
     {
       "id": "cl_7944218120",
@@ -40193,6 +40199,63 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-06-30T20:58:08.210Z"
+    },
+    {
+      "id": "cl_7944358606",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-potrero-hillwhat-this/7944358606.html",
+      "address": "Potrero Hill*|*What This Space Includes",
+      "neighborhood": "Potrero Hill",
+      "price": 1820,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 550,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7653,
+      "lon": -122.3938,
+      "notes": "From Craigslist · posted Jun 30, 10:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-30T22:23:12.704Z"
+    },
+    {
+      "id": "cl_7944363043",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-mission-bedroom-apartment/7944363043.html",
+      "address": "Mission 2 Bedroom Apartment, walk to BART",
+      "neighborhood": "City Of San Francisco",
+      "price": 2950,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 750,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7628,
+      "lon": -122.4206,
+      "notes": "From Craigslist · posted Jun 30, 10:00 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-30T22:23:12.704Z"
+    },
+    {
+      "id": "cl_7944349466",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-park-14-cm12510e/7944349466.html",
+      "address": "Park-14 - CM12510E",
+      "neighborhood": "Lake Merced",
+      "price": 4411,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1093,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7168,
+      "lon": -122.4743,
+      "notes": "From Craigslist · posted Jun 30, 9:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-30T22:23:12.704Z"
     }
   ]
 }
