@@ -39303,14 +39303,16 @@
       "bathrooms": null,
       "sqft": 1960,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745,
       "lon": -122.4383,
       "notes": "From Craigslist · posted Jun 28, 4:25 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-28T17:17:55.722Z"
+      "added_at": "2026-06-28T17:17:55.722Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-30T15:32:09.776Z"
     },
     {
       "id": "cl_7943870959",
@@ -39910,14 +39912,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7105,
       "lon": -122.4516,
       "notes": "From Craigslist · posted Jun 30, 5:07 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-30T05:07:55.519Z"
+      "added_at": "2026-06-30T05:07:55.519Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-30T15:32:09.776Z"
     },
     {
       "id": "cl_7944197284",
@@ -39948,14 +39952,16 @@
       "bathrooms": null,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7506,
       "lon": -122.4188,
       "notes": "From Craigslist · posted Jun 30, 5:33 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-30T09:47:01.084Z"
+      "added_at": "2026-06-30T09:47:01.084Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-06-30T15:32:09.776Z"
     },
     {
       "id": "cl_7944219819",
@@ -39994,6 +40000,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-06-30T09:47:01.084Z"
+    },
+    {
+      "id": "cl_7944253791",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-spacious-home/7944253791.html",
+      "address": "Modern Spacious Home/Double Pkg/Garden/Hdwd Flrs/Steps to Tower Market",
+      "neighborhood": "Twin Peaks / Diamond Hts",
+      "price": 7800,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1960,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Jun 30, 2:44 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-06-30T15:32:09.776Z"
     }
   ]
 }
