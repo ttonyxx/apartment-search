@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "search-routes": {
+      "source": "/Users/tonyxin/.config/browserbase/skills/mountainproject.com/search-routes-romkbp",
+      "sourceType": "local",
+      "computedHash": "7d7c8bbc80952c8e2c7fbb8aeb2bd4126ecfc9e06ae572c7f685f1f14335ed72"
+    }
+  }
+}

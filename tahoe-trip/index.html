@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tahoe Send Camp · Tony & Katherine · Jul 3–5</title>
+<meta name="description" content="A 3-day climbing + camping trip plan for Lake Tahoe's West Shore — V8 bouldering, swimming, a pontoon day, and 4th of July fireworks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<script src="vendor/leaflet/leaflet.js"></script>
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --night1:#060a1b; --night2:#0c1230; --night3:#141b44;
+  --panel:rgba(255,255,255,.045); --panel2:rgba(255,255,255,.07);
+  --border:rgba(255,255,255,.09); --border2:rgba(255,255,255,.16);
+  --text:#eaeefb; --muted:#a3abce; --faint:#727aa3;
+  --pine:#5fe0a6; --pine-deep:#1c5a40;
+  --lake:#5ec6f5; --lake-deep:#1c6ca8;
+  --gold:#ffd166; --coral:#ff7a6b; --magenta:#ff5e9c; --violet:#a98bff;
+  --warm:#5fe0a6; --target:#ffd166; --trophy:#ff5e9c;
+  --radius:20px; --radius-sm:13px;
+  --shadow:0 24px 60px -18px rgba(0,0,0,.6);
+  --maxw:1120px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  background:var(--night1); color:var(--text);
+  line-height:1.6; overflow-x:hidden; -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,.display{font-family:'Space Grotesk','Inter',sans-serif;letter-spacing:-.02em;line-height:1.05}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+section{position:relative}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.script{font-family:'Caveat',cursive;font-weight:700}
+
+/* ============ SCROLL PROGRESS + NAV ============ */
+#progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:120;
+  background:linear-gradient(90deg,var(--pine),var(--lake),var(--gold),var(--magenta));
+  box-shadow:0 0 14px rgba(94,198,245,.7)}
+nav{position:fixed;top:0;left:0;right:0;z-index:110;display:flex;align-items:center;
+  justify-content:space-between;padding:14px clamp(16px,4vw,40px);
+  transition:background .4s var(--ease),backdrop-filter .4s,padding .4s,border-color .4s;
+  border-bottom:1px solid transparent}
+nav.solid{background:rgba(8,12,28,.72);backdrop-filter:blur(16px) saturate(140%);
+  border-bottom:1px solid var(--border);padding-top:10px;padding-bottom:10px}
+.brand{display:flex;align-items:center;gap:10px;font-family:'Space Grotesk';font-weight:700;font-size:1.05rem}
+.brand .mk{width:26px;height:26px;filter:drop-shadow(0 2px 6px rgba(94,224,166,.5))}
+.navlinks{display:flex;gap:6px;align-items:center}
+.navlinks a{font-size:.86rem;color:var(--muted);padding:8px 13px;border-radius:99px;
+  transition:color .25s,background .25s;font-weight:500}
+.navlinks a:hover{color:var(--text);background:var(--panel2)}
+.navlinks .pill{background:linear-gradient(120deg,var(--pine),var(--lake));color:#04101a;font-weight:700}
+.navlinks .pill:hover{filter:brightness(1.08)}
+.burger{display:none}
+@media(max-width:780px){.navlinks{display:none}}
+
+/* ============ HERO ============ */
+#hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;
+  align-items:center;text-align:center;position:relative;overflow:hidden;padding:120px 20px 60px}
+.sky{position:absolute;inset:0;z-index:-3;
+  background:
+    radial-gradient(120% 80% at 50% -10%, #2a1d52 0%, transparent 55%),
+    radial-gradient(80% 60% at 80% 8%, rgba(255,94,156,.22), transparent 60%),
+    radial-gradient(90% 70% at 12% 12%, rgba(94,198,245,.18), transparent 60%),
+    linear-gradient(180deg,#05071a 0%, #0b1030 38%, #122046 66%, #0c2a4a 100%);
+  background-size:200% 200%;animation:skyshift 24s ease-in-out infinite alternate}
+@keyframes skyshift{0%{background-position:0% 0%}100%{background-position:100% 60%}}
+.stars{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:-3;pointer-events:none}
+.aurora{position:absolute;inset:-20% -10% auto -10%;height:70%;z-index:-3;filter:blur(60px);opacity:.5;
+  background:
+    radial-gradient(40% 60% at 30% 30%, rgba(94,224,166,.5), transparent 70%),
+    radial-gradient(45% 55% at 70% 20%, rgba(169,139,255,.45), transparent 70%);
+  animation:floaty 14s ease-in-out infinite alternate}
+@keyframes floaty{0%{transform:translate3d(-3%,0,0) scale(1)}100%{transform:translate3d(4%,2%,0) scale(1.08)}}
+#fw{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:-2;pointer-events:none}
+.range{position:absolute;left:0;right:0;bottom:0;width:100%;z-index:-1;display:block}
+.r1{bottom:88px;opacity:.55;color:#1a2150}
+.r2{bottom:46px;opacity:.8;color:#121a40}
+.r3{bottom:0;color:#0a0f2b}
+.lake{position:absolute;left:0;right:0;bottom:0;height:120px;z-index:-1;
+  background:linear-gradient(180deg, rgba(28,108,168,.0), rgba(20,60,110,.55) 40%, #0a1b34 100%)}
+.lake::after{content:"";position:absolute;inset:0;opacity:.3;mix-blend-mode:screen;
+  background:repeating-linear-gradient(180deg,transparent 0 6px, rgba(255,255,255,.05) 6px 7px)}
+
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:.78rem;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--muted);border:1px solid var(--border2);
+  padding:8px 16px;border-radius:99px;background:rgba(8,12,28,.4);backdrop-filter:blur(8px);
+  margin-bottom:26px}
+.eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--pine);box-shadow:0 0 10px var(--pine);
+  animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.35;transform:scale(.7)}}
+#hero h1{font-size:clamp(2.7rem,9vw,6.3rem);font-weight:700;margin-bottom:8px}
+#hero h1 .grad{background:linear-gradient(110deg,#fff 10%,var(--lake) 45%,var(--pine) 75%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sub{font-size:clamp(1rem,2.4vw,1.35rem);color:var(--muted);max-width:620px;margin:14px auto 8px}
+.sub b{color:var(--text);font-weight:600}
+.wholine{font-size:clamp(1.4rem,4vw,2rem);color:var(--gold);margin-top:6px;opacity:.95}
+.cta{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:34px}
+.btn{padding:13px 26px;border-radius:99px;font-weight:600;font-size:.95rem;cursor:pointer;
+  border:1px solid var(--border2);transition:transform .25s var(--ease),box-shadow .25s,background .25s;
+  display:inline-flex;align-items:center;gap:9px}
+.btn:hover{transform:translateY(-3px)}
+.btn-p{background:linear-gradient(120deg,var(--pine),var(--lake));color:#03121d;border-color:transparent;
+  box-shadow:0 14px 34px -10px rgba(94,198,245,.6)}
+.btn-g{background:var(--panel);backdrop-filter:blur(8px);color:var(--text)}
+.btn-g:hover{background:var(--panel2);box-shadow:var(--shadow)}
+
+.stats{display:flex;gap:clamp(18px,5vw,56px);flex-wrap:wrap;justify-content:center;margin-top:52px}
+.stat .n{font-family:'Space Grotesk';font-size:clamp(1.8rem,5vw,2.7rem);font-weight:700;
+  background:linear-gradient(120deg,var(--gold),var(--coral));-webkit-background-clip:text;
+  background-clip:text;-webkit-text-fill-color:transparent}
+.stat .l{font-size:.74rem;text-transform:uppercase;letter-spacing:.14em;color:var(--faint)}
+.scrolldown{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);color:var(--faint);
+  font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;display:flex;flex-direction:column;
+  align-items:center;gap:8px;animation:bob 2.4s ease-in-out infinite}
+.scrolldown span{width:1px;height:30px;background:linear-gradient(var(--faint),transparent)}
+@keyframes bob{50%{transform:translate(-50%,8px)}}
+
+/* ============ SECTION SHELL ============ */
+.sec{padding:clamp(70px,11vw,130px) 0}
+.kicker{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--lake);
+  font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.kicker::before{content:"";width:28px;height:1px;background:var(--lake)}
+.sec h2{font-size:clamp(1.9rem,5vw,3.1rem);font-weight:700;margin-bottom:16px}
+.lead{color:var(--muted);font-size:clamp(1rem,2vw,1.18rem);max-width:660px}
+
+/* ============ REVEAL ============ */
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+.reveal.d4{transition-delay:.32s}
+
+/* ============ ITINERARY ============ */
+#days{background:
+  radial-gradient(90% 60% at 100% 0%, rgba(169,139,255,.08), transparent 60%),
+  radial-gradient(70% 50% at 0% 100%, rgba(94,224,166,.07), transparent 60%)}
+.timeline{margin-top:54px;display:grid;gap:26px}
+.day{display:grid;grid-template-columns:160px 1fr;gap:30px;align-items:start;
+  background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+  padding:30px clamp(22px,3vw,38px);position:relative;overflow:hidden;
+  transition:transform .4s var(--ease),border-color .4s,box-shadow .4s}
+.day:hover{transform:translateY(-4px);border-color:var(--border2);box-shadow:var(--shadow)}
+.day::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+  background:linear-gradient(var(--c1),var(--c2))}
+.day .when{position:relative}
+.day .dnum{font-family:'Space Grotesk';font-size:3.6rem;font-weight:700;line-height:1;
+  background:linear-gradient(var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent}
+.day .date{font-weight:600;margin-top:4px}
+.day .dow{color:var(--faint);font-size:.85rem;text-transform:uppercase;letter-spacing:.12em}
+.day h3{font-size:1.5rem;margin-bottom:6px}
+.day .tagline{color:var(--lake);font-weight:600;font-size:.92rem;margin-bottom:18px}
+.day.holiday .tagline{color:var(--gold)}
+.flow{display:grid;gap:14px}
+.block{display:grid;grid-template-columns:96px 1fr;gap:16px;padding-bottom:14px;
+  border-bottom:1px dashed var(--border)}
+.block:last-child{border-bottom:0;padding-bottom:0}
+.block .t{font-weight:600;color:var(--text);font-size:.82rem;background:var(--panel2);
+  border:1px solid var(--border);border-radius:8px;padding:5px 8px;height:max-content;text-align:center}
+.block .b{color:var(--muted);font-size:.96rem}
+.block .b b{color:var(--text)}
+.daytags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.daytags span{font-size:.72rem;padding:5px 11px;border-radius:99px;background:var(--panel2);
+  border:1px solid var(--border);color:var(--muted)}
+@media(max-width:680px){.day{grid-template-columns:1fr;gap:16px}.block{grid-template-columns:78px 1fr}
+  .day .dnum{font-size:2.6rem}}
+
+/* ============ CLIMBS ============ */
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:40px 0 30px}
+.tab{padding:11px 20px;border-radius:99px;border:1px solid var(--border);background:var(--panel);
+  cursor:pointer;font-weight:600;font-size:.9rem;color:var(--muted);transition:all .3s var(--ease);
+  display:flex;align-items:center;gap:9px}
+.tab .cnt{font-size:.72rem;opacity:.7}
+.tab[data-band="all"].active{background:linear-gradient(120deg,#fff,#cdd6f5);color:#0a0e22;border-color:transparent}
+.tab[data-band="warm"].active{background:var(--warm);color:#04261a;border-color:transparent}
+.tab[data-band="target"].active{background:var(--target);color:#2a2102;border-color:transparent}
+.tab[data-band="trophy"].active{background:var(--trophy);color:#2c0418;border-color:transparent}
+.tab.active{transform:translateY(-2px)}
+.tab:not(.active):hover{color:var(--text);border-color:var(--border2)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:22px;position:relative;overflow:hidden;transition:transform .35s var(--ease),
+  border-color .35s,box-shadow .35s;cursor:default}
+.card::after{content:"";position:absolute;inset:0;opacity:0;transition:opacity .4s;pointer-events:none;
+  background:radial-gradient(120% 80% at 50% 0%, var(--glow), transparent 60%)}
+.card:hover{transform:translateY(-6px);border-color:var(--border2);box-shadow:var(--shadow)}
+.card:hover::after{opacity:.18}
+.card.target-line{border-color:rgba(255,209,102,.4)}
+.card.target-line::before{content:"🎯 TARGET";position:absolute;top:0;right:0;
+  font-size:.62rem;font-weight:700;letter-spacing:.1em;padding:5px 11px;
+  background:var(--target);color:#2a2102;border-bottom-left-radius:10px}
+.card.famous{border-color:rgba(255,94,156,.4)}
+.card.famous::before{content:"★ WORLD-CLASS";position:absolute;top:0;right:0;
+  font-size:.62rem;font-weight:700;letter-spacing:.08em;padding:5px 11px;
+  background:var(--trophy);color:#2c0418;border-bottom-left-radius:10px}
+.chead{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px}
+.cname{font-family:'Space Grotesk';font-weight:600;font-size:1.18rem;line-height:1.15}
+.cname a{transition:color .2s}.cname a:hover{color:var(--lake)}
+.gradepill{flex-shrink:0;font-family:'Space Grotesk';font-weight:700;font-size:1.05rem;
+  padding:6px 13px;border-radius:10px;line-height:1;white-space:nowrap}
+.g-warm{background:rgba(95,224,166,.16);color:var(--warm);border:1px solid rgba(95,224,166,.3)}
+.g-target{background:rgba(255,209,102,.15);color:var(--target);border:1px solid rgba(255,209,102,.32)}
+.g-trophy{background:rgba(255,94,156,.15);color:var(--trophy);border:1px solid rgba(255,94,156,.32)}
+.font{font-size:.72rem;color:var(--faint);font-weight:500;margin-top:4px;text-align:right}
+.crag{color:var(--muted);font-size:.9rem;margin-bottom:14px}
+.crag svg{vertical-align:-2px;margin-right:5px;opacity:.7}
+.cmeta{display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding-top:14px;border-top:1px solid var(--border)}
+.starbar{position:relative;display:inline-block;font-size:1rem;letter-spacing:2px}
+.starbar .bg{color:rgba(255,255,255,.14)}
+.starbar .fg{position:absolute;left:0;top:0;color:var(--gold);overflow:hidden;white-space:nowrap}
+.votes{font-size:.78rem;color:var(--faint)}
+.votes b{color:var(--muted)}
+.region{position:absolute;left:22px;bottom:22px}
+.rbadge{font-size:.68rem;font-weight:600;letter-spacing:.04em;padding:4px 10px;border-radius:99px}
+.r-ws{background:rgba(94,198,245,.14);color:var(--lake);border:1px solid rgba(94,198,245,.28)}
+.r-dt{background:rgba(169,139,255,.14);color:var(--violet);border:1px solid rgba(169,139,255,.28)}
+.mlink{font-size:.74rem;color:var(--faint);display:inline-flex;align-items:center;gap:4px}
+.note{margin-top:30px;color:var(--faint);font-size:.86rem;display:flex;gap:8px;align-items:center}
+
+/* ============ LOGISTICS ============ */
+#logistics{background:radial-gradient(80% 60% at 10% 0%, rgba(94,198,245,.07), transparent 55%)}
+.logwrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:20px;margin-top:50px}
+.logcard{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+  padding:28px;transition:transform .4s var(--ease),border-color .4s,box-shadow .4s;position:relative;overflow:hidden}
+.logcard:hover{transform:translateY(-5px);border-color:var(--border2);box-shadow:var(--shadow)}
+.logicon{width:50px;height:50px;border-radius:14px;display:grid;place-items:center;margin-bottom:18px;
+  background:linear-gradient(140deg,var(--ic1),var(--ic2));box-shadow:0 10px 26px -10px var(--ic1)}
+.logcard h3{font-size:1.25rem;margin-bottom:10px}
+.logcard p{color:var(--muted);font-size:.94rem;margin-bottom:14px}
+.logmeta{display:grid;gap:8px;font-size:.85rem}
+.logmeta .row{display:flex;gap:10px;color:var(--muted)}
+.logmeta .row b{color:var(--text);min-width:78px;display:inline-block}
+.logmeta a{color:var(--lake);font-weight:600}
+.tip{margin-top:14px;font-size:.8rem;color:var(--gold);background:rgba(255,209,102,.08);
+  border:1px solid rgba(255,209,102,.2);border-radius:10px;padding:9px 12px}
+
+/* ============ STRATEGY ============ */
+.stratgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:48px}
+.strat{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:24px;transition:transform .35s var(--ease),background .35s}
+.strat:hover{transform:translateY(-4px);background:var(--panel2)}
+.strat .e{font-size:1.7rem;margin-bottom:12px;display:block}
+.strat h4{font-family:'Space Grotesk';font-size:1.08rem;margin-bottom:7px}
+.strat p{color:var(--muted);font-size:.92rem}
+
+/* ============ PACK ============ */
+#pack{background:radial-gradient(70% 60% at 90% 100%, rgba(255,94,156,.06), transparent 55%)}
+.packhead{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px;margin-top:8px}
+.progwrap{display:flex;align-items:center;gap:16px}
+.ring{--p:0;width:74px;height:74px;border-radius:50%;display:grid;place-items:center;flex-shrink:0;
+  background:conic-gradient(var(--pine) calc(var(--p)*1%), rgba(255,255,255,.08) 0);
+  transition:--p .6s var(--ease)}
+.ring i{width:58px;height:58px;border-radius:50%;background:var(--night1);display:grid;place-items:center;
+  font-family:'Space Grotesk';font-weight:700;font-size:1rem;font-style:normal}
+.packgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:44px}
+.packcol{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:26px}
+.packcol h4{font-family:'Space Grotesk';font-size:1.1rem;margin-bottom:16px;display:flex;align-items:center;gap:9px}
+.packcol h4 .e{font-size:1.2rem}
+.check{display:flex;align-items:flex-start;gap:11px;padding:8px 0;cursor:pointer;
+  color:var(--muted);font-size:.93rem;transition:color .2s;user-select:none}
+.check:hover{color:var(--text)}
+.check input{display:none}
+.box{width:20px;height:20px;border-radius:6px;border:1.6px solid var(--border2);flex-shrink:0;
+  margin-top:2px;display:grid;place-items:center;transition:all .25s var(--ease)}
+.box svg{opacity:0;transform:scale(.4);transition:all .25s var(--ease)}
+.check input:checked ~ .box{background:var(--pine);border-color:var(--pine)}
+.check input:checked ~ .box svg{opacity:1;transform:scale(1)}
+.check input:checked ~ .lbl{color:var(--faint);text-decoration:line-through}
+
+/* ============ FOOTER ============ */
+footer{padding:70px 24px 50px;text-align:center;border-top:1px solid var(--border);position:relative;overflow:hidden}
+footer .big{font-family:'Space Grotesk';font-size:clamp(1.6rem,5vw,2.6rem);font-weight:700;margin-bottom:14px}
+footer .big .grad{background:linear-gradient(110deg,var(--pine),var(--lake),var(--gold));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+footer p{color:var(--muted);max-width:560px;margin:0 auto 8px;font-size:.92rem}
+footer .src{color:var(--faint);font-size:.8rem;margin-top:20px}
+footer a{color:var(--lake)}
+.heart{color:var(--magenta)}
+
+/* ============ MAP ============ */
+#map{background:radial-gradient(80% 60% at 50% 0%, rgba(94,198,245,.06), transparent 55%)}
+.maplayout{display:grid;grid-template-columns:1fr 320px;gap:22px;margin-top:46px}
+@media(max-width:900px){.maplayout{grid-template-columns:1fr}}
+.mapbox{position:relative;height:600px;border-radius:var(--radius);overflow:hidden;
+  border:1px solid var(--border);box-shadow:var(--shadow)}
+@media(max-width:900px){.mapbox{height:460px}}
+#leaflet{position:absolute;inset:0;background:#0b1226}
+.dayfilter{position:absolute;top:14px;left:14px;z-index:600;display:flex;gap:7px;flex-wrap:wrap;
+  background:rgba(8,12,28,.78);backdrop-filter:blur(10px);padding:7px;border-radius:99px;border:1px solid var(--border2)}
+.dayfilter button{border:0;cursor:pointer;font-family:'Inter';font-weight:600;font-size:.8rem;
+  padding:8px 14px;border-radius:99px;background:transparent;color:var(--muted);transition:all .25s var(--ease)}
+.dayfilter button.on{color:#04101a}
+.dayfilter button[data-d="all"].on{background:#fff}
+.dayfilter button[data-d="fri"].on{background:var(--lake)}
+.dayfilter button[data-d="sat"].on{background:var(--gold)}
+.dayfilter button[data-d="sun"].on{background:var(--violet)}
+.dayfilter button:not(.on):hover{color:var(--text)}
+/* legend / itinerary-on-map side panel */
+.maplegend{display:flex;flex-direction:column;gap:14px}
+.legday{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--lc);
+  border-radius:var(--radius-sm);padding:18px 20px;transition:transform .3s var(--ease),background .3s;cursor:pointer}
+.legday:hover{transform:translateX(4px);background:var(--panel2)}
+.legday.dim{opacity:.4}
+.legday .lh{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:8px}
+.legday .lh b{font-family:'Space Grotesk';font-size:1.02rem}
+.legday .drive{font-size:.72rem;color:var(--faint);white-space:nowrap}
+.legday ul{list-style:none;display:flex;flex-direction:column;gap:5px}
+.legday li{font-size:.84rem;color:var(--muted);display:flex;gap:8px;align-items:flex-start}
+.legday li .pn{flex-shrink:0}
+.maphint{font-size:.78rem;color:var(--faint);text-align:center;margin-top:2px}
+.mapoffline{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:650;
+  background:rgba(8,12,28,.88);backdrop-filter:blur(8px);border:1px solid var(--border2);
+  color:var(--muted);font-size:.76rem;padding:8px 15px;border-radius:99px;max-width:90%;
+  text-align:center;pointer-events:none}
+/* leaflet dark popup + markers */
+.leaflet-container{font-family:'Inter',sans-serif;background:#0b1226}
+.leaflet-popup-content-wrapper{background:#121a3a;color:var(--text);border-radius:12px;
+  border:1px solid var(--border2);box-shadow:0 14px 40px rgba(0,0,0,.5)}
+.leaflet-popup-content{margin:12px 15px;font-size:.86rem;line-height:1.45}
+.leaflet-popup-content b{font-family:'Space Grotesk'}
+.leaflet-popup-tip{background:#121a3a}
+.leaflet-popup-content a{color:var(--lake)}
+.leaflet-container a.leaflet-popup-close-button{color:var(--faint)}
+.leaflet-bar a{background:#121a3a;color:var(--text);border-bottom-color:var(--border)}
+.leaflet-bar a:hover{background:#1b2750}
+.leaflet-control-attribution{background:rgba(8,12,28,.7)!important;color:var(--faint)!important}
+.leaflet-control-attribution a{color:var(--muted)!important}
+.mk-pin{display:grid;place-items:center;width:34px;height:34px;border-radius:50% 50% 50% 2px;
+  transform:rotate(45deg);box-shadow:0 6px 16px rgba(0,0,0,.5);border:2px solid rgba(255,255,255,.85)}
+.mk-pin span{transform:rotate(-45deg);font-size:15px;line-height:1}
+
+::selection{background:var(--lake);color:#03121d}
+::-webkit-scrollbar{width:11px}
+::-webkit-scrollbar-track{background:var(--night1)}
+::-webkit-scrollbar-thumb{background:#2a3358;border-radius:6px;border:2px solid var(--night1)}
+::-webkit-scrollbar-thumb:hover{background:#39446e}
+
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<div id="progress"></div>
+
+<nav id="nav">
+  <a href="#hero" class="brand">
+    <svg class="mk" viewBox="0 0 24 24" fill="none"><path d="M3 20L9.5 7l4 7 2.5-4L21 20H3z" fill="url(#mg)"/><circle cx="17.5" cy="5.5" r="2" fill="#ffd166"/><defs><linearGradient id="mg" x1="3" y1="20" x2="21" y2="7"><stop stop-color="#5ec6f5"/><stop offset="1" stop-color="#5fe0a6"/></linearGradient></defs></svg>
+    Tahoe Send Camp
+  </a>
+  <div class="navlinks">
+    <a href="#days">Itinerary</a>
+    <a href="#map">Map</a>
+    <a href="#climbs">The Climbs</a>
+    <a href="#logistics">Logistics</a>
+    <a href="#strategy">Strategy</a>
+    <a href="#pack" class="pill">Pack List</a>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header id="hero">
+  <div class="sky"></div>
+  <canvas class="stars"></canvas>
+  <div class="aurora"></div>
+  <canvas id="fw"></canvas>
+  <!-- mountain ranges -->
+  <svg class="range r1" viewBox="0 0 1440 240" preserveAspectRatio="none" fill="currentColor"><path d="M0 240V120l120-70 110 60 130-90 140 95 120-55 150 80 130-70 140 75 130-50 120 60V240z"/></svg>
+  <svg class="range r2" viewBox="0 0 1440 200" preserveAspectRatio="none" fill="currentColor"><path d="M0 200V110l160-80 140 70 150-95 160 90 150-60 170 85 160-70 180 80V200z"/></svg>
+  <svg class="range r3" viewBox="0 0 1440 160" preserveAspectRatio="none" fill="currentColor"><path d="M0 160V80l200-55 180 50 200-70 210 75 220-55 230 60V160z"/></svg>
+  <div class="lake"></div>
+
+  <div class="eyebrow"><span class="dot"></span> West Shore · Lake Tahoe · July 3–5, 2026</div>
+  <h1>Tahoe <span class="grad">Send</span> Camp</h1>
+  <p class="wholine script">Tony &amp; Katherine</p>
+  <p class="sub">Three days of granite, glassy water, and gunpowder. Camp in the pines at <b>William Kent</b>, chase the <b>V8</b> classics, swim the bluest cove, and watch the <b>4th of July</b> fireworks off the lake.</p>
+  <div class="cta">
+    <a href="#days" class="btn btn-p">See the 3-day plan →</a>
+    <a href="#climbs" class="btn btn-g">🧗 The send list</a>
+  </div>
+  <div class="stats">
+    <div class="stat reveal"><div class="n" data-to="3">0</div><div class="l">Days</div></div>
+    <div class="stat reveal d1"><div class="n" data-prefix="V" data-to="8">0</div><div class="l">Grade target</div></div>
+    <div class="stat reveal d2"><div class="n" data-to="2">0</div><div class="l">Bouldering zones</div></div>
+    <div class="stat reveal d3"><div class="n" data-to="353">0</div><div class="l">Problems scanned</div></div>
+    <div class="stat reveal d4"><div class="n" data-suffix="★" data-to="4">0</div><div class="l">Top-rated lines</div></div>
+  </div>
+  <div class="scrolldown">Scroll<span></span></div>
+</header>
+
+<!-- ===================== ITINERARY ===================== -->
+<section id="days" class="sec">
+  <div class="wrap">
+    <div class="kicker reveal">The Plan</div>
+    <h2 class="reveal d1">Three days, dialed.</h2>
+    <p class="lead reveal d2">A lakeside warm-up, a big Donner power day stacked with the 4th of July, and a final send-or-float-home morning. Climb the best <em>and</em> the hardest — with cold water and fireworks built in.</p>
+
+    <div class="timeline">
+      <!-- DAY 1 -->
+      <article class="day reveal" style="--c1:var(--pine);--c2:var(--lake)">
+        <div class="when">
+          <div class="dnum">01</div>
+          <div class="date">July 3</div>
+          <div class="dow">Friday</div>
+        </div>
+        <div class="content">
+          <h3>Drive up &amp; lakeside warm-up</h3>
+          <div class="tagline">Depart SFO 9:30 AM · ~213 mi up · West Shore granite</div>
+          <div class="flow">
+            <div class="block"><div class="t">9:30 AM</div><div class="b">Roll out of <b>SFO</b> — I-80 East over Donner Summit. ~213 mi; plan <b>4–5 hr</b> (July-4 weekend traffic is real — leave on time).</div></div>
+            <div class="block"><div class="t">Midday</div><div class="b">Check into <b>William Kent Campground</b> (Hwy 89, ~2 mi south of Tahoe City). Pitch the tent in the pines, stash food in the bear locker.</div></div>
+            <div class="block"><div class="t">PM</div><div class="b">Drive ~20–30 min south to the <b>Bliss / Meeks Bay</b> lakeside boulders. Warm up on granite by the water: <b>The Brain (V0)</b>, <b>Big Face (V2)</b>, <b>Bliss Arete (V4)</b>, <b>Gunslinger (V5)</b> — then touch a harder one, <b>The Friendly Whale (V7)</b>.</div></div>
+            <div class="block"><div class="t">Dusk</div><div class="b">Flush the forearms with a cold lake swim, campfire dinner, early night. Tomorrow is the big one.</div></div>
+          </div>
+          <div class="daytags"><span>🚗 SFO → camp</span><span>🏕️ set up camp</span><span>🧗 V0–V7</span><span>🌊 first swim</span></div>
+        </div>
+      </article>
+
+      <!-- DAY 2 -->
+      <article class="day holiday reveal" style="--c1:var(--gold);--c2:var(--coral)">
+        <div class="when">
+          <div class="dnum">02</div>
+          <div class="date">July 4</div>
+          <div class="dow">Saturday · 🎆</div>
+        </div>
+        <div class="content">
+          <h3>Donner power day → boat → fireworks</h3>
+          <div class="tagline">The marquee. Send V8, float the lake, light up the night.</div>
+          <div class="flow">
+            <div class="block"><div class="t">Dawn</div><div class="b">Drive ~35 min to <b>Donner Summit / Donner Pass</b> before the heat and holiday crowds. Cool granite = sticky friction.</div></div>
+            <div class="block"><div class="t">AM</div><div class="b">Ladder up — <b>Masterwork (V4)</b>, <b>Triple Crown (V6)</b>, <b>Sweet Spot (V6)</b> — then commit to the <b>V8 trifecta: White Lines, Maximum Overdrive, Midnight Train</b>. Reach higher on <b>Hobo (V9)</b>. Pilgrimage: stand under <b>The Outer Limits (V15)</b> on the Flying Saucer (same boulder as Maximum Overdrive!).</div></div>
+            <div class="block"><div class="t">PM</div><div class="b">Back to camp, then rent the pontoon at <b>Sunnyside Marina</b> (right next door). Cruise the West Shore, anchor in a cove, swim in gin-clear water. <em>Off the water by 6.</em></div></div>
+            <div class="block"><div class="t">Night</div><div class="b">Dinner, then post up for the <b>78th-annual Tahoe City fireworks</b> — barge off Commons Beach, <b>9:30 PM</b>. Watch from the beach or the William Kent shoreline.</div></div>
+          </div>
+          <div class="daytags"><span>🎯 V8 send</span><span>🚤 pontoon day</span><span>🎆 fireworks 9:30pm</span><span>🌊 swim</span></div>
+        </div>
+      </article>
+
+      <!-- DAY 3 -->
+      <article class="day reveal" style="--c1:var(--violet);--c2:var(--magenta)">
+        <div class="when">
+          <div class="dnum">03</div>
+          <div class="date">July 5</div>
+          <div class="dow">Sunday</div>
+        </div>
+        <div class="content">
+          <h3>Send projects &amp; float home</h3>
+          <div class="tagline">Pick your battle · final swim · drive home to Los Altos</div>
+          <div class="flow">
+            <div class="block"><div class="t">Morning</div><div class="b">Choose your fight: back to Donner for the one that spat you off (<b>White Lines / Hobo</b>), or stay lakeside for a chill flash circuit. Feeling strong? Throw at a trophy — <b>The Drawing of the Three (V11)</b> or <b>Treat Box (V11)</b>.</div></div>
+            <div class="block"><div class="t">Midday</div><div class="b">One last cold-water plunge and pack out the campsite, tape on the tips and a fresh tick list.</div></div>
+            <div class="block"><div class="t">Evening</div><div class="b">Point the car at <b>Los Altos</b> — ~230 mi / <b>4.5–5 hr</b> down I-80 W through Sacramento. Home Sunday night.</div></div>
+          </div>
+          <div class="daytags"><span>🏆 project burns</span><span>🌊 last swim</span><span>🏁 home to Los Altos</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MAP ===================== -->
+<section id="map" class="sec">
+  <div class="wrap">
+    <div class="kicker reveal">Where Everything Is</div>
+    <h2 class="reveal d1">The whole trip, on one map.</h2>
+    <p class="lead reveal d2">Real driving routes from SFO up to camp and home to Los Altos, plus every climb, the marina, and the fireworks. Tap a day to isolate it.</p>
+
+    <div class="maplayout">
+      <div class="mapbox reveal d2">
+        <div class="dayfilter">
+          <button data-d="all" class="on">All</button>
+          <button data-d="fri">Fri ▸ drive up</button>
+          <button data-d="sat">Sat ▸ Donner + 4th</button>
+          <button data-d="sun">Sun ▸ home</button>
+        </div>
+        <div id="leaflet"></div>
+      </div>
+
+      <div class="maplegend reveal d3">
+        <div class="legday" data-d="fri" style="--lc:var(--lake)">
+          <div class="lh"><b>Fri · Jul 3 — Drive up</b><span class="drive">SFO→camp · ~213 mi · 4–5 hr</span></div>
+          <ul>
+            <li><span class="pn">🛫</span>Depart <b>SFO at 9:30 AM</b> — I-80 E over Donner</li>
+            <li><span class="pn">🏕️</span>Check in at <b>William Kent</b>, set up camp</li>
+            <li><span class="pn">🧗</span>South to <b>Bliss / Meeks Bay</b> boulders (warm-ups)</li>
+          </ul>
+        </div>
+        <div class="legday" data-d="sat" style="--lc:var(--gold)">
+          <div class="lh"><b>Sat · Jul 4 — Donner + 🎆</b><span class="drive">camp↔Donner · ~43 min ea.</span></div>
+          <ul>
+            <li><span class="pn">🎯</span><b>Donner Summit</b> dawn patrol — the V8 send</li>
+            <li><span class="pn">🚤</span><b>Sunnyside Marina</b> pontoon + swim</li>
+            <li><span class="pn">🎇</span><b>Commons Beach</b> fireworks, 9:30 PM</li>
+          </ul>
+        </div>
+        <div class="legday" data-d="sun" style="--lc:var(--violet)">
+          <div class="lh"><b>Sun · Jul 5 — Home</b><span class="drive">camp→Los Altos · ~230 mi · 4.5–5 hr</span></div>
+          <ul>
+            <li><span class="pn">🏆</span>Morning project burns or a chill circuit</li>
+            <li><span class="pn">🌊</span>Last swim, pack out</li>
+            <li><span class="pn">🏁</span>Drive home to <b>Los Altos</b> Sunday evening</li>
+          </ul>
+        </div>
+        <p class="maphint">Tip: 🛫 = SFO start · 🏁 = Los Altos finish</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CLIMBS ===================== -->
+<section id="climbs" class="sec">
+  <div class="wrap">
+    <div class="kicker reveal">The Send List</div>
+    <h2 class="reveal d1">The best stone near camp.</h2>
+    <p class="lead reveal d2">Pulled live from <b>Mountain Project</b> — real star ratings and vote counts, filtered to the highest-quality boulders in both zones. Warm up, hunt your <span style="color:var(--gold)">V8 targets</span>, then reach for the trophies.</p>
+
+    <div class="tabs reveal d2">
+      <button class="tab active" data-band="all">All <span class="cnt"></span></button>
+      <button class="tab" data-band="warm">🟢 Warm-ups · V0–V5 <span class="cnt"></span></button>
+      <button class="tab" data-band="target">🎯 Target · V6–V9 <span class="cnt"></span></button>
+      <button class="tab" data-band="trophy">🏆 Trophy · V10+ <span class="cnt"></span></button>
+    </div>
+
+    <div class="grid" id="climbGrid"></div>
+    <p class="note">📍 Two zones: <b style="color:var(--lake)">West Shore</b> = lakeside, walkable from camp · <b style="color:var(--violet)">Donner/Truckee</b> = ~35 min north, the dense hard stuff. Tap any name for the Mountain Project page.</p>
+  </div>
+</section>
+
+<!-- ===================== LOGISTICS ===================== -->
+<section id="logistics" class="sec">
+  <div class="wrap">
+    <div class="kicker reveal">Beyond the Send</div>
+    <h2 class="reveal d1">Boat, beach, basecamp &amp; bangs.</h2>
+    <p class="lead reveal d2">Everything is clustered on the West Shore within minutes of the tent.</p>
+
+    <div class="logwrap">
+      <div class="logcard reveal" style="--ic1:#1c6ca8;--ic2:#5ec6f5">
+        <div class="logicon"><svg width="26" height="26" viewBox="0 0 24 24" fill="#03121d"><path d="M4 14l1.5 4.5a2 2 0 001.9 1.4h9.2a2 2 0 001.9-1.4L20 14H4zm8-10l6 8H6l6-8z"/></svg></div>
+        <h3>The boat</h3>
+        <p>Rent a pontoon and own the lake for an afternoon — cruise, anchor, swim, repeat.</p>
+        <div class="logmeta">
+          <div class="row"><b>Where</b><span>Sunnyside Marina &amp; Watersports — 1835 W Lake Blvd (next to camp)</span></div>
+          <div class="row"><b>Boats</b><span>24–27′ pontoons, seats 10–12, with or without a driver</span></div>
+          <div class="row"><b>Hours</b><span>Rentals 8:30 am, back by 6 pm</span></div>
+          <div class="row"><b>Call</b><span><a href="tel:+15305837201">(530) 583-7201</a> · <a href="https://marinasunnyside.com/rentals/" target="_blank" rel="noopener">marinasunnyside.com</a></span></div>
+        </div>
+        <div class="tip">🎆 July 4 books out — reserve days ahead and grab a morning slot.</div>
+      </div>
+
+      <div class="logcard reveal d1" style="--ic1:#1c5a40;--ic2:#5fe0a6">
+        <div class="logicon"><svg width="26" height="26" viewBox="0 0 24 24" fill="#03121d"><path d="M3 18c1.5 0 1.5-1 3-1s1.5 1 3 1 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1v2c-1.5 0-1.5-1-3-1s-1.5 1-3 1-1.5-1-3-1-1.5 1-3 1-1.5-1-3-1-1.5 1-3 1v-2zm9-14a4 4 0 014 4c0 2-1.5 3-1.5 5h-5C8.5 11 7 10 7 8a4 4 0 014-4z"/></svg></div>
+        <h3>Swimming</h3>
+        <p>Tahoe is famously clear, cold, and deep. Best dips, in order of convenience:</p>
+        <div class="logmeta">
+          <div class="row"><b>While climbing</b><span>Bliss / Meeks Bay coves — gin-clear water right under the boulders</span></div>
+          <div class="row"><b>By camp</b><span>William Kent Beach, across Hwy 89 from the campground</span></div>
+          <div class="row"><b>From the boat</b><span>Anchor in a quiet West Shore cove and jump in</span></div>
+        </div>
+        <div class="tip">❄️ Water hovers in the 60s — ease in, and don't swim alone far from shore.</div>
+      </div>
+
+      <div class="logcard reveal d2" style="--ic1:#b3338a;--ic2:#ff5e9c">
+        <div class="logicon"><svg width="26" height="26" viewBox="0 0 24 24" fill="#03121d"><path d="M12 2l1.6 4.4L18 8l-4.4 1.6L12 14l-1.6-4.4L6 8l4.4-1.6L12 2zm6 11l.9 2.5 2.5.9-2.5.9L18 20l-.9-2.7-2.5-.9 2.5-.9L18 13zM6 13l.9 2.5 2.5.9-2.5.9L6 20l-.9-2.7L2.6 16l2.5-.9L6 13z"/></svg></div>
+        <h3>Fireworks</h3>
+        <p>2026 is the America 250 year — Tahoe goes big on the 4th.</p>
+        <div class="logmeta">
+          <div class="row"><b>The show</b><span>Tahoe City 78th annual — barge off Commons Beach</span></div>
+          <div class="row"><b>When</b><span>July 4, 9:30 PM</span></div>
+          <div class="row"><b>Watch from</b><span>Commons Beach, the Lakeside Trail, William B. Layton Park, or the William Kent shoreline</span></div>
+        </div>
+        <div class="tip">🎇 Want the biggest in the West? South Lake's "Lights on the Lake" (9:45 PM) is top-5 in the U.S. — but it's 45+ min south.</div>
+      </div>
+
+      <div class="logcard reveal d3" style="--ic1:#5a4a1c;--ic2:#ffd166">
+        <div class="logicon"><svg width="26" height="26" viewBox="0 0 24 24" fill="#03121d"><path d="M12 3l9 16H3l9-16zm0 4.5L7.5 16h9L12 7.5z"/></svg></div>
+        <h3>Basecamp</h3>
+        <p>USFS sites tucked in the pines, lake beach across the road.</p>
+        <div class="logmeta">
+          <div class="row"><b>Where</b><span>William Kent Campground, Hwy 89, West Shore</span></div>
+          <div class="row"><b>Elevation</b><span>~6,300 ft — cold nights, strong sun</span></div>
+          <div class="row"><b>Rules</b><span>Bear country — all food &amp; scented items in the metal lockers</span></div>
+          <div class="row"><b>Book</b><span><a href="https://www.recreation.gov" target="_blank" rel="noopener">recreation.gov</a></span></div>
+        </div>
+        <div class="tip">🌲 Quiet hours + a packed July 4 — claim the campsite reservation early.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STRATEGY ===================== -->
+<section id="strategy" class="sec">
+  <div class="wrap">
+    <div class="kicker reveal">Send Strategy</div>
+    <h2 class="reveal d1">How to actually climb V8 this weekend.</h2>
+    <p class="lead reveal d2">Alpine granite at 7,000 ft rewards patience and cold fingers. A few rules to stack the odds.</p>
+    <div class="stratgrid">
+      <div class="strat reveal"><span class="e">🌅</span><h4>Climb cool, climb early</h4><p>Donner sits high — go at dawn for sticky friction. Midday sun greases the granite and your skin. Chase shade and a breeze.</p></div>
+      <div class="strat reveal d1"><span class="e">🪜</span><h4>Build the warm-up ladder</h4><p>Never jump to V8 cold. Run V2 → V4 → V6 first. The trifecta wants warm tendons, fresh skin, and a fired-up nervous system.</p></div>
+      <div class="strat reveal d2"><span class="e">🩹</span><h4>Ration your skin</h4><p>Hard granite shreds tips. Alternate burns with real rest, file flappers, tape early, and pack extra chalk for humid lakeside air.</p></div>
+      <div class="strat reveal d3"><span class="e">🧗</span><h4>Pads &amp; spotters</h4><p>Tahoe highballs are no joke. Bring 2+ crash pads, spot each other, and scope the landing before you commit up high.</p></div>
+      <div class="strat reveal"><span class="e">💧</span><h4>Altitude + hydration</h4><p>6,000–7,000 ft plus alpine sun saps you fast. Water, electrolytes, sunscreen, and a hat — recovery is a performance multiplier.</p></div>
+      <div class="strat reveal d1"><span class="e">🌿</span><h4>Leave no trace</h4><p>Pack out tape and tick, brush the holds clean, respect closures and wildlife, and keep all food in the bear lockers.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PACK ===================== -->
+<section id="pack" class="sec">
+  <div class="wrap">
+    <div class="kicker reveal">Don't Forget</div>
+    <div class="packhead">
+      <div>
+        <h2 class="reveal d1">The pack list.</h2>
+        <p class="lead reveal d2">Tap to check off. It remembers what you've packed.</p>
+      </div>
+      <div class="progwrap reveal d2">
+        <div class="ring" id="ring"><i id="ringtxt">0%</i></div>
+        <div style="font-size:.85rem;color:var(--muted)"><b id="packcount" style="color:var(--text)">0</b> of <span id="packtotal">0</span><br>packed &amp; ready</div>
+      </div>
+    </div>
+
+    <div class="packgrid" id="packGrid"></div>
+  </div>
+</section>
+
+<footer>
+  <canvas id="fw2" style="position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none"></canvas>
+  <div class="big">Now go <span class="grad">send it.</span></div>
+  <p>Cold water, warm granite, and a sky full of sparks. Have the best three days, you two.</p>
+  <p class="script" style="font-size:1.6rem;color:var(--gold);margin-top:10px">— made for Tony &amp; Katherine 🧗🌊🎆</p>
+  <p class="src">Routes sourced live from <a href="https://www.mountainproject.com/area/105798291/lake-tahoe" target="_blank" rel="noopener">Mountain Project</a> via the <b>search-routes</b> browse skill — 353 boulder problems scanned across the <a href="https://www.mountainproject.com/area/110530727/west-shore" target="_blank" rel="noopener">West Shore</a> &amp; <a href="https://www.mountainproject.com/area/114802322/donnertruckee-bouldering" target="_blank" rel="noopener">Donner/Truckee</a>. Star ratings &amp; vote counts are real.</p>
+  <p class="src">Built with <span class="heart">♥</span> for a Tahoe weekend · July 3–5, 2026</p>
+</footer>
+
+<script>
+/* ============ CLIMB DATA (from Mountain Project search-routes skill) ============ */
+const CLIMBS=[
+  // WARM-UPS V0–V5
+  {n:"The Brain",g:"V0",f:"4",s:3.6,v:72,c:"The Brain",r:"ws",band:"warm",u:"https://www.mountainproject.com/route/109207791/the-brain"},
+  {n:"Big Face",g:"V2",f:"5+",s:3.9,v:33,c:"Big Face",r:"ws",band:"warm",u:"https://www.mountainproject.com/route/114422422/big-face"},
+  {n:"Grim Reality",g:"V3 PG13",f:"6A",s:3.8,v:68,c:"Grim Reality",r:"ws",band:"warm",u:"https://www.mountainproject.com/route/107323765/grim-reality"},
+  {n:"Masterwork",g:"V4",f:"6B",s:3.8,v:83,c:"Trigantor",r:"dt",band:"warm",u:"https://www.mountainproject.com/route/117584731/masterwork"},
+  {n:"Bliss Arete",g:"V4",f:"6B",s:3.9,v:34,c:"Big Face",r:"ws",band:"warm",u:"https://www.mountainproject.com/route/106565410/bliss-arete"},
+  {n:"Rated X",g:"V4",f:"6B",s:3.7,v:79,c:"Rated X Boulder",r:"dt",band:"warm",u:"https://www.mountainproject.com/route/117563211/rated-x"},
+  {n:"Gunslinger",g:"V5",f:"6C",s:3.9,v:37,c:"Gunslinger",r:"ws",band:"warm",u:"https://www.mountainproject.com/route/106565424/gunslinger"},
+  {n:"Terminal Velocity",g:"V5",f:"6C",s:3.7,v:41,c:"Flying Saucer",r:"dt",band:"warm",u:"https://www.mountainproject.com/route/119833415/terminal-velocity"},
+  // TARGET V6–V9
+  {n:"Triple Crown",g:"V6",f:"7A",s:3.9,v:97,c:"Trigantor",r:"dt",band:"target",u:"https://www.mountainproject.com/route/117584669/triple-crown"},
+  {n:"Sweet Spot",g:"V6",f:"7A",s:3.9,v:38,c:"Sugar Cube",r:"dt",band:"target",u:"https://www.mountainproject.com/route/119221625/sweet-spot"},
+  {n:"Campfire Arete",g:"V6",f:"7A",s:3.9,v:30,c:"Party Bus",r:"dt",band:"target",u:"https://www.mountainproject.com/route/119833599/campfire-arete"},
+  {n:"Ender's Game",g:"V6",f:"7A",s:4.0,v:4,c:"Lost In Space",r:"ws",band:"target",u:"https://www.mountainproject.com/route/119602840/enders-game"},
+  {n:"The Friendly Whale",g:"V7",f:"7A+",s:4.0,v:8,c:"The Friendly Whale",r:"ws",band:"target",u:"https://www.mountainproject.com/route/121437993/the-friendly-whale"},
+  {n:"White Lines",g:"V8",f:"7B",s:4.0,v:44,c:"White Lines Boulder",r:"dt",band:"target",target:true,u:"https://www.mountainproject.com/route/106248748/white-lines"},
+  {n:"Maximum Overdrive",g:"V8",f:"7B",s:3.9,v:15,c:"Flying Saucer",r:"dt",band:"target",target:true,u:"https://www.mountainproject.com/route/119833464/maximum-overdrive"},
+  {n:"Midnight Train",g:"V8",f:"7B",s:4.0,v:9,c:"The Saddle Boulder",r:"dt",band:"target",target:true,u:"https://www.mountainproject.com/route/120993516/midnight-train"},
+  {n:"Have a Beer with Fear",g:"V8",f:"7B",s:3.7,v:18,c:"Trigantor",r:"dt",band:"target",target:true,u:"https://www.mountainproject.com/route/121462647/have-a-beer-with-fear"},
+  {n:"Girls On Film (Sit)",g:"V8-9",f:"7B+",s:3.8,v:47,c:"Rated X Boulder",r:"dt",band:"target",u:"https://www.mountainproject.com/route/117974078/girls-on-film-sit"},
+  {n:"Hobo",g:"V9",f:"7C",s:4.0,v:8,c:"The Saddle Boulder",r:"dt",band:"target",u:"https://www.mountainproject.com/route/119485939/hobo"},
+  // TROPHY V10+
+  {n:"The Drawing of the Three",g:"V11",f:"8A",s:4.0,v:6,c:"The Drawing of the Three",r:"dt",band:"trophy",u:"https://www.mountainproject.com/route/120324053/the-drawing-of-the-three"},
+  {n:"Treat Box",g:"V11",f:"8A",s:4.0,v:2,c:"Treat Box Boulder",r:"dt",band:"trophy",u:"https://www.mountainproject.com/route/122833209/treat-box"},
+  {n:"Mystery Pocket Low",g:"V11",f:"8A",s:4.0,v:1,c:"Rainbow D",r:"dt",band:"trophy",u:"https://www.mountainproject.com/route/122203509/mystery-pocket-low"},
+  {n:"Nazgûl Low Start",g:"V11",f:"8A",s:4.0,v:1,c:"Black Wall Boulder",r:"dt",band:"trophy",u:"https://www.mountainproject.com/route/123190138/nazgul-low-start"},
+  {n:"Academia",g:"V12-13",f:"8B",s:4.0,v:3,c:"Academia Boulder",r:"dt",band:"trophy",u:"https://www.mountainproject.com/route/123509575/academia"},
+  {n:"The Outer Limits",g:"V15",f:"8C",s:4.0,v:1,c:"Flying Saucer",r:"dt",band:"trophy",famous:true,u:"https://www.mountainproject.com/route/122988214/the-outer-limits"},
+];
+
+const GMAP={warm:"g-warm",target:"g-target",trophy:"g-trophy"};
+const GLOW={warm:"rgba(95,224,166,.6)",target:"rgba(255,209,102,.6)",trophy:"rgba(255,94,156,.6)"};
+const pin='<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z"/></svg>';
+
+function starBar(s){
+  const pct=(s/4*100).toFixed(1);
+  return `<span class="starbar"><span class="bg">★★★★</span><span class="fg" style="width:${pct}%">★★★★</span></span>`;
+}
+function cardHTML(c){
+  const cls=["card"]; if(c.target)cls.push("target-line"); if(c.famous)cls.push("famous");
+  const rcls=c.r==="ws"?"r-ws":"r-dt"; const rname=c.r==="ws"?"West Shore":"Donner";
+  return `<article class="${cls.join(' ')}" data-band="${c.band}" style="--glow:${GLOW[c.band]}">
+    <div class="chead">
+      <div class="cname"><a href="${c.u}" target="_blank" rel="noopener">${c.n}</a></div>
+      <div><span class="gradepill ${GMAP[c.band]}">${c.g}</span><div class="font">Font ${c.f}</div></div>
+    </div>
+    <div class="crag">${pin}${c.c}</div>
+    <div class="cmeta">
+      <span>${starBar(c.s)} <span class="votes"><b>${c.s.toFixed(1)}</b> · ${c.v} ${c.v===1?'vote':'votes'}</span></span>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px">
+      <span class="rbadge ${rcls}">${rname}</span>
+      <a class="mlink" href="${c.u}" target="_blank" rel="noopener">Mountain Project ↗</a>
+    </div>
+  </article>`;
+}
+const grid=document.getElementById('climbGrid');
+function render(band){
+  const list=band==="all"?CLIMBS:CLIMBS.filter(c=>c.band===band);
+  grid.innerHTML=list.map(cardHTML).join('');
+}
+render("all");
+// tab counts
+document.querySelectorAll('.tab').forEach(t=>{
+  const b=t.dataset.band;
+  const n=b==="all"?CLIMBS.length:CLIMBS.filter(c=>c.band===b).length;
+  t.querySelector('.cnt').textContent="("+n+")";
+});
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  grid.style.opacity=0;
+  setTimeout(()=>{render(t.dataset.band);grid.style.opacity=1;
+    grid.querySelectorAll('.card').forEach((c,i)=>{c.style.animation=`fadeUp .5s ${i*0.04}s both`});},160);
+}));
+grid.style.transition="opacity .16s ease";
+
+/* ============ PACK LIST ============ */
+const PACK={
+  "🧗 Climbing":["Crash pads (2+)","Climbing shoes","Chalk + bucket","Boulder brush","Tape + nail file","Guidebook / MP offline","Finger first-aid"],
+  "🏕️ Camp":["Tent + sleeping bags","Headlamps","Camp stove + fuel","Cooler + bear-safe storage","Camp chairs","Warm layers (cold nights)"],
+  "🌊 Lake":["Swimsuits","Quick-dry towels","Sunscreen + hat","Water shoes","Dry bag","Reusable water bottles"],
+  "🎆 July 4th":["Blanket for fireworks","Night layers","Red/white/blue fit (optional)","Portable charger","Snacks for the show"]
+};
+const pchk='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#04261a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>';
+const packGrid=document.getElementById('packGrid');
+let saved={}; try{saved=JSON.parse(localStorage.getItem('tahoePack')||'{}')}catch(e){}
+let total=0;
+packGrid.innerHTML=Object.entries(PACK).map(([cat,items])=>{
+  const [e,...rest]=cat.split(' ');
+  return `<div class="packcol"><h4><span class="e">${e}</span>${rest.join(' ')}</h4>${
+    items.map(it=>{const id=cat+'|'+it;total++;const ck=saved[id]?'checked':'';
+      return `<label class="check"><input type="checkbox" data-id="${id}" ${ck}><span class="box">${pchk}</span><span class="lbl">${it}</span></label>`}).join('')
+  }</div>`;
+}).join('');
+document.getElementById('packtotal').textContent=total;
+function updRing(){
+  const done=Object.values(saved).filter(Boolean).length;
+  const pct=total?Math.round(done/total*100):0;
+  document.getElementById('ring').style.setProperty('--p',pct);
+  document.getElementById('ringtxt').textContent=pct+'%';
+  document.getElementById('packcount').textContent=done;
+}
+updRing();
+packGrid.querySelectorAll('input').forEach(i=>i.addEventListener('change',()=>{
+  saved[i.dataset.id]=i.checked;
+  localStorage.setItem('tahoePack',JSON.stringify(saved));updRing();
+}));
+
+/* ============ NAV + PROGRESS ============ */
+const nav=document.getElementById('nav'),prog=document.getElementById('progress');
+function onScroll(){
+  const sc=window.scrollY,h=document.documentElement.scrollHeight-innerHeight;
+  prog.style.width=(sc/h*100)+'%';
+  nav.classList.toggle('solid',sc>40);
+}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+/* ============ REVEAL ============ */
+const io=new IntersectionObserver((ents)=>{
+  ents.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');
+    if(e.target.classList.contains('stat'))countUp(e.target);io.unobserve(e.target)}});
+},{threshold:.18});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* ============ COUNT-UP ============ */
+function countUp(stat){
+  const el=stat.querySelector('.n');if(!el)return;
+  const to=+el.dataset.to,pre=el.dataset.prefix||'',suf=el.dataset.suffix||'';
+  const dur=1300,t0=performance.now();
+  function step(t){const p=Math.min((t-t0)/dur,1);const e=1-Math.pow(1-p,3);
+    el.textContent=pre+Math.round(to*e)+suf;if(p<1)requestAnimationFrame(step)}
+  requestAnimationFrame(step);
+}
+
+/* ============ PARALLAX HERO ============ */
+const r1=document.querySelector('.r1'),r2=document.querySelector('.r2'),r3=document.querySelector('.r3');
+const aur=document.querySelector('.aurora');
+addEventListener('scroll',()=>{
+  const y=window.scrollY;
+  if(y<window.innerHeight){
+    r1.style.transform=`translateY(${y*.18}px)`;
+    r2.style.transform=`translateY(${y*.10}px)`;
+    r3.style.transform=`translateY(${y*.04}px)`;
+    aur.style.transform=`translateY(${y*.3}px)`;
+  }
+},{passive:true});
+
+/* ============ STARFIELD ============ */
+function starfield(){
+  const cv=document.querySelector('.stars'),ctx=cv.getContext('2d');
+  let stars=[];
+  function size(){cv.width=innerWidth;cv.height=innerHeight;
+    stars=Array.from({length:Math.min(140,innerWidth/9)},()=>({
+      x:Math.random()*cv.width,y:Math.random()*cv.height*.8,
+      r:Math.random()*1.3+.2,a:Math.random(),tw:Math.random()*.02+.005}));}
+  size();addEventListener('resize',size);
+  (function loop(){ctx.clearRect(0,0,cv.width,cv.height);
+    stars.forEach(s=>{s.a+=s.tw;const al=.4+Math.abs(Math.sin(s.a))*.6;
+      ctx.globalAlpha=al;ctx.fillStyle='#fff';ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,7);ctx.fill()});
+    ctx.globalAlpha=1;requestAnimationFrame(loop)})();
+}
+
+/* ============ FIREWORKS (transparent canvas, glowing trails — never darkens the page) ============ */
+function fireworks(canvas){
+  const ctx=canvas.getContext('2d');let parts=[],W,H;
+  const DPR=Math.min(window.devicePixelRatio||1,2);
+  function size(){
+    W=canvas.offsetWidth;H=canvas.offsetHeight;            // CSS px (canvas is width/height:100%)
+    canvas.width=Math.max(1,Math.round(W*DPR));
+    canvas.height=Math.max(1,Math.round(H*DPR));
+    ctx.setTransform(DPR,0,0,DPR,0,0);                      // draw in CSS px, crisp on retina
+  }
+  size();addEventListener('resize',size);
+  const COLORS=['#ffd166','#ff7a6b','#ff5e9c','#5ec6f5','#5fe0a6','#a98bff','#ffffff'];
+  function burst(x,y){
+    const col=COLORS[Math.random()*COLORS.length|0];const N=42+Math.random()*46;
+    for(let i=0;i<N;i++){const a=Math.PI*2*i/N,sp=Math.random()*3.2+1.1;
+      parts.push({x,y,lx:x,ly:y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,life:1,col,r:Math.random()*1.6+1})}
+  }
+  function loop(){
+    ctx.clearRect(0,0,W,H);                                 // fully transparent each frame -> sky shows through
+    ctx.globalCompositeOperation='lighter';ctx.lineCap='round';
+    for(const p of parts){
+      p.lx=p.x;p.ly=p.y;
+      p.x+=p.vx;p.y+=p.vy;p.vy+=0.03;p.vx*=.99;p.vy*=.99;p.life-=0.012;
+      if(p.life>0){ctx.globalAlpha=Math.max(p.life,0);ctx.strokeStyle=p.col;ctx.lineWidth=p.r;
+        ctx.beginPath();ctx.moveTo(p.lx,p.ly);ctx.lineTo(p.x,p.y);ctx.stroke();}  // short line = streak/trail
+    }
+    parts=parts.filter(p=>p.life>0);
+    ctx.globalAlpha=1;ctx.globalCompositeOperation='source-over';
+    requestAnimationFrame(loop)
+  }
+  loop();
+  function auto(){burst(Math.random()*W*.8+W*.1,Math.random()*H*.45+H*.08);
+    setTimeout(auto,700+Math.random()*1500)}
+  setTimeout(auto,300);setTimeout(auto,1000);
+  return burst;
+}
+
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches){
+  starfield();
+  fireworks(document.getElementById('fw'),{fade:0.16});
+  // footer fireworks: lighter
+  const f2=document.getElementById('fw2');
+  if(f2){const io2=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){
+    fireworks(f2,{fade:0.22});io2.disconnect()}})});io2.observe(f2);}
+}
+
+/* ============ MAP (Leaflet + real driving routes) ============ */
+const ROUTES={"fri":[[37.6172,-122.3842],[37.6157,-122.3898],[37.615,-122.3971],[37.6341,-122.4026],[37.641,-122.4057],[37.655,-122.4068],[37.6647,-122.3977],[37.6746,-122.3893],[37.6948,-122.3918],[37.7129,-122.3962],[37.7204,-122.3999],[37.7331,-122.4054],[37.7398,-122.408],[37.7439,-122.4057],[37.7527,-122.4028],[37.7585,-122.4053],[37.7629,-122.4053],[37.7704,-122.4054],[37.7767,-122.4038],[37.809,-122.3662],[37.8171,-122.3548],[37.8188,-122.3502],[37.8223,-122.3226],[37.8255,-122.3033],[37.8297,-122.2937],[37.8354,-122.2955],[37.8449,-122.2979],[37.8699,-122.3046],[37.8854,-122.3088],[37.8908,-122.3077],[37.8971,-122.3088],[37.909,-122.3162],[37.9189,-122.3174],[37.9279,-122.3224],[37.9469,-122.3251],[37.9654,-122.3235],[37.987,-122.3141],[37.996,-122.2876],[38.0377,-122.2482],[38.0552,-122.2249],[38.0761,-122.2317],[38.0923,-122.2301],[38.1169,-122.23],[38.1303,-122.2256],[38.1471,-122.2166],[38.1676,-122.2025],[38.1817,-122.1844],[38.1922,-122.1673],[38.2193,-122.1338],[38.2335,-122.1069],[38.2479,-122.0724],[38.2814,-122.0427],[38.3071,-122.0336],[38.3238,-122.0247],[38.3404,-122.0128],[38.348,-121.9927],[38.3586,-121.9737],[38.375,-121.9508],[38.4005,-121.9179],[38.4351,-121.8725],[38.4796,-121.8153],[38.5176,-121.7724],[38.5299,-121.7516],[38.5435,-121.7311],[38.5668,-121.6197],[38.5762,-121.5631],[38.6159,-121.5341],[38.6393,-121.4876],[38.6419,-121.443],[38.6372,-121.4136],[38.6442,-121.3886],[38.683,-121.336],[38.726,-121.2888],[38.7601,-121.2601],[38.776,-121.2387],[38.8171,-121.1884],[38.8656,-121.1327],[38.8783,-121.1234],[38.8889,-121.0906],[38.9008,-121.0739],[38.911,-121.0677],[38.9343,-121.0546],[38.9518,-121.0399],[38.9756,-121.013],[39.0046,-120.9929],[39.0188,-120.9821],[39.0401,-120.9733],[39.0632,-120.9671],[39.0878,-120.9546],[39.1058,-120.9477],[39.129,-120.937],[39.1372,-120.9294],[39.1393,-120.9173],[39.1467,-120.9097],[39.1553,-120.8865],[39.1737,-120.8597],[39.188,-120.8316],[39.1936,-120.8174],[39.2026,-120.8089],[39.2051,-120.7941],[39.2183,-120.7739],[39.2264,-120.765],[39.2323,-120.7577],[39.2404,-120.7523],[39.2529,-120.7375],[39.2663,-120.7262],[39.2759,-120.7139],[39.2912,-120.6875],[39.2952,-120.6756],[39.3034,-120.6556],[39.3098,-120.6336],[39.3153,-120.6181],[39.3251,-120.6016],[39.3294,-120.5902],[39.3251,-120.5709],[39.3175,-120.5595],[39.3115,-120.5473],[39.3052,-120.5253],[39.3133,-120.5119],[39.3135,-120.4701],[39.3137,-120.45],[39.3239,-120.4138],[39.3246,-120.3936],[39.3263,-120.3756],[39.3376,-120.3517],[39.3429,-120.3332],[39.3418,-120.3154],[39.3361,-120.3068],[39.3273,-120.2967],[39.3306,-120.2899],[39.3271,-120.2735],[39.3293,-120.2639],[39.3301,-120.2438],[39.3249,-120.2318],[39.3225,-120.2083],[39.319,-120.2071],[39.3149,-120.2039],[39.2999,-120.2054],[39.2853,-120.208],[39.2731,-120.2071],[39.2631,-120.2105],[39.2466,-120.211],[39.2346,-120.2057],[39.2232,-120.2028],[39.2141,-120.2015],[39.2052,-120.1993],[39.1963,-120.198],[39.1855,-120.1946],[39.1781,-120.1912],[39.1719,-120.1879],[39.1672,-120.1819],[39.1653,-120.1744],[39.1633,-120.1666],[39.1639,-120.1558],[39.164,-120.1493],[39.16,-120.1454],[39.1508,-120.1456],[39.1462,-120.1512],[39.1419,-120.1549],[39.1373,-120.1546],[39.1344,-120.1583]],"sat":[[39.1344,-120.1583],[39.1373,-120.1546],[39.145,-120.1534],[39.1486,-120.1461],[39.1526,-120.1461],[39.1597,-120.1455],[39.1631,-120.1443],[39.1639,-120.1556],[39.1632,-120.1662],[39.1652,-120.174],[39.1677,-120.1831],[39.1715,-120.1876],[39.1777,-120.1908],[39.1833,-120.1953],[39.1914,-120.1967],[39.1973,-120.1996],[39.2044,-120.1996],[39.2101,-120.1983],[39.2157,-120.2021],[39.2218,-120.2021],[39.2293,-120.2058],[39.2358,-120.2066],[39.2446,-120.2108],[39.258,-120.2117],[39.2649,-120.2104],[39.2715,-120.2074],[39.2776,-120.2069],[39.2866,-120.2085],[39.2972,-120.206],[39.308,-120.2061],[39.3153,-120.204],[39.3184,-120.2064],[39.322,-120.2077],[39.324,-120.2075],[39.3234,-120.2096],[39.3236,-120.218],[39.325,-120.2309],[39.3271,-120.2387],[39.3314,-120.2497],[39.332,-120.2577],[39.3301,-120.2633],[39.329,-120.2688],[39.3291,-120.2801],[39.3317,-120.2872],[39.3319,-120.2897],[39.3299,-120.2861],[39.3275,-120.2814],[39.326,-120.279],[39.3257,-120.2857],[39.3238,-120.2893],[39.3217,-120.2942],[39.3232,-120.2986],[39.3265,-120.304],[39.327,-120.3082],[39.3255,-120.3098],[39.3247,-120.3128],[39.323,-120.3132],[39.3218,-120.3144],[39.3196,-120.3129],[39.3184,-120.3141],[39.3195,-120.3163],[39.3192,-120.3176],[39.3172,-120.318],[39.3181,-120.3206],[39.3193,-120.3187],[39.3197,-120.3199],[39.3186,-120.3221],[39.3173,-120.3247],[39.3153,-120.3271],[39.3144,-120.3295]],"sun":[[39.1344,-120.1583],[39.1428,-120.1548],[39.1531,-120.1461],[39.1641,-120.149],[39.1632,-120.1633],[39.1671,-120.1811],[39.1785,-120.1917],[39.1973,-120.1996],[39.218,-120.2024],[39.2393,-120.2091],[39.2695,-120.208],[39.2981,-120.2057],[39.3192,-120.2071],[39.324,-120.2076],[39.3258,-120.2349],[39.3298,-120.2642],[39.3311,-120.292],[39.3423,-120.3136],[39.3393,-120.3498],[39.3265,-120.3909],[39.3145,-120.4459],[39.3121,-120.4891],[39.3056,-120.5361],[39.3223,-120.5635],[39.3299,-120.5904],[39.3157,-120.6194],[39.301,-120.6657],[39.2809,-120.7113],[39.2547,-120.7369],[39.2316,-120.7594],[39.2153,-120.7763],[39.2009,-120.8133],[39.1861,-120.8461],[39.1472,-120.9085],[39.1367,-120.9298],[39.0945,-120.9498],[39.0524,-120.9707],[39.0165,-120.9872],[38.9717,-121.0162],[38.934,-121.055],[38.9,-121.0751],[38.8766,-121.1299],[38.7642,-121.2577],[38.6731,-121.3473],[38.6386,-121.4188],[38.6364,-121.4957],[38.5755,-121.57],[38.5317,-121.747],[38.427,-121.8834],[38.3696,-121.958],[38.344,-122.0036],[38.3139,-122.0328],[38.25,-122.0697],[38.2181,-122.1373],[38.1518,-122.1127],[38.1093,-122.1045],[38.0717,-122.1251],[38.05,-122.1303],[38.0179,-122.0954],[37.966,-122.0562],[37.9214,-122.062],[37.9044,-122.0699],[37.8635,-122.0359],[37.8204,-121.9934],[37.7341,-121.9486],[37.6413,-121.8857],[37.5982,-121.8736],[37.5621,-121.9056],[37.552,-121.9181],[37.5383,-121.9279],[37.4974,-121.9259],[37.4821,-121.9366],[37.4226,-121.9287],[37.4052,-122.0169],[37.3859,-122.0641],[37.3878,-122.088],[37.385,-122.1007],[37.3852,-122.1141]],"d1":[[39.1344,-120.1583],[39.1322,-120.1581],[39.1275,-120.162],[39.1218,-120.1616],[39.1176,-120.1586],[39.1129,-120.1583],[39.1077,-120.1613],[39.1003,-120.1635],[39.0942,-120.164],[39.0851,-120.16],[39.0785,-120.1562],[39.075,-120.1504],[39.0747,-120.1471],[39.0712,-120.1423],[39.0686,-120.1357],[39.0684,-120.1307],[39.0652,-120.126],[39.0576,-120.1201],[39.0519,-120.1178],[39.0467,-120.1186],[39.0422,-120.1218],[39.0375,-120.1259],[39.0347,-120.1248],[39.0352,-120.12],[39.0327,-120.1167],[39.0293,-120.119],[39.0239,-120.1222],[39.0178,-120.1265],[39.017,-120.1256],[39.0144,-120.1204],[39.0099,-120.1164],[39.006,-120.1163],[39.0017,-120.1126],[38.9971,-120.1103],[38.9933,-120.1084],[38.9912,-120.1106],[38.9877,-120.1081],[38.9846,-120.1084],[38.9815,-120.1048],[38.9783,-120.1037],[38.9815,-120.1016],[38.983,-120.0995],[38.9857,-120.1016],[38.9868,-120.0995],[38.9874,-120.1027],[38.9869,-120.1042]]};
+(function initMap(){
+  const host=document.getElementById('leaflet'); if(!host) return;
+  if(!window.L){host.innerHTML='<div style="position:absolute;inset:0;display:grid;place-items:center;color:var(--faint);font-size:.85rem;text-align:center;padding:20px">🗺️ The interactive map needs an internet connection to load tiles.<br>Routes &amp; stops are still listed on the right.</div>';return;}
+  const map=L.map(host,{scrollWheelZoom:false,zoomControl:true}).setView([38.75,-121.1],8);
+  const tiles=L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    {attribution:'&copy; OpenStreetMap &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);
+  map.doubleClickZoom.enable();
+  // Library is local, so the map always works. Only the raster tiles need internet —
+  // if they can't load, keep the routes/pins and show one small note.
+  let terr=0;
+  tiles.on('tileerror',function(){ if(++terr===3){
+    const n=document.createElement('div'); n.className='mapoffline';
+    n.innerHTML='🛰️ Offline — map labels need internet, but your routes &amp; stops are all shown.';
+    host.parentElement.appendChild(n);
+  }});
+
+  function pin(e,c){return L.divIcon({className:'',iconSize:[34,34],iconAnchor:[7,31],popupAnchor:[10,-28],
+    html:`<div class="mk-pin" style="background:${c}"><span>${e}</span></div>`});}
+
+  const PLACES=[
+    {d:'fri',e:'🛫',c:'#5ec6f5',t:'SFO — depart 9:30 AM Friday',s:'Start of the drive up: I-80 East over Donner Summit toward Tahoe.',ll:[37.6213,-122.3790]},
+    {d:'base',e:'🏕️',c:'#5fe0a6',t:'William Kent Campground',s:'Basecamp · West Shore, Hwy 89, ~2 mi S of Tahoe City.',ll:[39.1340,-120.1590]},
+    {d:'fri',e:'🧗',c:'#5ec6f5',t:'West Shore Boulders — Bliss / Meeks Bay',s:'Day 1 lakeside warm-ups, ~15–30 min south of camp.',ll:[38.9870,-120.1050]},
+    {d:'sat',e:'🎯',c:'#ffd166',t:'Donner Summit Bouldering',s:'Day 2 AM · the V8 send zone (White Lines, Maximum Overdrive). ~43 min N.',ll:[39.3140,-120.3300]},
+    {d:'sat',e:'🚤',c:'#ffd166',t:'Sunnyside Marina',s:'Day 2 PM · pontoon rental, right next to camp. (530) 583-7201.',ll:[39.1460,-120.1570]},
+    {d:'sat',e:'🎆',c:'#ff5e9c',t:'Tahoe City Fireworks — Commons Beach',s:'Day 2 night · barge fireworks at 9:30 PM.',ll:[39.1716,-120.1426]},
+    {d:'sun',e:'🏁',c:'#a98bff',t:'Home — Los Altos',s:'Sunday-evening finish, ~4.5–5 hr from camp via I-80 W.',ll:[37.3852,-122.1141]},
+  ];
+  const mByDay={fri:[],sat:[],sun:[],base:[]}, allM=[];
+  PLACES.forEach(p=>{const m=L.marker(p.ll,{icon:pin(p.e,p.c)}).bindPopup(`<b>${p.t}</b><br>${p.s}`);mByDay[p.d].push(m);allM.push(m);});
+
+  function route(coords,color,dash){return[
+    L.polyline(coords,{color,weight:9,opacity:.15,lineJoin:'round'}),
+    L.polyline(coords,{color,weight:dash?2.6:4,opacity:.95,dashArray:dash?'1,9':null,lineJoin:'round',lineCap:'round'})];}
+  const HOPS=[[39.1340,-120.1590],[39.1460,-120.1570],[39.1716,-120.1426]];
+  const rByDay={
+    fri:[...route(ROUTES.fri,'#5ec6f5'),...route(ROUTES.d1,'#5ec6f5',true)],
+    sat:[...route(ROUTES.sat,'#ffd166'),...route(HOPS,'#ffd166',true)],
+    sun:[...route(ROUTES.sun,'#a98bff')],
+  };
+
+  function clearAll(){allM.forEach(m=>map.removeLayer(m));Object.values(rByDay).flat().forEach(l=>map.removeLayer(l));}
+  function fitTo(layers){try{map.fitBounds(L.featureGroup(layers).getBounds().pad(0.14));}catch(e){}}
+  function setDay(d){
+    clearAll();
+    document.querySelectorAll('.dayfilter button').forEach(b=>b.classList.toggle('on',b.dataset.d===d));
+    document.querySelectorAll('.legday').forEach(l=>l.classList.toggle('dim',d!=='all'&&l.dataset.d!==d));
+    const days = d==='all' ? ['fri','sat','sun'] : [d];
+    const shown=[];
+    days.forEach(k=>{rByDay[k].forEach(l=>l.addTo(map));mByDay[k].forEach(m=>{m.addTo(map);shown.push(m);});});
+    mByDay.base.forEach(m=>{m.addTo(map);shown.push(m);});
+    fitTo(d==='all'?allM:shown.concat(rByDay[d]));
+  }
+  document.querySelectorAll('.dayfilter button').forEach(b=>b.addEventListener('click',()=>setDay(b.dataset.d)));
+  document.querySelectorAll('.legday').forEach(l=>l.addEventListener('click',()=>setDay(l.dataset.d)));
+  setDay('all');
+
+  // Leaflet needs a re-measure once the section scrolls into view
+  const mo=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)setTimeout(()=>map.invalidateSize(),60);}),{threshold:.04});
+  mo.observe(document.getElementById('map'));
+  window.addEventListener('load',()=>setTimeout(()=>map.invalidateSize(),200));
+})();
+
+/* fade-in keyframe for card swaps */
+const st=document.createElement('style');
+st.textContent='@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}';
+document.head.appendChild(st);
+</script>
+</body>
+</html>
