@@ -99,7 +99,8 @@ It then commits the updated `data/apartments.json` back to `main`, so the live s
   "price_by_beds": {
     "2": 4500,
     "3": 7000,
-    "4": 8500
+    "4": 8500,
+    "5": 10000
   },
   "min_price": null,
   "query": null,
@@ -113,7 +114,7 @@ It then commits the updated `data/apartments.json` back to `main`, so the live s
 `node scripts/sync-listings.mjs --sources=redfin`.
 
 `price_by_beds` is a **per-bedroom price ceiling** — in the example above, 2BR ≤ $4,500,
-3BR ≤ $7,000, 4BR ≤ $8,500. The bedroom range and the overall price ceiling for the search
+3BR ≤ $7,000, 4BR ≤ $8,500, 5BR ≤ $10,000. The bedroom range and the overall price ceiling for the search
 are derived from these keys, so only listings whose bedroom count appears here (and whose
 price is within that tier) are added. Listings with no price or an unrecognized bedroom count
 are skipped.

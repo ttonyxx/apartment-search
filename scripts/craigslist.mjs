@@ -26,7 +26,7 @@ export async function fetchListings(criteria = {}) {
     bbox = null,
   } = criteria;
 
-  // Tiered mode: a per-bedroom price cap, e.g. { "2": 4500, "3": 7000, "4": 8500 }.
+  // Tiered mode: a per-bedroom price cap, e.g. { "2": 4500, "3": 7000, "4": 8500, "5": 10000 }.
   // We derive the bedroom range and overall price ceiling from it for the API
   // query, then enforce the exact per-bedroom caps in the local filter below.
   let capByBeds = null;
@@ -244,4 +244,3 @@ export async function isListingGone(url) {
     return false; // network error — be conservative
   }
 }
-
