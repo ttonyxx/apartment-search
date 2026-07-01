@@ -29867,7 +29867,7 @@
       "bathrooms": 1,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7919447,
       "lon": -122.4194426,
@@ -29875,7 +29875,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-20T20:18:42.985Z"
+      "added_at": "2026-06-20T20:18:42.985Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T09:56:51.144Z"
     },
     {
       "id": "rf_177389776",
@@ -40475,6 +40477,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-01T05:25:19.217Z"
+    },
+    {
+      "id": "cl_7944432196",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-764-point-st-san/7944432196.html",
+      "address": "764 N Point St, San Francisco, CA",
+      "neighborhood": "City Of San Francisco",
+      "price": 1255,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4186,
+      "notes": "From Craigslist · posted Jul 1, 8:02 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T09:56:51.144Z"
+    },
+    {
+      "id": "cl_7944420705",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedroom-bathroom-apartment/7944420705.html",
+      "address": "3-bedroom, 1-bathroom apartment",
+      "neighborhood": "Outer Sunset",
+      "price": 2545,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7388,
+      "lon": -122.5055,
+      "notes": "From Craigslist · posted Jul 1, 5:37 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T09:56:51.144Z"
     }
   ]
 }
