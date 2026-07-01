@@ -33334,7 +33334,7 @@
       "bathrooms": 1,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7198821,
       "lon": -122.4311517,
@@ -33342,7 +33342,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-24T13:25:09.296Z"
+      "added_at": "2026-06-24T13:25:09.296Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T20:48:35.650Z"
     },
     {
       "id": "rf_202360461",
@@ -34010,7 +34012,7 @@
       "bathrooms": 1,
       "sqft": 670,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.800268,
       "lon": -122.406062,
@@ -34018,7 +34020,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-25T09:30:13.337Z"
+      "added_at": "2026-06-25T09:30:13.337Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T20:48:35.650Z"
     },
     {
       "id": "rf_191139239",
@@ -34091,7 +34095,7 @@
       "bathrooms": 1,
       "sqft": 1325,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7807225,
       "lon": -122.4957698,
@@ -34099,7 +34103,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-25T15:41:38.778Z"
+      "added_at": "2026-06-25T15:41:38.778Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T20:48:35.650Z"
     },
     {
       "id": "cl_7943254050",
@@ -37351,7 +37357,7 @@
       "bathrooms": 2,
       "sqft": 1456,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7282757,
       "lon": -122.3701948,
@@ -37359,7 +37365,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-27T09:32:10.619Z"
+      "added_at": "2026-06-27T09:32:10.619Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T20:48:35.650Z"
     },
     {
       "id": "cl_7943619993",
@@ -39813,14 +39821,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7195,
       "lon": -122.4411,
       "notes": "From Craigslist · posted Jun 29, 6:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-29T20:04:31.749Z"
+      "added_at": "2026-06-29T20:04:31.749Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T20:48:35.650Z"
     },
     {
       "id": "cl_7944147511",
@@ -40200,7 +40210,7 @@
       "bathrooms": 2,
       "sqft": 1450,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7235551,
       "lon": -122.4569616,
@@ -40208,7 +40218,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-30T20:58:08.210Z"
+      "added_at": "2026-06-30T20:58:08.210Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T20:48:35.650Z"
     },
     {
       "id": "rf_1926795",
@@ -40600,7 +40612,7 @@
       "bathrooms": 2,
       "sqft": 1224,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7318971,
       "lon": -122.4089244,
@@ -40608,7 +40620,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-01T12:39:47.097Z"
+      "added_at": "2026-07-01T12:39:47.097Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T20:48:35.650Z"
     },
     {
       "id": "rf_202524085",
@@ -40777,14 +40791,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7745,
       "lon": -122.4595,
       "notes": "From Craigslist · posted Jul 1, 5:17 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-01T18:01:14.440Z"
+      "added_at": "2026-07-01T18:01:14.440Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-01T20:48:35.650Z"
     },
     {
       "id": "cl_7944513989",
@@ -40823,6 +40839,82 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-01T18:01:14.440Z"
+    },
+    {
+      "id": "cl_7944558552",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-1ba-san-francisco/7944558552.html",
+      "address": "2BR/1BA San Francisco 94123 – Only $3800/Month –  Vacant & Ready",
+      "neighborhood": "San Francisco, CA",
+      "price": 3500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Jul 1, 8:02 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T20:48:35.650Z"
+    },
+    {
+      "id": "cl_7944560767",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-park-14-cm12510e/7944560767.html",
+      "address": "Park-14 - CM12510E",
+      "neighborhood": "Lake Merced",
+      "price": 4411,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1093,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7168,
+      "lon": -122.4743,
+      "notes": "From Craigslist · posted Jul 1, 7:56 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T20:48:35.650Z"
+    },
+    {
+      "id": "cl_7944551553",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-two-bedroom-or-one-bedroom/7944551553.html",
+      "address": "Two bedroom or one bedroom Available",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 2800,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7179,
+      "lon": -122.4653,
+      "notes": "From Craigslist · posted Jul 1, 7:16 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T20:48:35.650Z"
+    },
+    {
+      "id": "cl_7944567200",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3bedroom-bath-in/7944567200.html",
+      "address": "3Bedroom 2 Bath in oceanview area.",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 4500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7195,
+      "lon": -122.4411,
+      "notes": "From Craigslist · posted Jul 1, 8:18 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-01T20:48:35.650Z"
     }
   ]
 }
