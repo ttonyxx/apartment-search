@@ -41104,14 +41104,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7798,
       "lon": -122.4021,
       "notes": "From Craigslist · posted Jul 2, 3:00 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-02T05:01:08.344Z"
+      "added_at": "2026-07-02T05:01:08.344Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-02T19:37:19.640Z"
     },
     {
       "id": "cl_7944648061",
@@ -41732,6 +41734,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-02T17:53:34.730Z"
+    },
+    {
+      "id": "cl_7944757729",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-room-in/7944757729.html",
+      "address": "Beautiful room in apartment on clement !! inner Richmond",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 1222,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Jul 2, 7:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-02T19:37:19.640Z"
     }
   ]
 }
