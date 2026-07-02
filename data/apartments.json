@@ -41753,6 +41753,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-02T19:37:19.640Z"
+    },
+    {
+      "id": "cl_7944762439",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-extra-clean-inlaw-room/7944762439.html",
+      "address": "Extra Clean Inlaw Room Walk to SFSU-CCSF",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 1000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7216,
+      "lon": -122.4699,
+      "notes": "From Craigslist · posted Jul 2, 7:40 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-02T21:13:16.435Z"
     }
   ]
 }
