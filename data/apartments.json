@@ -39970,14 +39970,16 @@
       "bathrooms": null,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7626,
       "lon": -122.4207,
       "notes": "From Craigslist · posted Jun 30, 5:05 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-30T05:07:55.519Z"
+      "added_at": "2026-06-30T05:07:55.519Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-03T10:41:17.849Z"
     },
     {
       "id": "cl_7944183329",
@@ -40321,14 +40323,16 @@
       "bathrooms": null,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7628,
       "lon": -122.4206,
       "notes": "From Craigslist · posted Jun 30, 10:00 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-30T22:23:12.704Z"
+      "added_at": "2026-06-30T22:23:12.704Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-03T10:41:17.849Z"
     },
     {
       "id": "cl_7944349466",
@@ -42051,6 +42055,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-03T07:26:02.758Z"
+    },
+    {
+      "id": "cl_7944863429",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2-living/7944863429.html",
+      "address": "3/2 living",
+      "neighborhood": "San Francisco",
+      "price": 6500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1980,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Jul 3, 8:53 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-03T10:41:17.849Z"
     }
   ]
 }
