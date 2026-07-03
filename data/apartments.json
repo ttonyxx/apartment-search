@@ -31937,14 +31937,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7593,
       "lon": -122.4836,
       "notes": "From Craigslist · posted Jun 22, 11:01 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-23T00:11:33.765Z"
+      "added_at": "2026-06-23T00:11:33.765Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-03T12:58:36.007Z"
     },
     {
       "id": "cl_7942680153",
@@ -41341,7 +41343,7 @@
       "bathrooms": 2,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7808229,
       "lon": -122.4792269,
@@ -41349,7 +41351,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-02T12:10:42.026Z"
+      "added_at": "2026-07-02T12:10:42.026Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-03T12:58:36.007Z"
     },
     {
       "id": "cl_7944670700",
@@ -42074,6 +42078,26 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-03T10:41:17.849Z"
+    },
+    {
+      "id": "rf_202589742",
+      "url": "https://www.redfin.com/CA/San-Francisco/272-4th-Ave-94118/unit-272/home/202589742",
+      "address": "272 4th Ave Unit 272",
+      "neighborhood": "",
+      "price": 7795,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7836236,
+      "lon": -122.4620937,
+      "notes": "From Redfin · updated Jul 3, 12:26 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-07-03T12:58:36.007Z"
     }
   ]
 }
