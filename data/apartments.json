@@ -43543,14 +43543,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7761,
       "lon": -122.4448,
       "notes": "From Craigslist · posted Jul 4, 6:53 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-04T09:25:38.751Z"
+      "added_at": "2026-07-04T09:25:38.751Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-04T11:36:08.864Z"
     },
     {
       "id": "cl_7945053026",
@@ -43570,6 +43572,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-04T09:25:38.751Z"
+    },
+    {
+      "id": "cl_7945060207",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-downtown-three-bedrooms/7945060207.html",
+      "address": "---$$---**Downtown Three Bedrooms Apartment For Rent!! (San Francisco)",
+      "neighborhood": "San Francisco",
+      "price": 1933,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.713,
+      "lon": -122.4653,
+      "notes": "From Craigslist · posted Jul 4, 11:12 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-04T11:36:08.864Z"
+    },
+    {
+      "id": "cl_7945056298",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-th-st/7945056298.html",
+      "address": "4363 26th St",
+      "neighborhood": "4363 26th St, San Francisco, CA",
+      "price": 1500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Jul 4, 10:06 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-04T11:36:08.864Z"
     }
   ]
 }
