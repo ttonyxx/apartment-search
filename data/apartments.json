@@ -42885,14 +42885,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7934,
       "lon": -122.4347,
       "notes": "From Craigslist · posted Jul 4, 2:55 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-04T03:33:32.814Z"
+      "added_at": "2026-07-04T03:33:32.814Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-04T15:09:04.085Z"
     },
     {
       "id": "cl_7945035218",
@@ -43319,14 +43321,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7729,
       "lon": -122.477,
       "notes": "From Craigslist · posted Jul 4, 5:37 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-04T06:50:15.058Z"
+      "added_at": "2026-07-04T06:50:15.058Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-04T15:09:04.085Z"
     },
     {
       "id": "cl_7945048805",
@@ -43686,14 +43690,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7812,
       "lon": -122.4614,
       "notes": "From Craigslist · posted Jul 4, 1:34 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-04T13:42:29.917Z"
+      "added_at": "2026-07-04T13:42:29.917Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-04T15:09:04.085Z"
     },
     {
       "id": "cl_7945063732",
@@ -43790,6 +43796,45 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-07-04T13:42:29.917Z"
+    },
+    {
+      "id": "cl_7945076545",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-2bed-clay-st-dream/7945076545.html",
+      "address": "**Modern 2bed Clay St dream apartment!**",
+      "neighborhood": "1441 Clay St, San Francisco, CA",
+      "price": 2790,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 680,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7929,
+      "lon": -122.4167,
+      "notes": "From Craigslist · posted Jul 4, 1:56 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-04T15:09:04.085Z"
+    },
+    {
+      "id": "rf_40142920",
+      "url": "https://www.redfin.com/CA/San-Francisco/2340-Lane-St-94124/home/40142920",
+      "address": "2340 Lane St",
+      "neighborhood": "",
+      "price": 5500,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.72749,
+      "lon": -122.3941396,
+      "notes": "From Redfin · updated Jul 4, 1:55 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-07-04T15:09:04.085Z"
     }
   ]
 }
