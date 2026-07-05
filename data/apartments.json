@@ -40732,7 +40732,7 @@
       "bathrooms": 1.5,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.778128,
       "lon": -122.441272,
@@ -40740,7 +40740,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-01T12:39:47.097Z"
+      "added_at": "2026-07-01T12:39:47.097Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-05T14:46:46.039Z"
     },
     {
       "id": "cl_7944492686",
@@ -45023,14 +45025,16 @@
       "bathrooms": null,
       "sqft": 1575,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7393,
       "lon": -122.4165,
       "notes": "From Craigslist · posted Jul 5, 9:32 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-05T10:19:22.269Z"
+      "added_at": "2026-07-05T10:19:22.269Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-05T14:46:46.039Z"
     },
     {
       "id": "cl_7945211394",
@@ -45120,14 +45124,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7876,
       "lon": -122.3913,
       "notes": "From Craigslist · posted Jul 5, 10:39 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-05T12:19:12.484Z"
+      "added_at": "2026-07-05T12:19:12.484Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-05T14:46:46.039Z"
     },
     {
       "id": "cl_7945214529",
@@ -45205,6 +45211,63 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-07-05T12:19:12.484Z"
+    },
+    {
+      "id": "cl_7945232891",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-comfortable-shared-living/7945232891.html",
+      "address": "+Comfortable Shared Living Everyday +",
+      "neighborhood": "San Francisco",
+      "price": 1325,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7609,
+      "lon": -122.4453,
+      "notes": "From Craigslist · posted Jul 5, 2:11 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-05T14:46:46.039Z"
+    },
+    {
+      "id": "cl_7945226726",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-1ba-panhandle-ca/7945226726.html",
+      "address": "2BR/1BA Panhandle, CA – $2489/mo–House for Rent",
+      "neighborhood": "San Francisco, CA",
+      "price": 2489,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7735,
+      "lon": -122.4476,
+      "notes": "From Craigslist · posted Jul 5, 1:40 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-05T14:46:46.039Z"
+    },
+    {
+      "id": "cl_7945222008",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-1200pm-1220pm/7945222008.html",
+      "address": "OPEN SUN 12:00pm-12:20pm Spacious 2-1BR,Bright (797 Bush Street #304)",
+      "neighborhood": "Downtown / Civic / Van Ness",
+      "price": 3300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.79,
+      "lon": -122.4104,
+      "notes": "From Craigslist · posted Jul 5, 12:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-05T14:46:46.039Z"
     }
   ]
 }
