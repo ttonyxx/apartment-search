@@ -40838,14 +40838,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7595,
       "lon": -122.4382,
       "notes": "From Craigslist · posted Jul 1, 2:44 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-01T15:45:36.906Z"
+      "added_at": "2026-07-01T15:45:36.906Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-06T20:03:22.220Z"
     },
     {
       "id": "rf_110059213",
@@ -41205,14 +41207,16 @@
       "bathrooms": null,
       "sqft": 990,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7813,
       "lon": -122.4167,
       "notes": "From Craigslist · posted Jul 2, 9:11 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-02T09:19:35.645Z"
+      "added_at": "2026-07-02T09:19:35.645Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-06T20:03:22.220Z"
     },
     {
       "id": "cl_7944654709",
@@ -41723,14 +41727,16 @@
       "bathrooms": null,
       "sqft": 575,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7206,
       "lon": -122.4343,
       "notes": "From Craigslist · posted Jul 2, 4:36 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-02T17:53:34.730Z"
+      "added_at": "2026-07-02T17:53:34.730Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-06T20:03:22.220Z"
     },
     {
       "id": "cl_7944720699",
@@ -44087,7 +44093,7 @@
       "bathrooms": 2,
       "sqft": 2500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7557793,
       "lon": -122.4097162,
@@ -44095,7 +44101,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-04T19:20:18.286Z"
+      "added_at": "2026-07-04T19:20:18.286Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-06T20:03:22.220Z"
     },
     {
       "id": "cl_7945140060",
@@ -47545,14 +47553,16 @@
       "bathrooms": null,
       "sqft": 1309,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7552,
       "lon": -122.3996,
       "notes": "From Craigslist · posted Jul 6, 4:29 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-06T17:46:25.503Z"
+      "added_at": "2026-07-06T17:46:25.503Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-06T20:03:22.220Z"
     },
     {
       "id": "cl_7945434372",
@@ -47667,6 +47677,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-06T17:46:25.503Z"
+    },
+    {
+      "id": "cl_7945469431",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-private-2br-1ba-unit-in/7945469431.html",
+      "address": "Private 2BR/1BA Unit in the Excelsior",
+      "neighborhood": "Excelsior / Outer Mission",
+      "price": 2000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 575,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7207,
+      "lon": -122.4348,
+      "notes": "From Craigslist · posted Jul 6, 6:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-06T20:03:22.220Z"
+    },
+    {
+      "id": "cl_7945469512",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-corner-2bd-den/7945469512.html",
+      "address": "Renovated Corner 2BD + Den (or 3BD) in Central SF Available Now!",
+      "neighborhood": "Nob Hill",
+      "price": 3200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7869,
+      "lon": -122.4197,
+      "notes": "From Craigslist · posted Jul 6, 6:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-06T20:03:22.220Z"
+    },
+    {
+      "id": "cl_7945477115",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stunning-bedroom/7945477115.html",
+      "address": "STUNNING 2 bedroom",
+      "neighborhood": "Sunset / Parkside",
+      "price": 3500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Jul 6, 6:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-06T20:03:22.220Z"
     }
   ]
 }
