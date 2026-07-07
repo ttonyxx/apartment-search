@@ -33774,14 +33774,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7784,
       "lon": -122.4108,
       "notes": "From Craigslist · posted Jun 24, 9:38 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T22:21:30.195Z"
+      "added_at": "2026-06-24T22:21:30.195Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-07T22:13:33.768Z"
     },
     {
       "id": "cl_7943129281",
@@ -48826,14 +48828,16 @@
       "bathrooms": null,
       "sqft": 1250,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7905,
       "lon": -122.4291,
       "notes": "From Craigslist · posted Jul 7, 4:25 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-07T17:20:21.901Z"
+      "added_at": "2026-07-07T17:20:21.901Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-07T22:13:33.768Z"
     },
     {
       "id": "cl_7945656510",
@@ -48891,6 +48895,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-07T20:01:43.193Z"
+    },
+    {
+      "id": "cl_7945738756",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-noe-valley-bay-views/7945738756.html",
+      "address": "3br noe valley, bay views + deck",
+      "neighborhood": "San Francisco",
+      "price": 6652,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2085,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7548,
+      "lon": -122.4294,
+      "notes": "From Craigslist · posted Jul 7, 9:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-07T22:13:33.768Z"
+    },
+    {
+      "id": "cl_7945736905",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-brand-new-remodeled/7945736905.html",
+      "address": "Brand new Remodeled 2 Bedrooms available!",
+      "neighborhood": "SOMA / South Beach",
+      "price": 3995,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7784,
+      "lon": -122.4108,
+      "notes": "From Craigslist · posted Jul 7, 9:22 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-07T22:13:33.768Z"
     }
   ]
 }
