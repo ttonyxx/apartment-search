@@ -40467,14 +40467,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7561,
       "lon": -122.4085,
       "notes": "From Craigslist · posted Jun 30, 11:18 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-01T00:11:14.659Z"
+      "added_at": "2026-07-01T00:11:14.659Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-07T20:01:43.193Z"
     },
     {
       "id": "cl_7944406294",
@@ -48149,14 +48151,16 @@
       "bathrooms": null,
       "sqft": 1908,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7999,
       "lon": -122.4342,
       "notes": "From Craigslist · posted Jul 7, 3:33 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-07T04:56:07.635Z"
+      "added_at": "2026-07-07T04:56:07.635Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-07T20:01:43.193Z"
     },
     {
       "id": "cl_7945579586",
@@ -48849,6 +48853,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-07T17:20:21.901Z"
+    },
+    {
+      "id": "cl_7945677665",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-730pm-800pm/7945677665.html",
+      "address": "OPEN TUE 7:30pm-8:00pm Spacious 2-1BR,Bright (797 Bush Street #304)",
+      "neighborhood": "Downtown / Civic / Van Ness",
+      "price": 3300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.79,
+      "lon": -122.4104,
+      "notes": "From Craigslist · posted Jul 7, 5:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-07T20:01:43.193Z"
+    },
+    {
+      "id": "cl_7945685365",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-bedroom-bath-back/7945685365.html",
+      "address": "Great 2 bedroom 1 bath back on market",
+      "neighborhood": "Mission District",
+      "price": 4400,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7561,
+      "lon": -122.4085,
+      "notes": "From Craigslist · posted Jul 7, 5:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-07T20:01:43.193Z"
     }
   ]
 }
