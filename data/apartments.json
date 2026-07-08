@@ -49013,6 +49013,44 @@
       "added_at": "2026-07-08T04:16:48.204Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-08T07:31:15.707Z"
+    },
+    {
+      "id": "cl_7945810924",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3br-1ba-san-francisco-ca/7945810924.html",
+      "address": "3BR/1BA San Francisco, CA– $2150 /mo–House for Rent",
+      "neighborhood": "San Francisco",
+      "price": 2700,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Jul 8, 8:06 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-08T10:22:39.980Z"
+    },
+    {
+      "id": "cl_7945811170",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-1ba-san-francisco-ca/7945811170.html",
+      "address": "2BR/1BA San Francisco, CA– $1350 /mo–House for Rent",
+      "neighborhood": "San Francisco",
+      "price": 1700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4186,
+      "notes": "From Craigslist · posted Jul 8, 8:23 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-08T10:22:39.980Z"
     }
   ]
 }
