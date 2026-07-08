@@ -32606,14 +32606,16 @@
       "bathrooms": null,
       "sqft": 909,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7237,
       "lon": -122.4374,
       "notes": "From Craigslist · posted Jun 24, 2:34 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T03:58:30.310Z"
+      "added_at": "2026-06-24T03:58:30.310Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-08T19:39:07.594Z"
     },
     {
       "id": "cl_7942939038",
@@ -49243,14 +49245,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7593,
       "lon": -122.4836,
       "notes": "From Craigslist · posted Jul 8, 4:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-08T17:41:20.723Z"
+      "added_at": "2026-07-08T17:41:20.723Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-08T19:39:07.594Z"
     },
     {
       "id": "cl_7945883227",
@@ -49327,6 +49331,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-08T17:41:20.723Z"
+    },
+    {
+      "id": "cl_7945901533",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-br-ba-spacious-unit/7945901533.html",
+      "address": "2 BR 2 BA-Spacious-Unit- Abundant Natural Light",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 4350,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 959,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7792,
+      "lon": -122.4899,
+      "notes": "From Craigslist · posted Jul 8, 5:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-08T19:39:07.594Z"
     }
   ]
 }
