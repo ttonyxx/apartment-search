@@ -49854,14 +49854,16 @@
       "bathrooms": null,
       "sqft": 965,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7812,
       "lon": -122.4614,
       "notes": "From Craigslist · posted Jul 9, 5:51 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-09T07:45:28.083Z"
+      "added_at": "2026-07-09T07:45:28.083Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T21:38:31.630Z"
     },
     {
       "id": "cl_7946026441",
@@ -51507,14 +51509,16 @@
       "bathrooms": null,
       "sqft": 960,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7815,
       "lon": -122.4018,
       "notes": "From Craigslist · posted Jul 9, 6:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-09T19:59:42.097Z"
+      "added_at": "2026-07-09T19:59:42.097Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T21:38:31.630Z"
     },
     {
       "id": "cl_7946126434",
@@ -51526,14 +51530,16 @@
       "bathrooms": null,
       "sqft": 1296,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7917,
       "lon": -122.4186,
       "notes": "From Craigslist · posted Jul 9, 6:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-09T19:59:42.097Z"
+      "added_at": "2026-07-09T19:59:42.097Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T21:38:31.630Z"
     },
     {
       "id": "cl_7946147774",
@@ -51564,14 +51570,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7917,
       "lon": -122.4186,
       "notes": "From Craigslist · posted Jul 9, 6:20 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-09T19:59:42.097Z"
+      "added_at": "2026-07-09T19:59:42.097Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T21:38:31.630Z"
     },
     {
       "id": "cl_7946150425",
@@ -51583,14 +51591,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7309,
       "lon": -122.3886,
       "notes": "From Craigslist · posted Jul 9, 7:38 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-09T19:59:42.097Z"
+      "added_at": "2026-07-09T19:59:42.097Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T21:38:31.630Z"
     },
     {
       "id": "cl_7946153837",
@@ -51610,6 +51620,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-09T19:59:42.097Z"
+    },
+    {
+      "id": "cl_7946173128",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-level-bed-25-ba-car/7946173128.html",
+      "address": "2 LEVEL 3 BED 2.5 BA ! 1 CAR PARKING! - Laundry IN UNIT!",
+      "neighborhood": "Western Addition",
+      "price": 5695,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1590,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7822,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Jul 9, 9:14 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T21:38:31.630Z"
+    },
+    {
+      "id": "cl_7946176144",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gbarnewly-renovated/7946176144.html",
+      "address": "GBAR_Newly Renovated ground-floor unit – Prime Walkable Location.",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 3300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7831,
+      "lon": -122.4698,
+      "notes": "From Craigslist · posted Jul 9, 9:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T21:38:31.630Z"
+    },
+    {
+      "id": "cl_7946172368",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-prism-bed-bath-lease/7946172368.html",
+      "address": "Prism 2 Bed / 1 Bath Lease Takeover",
+      "neighborhood": "Downtown / Civic / Van Ness",
+      "price": 4208,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 717,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4113,
+      "notes": "From Craigslist · posted Jul 9, 9:33 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T21:38:31.630Z"
     }
   ]
 }
