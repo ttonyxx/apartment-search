@@ -33452,14 +33452,16 @@
       "bathrooms": null,
       "sqft": 1600,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8058,
       "lon": -122.473,
       "notes": "From Craigslist · posted Jun 24, 4:18 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-24T16:24:39.035Z"
+      "added_at": "2026-06-24T16:24:39.035Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T23:15:27.727Z"
     },
     {
       "id": "cl_7942996477",
@@ -46141,14 +46143,16 @@
       "bathrooms": null,
       "sqft": 1600,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7275,
       "lon": -122.3941,
       "notes": "From Craigslist · posted Jul 6, 12:43 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-06T05:16:22.043Z"
+      "added_at": "2026-07-06T05:16:22.043Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-09T23:15:27.727Z"
     },
     {
       "id": "cl_7945360204",
@@ -51677,6 +51681,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-09T21:38:31.630Z"
+    },
+    {
+      "id": "cl_7946181119",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-victorian-home-bedrooms/7946181119.html",
+      "address": "Victorian Home 5 bedrooms 3 bathrooms",
+      "neighborhood": "City Of San Francisco",
+      "price": 5500,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7275,
+      "lon": -122.3941,
+      "notes": "From Craigslist · posted Jul 9, 9:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T23:15:27.727Z"
+    },
+    {
+      "id": "cl_7946197868",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-coming-soon-three-bedroom/7946197868.html",
+      "address": "Coming soon!  Three bedroom townhome at North Fort Scott!",
+      "neighborhood": "Laurel Hts / Presidio",
+      "price": 6800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8005,
+      "lon": -122.465,
+      "notes": "From Craigslist · posted Jul 9, 11:10 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-09T23:15:27.727Z"
     }
   ]
 }
