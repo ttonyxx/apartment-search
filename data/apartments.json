@@ -56065,6 +56065,44 @@
       "added_at": "2026-07-11T20:54:46.579Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-11T21:54:44.711Z"
+    },
+    {
+      "id": "cl_7946617695",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-balboa-park-in-san/7946617695.html",
+      "address": "Balboa Park in San Francisco, just minutes from City College",
+      "neighborhood": "City Of San Francisco",
+      "price": 1820,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1047,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7238,
+      "lon": -122.4559,
+      "notes": "From Craigslist · posted Jul 11, 10:42 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-11T22:54:19.944Z"
+    },
+    {
+      "id": "cl_7946616425",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-easy-access-to-downtown/7946616425.html",
+      "address": "Easy Access to Downtown San Francisco!",
+      "neighborhood": "City Of San Francisco",
+      "price": 4600,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1760,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7541,
+      "lon": -122.4006,
+      "notes": "From Craigslist · posted Jul 11, 10:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-11T22:54:19.944Z"
     }
   ]
 }
