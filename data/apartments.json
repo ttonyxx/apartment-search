@@ -49030,14 +49030,16 @@
       "bathrooms": null,
       "sqft": 625,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7655,
       "lon": -122.4751,
       "notes": "From Craigslist · posted Jul 7, 11:03 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-08T00:01:06.927Z"
+      "added_at": "2026-07-08T00:01:06.927Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-11T20:54:46.579Z"
     },
     {
       "id": "cl_7945792090",
@@ -54050,14 +54052,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7944,
       "lon": -122.4194,
       "notes": "From Craigslist · posted Jul 11, 5:14 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-11T07:13:41.039Z"
+      "added_at": "2026-07-11T07:13:41.039Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-11T20:54:46.579Z"
     },
     {
       "id": "cl_7946465222",
@@ -55619,7 +55623,7 @@
       "bathrooms": 2.5,
       "sqft": 1596,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7629608,
       "lon": -122.5009806,
@@ -55627,7 +55631,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-11T13:36:09.220Z"
+      "added_at": "2026-07-11T13:36:09.220Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-11T20:54:46.579Z"
     },
     {
       "id": "rf_202752548",
@@ -55990,14 +55996,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7622,
       "lon": -122.4666,
       "notes": "From Craigslist · posted Jul 11, 5:24 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-11T17:56:30.165Z"
+      "added_at": "2026-07-11T17:56:30.165Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-11T20:54:46.579Z"
     },
     {
       "id": "cl_7946518413",
@@ -56036,6 +56044,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-11T17:56:30.165Z"
+    },
+    {
+      "id": "cl_7946583123",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-bed-bath-home/7946583123.html",
+      "address": "@@@Renovated 3 Bed, 2 Bath Home with Ocean Views@@@",
+      "neighborhood": "42nd Ave,  San Francisco, CA",
+      "price": 4300,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1689,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7441,
+      "lon": -122.4863,
+      "notes": "From Craigslist · posted Jul 11, 8:05 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-11T20:54:46.579Z"
     }
   ]
 }
