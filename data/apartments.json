@@ -56998,6 +56998,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-12T21:02:33.405Z"
+    },
+    {
+      "id": "cl_7946777215",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-come-view-this-spacious/7946777215.html",
+      "address": "Come view this spacious top floor condo located on the beautiful",
+      "neighborhood": "Bernal Heights",
+      "price": 3450,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1260,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7468,
+      "lon": -122.4142,
+      "notes": "From Craigslist · posted Jul 12, 9:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-12T21:55:55.676Z"
+    },
+    {
+      "id": "cl_7946780430",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-found-it-gorgeous-place/7946780430.html",
+      "address": "Found it! Gorgeous place with character, killer kitchen & tons",
+      "neighborhood": "Mission District",
+      "price": 2250,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 980,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7547,
+      "lon": -122.4187,
+      "notes": "From Craigslist · posted Jul 12, 9:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-12T21:55:55.676Z"
     }
   ]
 }
