@@ -52251,14 +52251,16 @@
       "bathrooms": null,
       "sqft": 1322,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7828,
       "lon": -122.467,
       "notes": "From Craigslist · posted Jul 10, 12:20 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-10T14:36:40.261Z"
+      "added_at": "2026-07-10T14:36:40.261Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-13T22:04:11.030Z"
     },
     {
       "id": "cl_7946277148",
@@ -58371,14 +58373,16 @@
       "bathrooms": null,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7475,
       "lon": -122.4224,
       "notes": "From Craigslist · posted Jul 13, 8:38 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-13T21:00:06.536Z"
+      "added_at": "2026-07-13T21:00:06.536Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-13T22:04:11.030Z"
     },
     {
       "id": "cl_7946965263",
@@ -58390,14 +58394,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7593,
       "lon": -122.4836,
       "notes": "From Craigslist · posted Jul 13, 8:06 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-13T21:00:06.536Z"
+      "added_at": "2026-07-13T21:00:06.536Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-13T22:04:11.030Z"
     },
     {
       "id": "cl_7946971779",
@@ -58409,14 +58415,16 @@
       "bathrooms": null,
       "sqft": 1045,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745,
       "lon": -122.4383,
       "notes": "From Craigslist · posted Jul 13, 8:35 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-13T21:00:06.536Z"
+      "added_at": "2026-07-13T21:00:06.536Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-13T22:04:11.030Z"
     },
     {
       "id": "cl_7946982864",
@@ -58512,6 +58520,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-13T21:00:06.536Z"
+    },
+    {
+      "id": "cl_7946988654",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-downtown-judah-line-but/7946988654.html",
+      "address": "Downtown N-Judah line, but also favorite neighborhood spots",
+      "neighborhood": "Sunset / Parkside",
+      "price": 5050,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7593,
+      "lon": -122.4836,
+      "notes": "From Craigslist · posted Jul 13, 9:14 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-13T22:04:11.030Z"
     }
   ]
 }
