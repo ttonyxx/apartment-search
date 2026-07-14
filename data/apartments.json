@@ -59970,14 +59970,16 @@
       "bathrooms": null,
       "sqft": 1770,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7512,
       "lon": -122.4537,
       "notes": "From Craigslist · posted Jul 14, 7:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-14T21:03:40.145Z"
+      "added_at": "2026-07-14T21:03:40.145Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-14T22:59:34.965Z"
     },
     {
       "id": "cl_7947196106",
@@ -59989,14 +59991,16 @@
       "bathrooms": null,
       "sqft": 2008,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7964,
       "lon": -122.4354,
       "notes": "From Craigslist · posted Jul 14, 8:17 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-14T21:03:40.145Z"
+      "added_at": "2026-07-14T21:03:40.145Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-14T22:59:34.965Z"
     },
     {
       "id": "cl_7947191430",
@@ -60008,14 +60012,16 @@
       "bathrooms": null,
       "sqft": 1401,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7496,
       "lon": -122.4436,
       "notes": "From Craigslist · posted Jul 14, 8:00 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-14T21:03:40.145Z"
+      "added_at": "2026-07-14T21:03:40.145Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-14T22:59:34.965Z"
     },
     {
       "id": "cl_7947206535",
@@ -60054,6 +60060,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-14T21:03:40.145Z"
+    },
+    {
+      "id": "cl_7947226552",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bicycle-rack-restored/7947226552.html",
+      "address": "Bicycle rack, Restored exterior façade, 3bd",
+      "neighborhood": "SOMA / South Beach",
+      "price": 4195,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7807,
+      "lon": -122.4048,
+      "notes": "From Craigslist · posted Jul 14, 10:16 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-14T22:59:34.965Z"
+    },
+    {
+      "id": "cl_7947228305",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-beautifully/7947228305.html",
+      "address": "Bright & Beautifully Renovated 2-Bedroom Apartment",
+      "neighborhood": "San Francisco",
+      "price": 2750,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7745,
+      "lon": -122.4495,
+      "notes": "From Craigslist · posted Jul 14, 10:49 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-14T22:59:34.965Z"
     }
   ]
 }
