@@ -23976,14 +23976,16 @@
       "bathrooms": null,
       "sqft": 1390,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7313,
       "lon": -122.3905,
       "notes": "From Craigslist · posted Jun 15, 3:58 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-15T04:53:34.748Z"
+      "added_at": "2026-06-15T04:53:34.748Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-15T10:06:14.876Z"
     },
     {
       "id": "cl_7940994565",
@@ -24037,14 +24039,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7479,
       "lon": -122.4365,
       "notes": "From Craigslist · posted Jun 15, 4:52 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-15T04:53:34.748Z"
+      "added_at": "2026-06-15T04:53:34.748Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-15T10:06:14.876Z"
     },
     {
       "id": "cl_7941040460",
@@ -60709,6 +60713,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-15T07:17:17.859Z"
+    },
+    {
+      "id": "cl_7947294330",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-bedroom-bath/7947294330.html",
+      "address": "💖Gorgeous 2 bedroom/2 bath garden view Condo",
+      "neighborhood": "229 Ashbury St, San Francisco, CA",
+      "price": 1340,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7791,
+      "lon": -122.4184,
+      "notes": "From Craigslist · posted Jul 15, 9:58 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-15T10:06:14.876Z"
+    },
+    {
+      "id": "cl_7947291193",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-bedroom-bath/7947291193.html",
+      "address": "✨Gorgeous 2 bedroom/2 bath garden view Condo",
+      "neighborhood": "San Francisco, CA",
+      "price": 2332,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7735,
+      "lon": -122.4476,
+      "notes": "From Craigslist · posted Jul 15, 9:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-15T10:06:14.876Z"
     }
   ]
 }
