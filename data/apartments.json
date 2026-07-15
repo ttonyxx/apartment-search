@@ -50221,14 +50221,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7292,
       "lon": -122.3863,
       "notes": "From Craigslist · posted Jul 9, 3:43 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-09T07:45:28.083Z"
+      "added_at": "2026-07-09T07:45:28.083Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-15T22:04:58.261Z"
     },
     {
       "id": "cl_7946024450",
@@ -61209,6 +61211,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-15T20:13:40.067Z"
+    },
+    {
+      "id": "cl_7947436082",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1381-revere-ave/7947436082.html",
+      "address": "1381 Revere Ave",
+      "neighborhood": "City Of San Francisco",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7292,
+      "lon": -122.3863,
+      "notes": "From Craigslist · posted Jul 15, 9:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-15T22:04:58.261Z"
+    },
+    {
+      "id": "cl_7947429968",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-premium-interior-upgrades/7947429968.html",
+      "address": "PREMIUM INTERIOR UPGRADES - Secured 3 Bedroom / 3 Bathroom Flat",
+      "neighborhood": "Laurel Hts / Presidio",
+      "price": 5580,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1390,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7821,
+      "lon": -122.4501,
+      "notes": "From Craigslist · posted Jul 15, 9:48 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-15T22:04:58.261Z"
     }
   ]
 }
