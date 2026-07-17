@@ -25770,14 +25770,16 @@
       "bathrooms": null,
       "sqft": 1093,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7153,
       "lon": -122.4735,
       "notes": "From Craigslist · posted Jun 16, 6:15 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-16T19:48:46.287Z"
+      "added_at": "2026-06-16T19:48:46.287Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T08:16:33.945Z"
     },
     {
       "id": "cl_7941366439",
@@ -61949,6 +61951,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-17T05:46:46.453Z"
+    },
+    {
+      "id": "cl_7947711048",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-bedroom/7947711048.html",
+      "address": "Gorgeous 2 Bedroom Apartment w/ Attached Garage",
+      "neighborhood": "Russian Hill",
+      "price": 3695,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7993,
+      "lon": -122.4123,
+      "notes": "From Craigslist · posted Jul 17, 6:29 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-17T08:16:33.945Z"
     }
   ]
 }
