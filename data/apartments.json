@@ -61924,14 +61924,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7907,
       "lon": -122.4195,
       "notes": "From Craigslist · posted Jul 17, 4:49 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-17T05:46:46.453Z"
+      "added_at": "2026-07-17T05:46:46.453Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T10:50:20.157Z"
     },
     {
       "id": "cl_7947709646",
@@ -61970,6 +61972,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-17T08:16:33.945Z"
+    },
+    {
+      "id": "cl_7947721849",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-large-3br-1ba-light-filed/7947721849.html",
+      "address": "Large 3BR/1BA Light-Filed Apt with High End Finishes @Mission",
+      "neighborhood": "San Francisco",
+      "price": 6500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Jul 17, 10:34 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-17T10:50:20.157Z"
+    },
+    {
+      "id": "cl_7947720784",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-two-bedroom-bathroom/7947720784.html",
+      "address": "two-bedroom, 2-bathroom garden-level home is located on 18th Street",
+      "neighborhood": "Potrero Hill",
+      "price": 4400,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1097,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7621,
+      "lon": -122.3971,
+      "notes": "From Craigslist · posted Jul 17, 10:31 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-17T10:50:20.157Z"
     }
   ]
 }
