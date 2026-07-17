@@ -42460,14 +42460,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7786,
       "lon": -122.4892,
       "notes": "From Craigslist · posted Jul 3, 5:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-03T17:36:57.753Z"
+      "added_at": "2026-07-03T17:36:57.753Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T16:18:06.706Z"
     },
     {
       "id": "rf_179448353",
@@ -52663,14 +52665,16 @@
       "bathrooms": null,
       "sqft": 850,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7786,
       "lon": -122.4892,
       "notes": "From Craigslist · posted Jul 10, 5:48 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-10T18:39:24.172Z"
+      "added_at": "2026-07-10T18:39:24.172Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T16:18:06.706Z"
     },
     {
       "id": "cl_7946319811",
@@ -62087,14 +62091,16 @@
       "bathrooms": null,
       "sqft": 842,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7907,
       "lon": -122.4195,
       "notes": "From Craigslist · posted Jul 17, 1:47 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-17T14:46:03.101Z"
+      "added_at": "2026-07-17T14:46:03.101Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T16:18:06.706Z"
     },
     {
       "id": "cl_7947739898",
@@ -62106,14 +62112,16 @@
       "bathrooms": null,
       "sqft": 672,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7772,
       "lon": -122.4931,
       "notes": "From Craigslist · posted Jul 17, 1:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-17T14:46:03.101Z"
+      "added_at": "2026-07-17T14:46:03.101Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T16:18:06.706Z"
     },
     {
       "id": "cl_7947746420",
