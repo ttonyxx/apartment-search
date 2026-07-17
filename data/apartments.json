@@ -61911,6 +61911,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-17T02:56:09.996Z"
+    },
+    {
+      "id": "cl_7947705540",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-this-bedroom-bath/7947705540.html",
+      "address": "**/*This 2-bedroom 1 bath Apartment Russian Hill!!",
+      "neighborhood": "San Francisco, CA",
+      "price": 2169,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7907,
+      "lon": -122.4195,
+      "notes": "From Craigslist · posted Jul 17, 4:49 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-17T05:46:46.453Z"
+    },
+    {
+      "id": "cl_7947709646",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-bedroom/7947709646.html",
+      "address": "Gorgeous 2 Bedroom Apartment  w/ Attached Garage",
+      "neighborhood": "Nob Hill",
+      "price": 3695,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7946,
+      "lon": -122.4147,
+      "notes": "From Craigslist · posted Jul 17, 5:33 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-17T05:46:46.453Z"
     }
   ]
 }
