@@ -33837,14 +33837,16 @@
       "bathrooms": null,
       "sqft": 1500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8001,
       "lon": -122.4109,
       "notes": "From Craigslist · posted Jun 24, 11:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-25T00:17:07.252Z"
+      "added_at": "2026-06-25T00:17:07.252Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T23:58:15.436Z"
     },
     {
       "id": "cl_7943127521",
@@ -62032,14 +62034,16 @@
       "bathrooms": null,
       "sqft": 1097,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7621,
       "lon": -122.3971,
       "notes": "From Craigslist · posted Jul 17, 10:31 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-17T10:50:20.157Z"
+      "added_at": "2026-07-17T10:50:20.157Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-17T23:58:15.436Z"
     },
     {
       "id": "rf_194962349",
@@ -62551,6 +62555,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-17T22:56:51.342Z"
+    },
+    {
+      "id": "cl_7947882760",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-remodeled-bed-15/7947882760.html",
+      "address": "Fully Remodeled 2 Bed / 1.5 Bath Home",
+      "neighborhood": ", San Francisco, CA",
+      "price": 1300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1137,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7374,
+      "lon": -122.4968,
+      "notes": "From Craigslist · posted Jul 17, 11:55 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-17T23:58:15.436Z"
+    },
+    {
+      "id": "cl_7947877017",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-make-this-your-dream-home/7947877017.html",
+      "address": "Make This Your Dream Home",
+      "neighborhood": "Sunset / Parkside",
+      "price": 4150,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7593,
+      "lon": -122.4836,
+      "notes": "From Craigslist · posted Jul 17, 11:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-17T23:58:15.436Z"
     }
   ]
 }
