@@ -65135,14 +65135,35 @@
       "bathrooms": null,
       "sqft": 804,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7657,
       "lon": -122.4506,
       "notes": "From Craigslist · posted Jul 18, 9:31 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-18T21:54:42.893Z"
+      "added_at": "2026-07-18T21:54:42.893Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-18T23:57:28.593Z"
+    },
+    {
+      "id": "cl_7948076955",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-pacific-avenue-304-san/7948076955.html",
+      "address": "$1,495 | 1831 Pacific Avenue #304, San Francisco, CA 94109",
+      "neighborhood": "San Francisco",
+      "price": 1495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 924,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7945,
+      "lon": -122.4254,
+      "notes": "From Craigslist · posted Jul 18, 11:38 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-18T23:57:28.593Z"
     }
   ]
 }
