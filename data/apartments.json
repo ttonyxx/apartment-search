@@ -59279,14 +59279,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8023,
       "lon": -122.4096,
       "notes": "From Craigslist · posted Jul 14, 3:21 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-14T06:14:43.566Z"
+      "added_at": "2026-07-14T06:14:43.566Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-19T23:01:37.805Z"
     },
     {
       "id": "cl_7947065240",
@@ -61348,14 +61350,16 @@
       "bathrooms": null,
       "sqft": 1546,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7195,
       "lon": -122.4411,
       "notes": "From Craigslist · posted Jul 15, 10:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-16T00:01:51.896Z"
+      "added_at": "2026-07-16T00:01:51.896Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-19T23:01:37.805Z"
     },
     {
       "id": "cl_7947449007",
@@ -66065,6 +66069,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-19T20:55:17.913Z"
+    },
+    {
+      "id": "cl_7948233732",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remodeled-bright-large/7948233732.html",
+      "address": "REMODELED BRIGHT LARGE 1500sf 3BR/2.5BA Balboa Terrace Flat AVAIL NOW",
+      "neighborhood": "Inner Richmond",
+      "price": 5795,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7774,
+      "lon": -122.4613,
+      "notes": "From Craigslist · posted Jul 19, 10:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-19T23:01:37.805Z"
+    },
+    {
+      "id": "cl_7948224561",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-light-filled-upper-unit/7948224561.html",
+      "address": "Light Filled Upper Unit w/ Shared Garden (includes utilities)",
+      "neighborhood": "Bernal Heights",
+      "price": 4200,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 850,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Jul 19, 9:57 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-19T23:01:37.805Z"
     }
   ]
 }
