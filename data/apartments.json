@@ -63990,7 +63990,7 @@
       "bathrooms": 2,
       "sqft": 1056,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7366334,
       "lon": -122.411504,
@@ -63998,7 +63998,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-18T11:54:59.329Z"
+      "added_at": "2026-07-18T11:54:59.329Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-20T10:14:55.272Z"
     },
     {
       "id": "rf_983926",
@@ -66189,6 +66191,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-20T03:32:58.561Z"
+    },
+    {
+      "id": "cl_7948287237",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-br-ba-pkg/7948287237.html",
+      "address": "Spacious 2 BR, 1 Ba PKG Available",
+      "neighborhood": "Mission District",
+      "price": 1400,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7636,
+      "lon": -122.424,
+      "notes": "From Craigslist · posted Jul 20, 9:46 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-20T10:14:55.272Z"
     }
   ]
 }
