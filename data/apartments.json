@@ -60249,14 +60249,16 @@
       "bathrooms": null,
       "sqft": 1600,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8005,
       "lon": -122.465,
       "notes": "From Craigslist · posted Jul 14, 11:38 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-15T00:00:51.655Z"
+      "added_at": "2026-07-15T00:00:51.655Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-20T22:03:28.860Z"
     },
     {
       "id": "cl_7947240849",
@@ -66496,14 +66498,16 @@
       "bathrooms": null,
       "sqft": 1205,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7628,
       "lon": -122.4239,
       "notes": "From Craigslist · posted Jul 20, 8:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-20T20:24:16.729Z"
+      "added_at": "2026-07-20T20:24:16.729Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-20T22:03:28.860Z"
     },
     {
       "id": "cl_7948413066",
@@ -66561,6 +66565,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-20T20:24:16.729Z"
+    },
+    {
+      "id": "cl_7948437923",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-house-bdrm-south/7948437923.html",
+      "address": "Open House 7/21/26! 4 BDRM South Baker Beach in the Presidio!",
+      "neighborhood": "Laurel Hts / Presidio",
+      "price": 6900,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1480,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7901,
+      "lon": -122.4807,
+      "notes": "From Craigslist · posted Jul 20, 10:00 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-20T22:03:28.860Z"
+    },
+    {
+      "id": "cl_7948427931",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-rooms-first-floor/7948427931.html",
+      "address": "6 Rooms First Floor Victorian Flat, New Kitchen",
+      "neighborhood": "Castro / Upper Market",
+      "price": 6295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7657,
+      "lon": -122.43,
+      "notes": "From Craigslist · posted Jul 20, 9:19 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-20T22:03:28.860Z"
     }
   ]
 }
