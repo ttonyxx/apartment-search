@@ -43518,14 +43518,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7486,
       "lon": -122.5018,
       "notes": "From Craigslist · posted Jul 4, 4:54 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-04T06:50:15.058Z"
+      "added_at": "2026-07-04T06:50:15.058Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-21T20:20:03.470Z"
     },
     {
       "id": "cl_7945045989",
@@ -69275,6 +69277,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-21T18:17:21.091Z"
+    },
+    {
+      "id": "cl_7948603933",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-renovated-home/7948603933.html",
+      "address": "Charming renovated home in desirable Sunset neighborhood - PROGRESSIVE",
+      "neighborhood": "Sunset / Parkside",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7476,
+      "lon": -122.475,
+      "notes": "From Craigslist · posted Jul 21, 6:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-21T20:20:03.470Z"
     }
   ]
 }
