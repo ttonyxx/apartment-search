@@ -34946,14 +34946,16 @@
       "bathrooms": null,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7199,
       "lon": -122.4312,
       "notes": "From Craigslist · posted Jun 26, 9:47 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-26T11:46:56.925Z"
+      "added_at": "2026-06-26T11:46:56.925Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-22T22:07:20.674Z"
     },
     {
       "id": "cl_7943396836",
@@ -70278,14 +70280,16 @@
       "bathrooms": null,
       "sqft": 780,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7705,
       "lon": -122.4127,
       "notes": "From Craigslist · posted Jul 22, 4:05 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-22T06:32:35.886Z"
+      "added_at": "2026-07-22T06:32:35.886Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-22T22:07:20.674Z"
     },
     {
       "id": "cl_7948717891",
@@ -73172,6 +73176,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-22T20:12:52.914Z"
+    },
+    {
+      "id": "cl_7948867608",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-13-mo-cultured/7948867608.html",
+      "address": "TMLP 13-mo. | Cultured Neighborhood, City Views, Heated Pool. Live With Us!",
+      "neighborhood": "Tenderloin",
+      "price": 3885,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 741,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4186,
+      "notes": "From Craigslist · posted Jul 22, 9:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-22T22:07:20.674Z"
+    },
+    {
+      "id": "cl_7948853487",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-sunny-and-bright-bedroom/7948853487.html",
+      "address": "Sunny and Bright 3-Bedroom Studio",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 3600,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7149,
+      "lon": -122.4561,
+      "notes": "From Craigslist · posted Jul 22, 8:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-22T22:07:20.674Z"
     }
   ]
 }
