@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142019">
+  <meta name="description" content="Tony and Katherine's October 2026 climbing trip to Fontainebleau, France — nine days of sandstone, birthdays, and slow French mornings.">
+  <title>Tony + Katherine · The Font · October 2026</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/fontainebleau-hero.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="wordmark" href="#top" aria-label="Back to top">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M7 31 16 9l5 13 5-9 7 18H7Z"/><path d="M11 31h18"/></svg>
+      <span>TK <i>×</i> FONT</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#journey">The week</a>
+      <a href="#birthdays">Birthdays</a>
+      <a href="#climbs">Climbs</a>
+      <a href="#field-notes">Field notes</a>
+    </nav>
+    <a class="header-date" href="#bookings">17—25 OCT</a>
+    <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#journey">The week</a>
+      <a href="#birthdays">Birthdays</a>
+      <a href="#climbs">Climbs</a>
+      <a href="#field-notes">Field notes</a>
+      <a href="#bookings">Before we go</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <img class="hero-image" src="assets/fontainebleau-hero.webp" alt="Two climbers carrying crash pads toward sunlit sandstone boulders in an autumn forest">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="overline">A climbing pilgrimage · France · 2026</p>
+        <h1 id="heroTitle">Into <em>the Font</em></h1>
+        <p class="hero-deck">Nine October days for Tony + Katherine.<br>Sandstone, slow mornings, and two birthdays in the forest.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#journey">Open the itinerary <span>↓</span></a>
+          <a class="text-link" href="#climbs">Browse the climbs <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-stamp" aria-label="October 17 to 25, 2026">
+        <span>OCT</span>
+        <strong>17—25</strong>
+        <small>MMXXVI</small>
+      </div>
+      <div class="hero-caption">
+        <span>48.4047° N</span>
+        <span class="caption-rule"></span>
+        <span>2.7016° E</span>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Trip summary">
+      <div class="ticker-track">
+        <span>9 days</span><b>✦</b><span>5 climbing sessions</span><b>✦</b><span>2 birthdays</span><b>✦</b><span>272 scoped problems</span><b>✦</b><span>1 ancient forest</span><b>✦</b>
+        <span aria-hidden="true">9 days</span><b aria-hidden="true">✦</b><span aria-hidden="true">5 climbing sessions</span><b aria-hidden="true">✦</b><span aria-hidden="true">2 birthdays</span><b aria-hidden="true">✦</b><span aria-hidden="true">272 scoped problems</span><b aria-hidden="true">✦</b><span aria-hidden="true">1 ancient forest</span><b aria-hidden="true">✦</b>
+      </div>
+    </section>
+
+    <section class="manifesto section-pad reveal" aria-labelledby="manifestoTitle">
+      <div class="section-shell intro-grid">
+        <div>
+          <p class="eyebrow">The intention</p>
+          <h2 id="manifestoTitle">A week written<br>in <em>sandstone.</em></h2>
+        </div>
+        <div class="intro-copy">
+          <p class="dropcap">Font rewards patience. The plan holds five outdoor days lightly, leaving room for rain, skin, long lunches, and the quiet pleasure of getting delightfully lost between the pines.</p>
+          <p>The birthday reservations stay fixed. Everything else moves with the weather. Climb while the rock is fully dry; when it isn’t, there is a château, a spa, a market, and a bottle of wine waiting.</p>
+          <div class="intro-facts">
+            <div><small>Base</small><strong>Fontainebleau / Avon</strong></div>
+            <div><small>Season</small><strong>Autumn friction</strong></div>
+            <div><small>Mode</small><strong>Climb · eat · recover</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section-pad" id="journey" aria-labelledby="journeyTitle">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow eyebrow-light">October 17—25</p>
+            <h2 id="journeyTitle">The shape of<br><em>the week.</em></h2>
+          </div>
+          <p>Five climbing days, two deliberate recovery days, and one calm airport night. Tap a day for the full rhythm.</p>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <section class="birthdays section-pad" id="birthdays" aria-labelledby="birthdayTitle">
+      <div class="section-shell">
+        <div class="birthday-heading reveal">
+          <p class="eyebrow">Two good reasons</p>
+          <h2 id="birthdayTitle">A forest full<br>of <em>birthdays.</em></h2>
+          <p>No birthday becomes a logistics day. Each gets its own landscape, its own meal, and enough breathing room to feel like a celebration.</p>
+        </div>
+        <div class="birthday-grid">
+          <article class="birthday-card birthday-k reveal">
+            <div class="birthday-number">18</div>
+            <div class="birthday-topline"><span>Sunday · October</span><span>01 / 02</span></div>
+            <div class="birthday-content">
+              <p class="handwritten">Katherine’s day</p>
+              <h3>Market flowers.<br>Éléphant sandstone.<br>A Michelin table.</h3>
+              <ol>
+                <li><time>08:00</time><span>Choose pastries, cheese, fruit, flowers, and a small cake at the Sunday market.</span></li>
+                <li><time>10:15</time><span>A playful first session at Éléphant: circuits, slabs, and no pressure to perform.</span></li>
+                <li><time>19:15</time><span>Dinner at <a href="https://guide.michelin.com/us/en/ile-de-france/fontainebleau/restaurant/l-axel" target="_blank" rel="noreferrer">L’Axel ↗</a>, French cooking through a Japanese lens.</span></li>
+              </ol>
+            </div>
+          </article>
+          <article class="birthday-card birthday-t reveal delay-1">
+            <div class="birthday-number">22</div>
+            <div class="birthday-topline"><span>Thursday · October</span><span>02 / 02</span></div>
+            <div class="birthday-content">
+              <p class="handwritten">Tony’s day</p>
+              <h3>Roof moves.<br>A sand sea.<br>Cocktails after.</h3>
+              <ol>
+                <li><time>09:15</time><span>Blue and red circuit warmups at Roche aux Sabots.</span></li>
+                <li><time>13:15</time><span>Walk into Cul de Chien and try the famous roof—with enough pads and good spotting.</span></li>
+                <li><time>19:00</time><span>Cocktails and dinner at <a href="https://www.lemagnum-fontainebleau.fr/en/" target="_blank" rel="noreferrer">Le Magnum ↗</a>.</span></li>
+              </ol>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="climbs section-pad" id="climbs" aria-labelledby="climbsTitle">
+      <div class="section-shell">
+        <div class="climb-heading reveal">
+          <div>
+            <p class="eyebrow">Mountain Project shortlist</p>
+            <h2 id="climbsTitle">Choose your<br><em>line.</em></h2>
+          </div>
+          <div class="climb-heading-copy">
+            <p>Start below your normal gym limit. Font grades hide polish, mantles, balance, and consequence. Pick three must-tries—not twelve.</p>
+            <a href="https://www.mountainproject.com/area/106008886/fontainebleau" target="_blank" rel="noreferrer">Open Fontainebleau on Mountain Project ↗</a>
+          </div>
+        </div>
+
+        <div class="filter-row reveal" aria-label="Filter climbs">
+          <div class="filters" id="areaFilters" role="group" aria-label="Filter by climbing area">
+            <button class="filter active" type="button" data-area="all" aria-pressed="true">All sectors</button>
+            <button class="filter" type="button" data-area="elephant" aria-pressed="false">Éléphant</button>
+            <button class="filter" type="button" data-area="cuvier" aria-pressed="false">Cuvier</button>
+            <button class="filter" type="button" data-area="franchard" aria-pressed="false">Franchard</button>
+            <button class="filter" type="button" data-area="sabots" aria-pressed="false">Trois Pignons</button>
+          </div>
+          <label class="lane-select">
+            <span class="sr-only">Filter by difficulty lane</span>
+            <select id="laneFilter">
+              <option value="all">All lanes</option>
+              <option value="circuit">Circuit · V0–V3</option>
+              <option value="classic">Classics · V3–V6</option>
+              <option value="project">Projects · V6–V10</option>
+            </select>
+          </label>
+        </div>
+        <div class="route-meta reveal"><span id="routeCount">0 problems</span><span>Font grade + V grade</span></div>
+        <div class="route-grid" id="routeGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="grade-note" aria-label="Font grade reminder">
+      <div class="section-shell grade-note-inner reveal">
+        <p class="oversized-quote">“</p>
+        <blockquote>At Font, the number is only the beginning. The real grade is in the feet, the top-out, and whether you remembered to clean the sand from your shoes.</blockquote>
+        <div class="grade-key">
+          <span><b>4—5+</b> V0—V2</span>
+          <span><b>6A—6B+</b> V3—V4/5</span>
+          <span><b>6C—7A</b> V5—V6</span>
+          <span><b>7A+—7B+</b> V7—V9</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="field-notes section-pad" id="field-notes" aria-labelledby="fieldTitle">
+      <div class="section-shell">
+        <div class="field-layout">
+          <div class="field-title reveal">
+            <p class="eyebrow">Leave it better</p>
+            <h2 id="fieldTitle">The forest<br><em>has rules.</em></h2>
+            <p>Sandstone remembers every careless visit. These are not suggestions; they are how the climbing survives.</p>
+            <a class="ink-link" href="https://bleau.info/ethique?locale=en" target="_blank" rel="noreferrer">Read the local ethics ↗</a>
+          </div>
+          <div class="rule-list">
+            <article class="rule reveal">
+              <span>01</span><div><h3>Dry means dry.</h3><p>If the rock is damp, dark, cold-wet under an overhang, or wet on top, walk away. Chalk and towels do not make wet sandstone safe.</p></div>
+            </article>
+            <article class="rule reveal delay-1">
+              <span>02</span><div><h3>Clean feet, soft brush.</h3><p>Use a carpet square before every attempt. Sand polishes footholds. Brush gently, use chalk sparingly, and erase tick marks.</p></div>
+            </article>
+            <article class="rule reveal delay-2">
+              <span>03</span><div><h3>Carry, don’t drag.</h3><p>Keep pads off roots and vegetation, use existing paths, take every scrap of tape home, and leave engraved boulders untouched.</p></div>
+            </article>
+            <article class="rule reveal delay-3">
+              <span>04</span><div><h3>Leave before dark.</h3><p>No night climbing or forest sleeping. Car parks close 10 PM—6 AM. Headlamps are for walking out, not another burn.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="weather section-pad" aria-labelledby="weatherTitle">
+      <div class="section-shell weather-grid">
+        <div class="weather-art reveal" aria-hidden="true">
+          <div class="sun-disc"></div>
+          <div class="weather-temp"><strong>16°</strong><span>avg. high</span></div>
+          <div class="weather-low"><strong>8°</strong><span>avg. low</span></div>
+        </div>
+        <div class="weather-copy reveal delay-1">
+          <p class="eyebrow eyebrow-light">When rain arrives</p>
+          <h2 id="weatherTitle">The plan bends.<br><em>The birthdays don’t.</em></h2>
+          <p>Hold the two dinner reservations. Move outdoor sessions onto the driest dates and let the lost climbing day go if you must.</p>
+          <div class="swap-list">
+            <div><span>Rainy Sunday</span><strong>Market · Château · L’Axel</strong></div>
+            <div><span>Rainy weekday</span><strong>Spa · Moret · Karma</strong></div>
+            <div><span>Rainy Saturday</span><strong>Return pads · CDG early</strong></div>
+          </div>
+          <a class="button button-outline" href="https://karma-escalade.fr/en/fontainebleau/the-gym" target="_blank" rel="noreferrer">Karma rain fallback ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bookings section-pad" id="bookings" aria-labelledby="bookingTitle">
+      <div class="section-shell booking-layout">
+        <div class="booking-heading reveal">
+          <p class="eyebrow">Before the train</p>
+          <h2 id="bookingTitle">Make it<br><em>real.</em></h2>
+          <p>Tick these off as reservations land. Your progress is saved in this browser.</p>
+          <div class="booking-progress" aria-label="Booking progress">
+            <div><span id="bookingProgress"></span></div>
+            <p><strong id="bookingDone">0</strong> of <span id="bookingTotal">0</span> ready</p>
+          </div>
+        </div>
+        <div class="checklist reveal delay-1" id="bookingChecklist"></div>
+      </div>
+    </section>
+
+    <section class="departure" aria-labelledby="departureTitle">
+      <div class="departure-inner section-shell reveal">
+        <p class="eyebrow eyebrow-light">Sunday · October 25</p>
+        <h2 id="departureTitle">One last thing:<br><em>the clocks go back.</em></h2>
+        <p>France ends daylight-saving time overnight. Phones should update automatically, but use the hotel wake-up call too. Your flight time is local, after the change.</p>
+        <div class="departure-time"><span>03:00</span><b>→</b><span>02:00</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="section-shell footer-grid">
+      <div>
+        <p class="footer-mark">TK <i>×</i> FONT</p>
+        <p>Made for Tony + Katherine’s October pilgrimage.</p>
+      </div>
+      <div class="countdown" aria-label="Countdown to the trip">
+        <small>Until St Pancras</small>
+        <strong id="countdown">Calculating…</strong>
+      </div>
+      <div class="footer-links">
+        <a href="../FRANCE_FONT_TRIP_PLAN.md">Full written plan ↗</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
