@@ -77393,6 +77393,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-23T19:23:38.346Z"
+    },
+    {
+      "id": "cl_7949056630",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-sunny-excelsior/7949056630.html",
+      "address": "Bright, Sunny Excelsior District Flat",
+      "neighborhood": "Excelsior / Outer Mission",
+      "price": 3500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7195,
+      "lon": -122.4411,
+      "notes": "From Craigslist · posted Jul 23, 7:42 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-23T21:08:19.212Z"
     }
   ]
 }
