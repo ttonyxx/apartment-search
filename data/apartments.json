@@ -77469,6 +77469,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-23T22:59:59.844Z"
+    },
+    {
+      "id": "cl_7949104926",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-location-in-cole/7949104926.html",
+      "address": "Great location in Cole Valley",
+      "neighborhood": "San Francisco",
+      "price": 1500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7712,
+      "lon": -122.4413,
+      "notes": "From Craigslist · posted Jul 24, 12:04 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-24T00:07:29.956Z"
     }
   ]
 }
