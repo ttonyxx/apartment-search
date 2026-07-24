@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#14191c">
+<meta name="description" content="One day on the Shawangunk Ridge — 7:00am bus out, 8:00pm bus back. A bus-only bouldering circuit of the Trapps carriage road, V3 to V9, with beta for every problem.">
+<title>Eleven Hours on the Ridge · Gunks Day Trip</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2314191c'/%3E%3Cpath d='M4 24l7-11 4 6 4-7 9 12z' fill='%23eceae3'/%3E%3C/svg%3E">
+<style>
+/* ============================================================
+   TOKENS — palette taken off Shawangunk conglomerate:
+   pale grey-green rock, lichen crust, iron-oxide staining.
+   ============================================================ */
+:root{
+  --paper:      #eceae3;
+  --paper-2:    #e2e0d7;
+  --card:       #f5f4ef;
+  --ink:        #14191c;
+  --ink-2:      #3d4a4a;
+  --ink-3:      #6b7472;
+  --rule:       #cdcabf;
+  --lichen:     #6e7f5b;
+  --lichen-lo:  #8d9b7c;
+  --lichen-bg:  #dfe3d5;
+  --rust:       #9a4a28;
+  --rust-bg:    #f0dfd6;
+  --quartz:     #ffffff;
+  --hero-ink:   #f2efe6;
+  --hero-dim:   #9aa39c;
+
+  --shadow-sm: 0 1px 2px rgba(20,25,28,.06);
+  --shadow-md: 0 2px 4px rgba(20,25,28,.05), 0 8px 24px -12px rgba(20,25,28,.18);
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, ui-serif, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  --gutter: clamp(1.15rem, 4.5vw, 3.5rem);
+  --measure: 62ch;
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:     #14191c;
+    --paper-2:   #101517;
+    --card:      #1b2124;
+    --ink:       #e8e6dd;
+    --ink-2:     #b3bcb6;
+    --ink-3:     #838d89;
+    --rule:      #2e3639;
+    --lichen:    #9db084;
+    --lichen-lo: #7d8c6a;
+    --lichen-bg: #232c25;
+    --rust:      #d3805a;
+    --rust-bg:   #2e211b;
+    --quartz:    #232a2d;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,.3);
+    --shadow-md: 0 2px 4px rgba(0,0,0,.25), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#14191c; --paper-2:#101517; --card:#1b2124;
+  --ink:#e8e6dd; --ink-2:#b3bcb6; --ink-3:#838d89; --rule:#2e3639;
+  --lichen:#9db084; --lichen-lo:#7d8c6a; --lichen-bg:#232c25;
+  --rust:#d3805a; --rust-bg:#2e211b; --quartz:#232a2d;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.3);
+  --shadow-md:0 2px 4px rgba(0,0,0,.25), 0 8px 24px -12px rgba(0,0,0,.6);
+}
+:root[data-theme="light"]{
+  --paper:#eceae3; --paper-2:#e2e0d7; --card:#f5f4ef;
+  --ink:#14191c; --ink-2:#3d4a4a; --ink-3:#6b7472; --rule:#cdcabf;
+  --lichen:#6e7f5b; --lichen-lo:#8d9b7c; --lichen-bg:#dfe3d5;
+  --rust:#9a4a28; --rust-bg:#f0dfd6; --quartz:#ffffff;
+  --shadow-sm:0 1px 2px rgba(20,25,28,.06);
+  --shadow-md:0 2px 4px rgba(20,25,28,.05), 0 8px 24px -12px rgba(20,25,28,.18);
+}
+
+/* ============================================================ BASE */
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; scroll-behavior:smooth; }
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior:auto; }
+  *,*::before,*::after{ animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; }
+}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--sans); font-size:16px; line-height:1.6;
+  overflow-x:hidden; font-synthesis-weight:none;
+}
+img,canvas,svg{ max-width:100%; display:block; }
+a{ color:inherit; }
+:focus-visible{ outline:2px solid var(--lichen); outline-offset:3px; border-radius:2px; }
+
+.wrap{ width:100%; max-width:1180px; margin-inline:auto; padding-inline:var(--gutter); }
+.narrow{ max-width:var(--measure); }
+
+h1,h2,h3{ font-family:var(--serif); font-weight:400; text-wrap:balance; margin:0; letter-spacing:-.012em; }
+h2{ font-size:clamp(1.75rem,3.6vw,2.7rem); line-height:1.08; }
+h3{ font-size:1.18rem; line-height:1.25; }
+p{ margin:0; }
+
+.eyebrow{
+  font-family:var(--mono); font-size:.68rem; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--ink-3); margin:0;
+}
+.num{ font-family:var(--mono); font-variant-numeric:tabular-nums; }
+
+/* ============================================================ HERO */
+.hero{ position:relative; min-height:100svh; display:flex; flex-direction:column; background:#0d1214; color:var(--hero-ink); isolation:isolate; }
+#ridge{ position:absolute; inset:0; width:100%; height:100%; z-index:0; }
+.hero::after{
+  content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:linear-gradient(180deg, rgba(8,11,13,.72) 0%, rgba(8,11,13,.15) 38%, rgba(8,11,13,.05) 62%, rgba(8,11,13,.85) 100%);
+}
+.hero > *{ position:relative; z-index:2; }
+
+.topbar{
+  display:flex; align-items:center; justify-content:space-between; gap:1rem;
+  padding-block:1.15rem; border-bottom:1px solid rgba(242,239,230,.14);
+}
+.mark{ display:flex; align-items:baseline; gap:.6rem; font-family:var(--mono); font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; }
+.mark b{ font-weight:600; }
+.mark span{ color:var(--hero-dim); }
+.themer{
+  background:none; border:1px solid rgba(242,239,230,.28); color:var(--hero-ink);
+  font-family:var(--mono); font-size:.64rem; letter-spacing:.14em; text-transform:uppercase;
+  padding:.45rem .7rem; border-radius:999px; cursor:pointer; transition:background .2s, border-color .2s;
+}
+.themer:hover{ background:rgba(242,239,230,.1); border-color:rgba(242,239,230,.5); }
+
+.hero-body{ flex:1; display:flex; flex-direction:column; justify-content:center; padding-block:clamp(2.5rem,8vh,5rem); gap:clamp(1.6rem,4vh,2.6rem); }
+.hero-title{
+  font-family:var(--serif); font-size:clamp(2.9rem,10.5vw,7.2rem); line-height:.94;
+  letter-spacing:-.03em; margin:0; max-width:14ch;
+}
+.hero-title em{ font-style:italic; color:#cfd8c2; }
+.hero-deck{ max-width:44ch; color:#d6d3c9; font-size:clamp(1rem,1.9vw,1.14rem); }
+.hero-deck b{ font-weight:600; color:var(--hero-ink); }
+
+/* the two immovable pins */
+.pins{ display:flex; align-items:stretch; gap:0; flex-wrap:wrap; font-family:var(--mono); }
+.pin{ display:flex; flex-direction:column; gap:.3rem; padding-right:clamp(1.2rem,4vw,2.4rem); }
+.pin + .pin{ padding-left:clamp(1.2rem,4vw,2.4rem); border-left:1px solid rgba(242,239,230,.2); }
+.pin small{ font-size:.62rem; letter-spacing:.16em; text-transform:uppercase; color:var(--hero-dim); }
+.pin strong{ font-size:clamp(1.5rem,4.2vw,2.1rem); font-weight:500; font-variant-numeric:tabular-nums; letter-spacing:-.02em; }
+.pin span{ font-size:.72rem; color:var(--hero-dim); }
+
+/* stacked pins: swap the vertical rules for a clean two-up grid */
+@media (max-width:560px){
+  .pins{ display:grid; grid-template-columns:1fr 1fr; gap:1.15rem 1.4rem; }
+  .pin{ padding-right:0; }
+  .pin + .pin{ padding-left:0; border-left:none; }
+  .pin:nth-child(3){ grid-column:1 / -1; padding-top:1.15rem; border-top:1px solid rgba(242,239,230,.2); }
+}
+
+.countdown{
+  display:flex; align-items:baseline; gap:.85rem; flex-wrap:wrap;
+  padding-top:1.2rem; border-top:1px solid rgba(242,239,230,.14);
+}
+.countdown-label{ font-family:var(--mono); font-size:.62rem; letter-spacing:.16em; text-transform:uppercase; color:var(--hero-dim); }
+#clock{ font-family:var(--mono); font-variant-numeric:tabular-nums; font-size:clamp(1.4rem,4.5vw,2rem); letter-spacing:-.01em; }
+#clock i{ font-style:normal; color:var(--hero-dim); font-size:.55em; padding-inline:.05em .5em; letter-spacing:.1em; }
+
+.hero-foot{
+  display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap;
+  padding-block:1.1rem; border-top:1px solid rgba(242,239,230,.14);
+  font-family:var(--mono); font-size:.66rem; letter-spacing:.13em; text-transform:uppercase; color:var(--hero-dim);
+}
+.hero-foot a{ color:var(--hero-ink); text-decoration:none; border-bottom:1px solid rgba(242,239,230,.4); padding-bottom:2px; }
+.hero-foot a:hover{ border-color:var(--hero-ink); }
+
+/* ============================================================ SECTIONS */
+.band{ padding-block:clamp(3.2rem,8vw,6rem); border-top:1px solid var(--rule); }
+.band-fill{ background:var(--paper-2); }
+.head{ display:grid; gap:.9rem; margin-bottom:clamp(2rem,4vw,3rem); }
+.head p.lede{ max-width:var(--measure); color:var(--ink-2); font-size:1.05rem; }
+
+/* --- brief: three facts --- */
+.facts{ display:grid; gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:3px; overflow:hidden; }
+@media (min-width:720px){ .facts{ grid-template-columns:repeat(3,1fr); } }
+.fact{ background:var(--card); padding:1.5rem 1.4rem; display:grid; gap:.55rem; align-content:start; }
+.fact .k{ font-family:var(--mono); font-size:.63rem; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-3); }
+.fact .v{ font-family:var(--serif); font-size:1.5rem; line-height:1.1; }
+.fact .n{ font-size:.9rem; color:var(--ink-2); }
+
+/* --- itinerary: the day as a single road --- */
+.clockline{ display:grid; gap:0; margin-top:.5rem; }
+.stop{
+  display:grid; grid-template-columns:4.6rem 1fr; gap:0 clamp(.9rem,2.5vw,1.6rem);
+  position:relative; padding-bottom:1.7rem;
+}
+.stop-t{
+  font-family:var(--mono); font-variant-numeric:tabular-nums; font-size:.86rem;
+  color:var(--ink-2); padding-top:.05rem; text-align:right;
+}
+.stop-line{
+  position:absolute; left:4.6rem; top:.55rem; bottom:-.1rem; width:1px;
+  background:var(--rule); transform:translateX(calc(clamp(.9rem,2.5vw,1.6rem) / 2));
+}
+.stop:last-child .stop-line{ display:none; }
+.stop-c{ position:relative; padding-left:1.35rem; }
+.stop-c::before{
+  content:""; position:absolute; left:-1px; top:.5rem; width:9px; height:9px; border-radius:50%;
+  background:var(--paper); border:1.5px solid var(--lichen-lo);
+  transform:translateX(calc(clamp(.9rem,2.5vw,1.6rem) / -2 - 4px));
+}
+.stop.is-hard .stop-c::before{ background:var(--rust); border-color:var(--rust); }
+.stop.is-climb .stop-c::before{ background:var(--lichen); border-color:var(--lichen); }
+.stop h3{ margin-bottom:.3rem; }
+.stop p{ color:var(--ink-2); font-size:.94rem; max-width:56ch; }
+.tag{
+  display:inline-block; font-family:var(--mono); font-size:.6rem; letter-spacing:.14em;
+  text-transform:uppercase; padding:.2rem .48rem; border-radius:2px; margin-left:.5rem;
+  vertical-align:.12em; background:var(--rust-bg); color:var(--rust); white-space:nowrap;
+}
+
+/* --- the road diagram --- */
+.road{ display:grid; gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:3px; overflow:hidden; margin-top:.5rem; }
+@media (min-width:900px){ .road{ grid-template-columns:repeat(4,1fr); } }
+.station{ background:var(--card); padding:1.5rem 1.35rem; display:grid; gap:.7rem; align-content:start; }
+.station-top{ display:flex; align-items:baseline; justify-content:space-between; gap:.6rem; }
+.station-walk{ font-family:var(--mono); font-size:.68rem; letter-spacing:.1em; color:var(--lichen); white-space:nowrap; }
+.station h3{ font-size:1.22rem; }
+.station .when{ font-family:var(--mono); font-size:.72rem; color:var(--ink-3); font-variant-numeric:tabular-nums; }
+.station p{ font-size:.9rem; color:var(--ink-2); }
+.station .pick{ font-size:.87rem; padding-top:.2rem; border-top:1px dashed var(--rule); color:var(--ink-2); }
+.station .pick b{ color:var(--ink); font-weight:600; }
+
+/* --- filters --- */
+.filters{ display:flex; flex-wrap:wrap; gap:.45rem; align-items:center; margin-bottom:1.6rem; }
+.filters .flabel{ font-family:var(--mono); font-size:.62rem; letter-spacing:.15em; text-transform:uppercase; color:var(--ink-3); margin-right:.3rem; }
+.chip{
+  font-family:var(--mono); font-size:.7rem; letter-spacing:.08em; text-transform:uppercase;
+  padding:.42rem .78rem; border:1px solid var(--rule); background:var(--card); color:var(--ink-2);
+  border-radius:999px; cursor:pointer; transition:background .16s, color .16s, border-color .16s;
+}
+.chip:hover{ border-color:var(--lichen-lo); color:var(--ink); }
+.chip[aria-pressed="true"]{ background:var(--ink); color:var(--paper); border-color:var(--ink); }
+.count{ font-family:var(--mono); font-size:.72rem; color:var(--ink-3); margin-left:auto; font-variant-numeric:tabular-nums; }
+
+/* --- climb cards --- */
+.grid{ display:grid; gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:3px; overflow:hidden; }
+@media (min-width:640px){ .grid{ grid-template-columns:repeat(2,1fr); } }
+@media (min-width:1000px){ .grid{ grid-template-columns:repeat(3,1fr); } }
+.climb{
+  background:var(--card); padding:1.25rem 1.2rem 1.1rem; display:flex; flex-direction:column; gap:.6rem;
+  transition:background .18s;
+}
+.climb:hover{ background:var(--quartz); }
+.climb-top{ display:flex; align-items:flex-start; justify-content:space-between; gap:.8rem; }
+.climb h3{ font-size:1.08rem; line-height:1.22; }
+.grade{
+  font-family:var(--mono); font-size:.78rem; font-weight:600; letter-spacing:.02em;
+  padding:.22rem .5rem; border-radius:2px; white-space:nowrap; flex-shrink:0;
+  background:var(--lichen-bg); color:var(--lichen);
+}
+.grade.g-hard{ background:var(--rust-bg); color:var(--rust); }
+.climb-meta{ display:flex; align-items:center; gap:.55rem; flex-wrap:wrap; font-family:var(--mono); font-size:.68rem; color:var(--ink-3); }
+.stars{ color:var(--lichen-lo); letter-spacing:.06em; }
+.climb p{ font-size:.88rem; color:var(--ink-2); line-height:1.5; }
+.climb .links{ display:flex; gap:.4rem; flex-wrap:wrap; margin-top:auto; padding-top:.55rem; }
+.lnk{
+  display:inline-flex; align-items:center; gap:.34rem; text-decoration:none;
+  font-family:var(--mono); font-size:.66rem; letter-spacing:.06em; text-transform:uppercase;
+  padding:.4rem .6rem; border-radius:2px; border:1px solid var(--rule); color:var(--ink-2);
+  transition:border-color .16s, color .16s, background .16s;
+}
+.lnk:hover{ border-color:var(--ink); color:var(--ink); }
+.lnk-beta{ background:var(--ink); border-color:var(--ink); color:var(--paper); }
+.lnk-beta:hover{ background:var(--ink-2); border-color:var(--ink-2); color:var(--paper); }
+.lnk-beta::before{ content:"▶"; font-size:.62em; }
+.lnk-search::before{ content:"⌕"; font-size:1.05em; line-height:1; }
+.lnk-search{ border-style:dashed; color:var(--ink-3); }
+.empty{ padding:2.5rem 1.2rem; text-align:center; color:var(--ink-3); font-family:var(--mono); font-size:.8rem; background:var(--card); }
+
+/* --- prose columns --- */
+.cols{ display:grid; gap:clamp(1.6rem,3.5vw,2.6rem); }
+@media (min-width:820px){ .cols{ grid-template-columns:repeat(2,1fr); } }
+.note{ display:grid; gap:.6rem; align-content:start; }
+.note h3{ font-size:1.15rem; }
+.note p, .note li{ color:var(--ink-2); font-size:.95rem; }
+.note ul{ margin:0; padding-left:1.1rem; display:grid; gap:.42rem; }
+.note li::marker{ color:var(--lichen-lo); }
+.note strong{ color:var(--ink); font-weight:600; }
+
+.kit{ display:grid; gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:3px; overflow:hidden; }
+@media (min-width:700px){ .kit{ grid-template-columns:repeat(2,1fr); } }
+@media (min-width:1000px){ .kit{ grid-template-columns:repeat(4,1fr); } }
+.kit > div{ background:var(--card); padding:1.3rem 1.2rem; display:grid; gap:.5rem; align-content:start; }
+.kit h3{ font-size:1rem; }
+.kit ul{ margin:0; padding-left:1rem; display:grid; gap:.3rem; font-size:.88rem; color:var(--ink-2); }
+.kit li::marker{ color:var(--lichen-lo); }
+
+.money{ width:100%; border-collapse:collapse; font-size:.92rem; }
+.money th, .money td{ text-align:left; padding:.62rem .5rem; border-bottom:1px solid var(--rule); }
+.money th{ font-family:var(--mono); font-size:.63rem; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); font-weight:400; }
+.money td:last-child, .money th:last-child{ text-align:right; font-family:var(--mono); font-variant-numeric:tabular-nums; white-space:nowrap; }
+.money tr:last-child td{ border-bottom:none; font-weight:600; }
+.money .sub{ color:var(--ink-3); font-size:.84rem; }
+.table-scroll{ overflow-x:auto; }
+
+/* --- footer --- */
+.foot{ padding-block:2.6rem 3.4rem; border-top:1px solid var(--rule); background:var(--paper-2); }
+.foot-in{ display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; font-family:var(--mono); font-size:.66rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3); }
+.foot-in a{ color:var(--ink-2); }
+
+/* --- reveal --- */
+.rv{ opacity:0; transform:translateY(14px); transition:opacity .6s ease, transform .6s cubic-bezier(.2,.7,.3,1); }
+.rv.in{ opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce){ .rv{ opacity:1; transform:none; } }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════ HERO ══════════════════════════════════ -->
+<header class="hero">
+  <canvas id="ridge" aria-hidden="true"></canvas>
+
+  <div class="wrap">
+    <div class="topbar">
+      <div class="mark"><b>The Gunks</b><span>Sat 25 Jul 2026</span></div>
+      <button class="themer" id="themer" type="button" aria-label="Switch colour theme">Theme</button>
+    </div>
+  </div>
+
+  <div class="wrap hero-body">
+    <p class="eyebrow" style="color:#9aa39c">Undercliff Road · <span style="white-space:nowrap">Bus in, bus out</span> · <span style="white-space:nowrap">V3–V9</span></p>
+    <h1 class="hero-title">Eleven hours<br>on the <em>ridge.</em></h1>
+    <p class="hero-deck">No car, one road, and a hard stop at eight. Everything below is ordered the way you'll actually walk it — <b>south to north up the carriage road</b>, warm-up boulders first, the Buddha last.</p>
+
+    <div class="pins">
+      <div class="pin">
+        <small>Out · Port Authority</small>
+        <strong>07:00</strong>
+        <span>Arrive New Paltz ≈ 08:35</span>
+      </div>
+      <div class="pin">
+        <small>Back · New Paltz</small>
+        <strong>20:00</strong>
+        <span>Into NYC ≈ 21:35</span>
+      </div>
+      <div class="pin">
+        <small>Forecast</small>
+        <strong>84°F</strong>
+        <span>Sunny · fog before 8am · low 55</span>
+      </div>
+    </div>
+
+    <div class="countdown">
+      <span class="countdown-label">Bus departs in</span>
+      <span id="clock" aria-live="polite">--<i>h</i>--<i>m</i>--<i>s</i></span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="hero-foot">
+      <span>41.7368° N · 74.1940° W — Trapps Bridge</span>
+      <a href="#list">The tick list ↓</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ══════════════════════════════════ THE BRIEF ══════════════════════════════════ -->
+<section class="band">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="eyebrow">The shape of it</p>
+      <h2>One road does all the work.</h2>
+      <p class="lede">Every problem on this list sits along the Undercliff carriage road in the Trapps, north of the Trapps Bridge. That is the whole trick to a car-free Gunks day: you get dropped at one trailhead, walk a flat gravel road, and the boulders come to you in grade order. Peterskill is better rock for some of this, but it is a further eight miles with a 30-pass daily cap — wrong call on a bus day.</p>
+    </div>
+
+    <div class="facts rv">
+      <div class="fact">
+        <span class="k">Climbing window</span>
+        <span class="v">≈ 7 hours</span>
+        <span class="n">Boots on around 09:35, last burn at 17:45. The bus, not the light, is what ends the day.</span>
+      </div>
+      <div class="fact">
+        <span class="k">Ground covered</span>
+        <span class="v">≈ 2.5 miles</span>
+        <span class="n">Flat carriage road, Trapps Bridge to the Andrew Area and back. Bring shoes you can walk in.</span>
+      </div>
+      <div class="fact">
+        <span class="k">On the list</span>
+        <span class="v">30 problems</span>
+        <span class="n">Two warm-ups and then V3 through V9, four stations, all of it inside Mohonk Preserve on one day pass.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ THE CLOCK ══════════════════════════════════ -->
+<section class="band band-fill" id="clockplan">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="eyebrow">Saturday, minute by minute</p>
+      <h2>The clock.</h2>
+      <p class="lede">Two things on this schedule are immovable and everything else bends around them: the 20:00 bus, and Rock&nbsp;and&nbsp;Snow's 19:00 close — which is your crash-pad return deadline, since they don't take pads in the after-hours drop box. Work backwards from those.</p>
+    </div>
+
+    <div class="clockline rv" id="clockline"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ THE ROAD ══════════════════════════════════ -->
+<section class="band">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="eyebrow">Walking north from the bridge</p>
+      <h2>Four stations.</h2>
+      <p class="lede">Walk times are from the Trapps Bridge, where the carriage road crosses above Route 44/55. The order below is both the map and the plan — soft grades and cold fingers at the start, the hard stuff at the far end when you're warm, then back to Steel Bridge for a last cool-of-the-day burn on the way out.</p>
+    </div>
+
+    <div class="road rv">
+      <div class="station">
+        <div class="station-top"><span class="eyebrow">Station 01</span><span class="station-walk">0 min</span></div>
+        <h3>Steel Bridge Boulders</h3>
+        <p class="when">09:35 → 10:15 &nbsp;·&nbsp; and again 17:00 → 17:45</p>
+        <p>Twenty-odd problems scattered within a stone's throw of the bridge itself. The obvious warm-up zone, and — because you'll pass it again on the walk out — the right place to spend your last, coolest, best-friction hour.</p>
+        <p class="pick"><b>Save for the evening:</b> New Pair of Glasses (V7) and Jackson Pollock (V8).</p>
+      </div>
+      <div class="station">
+        <div class="station-top"><span class="eyebrow">Station 02</span><span class="station-walk">3 min</span></div>
+        <h3>Keyhole Cliff</h3>
+        <p class="when">10:15 → 11:30</p>
+        <p>The first cliff band directly abutting the road. Dense with four-star moderates and carrying the John Gill history — the Gill Egg and Gill Crack are the reason people still walk here first.</p>
+        <p class="pick"><b>Don't miss:</b> The Gill Egg (V4) — dynamic, four stars, everyone's favourite Gunks V4.</p>
+      </div>
+      <div class="station">
+        <div class="station-top"><span class="eyebrow">Station 03</span><span class="station-walk">5 min</span></div>
+        <h3>Pebbles Boulders</h3>
+        <p class="when">11:30 → 13:30</p>
+        <p>200 feet past the Uberfall outhouse. Three big boulders that came to rest on their sides, so all the Gunks horizontals are now verticals. The best density of classics on the road.</p>
+        <p class="pick"><b>The one to send:</b> Black Boulder Problem (V5), 4.5 stars — the marquee moderate of the Trapps.</p>
+      </div>
+      <div class="station">
+        <div class="station-top"><span class="eyebrow">Station 04</span><span class="station-walk">≈ 20 min</span></div>
+        <h3>Andrew Area</h3>
+        <p class="when">14:00 → 16:30</p>
+        <p>The far end, and the hardest. An obvious roof with a crowd under it. This is where the V7–V9 tick list lives, and why the plan puts you here at peak warmth rather than first thing.</p>
+        <p class="pick"><b>The day's objective:</b> The Buddha (V7−), then Dragon Turns (V9) if there's skin left.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ THE LIST ══════════════════════════════════ -->
+<section class="band band-fill" id="list">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="eyebrow">V3 to V9 · 30 problems · 14 with video beta</p>
+      <h2>The tick list.</h2>
+      <p class="lede">Grades, star ratings and descriptions are pulled from Mountain Project. Solid <b>Beta</b> buttons are specific videos of that exact problem; dashed <b>Find beta</b> buttons open a filtered video search, because no single good clip surfaced for those. Cards are in walking order within each station.</p>
+    </div>
+
+    <div class="filters rv">
+      <span class="flabel">Grade</span>
+      <button class="chip" type="button" data-f="grade" data-v="all" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-f="grade" data-v="warm" aria-pressed="false">Warm-up</button>
+      <button class="chip" type="button" data-f="grade" data-v="34" aria-pressed="false">V3–V4</button>
+      <button class="chip" type="button" data-f="grade" data-v="56" aria-pressed="false">V5–V6</button>
+      <button class="chip" type="button" data-f="grade" data-v="79" aria-pressed="false">V7–V9</button>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="filters rv" style="margin-top:-.9rem">
+      <span class="flabel">Station</span>
+      <button class="chip" type="button" data-f="area" data-v="all" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-f="area" data-v="Steel Bridge" aria-pressed="false">Steel Bridge</button>
+      <button class="chip" type="button" data-f="area" data-v="Keyhole Cliff" aria-pressed="false">Keyhole</button>
+      <button class="chip" type="button" data-f="area" data-v="Pebbles Boulders" aria-pressed="false">Pebbles</button>
+      <button class="chip" type="button" data-f="area" data-v="Andrew Area" aria-pressed="false">Andrew</button>
+    </div>
+
+    <div class="grid rv" id="grid"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ CONDITIONS ══════════════════════════════════ -->
+<section class="band">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="eyebrow">84°F and no wind</p>
+      <h2>Climbing in the wrong conditions, well.</h2>
+      <p class="lede">Be honest about this: a sunny 84°F July day is poor Gunks bouldering weather. Quartzite conglomerate needs cold to feel sticky, and the crimps on Buddha will feel like soap by one o'clock. The plan is built around that rather than pretending otherwise.</p>
+    </div>
+
+    <div class="cols rv">
+      <div class="note">
+        <h3>Where the shade is</h3>
+        <ul>
+          <li>The Undercliff corridor is <strong>mixed oak-hemlock forest</strong> — nearly all of these boulders sit under canopy rather than in the open, so you're fighting humidity, not sun.</li>
+          <li>The cliff band faces broadly <strong>south-east</strong>: morning light hits the wall, afternoon puts the road into cliff shadow. Later is cooler here, which is why the evening Steel Bridge session exists.</li>
+          <li>Andrew's roof problems are genuinely overhung and shaded all day. If anything is going down at 2pm in July, it's roof holds.</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h3>Tactics for greasy rock</h3>
+        <ul>
+          <li><strong>Front-load the crimps.</strong> Anything face-and-crimp — Gill Egg, Black Boulder, Cronin Face — wants the 10am–1pm window.</li>
+          <li><strong>Two burns, then move on.</strong> On a hot day the third attempt is worse than the second. Rest 5+ minutes between goes or don't bother.</li>
+          <li><strong>Brush every hold, every go.</strong> A boar's-hair brush is the single highest-value item in your pack tomorrow.</li>
+          <li><strong>Chalk is not the answer, drying is.</strong> Liquid chalk base layer in the morning; a towel on the pad for your hands between attempts.</li>
+          <li><strong>3+ litres of water each.</strong> There is no water on the carriage road. Fill up in New Paltz.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ LOGISTICS ══════════════════════════════════ -->
+<section class="band band-fill" id="logistics">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="eyebrow">Getting there without a car</p>
+      <h2>The three things that can sink this.</h2>
+    </div>
+
+    <div class="cols rv" style="margin-bottom:clamp(2rem,4vw,3rem)">
+      <div class="note">
+        <h3>1 · Book the return ride before you lose signal</h3>
+        <p>Cell reception at the West Trapps lot and along the back of the cliffs is unreliable to nonexistent. Standing in the parking lot at 18:00 trying to summon a Lyft is the classic way to miss the bus. <strong>Schedule the 18:15 pickup while you still have bars in town</strong>, or get the driver's number on the way up and text them to come back.</p>
+      </div>
+      <div class="note">
+        <h3>2 · The crash pad question</h3>
+        <p>Rock and Snow at 44 Main St rents pads and opens <strong>08:00 Saturday</strong> — three minutes' walk from the bus stop, so the timing works. But they close at <strong>19:00</strong> and won't accept pads in the drop box, which makes the return the real deadline of your day. If you'd rather not be governed by that, bring your own pads on the bus; Trailways will take them in the hold.</p>
+      </div>
+      <div class="note">
+        <h3>3 · The Mohonk day pass</h3>
+        <p>Climbing anywhere in the Trapps needs a Mohonk Preserve day pass — <strong>$20 per person</strong> as of last season. Buy it at Rock and Snow with the pads, or from the rangers who staff the steel bridge and the West Trapps lot on weekends. Keep the wristband: the $20 credits toward an annual pass if you come back.</p>
+      </div>
+      <div class="note">
+        <h3>Ride, in short</h3>
+        <p>New Paltz bus stop → West Trapps Trailhead is about <strong>15 minutes and $20–30</strong> by Uber, Lyft or local taxi. From the lot, walk up the ramp to the Trapps Bridge in five to eight minutes — that's where the carriage road and this whole list begins.</p>
+      </div>
+    </div>
+
+    <div class="kit rv">
+      <div>
+        <h3>Pack</h3>
+        <ul>
+          <li>2 crash pads minimum</li>
+          <li>Boar's-hair brush ×2</li>
+          <li>Liquid chalk + loose chalk</li>
+          <li>Tape, nail clippers</li>
+          <li>3L water each</li>
+          <li>Approach shoes — 2.5 mi of gravel</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Food</h3>
+        <ul>
+          <li>Buy in New Paltz — nothing on the road</li>
+          <li>Lunch that survives 84°F</li>
+          <li>Electrolytes, not just water</li>
+          <li>Something salty for the 15:00 dip</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Know before</h3>
+        <ul>
+          <li>No potable water on Undercliff</li>
+          <li>Outhouse at the Uberfall</li>
+          <li>Patchy fog until 08:00 — rock may be damp early</li>
+          <li>Signal dies past the bridge</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Hard deadlines</h3>
+        <ul>
+          <li><strong>19:00</strong> — pads back to Rock and Snow</li>
+          <li><strong>20:00</strong> — bus departs New Paltz</li>
+          <li>Leave the Andrew Area by <strong>16:30</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════ MONEY + PLAN B ══════════════════════════════════ -->
+<section class="band">
+  <div class="wrap">
+    <div class="cols rv">
+      <div class="note">
+        <h3>Roughly what it costs, per person</h3>
+        <div class="table-scroll">
+          <table class="money">
+            <thead><tr><th>Item</th><th>Est.</th></tr></thead>
+            <tbody>
+              <tr><td>Trailways round trip <span class="sub">NYC ⇄ New Paltz</span></td><td>$55</td></tr>
+              <tr><td>Mohonk Preserve day pass</td><td>$20</td></tr>
+              <tr><td>Rides <span class="sub">town ⇄ West Trapps, split</span></td><td>$25</td></tr>
+              <tr><td>Crash pad rental <span class="sub">if not bringing your own</span></td><td>$20</td></tr>
+              <tr><td>Food, water, dinner on Main St</td><td>$40</td></tr>
+              <tr><td>Ballpark</td><td>≈ $160</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:.85rem;color:var(--ink-3)">Bus and pad-rental prices move; treat these as planning numbers, not quotes.</p>
+      </div>
+      <div class="note">
+        <h3>If it goes sideways</h3>
+        <ul>
+          <li><strong>Rock is wet at 09:30.</strong> Morning fog is forecast to burn off by 08:00, but conglomerate holds damp. Start at Keyhole rather than Steel Bridge — it's the cliff band, and it dries first up off the ground.</li>
+          <li><strong>Too hot to try hard by noon.</strong> Drop the Andrew push, spend the afternoon volume-climbing four-star V3s and V4s at Keyhole and Pebbles, and go all-in on the 17:00 Steel Bridge session.</li>
+          <li><strong>Skin's gone by 15:00.</strong> That's a normal July outcome. Walk to Andrew anyway and try Buddha twice — knowing the moves is worth the trip back in October.</li>
+          <li><strong>Running late for the bus.</strong> Leave the Andrew Area no later than 16:30. If you're still out at 18:00, skip the evening Steel Bridge session, not the pad return.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>Saturday 25 July 2026 · Shawangunk Ridge, NY</span>
+    <span>Grades &amp; stars via <a href="https://www.mountainproject.com/area/106510895/trapps-bouldering">Mountain Project</a></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ─────────────────────────── THEME ─────────────────────────── */
+  var root = document.documentElement;
+  document.getElementById("themer").addEventListener("click", function(){
+    var cur = root.getAttribute("data-theme");
+    if(!cur) cur = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    root.setAttribute("data-theme", cur === "dark" ? "light" : "dark");
+  });
+
+  /* ─────────────────────── COUNTDOWN TO THE BUS ───────────────────────
+     07:00 EDT Sat 25 Jul 2026 == 11:00 UTC                              */
+  var DEPART = Date.UTC(2026, 6, 25, 11, 0, 0);
+  var clockEl = document.getElementById("clock");
+  function tick(){
+    var d = DEPART - Date.now();
+    if(d <= 0){ clockEl.textContent = "Rolling. Enjoy the ridge."; return; }
+    var s = Math.floor(d/1000), h = Math.floor(s/3600), m = Math.floor(s%3600/60);
+    s = s % 60;
+    clockEl.innerHTML = h + "<i>h</i>" + String(m).padStart(2,"0") + "<i>m</i>" + String(s).padStart(2,"0") + "<i>s</i>";
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ─────────────────────────── ITINERARY ─────────────────────────── */
+  var DAY = [
+    ["07:00","Port Authority, Gate 300s","Adirondack Trailways to Kingston. Roughly 1h35 up the Thruway — sleep through it.","",""],
+    ["08:35","New Paltz, Main Street","Bus drops you in the middle of town. Coffee and breakfast are within a block.","",""],
+    ["08:45","Rock and Snow · 44 Main St","Crash pads, Mohonk day pass ($20pp), chalk, tape, a spare brush. Opens 08:00 Saturday.","hard","Pads due back 19:00"],
+    ["09:10","Order the ride","Uber or Lyft to the West Trapps Trailhead, ~15 min. Book the 18:15 return now, before signal disappears.","hard","Do this in town"],
+    ["09:25","West Trapps Trailhead","Up the ramp trail to the Trapps Bridge, five to eight minutes on gravel.","",""],
+    ["09:35","Steel Bridge · warm up","Colorful Crack, Lazy Mazie, Warmup, then The Lorax (V3+). Twenty minutes of easy volume before anything hard.","climb",""],
+    ["10:15","Keyhole Cliff · the Gill problems","Three minutes north. Gill Crack, Gill Pinch Roof, then The Gill Egg (V4) while your skin is fresh and the rock is still cool.","climb",""],
+    ["11:30","Pebbles Boulders · the main event","Five minutes north, 200ft past the Uberfall outhouse. Black Boulder Problem (V5) is the day's best moderate — give it real attempts here, not at 3pm.","climb",""],
+    ["13:30","Lunch in the shade","Thirty minutes off your feet. Tape up, clip nails, re-chalk. Refill nothing — there's no water out here.","",""],
+    ["14:00","Walk north to Andrew","About twenty minutes up the carriage road. Look for the obvious roof and the crowd beneath it.","",""],
+    ["14:20","Andrew Area · the hard end","Andrew Boulder Problem (V4) to open, A Slug's Life (V6), then The Buddha (V7−). Dragon Turns (V9) if the day's going well.","climb",""],
+    ["16:30","Turn around","Non-negotiable. Whatever's unfinished at Andrew stays unfinished — the walk back is 20 minutes and you still want the evening session.","hard","Leave by 16:30"],
+    ["17:00","Steel Bridge · the cool-down burn","Cliff shadow, dropping temps, best friction of the day. New Pair of Glasses (V7) and Jackson Pollock (V8) are here for exactly this hour.","climb",""],
+    ["17:45","Pack up","Down to the West Trapps lot, roughly eight minutes.","",""],
+    ["18:15","Ride back to town","Pre-booked. If the pickup falls through, the road walk is far too long — have a second number saved.","",""],
+    ["18:40","Return the pads","Rock and Snow closes at 19:00 and does not take pads in the drop box. This is the tightest link in the chain.","hard","Store closes 19:00"],
+    ["19:00","Dinner on Main Street","An hour, five minutes from the bus stop. You've earned something enormous.","",""],
+    ["20:00","Bus to New York","Into Port Authority around 21:35.","hard","Last bus on the plan"]
+  ];
+
+  var line = document.getElementById("clockline");
+  line.innerHTML = DAY.map(function(r){
+    var cls = r[3] === "hard" ? " is-hard" : (r[3] === "climb" ? " is-climb" : "");
+    var tag = r[4] ? '<span class="tag">' + r[4] + '</span>' : "";
+    return '<div class="stop' + cls + '">' +
+             '<div class="stop-t num">' + r[0] + '</div>' +
+             '<div class="stop-line"></div>' +
+             '<div class="stop-c"><h3>' + r[1] + tag + '</h3><p>' + r[2] + '</p></div>' +
+           '</div>';
+  }).join("");
+
+  /* ─────────────────────────── THE CLIMBS ───────────────────────────
+     name, grade, sort-grade, stars(/4), area, note, MP id, beta url|null */
+  var MP = "https://www.mountainproject.com/route/";
+  var CLIMBS = [
+    // ── Station 01 · Steel Bridge ───────────────────────────────────
+    ["Warmup", "V2", 2, 3, "Steel Bridge", "Exactly what the name says. Start the day here.", "121385533", null],
+    ["Colorful Crack", "V0", 0, 3.5, "Steel Bridge", "3.5 stars at V0 — the best easy problem on the road, and a proper way to wake your hands up.", "117033167", null],
+    ["The Lorax", "V3+", 3, 3, "Steel Bridge", "First real problem of the day. Short, sharp, and a fair gauge of how the friction is going to treat you.", "106515862", "https://www.youtube.com/watch?v=tgstouV-kfg"],
+    ["The Dinky", "V3-4", 3, 2.5, "Steel Bridge", "Small and technical. Good filler while someone else is on the Lorax.", "119611323", null],
+    ["Star Bellied Sneech", "V4-", 4, 2.5, "Steel Bridge", "Soft for the grade by most accounts — worth a quick tick on the way through.", "123476329", null],
+    ["Million Dollar Problem", "V5", 5, 3.5, "Steel Bridge", "One of the road's great V5s and a genuine contender if Black Boulder doesn't go.", "113763540", "https://www.youtube.com/watch?v=XoMMBcsJi2s"],
+    ["New Pair of Glasses", "V7", 7, 3.5, "Steel Bridge", "Mega-classic highball. Save it for 17:00 — you want cool rock, fresh pads and a spotter for this one.", "106918579", "https://www.youtube.com/watch?v=XwOVR8znW4s"],
+    ["Jackson Pollock", "V8", 8, 3.5, "Steel Bridge", "Overhanging face visible from the carriage road, tree on its right. Straight up the steep and top out on slab.", "115682105", "https://www.youtube.com/watch?v=vh8KmLQMiWo"],
+    ["Collateral Turtle", "V8", 8, 3, "Steel Bridge", "The quieter of the Steel Bridge V8s. Good backup if there's a queue on Pollock.", "120621868", null],
+
+    // ── Station 02 · Keyhole Cliff ──────────────────────────────────
+    ["Gill Crack", "V3", 3, 4, "Keyhole Cliff", "Undercling, jam and lunge up the left-arching crack at the right end of the Keyhole face. Four stars, and it climbs like history.", "106514078", null],
+    ["Three Fools", "V3", 3, 2, "Keyhole Cliff", "Nothing special, but it's right there and it keeps the volume up.", "106545693", null],
+    ["The Gill Egg", "V4", 4, 4, "Keyhole Cliff", "The Gunks V4. Start below the egg, work your hands to the incut lip holds, and commit. Very dynamic — do it while your skin is new.", "106515375", "https://www.youtube.com/watch?v=SNcpBMCvr2I"],
+    ["Gill Pinch Roof", "V4", 4, 4, "Keyhole Cliff", "Second four-star V4 within thirty feet of the first, and no reason to skip either. Named for Gill but actually first climbed by Rich Romano.", "106510939", "https://www.youtube.com/watch?v=GpRLMoYUnes"],
+    ["Yogurt and Hemp Protein", "V5", 5, 4, "Keyhole Cliff", "A newer four-star addition to the cliff band and the strongest V5 at this station.", "201484190", null],
+    ["Winter's Agony", "V6-", 6, 2, "Keyhole Cliff", "Soft V6 and a useful stepping stone before the Andrew Area asks for real power.", "107237847", null],
+    ["Dirty White Boys and Puerto Ricans", "V7", 7, 3, "Keyhole Cliff", "The Keyhole's hard line. Worth a look if Buddha feels out of reach today.", "120949014", null],
+    ["Cronin Face", "V9", 9, 3, "Keyhole Cliff", "Pure face climbing at V9 — the crimpiest thing on this list, which makes it a morning problem or nothing.", "108015371", "https://kaya-app.kayaclimb.com/climb/Cronins-Face-v9-Gunks-125228"],
+
+    // ── Station 03 · Pebbles Boulders ───────────────────────────────
+    ["Just Another Problem in the Trapps", "V3", 3, 4, "Pebbles Boulders", "Four stars and a deeply unassuming name. Best V3 on the road.", "107130121", null],
+    ["Goldstone Traverse", "V4", 4, 3, "Pebbles Boulders", "Both hands matched on a rising pebbly jug, then right on heel hooks and slippery feet to a no-hands kneebar finish in the chimney. Softer than it used to be — a hold broke. 75ft left of Black Boulder.", "113908629", null],
+    ["Black Boulder Problem", "V5", 5, 4.5, "Pebbles Boulders", "4.5 stars — the highest-rated problem on this entire list. Sit start on an undercling and sloper, bump out and up to the top-out. This is the send to want.", "106518842", "https://www.youtube.com/watch?v=ldodVFDz-os"],
+    ["Did That One Years Ago", "V5", 5, 4, "Pebbles Boulders", "Up the hill behind the Pebbles boulder. Hands in the pebbly slot, left heel on, bid high to a crimp, match the jug at the end of the diagonal, then crimp left and top out on the arête.", "120381340", "https://kaya-app.kayaclimb.com/climb/Did-That-Years-Ago-v5-Gunks-124670"],
+    ["Black Boulder Left", "V6", 6, 4, "Pebbles Boulders", "Same start as Black Boulder, but off the big right-hand sloper and thumb catch you top out left instead. Do it straight after the V5 while the beta's fresh.", "112184646", null],
+    ["Lynn Hill Traverse", "V8", 8, 4, "Pebbles Boulders", "Four-star V8 traverse and the endurance test of the day. Long, sustained, and it will end your session if you let it.", "108203891", "https://www.youtube.com/watch?v=0vVcp5AqlDo"],
+    ["Patrick's Pinch", "V8", 8, 3, "Pebbles Boulders", "Short and powerful — the anti-Lynn-Hill. Good if you'd rather spend the effort on three hard moves than thirty.", "110510499", null],
+
+    // ── Station 04 · Andrew Area ────────────────────────────────────
+    ["Andrew Boulder Problem", "V4", 4, 3.5, "Andrew Area", "Traverse out the roof on good holds to the notch you top out through. The obvious way to open the Andrew session.", "106518895", "https://www.youtube.com/watch?v=19zjqiwSMg8"],
+    ["Who is Andrew", "V5", 5, 3, "Andrew Area", "Andrew's harder sibling. Bridges the gap nicely between the V4 and the Buddha problems.", "112187075", null],
+    ["A Slug's Life", "V6", 6, 3.5, "Andrew Area", "Straight up the middle of an obviously overhanging face just down the road past Buddha. Steep, shaded, and the pick of the V6s.", "123399375", null],
+    ["The Buddha", "V7-", 7, 3.5, "Andrew Area", "The day's objective. Hands and feet on the belly feature, slap and heel-hook out to the point, up to a left-hand crimp and over. Soft V7 and the most famous problem in the Trapps.", "106518881", "https://www.youtube.com/watch?v=gYzej50971A"],
+    ["The Illustrious Buddha", "V8", 8, 3.5, "Andrew Area", "The extension. Same belly, further out, and roughly a grade harder. Try it the moment the V7 goes.", "106518886", "https://www.youtube.com/watch?v=q0lBeoewS1c"],
+    ["Dragon Turns", "V9", 9, 3.5, "Andrew Area", "Top of the range and the hardest thing worth trying today. Filmed more than anything else here, so watch the beta on the walk up.", "113491175", "https://www.youtube.com/watch?v=Nsrq3RSJyMM"]
+  ];
+
+  function starStr(n){
+    var full = Math.floor(n), half = n - full >= .5;
+    return "★".repeat(full) + (half ? "½" : "");
+  }
+  function slug(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,""); }
+  function searchUrl(name){
+    return "https://www.youtube.com/results?search_query=" + encodeURIComponent(name + " Gunks bouldering");
+  }
+
+  var grid = document.getElementById("grid"),
+      countEl = document.getElementById("count"),
+      state = { grade:"all", area:"all" };
+
+  function matches(c){
+    var g = c[2];
+    if(state.area !== "all" && c[4] !== state.area) return false;
+    if(state.grade === "warm") return g < 3;
+    if(state.grade === "34")  return g >= 3 && g <= 4;
+    if(state.grade === "56")  return g >= 5 && g <= 6;
+    if(state.grade === "79")  return g >= 7;
+    return true;
+  }
+
+  function render(){
+    var rows = CLIMBS.filter(matches);
+    countEl.textContent = rows.length + (rows.length === 1 ? " problem" : " problems");
+
+    if(!rows.length){
+      grid.innerHTML = '<p class="empty">Nothing at that grade in that station — try widening one of the filters.</p>';
+      return;
+    }
+
+    grid.innerHTML = rows.map(function(c){
+      var name = c[0], grade = c[1], g = c[2], stars = c[3], area = c[4], note = c[5], id = c[6], beta = c[7];
+      var betaLink = beta
+        ? '<a class="lnk lnk-beta" href="' + beta + '" target="_blank" rel="noopener">Beta</a>'
+        : '<a class="lnk lnk-search" href="' + searchUrl(name) + '" target="_blank" rel="noopener">Find beta</a>';
+      return '<article class="climb">' +
+        '<div class="climb-top">' +
+          '<h3>' + name + '</h3>' +
+          '<span class="grade' + (g >= 7 ? " g-hard" : "") + '">' + grade + '</span>' +
+        '</div>' +
+        '<div class="climb-meta"><span class="stars">' + starStr(stars) + '</span><span>·</span><span>' + area + '</span></div>' +
+        '<p>' + note + '</p>' +
+        '<div class="links">' + betaLink +
+          '<a class="lnk" href="' + MP + id + "/" + slug(name) + '" target="_blank" rel="noopener">Topo</a>' +
+        '</div>' +
+      '</article>';
+    }).join("");
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll(".chip"), function(btn){
+    btn.addEventListener("click", function(){
+      var f = btn.dataset.f;
+      state[f] = btn.dataset.v;
+      Array.prototype.forEach.call(document.querySelectorAll('.chip[data-f="' + f + '"]'), function(b){
+        b.setAttribute("aria-pressed", String(b === btn));
+      });
+      render();
+    });
+  });
+  render();
+
+  /* ─────────────────────────── REVEAL ─────────────────────────── */
+  if("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, { rootMargin:"0px 0px -8% 0px", threshold:.05 });
+    Array.prototype.forEach.call(document.querySelectorAll(".rv"), function(el){ io.observe(el); });
+  } else {
+    Array.prototype.forEach.call(document.querySelectorAll(".rv"), function(el){ el.classList.add("in"); });
+  }
+
+  /* ───────────────── HERO: dawn over the Trapps cliff band ─────────────────
+     Procedural, seeded — a layered ridge with the characteristic pale
+     conglomerate band sitting under a treed rim.                           */
+  var cv = document.getElementById("ridge"), ctx = cv.getContext("2d");
+  var seed = 20260725;
+  function rnd(){ seed = (seed * 1664525 + 1013904223) % 4294967296; return seed / 4294967296; }
+
+  function drawRidge(){
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var w = cv.clientWidth, h = cv.clientHeight;
+    if(!w || !h) return;
+    cv.width = w * dpr; cv.height = h * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    seed = 20260725;
+
+    // dawn sky — the 7am departure, not midday
+    var sky = ctx.createLinearGradient(0, 0, 0, h);
+    sky.addColorStop(0,   "#0b1116");
+    sky.addColorStop(0.42,"#1b2530");
+    sky.addColorStop(0.66,"#3f3b39");
+    sky.addColorStop(0.80,"#8a6242");
+    sky.addColorStop(0.90,"#c08a52");
+    ctx.fillStyle = sky; ctx.fillRect(0, 0, w, h);
+
+    // low sun
+    var sunY = h * 0.845, sunX = w * 0.74;
+    var glow = ctx.createRadialGradient(sunX, sunY, 0, sunX, sunY, h * 0.42);
+    glow.addColorStop(0, "rgba(255,206,140,.62)");
+    glow.addColorStop(.45,"rgba(214,140,74,.16)");
+    glow.addColorStop(1, "rgba(214,140,74,0)");
+    ctx.fillStyle = glow; ctx.fillRect(0, 0, w, h);
+
+    // a ridge layer: jagged crest + optional pale cliff band beneath
+    function layer(baseY, amp, rough, fill, band){
+      var pts = [], step = Math.max(6, w / 150);
+      for(var x = -step; x <= w + step; x += step){
+        var n = Math.sin(x * 0.0042 + baseY) * amp
+              + Math.sin(x * 0.0131 + baseY * 2) * amp * 0.42
+              + (rnd() - .5) * rough;
+        pts.push([x, baseY + n]);
+      }
+      ctx.beginPath();
+      ctx.moveTo(pts[0][0], pts[0][1]);
+      for(var i = 1; i < pts.length; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+      ctx.lineTo(w + step, h); ctx.lineTo(-step, h); ctx.closePath();
+      ctx.fillStyle = fill; ctx.fill();
+
+      if(band){
+        // pale quartzite band riding just under the crest
+        ctx.save(); ctx.clip();
+        ctx.beginPath();
+        ctx.moveTo(pts[0][0], pts[0][1] + 6);
+        for(var j = 1; j < pts.length; j++) ctx.lineTo(pts[j][0], pts[j][1] + 6);
+        for(var k = pts.length - 1; k >= 0; k--) ctx.lineTo(pts[k][0], pts[k][1] + 6 + band);
+        ctx.closePath();
+        ctx.fillStyle = "rgba(226,220,206,.30)"; ctx.fill();
+        // vertical fracture lines through the band
+        ctx.strokeStyle = "rgba(12,16,18,.28)"; ctx.lineWidth = 1;
+        for(var f = 0; f < 26; f++){
+          var fx = rnd() * w, top = baseY + 8 + rnd() * 6;
+          ctx.beginPath(); ctx.moveTo(fx, top); ctx.lineTo(fx + (rnd() - .5) * 5, top + band * (.45 + rnd() * .5)); ctx.stroke();
+        }
+        ctx.restore();
+      }
+    }
+
+    layer(h * 0.655, 13,  6,  "#2c3038", 0);            // far haze ridge
+    layer(h * 0.725, 17,  9,  "#1e242a", 34);           // the cliff band
+    layer(h * 0.845, 12, 14, "#141a1e", 0);             // near treeline
+    layer(h * 0.945,  8, 20, "#0c1013", 0);             // foreground
+
+    // canopy texture on the foreground band
+    ctx.fillStyle = "rgba(6,9,11,.55)";
+    for(var t = 0; t < 190; t++){
+      var tx = rnd() * w, ty = h * (0.9 + rnd() * 0.1), r = 3 + rnd() * 9;
+      ctx.beginPath(); ctx.arc(tx, ty, r, 0, Math.PI * 2); ctx.fill();
+    }
+  }
+
+  drawRidge();
+  var rt;
+  window.addEventListener("resize", function(){ clearTimeout(rt); rt = setTimeout(drawRidge, 160); });
+})();
+</script>
+</body>
+</html>
