@@ -76586,7 +76586,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7527754,
       "lon": -122.4068581,
@@ -76594,7 +76594,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-23T12:26:01.821Z"
+      "added_at": "2026-07-23T12:26:01.821Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-25T11:14:08.253Z"
     },
     {
       "id": "cl_7948955613",
@@ -81491,6 +81493,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-25T09:52:50.972Z"
+    },
+    {
+      "id": "cl_7949372371",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remodeled-unit-close-to/7949372371.html",
+      "address": "Remodeled unit close to BART Google Shuttle Hospital",
+      "neighborhood": "Mission District",
+      "price": 1350,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7544,
+      "lon": -122.4093,
+      "notes": "From Craigslist · posted Jul 25, 10:24 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-25T11:14:08.253Z"
+    },
+    {
+      "id": "cl_7949372699",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bright-2br-2ba/7949372699.html",
+      "address": "Spacious Bright 2BR/2BA Pacific Heights Close To Alta Plaza Park",
+      "neighborhood": "Pacific Heights",
+      "price": 1400,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7914,
+      "lon": -122.4428,
+      "notes": "From Craigslist · posted Jul 25, 10:30 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-25T11:14:08.253Z"
     }
   ]
 }
