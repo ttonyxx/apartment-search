@@ -82539,14 +82539,16 @@
       "bathrooms": null,
       "sqft": 990,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7689,
       "lon": -122.4324,
       "notes": "From Craigslist · posted Jul 25, 5:26 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-25T19:13:39.915Z"
+      "added_at": "2026-07-25T19:13:39.915Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T16:04:01.056Z"
     },
     {
       "id": "cl_7949432106",
@@ -83646,14 +83648,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7786,
       "lon": -122.4892,
       "notes": "From Craigslist · posted Jul 26, 12:51 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T14:38:31.036Z"
+      "added_at": "2026-07-26T14:38:31.036Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T16:04:01.056Z"
     },
     {
       "id": "cl_7949590853",
@@ -83711,6 +83715,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-26T14:38:31.036Z"
+    },
+    {
+      "id": "cl_7949605043",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-ucsf-gg-park-inner-sunset/7949605043.html",
+      "address": "UCSF/Gg park inner sunset fully furnished 2bd/1ba",
+      "neighborhood": "Inner Sunset / UCSF",
+      "price": 4388,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7646,
+      "lon": -122.4717,
+      "notes": "From Craigslist · posted Jul 26, 3:30 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-26T16:04:01.056Z"
     }
   ]
 }
