@@ -78200,7 +78200,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7451199,
       "lon": -122.4332276,
@@ -78208,7 +78208,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-24T12:22:16.588Z"
+      "added_at": "2026-07-24T12:22:16.588Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T10:03:56.736Z"
     },
     {
       "id": "cl_7949167567",
@@ -82120,7 +82122,7 @@
       "bathrooms": 3,
       "sqft": 2434,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7337562,
       "lon": -122.3867471,
@@ -82128,7 +82130,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-25T13:43:16.555Z"
+      "added_at": "2026-07-25T13:43:16.555Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T10:03:56.736Z"
     },
     {
       "id": "rf_1799439",
@@ -82140,7 +82144,7 @@
       "bathrooms": 1,
       "sqft": 1260,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.776223,
       "lon": -122.5090247,
@@ -82148,7 +82152,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-25T13:43:16.555Z"
+      "added_at": "2026-07-25T13:43:16.555Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T10:03:56.736Z"
     },
     {
       "id": "rf_2027558",
@@ -83073,14 +83079,16 @@
       "bathrooms": null,
       "sqft": 950,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8004,
       "lon": -122.4176,
       "notes": "From Craigslist · posted Jul 26, 7:19 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T07:37:24.968Z"
+      "added_at": "2026-07-26T07:37:24.968Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T10:03:56.736Z"
     },
     {
       "id": "cl_7949559695",
@@ -83244,14 +83252,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7694,
       "lon": -122.4507,
       "notes": "From Craigslist · posted Jul 26, 4:38 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T07:37:24.968Z"
+      "added_at": "2026-07-26T07:37:24.968Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T10:03:56.736Z"
     },
     {
       "id": "cl_7949552349",
@@ -83301,14 +83311,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8004,
       "lon": -122.4176,
       "notes": "From Craigslist · posted Jul 26, 7:33 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T07:37:24.968Z"
+      "added_at": "2026-07-26T07:37:24.968Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T10:03:56.736Z"
     },
     {
       "id": "cl_7949557036",
@@ -83328,6 +83340,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-26T07:37:24.968Z"
+    },
+    {
+      "id": "cl_7949569329",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-bedroom-single/7949569329.html",
+      "address": "Charming 2-Bedroom Single-Family Home with Spacious Backyard",
+      "neighborhood": "Miraloma Park",
+      "price": 2590,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1150,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7409,
+      "lon": -122.4506,
+      "notes": "From Craigslist · posted Jul 26, 9:59 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-26T10:03:56.736Z"
+    },
+    {
+      "id": "cl_7949569333",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-perfect-for-roommates/7949569333.html",
+      "address": "Perfect for roommates!! Fully furnished 2 bedroom, 1 bathroom house",
+      "neighborhood": "San Francisco",
+      "price": 1100,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Jul 26, 9:59 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-26T10:03:56.736Z"
+    },
+    {
+      "id": "cl_7949568104",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-furnished-bedroom/7949568104.html",
+      "address": "Fully furnished 2 bedroom, 1 bathroom house for rent in Nob hill.",
+      "neighborhood": "Nob Hill",
+      "price": 1100,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8041,
+      "lon": -122.4387,
+      "notes": "From Craigslist · posted Jul 26, 9:24 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-26T10:03:56.736Z"
     }
   ]
 }
