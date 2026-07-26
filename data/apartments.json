@@ -66703,14 +66703,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7657,
       "lon": -122.43,
       "notes": "From Craigslist · posted Jul 20, 9:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-20T22:03:28.860Z"
+      "added_at": "2026-07-20T22:03:28.860Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T00:02:35.889Z"
     },
     {
       "id": "cl_7948439252",
@@ -78567,14 +78569,16 @@
       "bathrooms": null,
       "sqft": 867,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7672,
       "lon": -122.4184,
       "notes": "From Craigslist · posted Jul 24, 7:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-24T20:22:54.257Z"
+      "added_at": "2026-07-24T20:22:54.257Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-26T00:02:35.889Z"
     },
     {
       "id": "cl_7949271412",
@@ -82679,6 +82683,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-25T22:01:22.866Z"
+    },
+    {
+      "id": "cl_7949514887",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-with-secure-intercom/7949514887.html",
+      "address": "With secure intercom entry and a pet-friendly Environment",
+      "neighborhood": "City Of San Francisco",
+      "price": 2500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 810,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8046,
+      "lon": -122.4444,
+      "notes": "From Craigslist · posted Jul 25, 11:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-26T00:02:35.889Z"
     }
   ]
 }
