@@ -78953,14 +78953,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7806,
       "lon": -122.4921,
       "notes": "From Craigslist · posted Jul 24, 8:56 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-24T22:08:29.018Z"
+      "added_at": "2026-07-24T22:08:29.018Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-27T00:02:52.786Z"
     },
     {
       "id": "cl_7949322263",
@@ -83321,14 +83323,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.762,
       "lon": -122.4802,
       "notes": "From Craigslist · posted Jul 26, 4:32 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T07:37:24.968Z"
+      "added_at": "2026-07-26T07:37:24.968Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-27T00:02:52.786Z"
     },
     {
       "id": "cl_7949556487",
@@ -84176,6 +84180,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-26T22:01:37.102Z"
+    },
+    {
+      "id": "cl_7949687810",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom/7949687810.html",
+      "address": "Spacious 2-Bedroom Apartment in the Richmond District#",
+      "neighborhood": "San Francisco, CA",
+      "price": 1350,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 803,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7756,
+      "lon": -122.4812,
+      "notes": "From Craigslist · posted Jul 26, 10:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-27T00:02:52.786Z"
     }
   ]
 }
