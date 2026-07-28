@@ -39116,14 +39116,16 @@
       "bathrooms": null,
       "sqft": 1800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7188,
       "lon": -122.3891,
       "notes": "From Craigslist · posted Jun 28, 4:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-06-28T08:24:18.601Z"
+      "added_at": "2026-06-28T08:24:18.601Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T08:40:38.342Z"
     },
     {
       "id": "cl_7943810929",
@@ -85564,6 +85566,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-28T05:50:29.615Z"
+    },
+    {
+      "id": "cl_7949961027",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-potrero-hill-north-slope/7949961027.html",
+      "address": "!*!Potrero Hill / North Slope *2BR Home With Unit / Skyline VIEWS!*!",
+      "neighborhood": "Potrero Hill",
+      "price": 3700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1350,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7618,
+      "lon": -122.4033,
+      "notes": "From Craigslist · posted Jul 28, 8:06 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-28T08:40:38.342Z"
+    },
+    {
+      "id": "cl_7949958109",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2bed-2bath-fabulous-top/7949958109.html",
+      "address": "📍2Bed/2Bath - A fabulous top-floor home📍",
+      "neighborhood": "City Of San Francisco",
+      "price": 2595,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7751,
+      "lon": -122.4298,
+      "notes": "From Craigslist · posted Jul 28, 6:50 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-28T08:40:38.342Z"
     }
   ]
 }
