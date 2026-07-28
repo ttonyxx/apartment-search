@@ -69262,14 +69262,16 @@
       "bathrooms": null,
       "sqft": 1960,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745,
       "lon": -122.4383,
       "notes": "From Craigslist · posted Jul 21, 2:18 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-21T18:17:21.091Z"
+      "added_at": "2026-07-21T18:17:21.091Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "cl_7948570010",
@@ -77330,7 +77332,7 @@
       "bathrooms": 1,
       "sqft": 800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7831585,
       "lon": -122.4842489,
@@ -77338,7 +77340,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-23T15:11:45.969Z"
+      "added_at": "2026-07-23T15:11:45.969Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "cl_7949005524",
@@ -78280,7 +78284,7 @@
       "bathrooms": 1.5,
       "sqft": 1950,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7198821,
       "lon": -122.4311517,
@@ -78288,7 +78292,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-24T14:59:03.897Z"
+      "added_at": "2026-07-24T14:59:03.897Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "rf_203258154",
@@ -78300,7 +78306,7 @@
       "bathrooms": 1,
       "sqft": 1025,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7500851,
       "lon": -122.4141069,
@@ -78308,7 +78314,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-24T14:59:03.897Z"
+      "added_at": "2026-07-24T14:59:03.897Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "rf_203242968",
@@ -78320,7 +78328,7 @@
       "bathrooms": 1,
       "sqft": 1025,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7498762,
       "lon": -122.4143633,
@@ -78328,7 +78336,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-24T14:59:03.897Z"
+      "added_at": "2026-07-24T14:59:03.897Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "cl_7949212714",
@@ -82115,14 +82125,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.761,
       "lon": -122.422,
       "notes": "From Craigslist · posted Jul 25, 1:26 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-25T13:43:16.555Z"
+      "added_at": "2026-07-25T13:43:16.555Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "rf_1949543",
@@ -85484,14 +85496,16 @@
       "bathrooms": null,
       "sqft": 1129,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.773,
       "lon": -122.434,
       "notes": "From Craigslist · posted Jul 28, 3:10 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-28T05:50:29.615Z"
+      "added_at": "2026-07-28T05:50:29.615Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "cl_7949947167",
@@ -85503,14 +85517,16 @@
       "bathrooms": null,
       "sqft": 1129,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.773,
       "lon": -122.434,
       "notes": "From Craigslist · posted Jul 28, 3:38 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-28T05:50:29.615Z"
+      "added_at": "2026-07-28T05:50:29.615Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "cl_7949945876",
@@ -85522,14 +85538,16 @@
       "bathrooms": null,
       "sqft": 800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7499,
       "lon": -122.5073,
       "notes": "From Craigslist · posted Jul 28, 3:23 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-28T05:50:29.615Z"
+      "added_at": "2026-07-28T05:50:29.615Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "cl_7949940877",
@@ -85541,14 +85559,16 @@
       "bathrooms": null,
       "sqft": 1600,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7767,
       "lon": -122.4748,
       "notes": "From Craigslist · posted Jul 28, 3:22 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-28T05:50:29.615Z"
+      "added_at": "2026-07-28T05:50:29.615Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "cl_7949945833",
@@ -85560,14 +85580,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7266,
       "lon": -122.4409,
       "notes": "From Craigslist · posted Jul 28, 3:23 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-28T05:50:29.615Z"
+      "added_at": "2026-07-28T05:50:29.615Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-28T14:18:57.081Z"
     },
     {
       "id": "cl_7949961027",
@@ -85610,6 +85632,64 @@
       "added_at": "2026-07-28T08:40:38.342Z",
       "prev_status": "to_see",
       "off_market_at": "2026-07-28T11:21:27.010Z"
+    },
+    {
+      "id": "cl_7949985284",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-spacious-single/7949985284.html",
+      "address": "Modern Spacious Single-Family Home/Double Pkg/Garden/Hdwd Flrs",
+      "neighborhood": "Twin Peaks / Diamond Hts",
+      "price": 7800,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1960,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Jul 28, 1:31 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-28T14:18:57.081Z"
+    },
+    {
+      "id": "cl_7949977493",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-2br-1ba/7949977493.html",
+      "address": "**!#Charming 2BR/1BA Apartment in Haight-Ashbury!#**",
+      "neighborhood": "San Francisco, CA",
+      "price": 2026,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7738,
+      "lon": -122.4461,
+      "notes": "From Craigslist · posted Jul 28, 12:54 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-28T14:18:57.081Z"
+    },
+    {
+      "id": "rf_196485178",
+      "url": "https://www.redfin.com/CA/San-Francisco/1651-La-Salle-Ave-94124/unit-1651-B/apartment/196485178",
+      "address": "1651 La Salle Ave Unit 1651 B",
+      "neighborhood": "",
+      "price": 3300,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7372197,
+      "lon": -122.39037,
+      "notes": "From Redfin · updated Jul 28, 12:28 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-07-28T14:18:57.081Z"
     }
   ]
 }
