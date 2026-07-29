@@ -64789,14 +64789,16 @@
       "bathrooms": null,
       "sqft": 1980,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7725,
       "lon": -122.4147,
       "notes": "From Craigslist · posted Jul 18, 4:04 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-18T17:57:38.883Z"
+      "added_at": "2026-07-18T17:57:38.883Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-29T19:22:31.858Z"
     },
     {
       "id": "cl_7948010297",
@@ -85273,14 +85275,16 @@
       "bathrooms": null,
       "sqft": 680,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7506,
       "lon": -122.4872,
       "notes": "From Craigslist · posted Jul 27, 6:44 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-27T19:40:25.318Z"
+      "added_at": "2026-07-27T19:40:25.318Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-29T19:22:31.858Z"
     },
     {
       "id": "cl_7949860642",
@@ -85429,14 +85433,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7929,
       "lon": -122.4079,
       "notes": "From Craigslist · posted Jul 27, 10:08 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-27T23:06:21.008Z"
+      "added_at": "2026-07-27T23:06:21.008Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-29T19:22:31.858Z"
     },
     {
       "id": "cl_7949899888",
@@ -86608,14 +86614,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7786,
       "lon": -122.4892,
       "notes": "From Craigslist · posted Jul 29, 4:23 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-29T17:18:48.278Z"
+      "added_at": "2026-07-29T17:18:48.278Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-29T19:22:31.858Z"
     },
     {
       "id": "cl_7950240335",
@@ -86883,6 +86891,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-07-29T17:18:48.278Z"
+    },
+    {
+      "id": "cl_7950258705",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-3bd-3ba-with-easy-access/7950258705.html",
+      "address": "3BD/3BA with easy access to MUNI and SF State",
+      "neighborhood": "Sunset / Parkside",
+      "price": 4500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7441,
+      "lon": -122.4863,
+      "notes": "From Craigslist · posted Jul 29, 5:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-29T19:22:31.858Z"
+    },
+    {
+      "id": "cl_7950281790",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bicycle-rack-on-site/7950281790.html",
+      "address": "Bicycle rack, On-Site Laundry, Video entry system",
+      "neighborhood": "SOMA / South Beach",
+      "price": 4395,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7807,
+      "lon": -122.4048,
+      "notes": "From Craigslist · posted Jul 29, 6:56 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-29T19:22:31.858Z"
     }
   ]
 }
