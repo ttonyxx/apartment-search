@@ -87160,6 +87160,26 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-30T10:28:53.711Z"
+    },
+    {
+      "id": "rf_637320",
+      "url": "https://www.redfin.com/CA/San-Francisco/1667-47th-Ave-94122/home/637320",
+      "address": "1667 47th Ave",
+      "neighborhood": "",
+      "price": 5775,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7554004,
+      "lon": -122.506905,
+      "notes": "From Redfin · updated Jul 30, 11:50 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-07-30T12:47:34.312Z"
     }
   ]
 }
