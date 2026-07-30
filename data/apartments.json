@@ -84396,14 +84396,16 @@
       "bathrooms": null,
       "sqft": 600,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7794,
       "lon": -122.4988,
       "notes": "From Craigslist · posted Jul 27, 2:15 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-27T04:39:12.345Z"
+      "added_at": "2026-07-27T04:39:12.345Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-30T23:11:41.562Z"
     },
     {
       "id": "cl_7949726586",
@@ -87552,14 +87554,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7482,
       "lon": -122.4192,
       "notes": "From Craigslist · posted Jul 30, 7:02 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-30T19:38:18.574Z"
+      "added_at": "2026-07-30T19:38:18.574Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-07-30T23:11:41.562Z"
     },
     {
       "id": "cl_7950472357",
@@ -87636,6 +87640,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-07-30T19:38:18.574Z"
+    },
+    {
+      "id": "cl_7950525368",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-spacious-two/7950525368.html",
+      "address": "Top-Floor Spacious Two Bedroom Apartment",
+      "neighborhood": "Sunset / Parkside",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 725,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7427,
+      "lon": -122.4843,
+      "notes": "From Craigslist · posted Jul 30, 9:36 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-30T23:11:41.562Z"
+    },
+    {
+      "id": "cl_7950535742",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-2ba-top-floor-unit-in/7950535742.html",
+      "address": "2BR/2BA Top Floor Unit in Visitacion Valley",
+      "neighborhood": "Visitacion Valley",
+      "price": 3950,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7138,
+      "lon": -122.4092,
+      "notes": "From Craigslist · posted Jul 30, 10:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-07-30T23:11:41.562Z"
     }
   ]
 }
