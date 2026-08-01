@@ -88448,7 +88448,7 @@
       "bathrooms": 1,
       "sqft": 504,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7770915,
       "lon": -122.4457515,
@@ -88456,7 +88456,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-31T15:22:25.914Z"
+      "added_at": "2026-07-31T15:22:25.914Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-01T20:58:10.479Z"
     },
     {
       "id": "rf_201578084",
@@ -92045,6 +92047,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-01T19:14:23.508Z"
+    },
+    {
+      "id": "cl_7950944273",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-15-mo-cultured/7950944273.html",
+      "address": "TMLP 15-mo. | Cultured Neighborhood, City Views, Heated Pool. Live With Us!",
+      "neighborhood": "Tenderloin",
+      "price": 3914,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1104,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4186,
+      "notes": "From Craigslist · posted Aug 1, 8:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T20:58:10.479Z"
     }
   ]
 }
