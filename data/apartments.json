@@ -92165,14 +92165,16 @@
       "bathrooms": null,
       "sqft": 1520,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7509,
       "lon": -122.4153,
       "notes": "From Craigslist · posted Aug 1, 11:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-01T23:59:44.552Z"
+      "added_at": "2026-08-01T23:59:44.552Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-02T06:36:33.839Z"
     },
     {
       "id": "cl_7950990140",
@@ -92203,14 +92205,16 @@
       "bathrooms": null,
       "sqft": 1410,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7808,
       "lon": -122.395,
       "notes": "From Craigslist · posted Aug 2, 12:46 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T03:45:01.519Z"
+      "added_at": "2026-08-02T03:45:01.519Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-02T06:36:33.839Z"
     },
     {
       "id": "cl_7951005190",
@@ -92241,14 +92245,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7712,
       "lon": -122.4413,
       "notes": "From Craigslist · posted Aug 2, 2:03 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T03:45:01.519Z"
+      "added_at": "2026-08-02T03:45:01.519Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-02T06:36:33.839Z"
     },
     {
       "id": "cl_7950988236",
@@ -92268,6 +92274,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-02T03:45:01.519Z"
+    },
+    {
+      "id": "cl_7951011016",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-classic-richmond-flat/7951011016.html",
+      "address": "Classic Richmond Flat - Enormous Square Footage, windows in every room",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1400,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Aug 2, 4:45 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-02T06:36:33.839Z"
+    },
+    {
+      "id": "cl_7951015697",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautifully-updated/7951015697.html",
+      "address": "✔Beautifully updated 2-bedroom, 1-bath flat✔✔",
+      "neighborhood": "City Of San Francisco",
+      "price": 2055,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7784,
+      "lon": -122.4785,
+      "notes": "From Craigslist · posted Aug 2, 6:25 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-02T06:36:33.839Z"
     }
   ]
 }
