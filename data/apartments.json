@@ -92119,14 +92119,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.775,
       "lon": -122.4844,
       "notes": "From Craigslist · posted Aug 1, 9:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-01T22:03:15.705Z"
+      "added_at": "2026-08-01T22:03:15.705Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-01T23:59:44.552Z"
     },
     {
       "id": "cl_7950959645",
@@ -92146,6 +92148,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-01T22:03:15.705Z"
+    },
+    {
+      "id": "cl_7950977693",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1-top-floor-classic-unit/7950977693.html",
+      "address": "4/1 Top-Floor classic unit + In-unit washer & dryer",
+      "neighborhood": "San Francisco",
+      "price": 7250,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1520,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Aug 1, 11:54 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-01T23:59:44.552Z"
     }
   ]
 }
