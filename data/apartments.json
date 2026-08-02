@@ -92733,14 +92733,16 @@
       "bathrooms": null,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7565,
       "lon": -122.4669,
       "notes": "From Craigslist · posted Aug 2, 3:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T17:04:27.839Z"
+      "added_at": "2026-08-02T17:04:27.839Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-02T20:59:56.636Z"
     },
     {
       "id": "cl_7951078363",
@@ -92791,14 +92793,16 @@
       "bathrooms": null,
       "sqft": 1633,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7757,
       "lon": -122.4898,
       "notes": "From Craigslist · posted Aug 2, 7:02 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T19:16:21.274Z"
+      "added_at": "2026-08-02T19:16:21.274Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-02T20:59:56.636Z"
     },
     {
       "id": "cl_7951101759",
@@ -92829,14 +92833,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7836,
       "lon": -122.4914,
       "notes": "From Craigslist · posted Aug 2, 6:58 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T19:16:21.274Z"
+      "added_at": "2026-08-02T19:16:21.274Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-02T20:59:56.636Z"
     },
     {
       "id": "cl_7951091000",
@@ -92989,6 +92995,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-02T19:16:21.274Z"
+    },
+    {
+      "id": "cl_7951124196",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-apply-now-see-it-today/7951124196.html",
+      "address": "!!apply now. see it today. move in fast.!!",
+      "neighborhood": "Bernal Heights",
+      "price": 2250,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7364,
+      "lon": -122.4244,
+      "notes": "From Craigslist · posted Aug 2, 8:38 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-02T20:59:56.636Z"
+    },
+    {
+      "id": "cl_7950763370",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-single-family/7950763370.html",
+      "address": "Beautiful single family home with backyard and 4 car garage",
+      "neighborhood": "Excelsior / Outer Mission",
+      "price": 4900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7195,
+      "lon": -122.4411,
+      "notes": "From Craigslist · posted Aug 1, 12:03 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-02T20:59:56.636Z"
     }
   ]
 }
