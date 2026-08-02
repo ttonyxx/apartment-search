@@ -92403,14 +92403,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7812,
       "lon": -122.4614,
       "notes": "From Craigslist · posted Aug 2, 7:47 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T09:11:34.581Z"
+      "added_at": "2026-08-02T09:11:34.581Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-02T15:05:47.497Z"
     },
     {
       "id": "cl_7951022670",
@@ -92668,6 +92670,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-02T13:36:42.051Z"
+    },
+    {
+      "id": "cl_7951040169",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-flexible-top-floor-1/7951040169.html",
+      "address": "Flexible Top-Floor 4/1 classic living",
+      "neighborhood": "San Francisco",
+      "price": 7250,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1520,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Aug 2, 1:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-02T15:05:47.497Z"
+    },
+    {
+      "id": "cl_7951049648",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-floor-to-ceiling/7951049648.html",
+      "address": "Floor-to-Ceiling + Sunbathing | Vibrant City Light | Yerba Buena 2BR",
+      "neighborhood": "South Of Market",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1054,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7849,
+      "lon": -122.3975,
+      "notes": "From Craigslist · posted Aug 2, 2:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-02T15:05:47.497Z"
     }
   ]
 }
