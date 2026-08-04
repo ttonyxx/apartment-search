@@ -92619,14 +92619,16 @@
       "bathrooms": null,
       "sqft": 1800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7786,
       "lon": -122.4892,
       "notes": "From Craigslist · posted Aug 2, 12:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-02T13:36:42.051Z"
+      "added_at": "2026-08-02T13:36:42.051Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T11:27:29.069Z"
     },
     {
       "id": "cl_7951029830",
@@ -94969,7 +94971,7 @@
       "bathrooms": 2,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.762213,
       "lon": -122.4368605,
@@ -94977,7 +94979,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-03T12:29:00.891Z"
+      "added_at": "2026-08-03T12:29:00.891Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T11:27:29.069Z"
     },
     {
       "id": "rf_203616937",
@@ -95803,14 +95807,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7647,
       "lon": -122.4248,
       "notes": "From Craigslist · posted Aug 4, 2:35 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-04T02:52:33.198Z"
+      "added_at": "2026-08-04T02:52:33.198Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T11:27:29.069Z"
     },
     {
       "id": "cl_7951377996",
@@ -95927,6 +95933,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-04T08:43:59.025Z"
+    },
+    {
+      "id": "cl_7951422079",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-spacious-room/7951422079.html",
+      "address": "Beautiful Spacious 2 Room Garden Level Suite (2-IS-KB)",
+      "neighborhood": "Inner Sunset / UCSF",
+      "price": 2500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 580,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7593,
+      "lon": -122.4836,
+      "notes": "From Craigslist · posted Aug 4, 10:55 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-04T11:27:29.069Z"
+    },
+    {
+      "id": "cl_7951422760",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-lovely-home-630-lombard/7951422760.html",
+      "address": "LOVELY HOME (630 Lombard St, # 5, San Fr ancisco)",
+      "neighborhood": "San Francisco Ca",
+      "price": 970,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7915,
+      "lon": -122.4018,
+      "notes": "From Craigslist · posted Aug 4, 11:23 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-04T11:27:29.069Z"
     }
   ]
 }
