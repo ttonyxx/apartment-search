@@ -82576,14 +82576,16 @@
       "bathrooms": null,
       "sqft": 1005,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7787,
       "lon": -122.4022,
       "notes": "From Craigslist · posted Jul 25, 4:44 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-25T17:03:01.492Z"
+      "added_at": "2026-07-25T17:03:01.492Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T14:24:56.241Z"
     },
     {
       "id": "cl_7949419716",
@@ -88416,7 +88418,7 @@
       "bathrooms": 1,
       "sqft": 800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7419006,
       "lon": -122.4968933,
@@ -88424,7 +88426,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-31T15:22:25.914Z"
+      "added_at": "2026-07-31T15:22:25.914Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T14:24:56.241Z"
     },
     {
       "id": "rf_203545746",
@@ -88524,7 +88528,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7757962,
       "lon": -122.4458297,
@@ -88532,7 +88536,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-31T15:22:25.914Z"
+      "added_at": "2026-07-31T15:22:25.914Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T14:24:56.241Z"
     },
     {
       "id": "cl_7950680837",
@@ -91774,7 +91780,7 @@
       "bathrooms": 2,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7749997,
       "lon": -122.5093435,
@@ -91782,7 +91788,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-01T13:36:10.459Z"
+      "added_at": "2026-08-01T13:36:10.459Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T14:24:56.241Z"
     },
     {
       "id": "rf_657130",
@@ -91794,7 +91802,7 @@
       "bathrooms": 1.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7429784,
       "lon": -122.4814601,
@@ -91802,7 +91810,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-01T13:36:10.459Z"
+      "added_at": "2026-08-01T13:36:10.459Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T14:24:56.241Z"
     },
     {
       "id": "cl_7950866270",
@@ -94387,14 +94397,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7195,
       "lon": -122.4411,
       "notes": "From Craigslist · posted Aug 3, 6:08 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-03T08:31:59.055Z"
+      "added_at": "2026-08-03T08:31:59.055Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T14:24:56.241Z"
     },
     {
       "id": "cl_7951193781",
@@ -94993,7 +95005,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7898368,
       "lon": -122.4102289,
@@ -95001,7 +95013,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-03T12:29:00.891Z"
+      "added_at": "2026-08-03T12:29:00.891Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T14:24:56.241Z"
     },
     {
       "id": "cl_7951241663",
@@ -95767,14 +95781,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7509,
       "lon": -122.4153,
       "notes": "From Craigslist · posted Aug 4, 2:45 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-04T02:52:33.198Z"
+      "added_at": "2026-08-04T02:52:33.198Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T14:24:56.241Z"
     },
     {
       "id": "cl_7951389682",
@@ -95971,6 +95987,83 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-04T11:27:29.069Z"
+    },
+    {
+      "id": "cl_7951429187",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-lovely-two-bed-one-bath/7951429187.html",
+      "address": "Lovely two bed one bath home with parking in San Francisco.",
+      "neighborhood": "San Francisco, CA",
+      "price": 1180,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 949,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7481,
+      "lon": -122.4476,
+      "notes": "From Craigslist · posted Aug 4, 12:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-04T14:24:56.241Z"
+    },
+    {
+      "id": "cl_7951436112",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-renovated-two/7951436112.html",
+      "address": "Bright & Renovated Two-Bedroom North Beach Retreat",
+      "neighborhood": "San Francisco, CA",
+      "price": 1900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 700,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7974,
+      "lon": -122.4107,
+      "notes": "From Craigslist · posted Aug 4, 1:39 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-04T14:24:56.241Z"
+    },
+    {
+      "id": "cl_7951430198",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-san-francisco/7951430198.html",
+      "address": "Spacious San Francisco 3BR | Dishwasher | In-Unit Laundry",
+      "neighborhood": "San Francisco, CA",
+      "price": 2000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7427,
+      "lon": -122.4231,
+      "notes": "From Craigslist · posted Aug 4, 12:59 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-04T14:24:56.241Z"
+    },
+    {
+      "id": "rf_194784807",
+      "url": "https://www.redfin.com/CA/San-Francisco/773-777-San-Jose-Ave-94110/home/194784807",
+      "address": "773-777 San Jose Ave",
+      "neighborhood": "",
+      "price": 5000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.742712,
+      "lon": -122.422792,
+      "notes": "From Redfin · updated Aug 4, 11:42 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-04T14:24:56.241Z"
     }
   ]
 }
