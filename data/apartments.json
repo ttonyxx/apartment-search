@@ -45111,14 +45111,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7796,
       "lon": -122.4858,
       "notes": "From Craigslist · posted Jul 5, 4:23 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-05T07:31:19.279Z"
+      "added_at": "2026-07-05T07:31:19.279Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T08:43:59.025Z"
     },
     {
       "id": "cl_7945199390",
@@ -66826,14 +66828,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7561,
       "lon": -122.4085,
       "notes": "From Craigslist · posted Jul 20, 11:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-20T23:59:13.748Z"
+      "added_at": "2026-07-20T23:59:13.748Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T08:43:59.025Z"
     },
     {
       "id": "cl_7948447404",
@@ -95675,14 +95679,16 @@
       "bathrooms": null,
       "sqft": 1197,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7862,
       "lon": -122.435,
       "notes": "From Craigslist · posted Aug 4, 1:51 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-04T02:52:33.198Z"
+      "added_at": "2026-08-04T02:52:33.198Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T08:43:59.025Z"
     },
     {
       "id": "cl_7951390816",
@@ -95892,14 +95898,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7509,
       "lon": -122.4153,
       "notes": "From Craigslist · posted Aug 4, 3:31 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-04T05:51:58.691Z"
+      "added_at": "2026-08-04T05:51:58.691Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-04T08:43:59.025Z"
+    },
+    {
+      "id": "cl_7951414072",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-bedroom-bath-back/7951414072.html",
+      "address": "Great 2 bedroom 1 bath back on market",
+      "neighborhood": "Mission District",
+      "price": 4100,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7561,
+      "lon": -122.4085,
+      "notes": "From Craigslist · posted Aug 4, 7:05 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-04T08:43:59.025Z"
     }
   ]
 }
