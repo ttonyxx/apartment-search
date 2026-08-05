@@ -96531,14 +96531,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7487,
       "lon": -122.4271,
       "notes": "From Craigslist · posted Aug 5, 6:16 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-05T07:42:38.575Z"
+      "added_at": "2026-08-05T07:42:38.575Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T12:56:34.755Z"
     },
     {
       "id": "cl_7951624119",
@@ -96607,14 +96609,16 @@
       "bathrooms": null,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7518,
       "lon": -122.4072,
       "notes": "From Craigslist · posted Aug 5, 10:26 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-05T10:39:58.688Z"
+      "added_at": "2026-08-05T10:39:58.688Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T12:56:34.755Z"
     },
     {
       "id": "cl_7951631948",
@@ -96626,14 +96630,16 @@
       "bathrooms": null,
       "sqft": 800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7481,
       "lon": -122.4476,
       "notes": "From Craigslist · posted Aug 5, 10:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-05T10:39:58.688Z"
+      "added_at": "2026-08-05T10:39:58.688Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T12:56:34.755Z"
     },
     {
       "id": "cl_7951626468",
@@ -96672,6 +96678,46 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-05T10:39:58.688Z"
+    },
+    {
+      "id": "rf_203584685",
+      "url": "https://www.redfin.com/CA/San-Francisco/4542-Cabrillo-St-94121/unit-A/home/203584685",
+      "address": "4542 Cabrillo St Unit A",
+      "neighborhood": "",
+      "price": 3250,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7735531,
+      "lon": -122.507582,
+      "notes": "From Redfin · updated Aug 5, 12:19 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-05T12:56:34.755Z"
+    },
+    {
+      "id": "rf_191508053",
+      "url": "https://www.redfin.com/CA/San-Francisco/230-Lowell-St-94112/unit-5/apartment/191508053",
+      "address": "230 Lowell St Unit 5",
+      "neighborhood": "",
+      "price": 2800,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 660,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7092872,
+      "lon": -122.4454744,
+      "notes": "From Redfin · updated Aug 5, 11:30 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-05T12:56:34.755Z"
     }
   ]
 }
