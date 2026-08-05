@@ -88612,14 +88612,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7929,
       "lon": -122.4079,
       "notes": "From Craigslist · posted Jul 31, 5:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-31T17:42:40.629Z"
+      "added_at": "2026-07-31T17:42:40.629Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T15:21:10.080Z"
     },
     {
       "id": "cl_7950672061",
@@ -96552,14 +96554,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7985,
       "lon": -122.4408,
       "notes": "From Craigslist · posted Aug 5, 6:42 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-05T07:42:38.575Z"
+      "added_at": "2026-08-05T07:42:38.575Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T15:21:10.080Z"
     },
     {
       "id": "cl_7951624728",
@@ -96718,6 +96722,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-05T12:56:34.755Z"
+    },
+    {
+      "id": "cl_7951646501",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1br-600ft2-lovely-cozy/7951646501.html",
+      "address": "1br - 600ft2 - Lovely & Cozy 1-Bedroom House",
+      "neighborhood": "City Of San Francisco",
+      "price": 1000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7267,
+      "lon": -122.4185,
+      "notes": "From Craigslist · posted Aug 5, 1:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-05T15:21:10.080Z"
     }
   ]
 }
