@@ -69307,14 +69307,16 @@
       "bathrooms": null,
       "sqft": 1545,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7127,
       "lon": -122.432,
       "notes": "From Craigslist · posted Jul 21, 2:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-21T16:25:12.682Z"
+      "added_at": "2026-07-21T16:25:12.682Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T23:03:41.142Z"
     },
     {
       "id": "cl_7948539391",
@@ -69368,14 +69370,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7374,
       "lon": -122.3803,
       "notes": "From Craigslist · posted Jul 21, 4:36 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-21T18:17:21.091Z"
+      "added_at": "2026-07-21T18:17:21.091Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T23:03:41.142Z"
     },
     {
       "id": "cl_7948579673",
@@ -85569,14 +85573,16 @@
       "bathrooms": null,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7372,
       "lon": -122.3904,
       "notes": "From Craigslist · posted Jul 28, 1:06 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-28T02:49:43.196Z"
+      "added_at": "2026-07-28T02:49:43.196Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-05T23:03:41.142Z"
     },
     {
       "id": "cl_7949936882",
@@ -97003,6 +97009,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-05T21:15:31.030Z"
+    },
+    {
+      "id": "cl_7951774202",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-income-qualified/7951774202.html",
+      "address": "Income Qualified Apartments with Stunning Bay and City Views",
+      "neighborhood": "SOMA / South Beach",
+      "price": 3843,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 986,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7823,
+      "lon": -122.389,
+      "notes": "From Craigslist · posted Aug 5, 9:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-05T23:03:41.142Z"
     }
   ]
 }
