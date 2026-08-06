@@ -48578,14 +48578,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7544,
       "lon": -122.4093,
       "notes": "From Craigslist · posted Jul 7, 3:41 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-07T04:56:07.635Z"
+      "added_at": "2026-07-07T04:56:07.635Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-06T08:43:14.259Z"
     },
     {
       "id": "cl_7945582010",
@@ -48597,14 +48599,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7544,
       "lon": -122.4093,
       "notes": "From Craigslist · posted Jul 7, 3:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-07T04:56:07.635Z"
+      "added_at": "2026-07-07T04:56:07.635Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-06T08:43:14.259Z"
     },
     {
       "id": "cl_7945448479",
@@ -97209,6 +97213,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-06T05:53:35.916Z"
+    },
+    {
+      "id": "cl_7951839639",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-2br-2ba/7951839639.html",
+      "address": "Gorgeous 2BR / 2BA Apartment in Nob Hill – 1250 sq",
+      "neighborhood": "Nob Hill",
+      "price": 3978,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1250,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7944,
+      "lon": -122.4196,
+      "notes": "From Craigslist · posted Aug 6, 8:01 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-06T08:43:14.259Z"
     }
   ]
 }
