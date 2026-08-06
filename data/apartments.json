@@ -97232,6 +97232,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-06T08:43:14.259Z"
+    },
+    {
+      "id": "cl_7951847952",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-bed-bath-home-with/7951847952.html",
+      "address": "*@Newly 3 bed, 2 bath home with renovated kitchen@*",
+      "neighborhood": "San Francisco, CA",
+      "price": 1650,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7544,
+      "lon": -122.4808,
+      "notes": "From Craigslist · posted Aug 6, 11:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-06T11:26:20.613Z"
+    },
+    {
+      "id": "cl_7951847956",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedrooms-and-bathroom/7951847956.html",
+      "address": "@@2 bedrooms and 1 bathroom full kitchen, garage and private yard@@",
+      "neighborhood": "San Francisco, CA",
+      "price": 1459,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7218,
+      "lon": -122.4612,
+      "notes": "From Craigslist · posted Aug 6, 11:18 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-06T11:26:20.613Z"
     }
   ]
 }
