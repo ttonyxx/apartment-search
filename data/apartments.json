@@ -97762,6 +97762,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-07T07:21:37.686Z"
+    },
+    {
+      "id": "cl_7952053810",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-bed1-bath-condo/7952053810.html",
+      "address": "//*/Updated 2 bed,1 bath Condo in Buena Vista/*//",
+      "neighborhood": "San Francisco, CA",
+      "price": 2659,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1128,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.77,
+      "lon": -122.4453,
+      "notes": "From Craigslist · posted Aug 7, 9:03 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-07T09:03:36.738Z"
     }
   ]
 }
