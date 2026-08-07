@@ -49063,14 +49063,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7823,
       "lon": -122.389,
       "notes": "From Craigslist · posted Jul 7, 4:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-07T17:20:21.901Z"
+      "added_at": "2026-07-07T17:20:21.901Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T07:21:37.686Z"
     },
     {
       "id": "cl_7945677665",
@@ -97722,6 +97724,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-07T05:42:58.021Z"
+    },
+    {
+      "id": "cl_7952047786",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-home/7952047786.html",
+      "address": "Spacious 2 bedroom home with eat-in kitchen & parking",
+      "neighborhood": "San Francisco, CA",
+      "price": 2095,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7949,
+      "lon": -122.43,
+      "notes": "From Craigslist · posted Aug 7, 6:18 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-07T07:21:37.686Z"
+    },
+    {
+      "id": "cl_7952048011",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedrooms-flat-for-rent/7952048011.html",
+      "address": "3 bedrooms flat for rent",
+      "neighborhood": "Holly Park",
+      "price": 4000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7354,
+      "lon": -122.4247,
+      "notes": "From Craigslist · posted Aug 7, 6:02 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-07T07:21:37.686Z"
     }
   ]
 }
