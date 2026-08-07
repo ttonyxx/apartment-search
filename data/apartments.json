@@ -86836,14 +86836,16 @@
       "bathrooms": null,
       "sqft": 961,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7155,
       "lon": -122.4808,
       "notes": "From Craigslist · posted Jul 29, 4:52 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-29T17:18:48.278Z"
+      "added_at": "2026-07-29T17:18:48.278Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T14:56:04.301Z"
     },
     {
       "id": "cl_7950240509",
@@ -97830,6 +97832,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-07T10:56:00.739Z"
+    },
+    {
+      "id": "cl_7952080090",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-spacious-single/7952080090.html",
+      "address": "Modern Spacious Single-Family Home/Double Pkg/Garden/Hdwd Flrs",
+      "neighborhood": "Twin Peaks / Diamond Hts",
+      "price": 7800,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1960,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Aug 7, 1:55 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-07T14:56:04.301Z"
     }
   ]
 }
