@@ -97703,6 +97703,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-07T03:51:45.437Z"
+    },
+    {
+      "id": "cl_7952046225",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-2br-2ba-near-ucsf/7952046225.html",
+      "address": "Modern 2BR 2BA Near UCSF With Great Location",
+      "neighborhood": "San Francisco",
+      "price": 2250,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 700,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7824,
+      "lon": -122.448,
+      "notes": "From Craigslist · posted Aug 7, 5:27 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-07T05:42:58.021Z"
     }
   ]
 }
