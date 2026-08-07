@@ -83180,14 +83180,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7441,
       "lon": -122.4863,
       "notes": "From Craigslist · posted Jul 26, 2:17 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T04:28:55.654Z"
+      "added_at": "2026-07-26T04:28:55.654Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T03:51:45.437Z"
     },
     {
       "id": "cl_7949549141",
@@ -96483,14 +96485,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7776,
       "lon": -122.4964,
       "notes": "From Craigslist · posted Aug 5, 3:22 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-05T04:13:38.651Z"
+      "added_at": "2026-08-05T04:13:38.651Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T03:51:45.437Z"
     },
     {
       "id": "cl_7951599920",
@@ -97680,6 +97684,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-07T00:42:12.266Z"
+    },
+    {
+      "id": "cl_7952037842",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-looking-for-room-mate/7952037842.html",
+      "address": "Looking for a room-mate, 1 room available. Mission Street/Bernal heights",
+      "neighborhood": "San Francisco",
+      "price": 1,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "sqft": 156,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.741,
+      "lon": -122.4227,
+      "notes": "From Craigslist · posted Aug 7, 3:36 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-07T03:51:45.437Z"
     }
   ]
 }
