@@ -97405,7 +97405,7 @@
       "bathrooms": 2.5,
       "sqft": 1332,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.725303,
       "lon": -122.461676,
@@ -97413,7 +97413,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-06T14:21:41.267Z"
+      "added_at": "2026-08-06T14:21:41.267Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T10:56:00.739Z"
     },
     {
       "id": "rf_1826344",
@@ -97677,7 +97679,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.747676,
       "lon": -122.4447254,
@@ -97685,7 +97687,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-07T00:42:12.266Z"
+      "added_at": "2026-08-07T00:42:12.266Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T10:56:00.739Z"
     },
     {
       "id": "cl_7952037842",
@@ -97735,14 +97739,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7949,
       "lon": -122.43,
       "notes": "From Craigslist · posted Aug 7, 6:18 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-07T07:21:37.686Z"
+      "added_at": "2026-08-07T07:21:37.686Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-07T10:56:00.739Z"
     },
     {
       "id": "cl_7952048011",
@@ -97781,6 +97787,45 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-07T09:03:36.738Z"
+    },
+    {
+      "id": "cl_7952058368",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-updated-2br-1ba/7952058368.html",
+      "address": "Newly updated 2BR/1BA full-floor Victorian flat located",
+      "neighborhood": "885 Waller St, San Francisco, CA",
+      "price": 950,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7712,
+      "lon": -122.4413,
+      "notes": "From Craigslist · posted Aug 7, 10:47 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-07T10:56:00.739Z"
+    },
+    {
+      "id": "rf_204422121",
+      "url": "https://www.redfin.com/CA/San-Francisco/3566-17th-St-94110/apartment/204422121",
+      "address": "3566 17th St",
+      "neighborhood": "",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 940,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7632643,
+      "lon": -122.4253349,
+      "notes": "From Redfin · updated Aug 7, 9:29 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-07T10:56:00.739Z"
     }
   ]
 }
