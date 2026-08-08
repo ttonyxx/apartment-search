@@ -100260,14 +100260,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7762,
       "lon": -122.4249,
       "notes": "From Craigslist · posted Aug 8, 7:25 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-08T19:33:10.444Z"
+      "added_at": "2026-08-08T19:33:10.444Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-08T22:33:11.383Z"
     },
     {
       "id": "cl_7952356196",
@@ -100329,6 +100331,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-08T21:33:47.854Z"
+    },
+    {
+      "id": "cl_7952394033",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-furnished-3br-1ba-home-in/7952394033.html",
+      "address": "Furnished 3BR/1BA Home in Outer Richmond | Yard | Pets | 1-Year Lease",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6250,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7767,
+      "lon": -122.5052,
+      "notes": "From Craigslist · posted Aug 8, 10:10 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-08T22:33:11.383Z"
     }
   ]
 }
