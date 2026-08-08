@@ -99158,14 +99158,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7856,
       "lon": -122.4358,
       "notes": "From Craigslist · posted Aug 8, 6:24 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-08T06:59:14.270Z"
+      "added_at": "2026-08-08T06:59:14.270Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-08T08:46:54.404Z"
     },
     {
       "id": "cl_7952256769",
@@ -99177,14 +99179,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7776,
       "lon": -122.4332,
       "notes": "From Craigslist · posted Aug 8, 5:10 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-08T06:59:14.270Z"
+      "added_at": "2026-08-08T06:59:14.270Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-08T08:46:54.404Z"
     },
     {
       "id": "cl_7952261130",
@@ -99510,6 +99514,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-08T07:54:35.795Z"
+    },
+    {
+      "id": "cl_7952264994",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-completely-remodeled/7952264994.html",
+      "address": "Completely Remodeled 2-Bedroom, 1-Bathroom Home for Rent",
+      "neighborhood": "Pacific Heights",
+      "price": 1220,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7856,
+      "lon": -122.4358,
+      "notes": "From Craigslist · posted Aug 8, 8:16 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-08T08:46:54.404Z"
+    },
+    {
+      "id": "cl_7952266299",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-sunny-and-bright-bedroom/7952266299.html",
+      "address": "Sunny and Bright 3-Bedroom Studio",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 3900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7149,
+      "lon": -122.4561,
+      "notes": "From Craigslist · posted Aug 8, 8:20 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-08T08:46:54.404Z"
     }
   ]
 }
