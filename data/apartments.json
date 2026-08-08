@@ -100207,6 +100207,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-08T17:34:19.790Z"
+    },
+    {
+      "id": "cl_7952341651",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-bedroom/7952341651.html",
+      "address": "## **## Charming 2 Bedroom Apartment in Alamo Square ##",
+      "neighborhood": "San Francisco, CA",
+      "price": 2103,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7703,
+      "lon": -122.4396,
+      "notes": "From Craigslist · posted Aug 8, 5:46 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-08T18:42:34.477Z"
     }
   ]
 }
