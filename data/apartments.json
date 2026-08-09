@@ -100856,14 +100856,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7653,
       "lon": -122.4415,
       "notes": "From Craigslist · posted Aug 9, 10:39 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-09T11:33:00.885Z"
+      "added_at": "2026-08-09T11:33:00.885Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T22:35:08.096Z"
     },
     {
       "id": "rf_204444544",
@@ -101752,6 +101754,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-09T21:36:15.371Z"
+    },
+    {
+      "id": "cl_7951829049",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bdr-ba-great-for-friends/7951829049.html",
+      "address": "4 BDR/2 BA  Great for friends to live together at Prime Location !!!",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 5500,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Aug 6, 4:59 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-09T22:35:08.096Z"
     }
   ]
 }
