@@ -97221,14 +97221,16 @@
       "bathrooms": null,
       "sqft": 180,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7771,
       "lon": -122.4672,
       "notes": "From Craigslist · posted Aug 6, 3:48 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-06T05:53:35.916Z"
+      "added_at": "2026-08-06T05:53:35.916Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T02:01:08.733Z"
     },
     {
       "id": "cl_7951829049",
@@ -100352,6 +100354,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-08T22:33:11.383Z"
+    },
+    {
+      "id": "cl_7952426806",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-renovated-bed-bath/7952426806.html",
+      "address": "Fully Renovated 2 Bed / 1 Bath Apartment",
+      "neighborhood": "San Francisco, CA",
+      "price": 1300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 998,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7673,
+      "lon": -122.4356,
+      "notes": "From Craigslist · posted Aug 9, 1:24 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-09T02:01:08.733Z"
+    },
+    {
+      "id": "cl_7952425585",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-cozy-room-walking/7952425585.html",
+      "address": "A cozy room walking distance to USF available",
+      "neighborhood": "City Of San Francisco",
+      "price": 1350,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 180,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7771,
+      "lon": -122.4672,
+      "notes": "From Craigslist · posted Aug 9, 12:48 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-09T02:01:08.733Z"
     }
   ]
 }
