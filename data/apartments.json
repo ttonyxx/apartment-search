@@ -97827,14 +97827,16 @@
       "bathrooms": null,
       "sqft": 1128,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.77,
       "lon": -122.4453,
       "notes": "From Craigslist · posted Aug 7, 9:03 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-07T09:03:36.738Z"
+      "added_at": "2026-08-07T09:03:36.738Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T08:48:31.839Z"
     },
     {
       "id": "cl_7952058368",
@@ -100367,14 +100369,16 @@
       "bathrooms": null,
       "sqft": 998,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7673,
       "lon": -122.4356,
       "notes": "From Craigslist · posted Aug 9, 1:24 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-09T02:01:08.733Z"
+      "added_at": "2026-08-09T02:01:08.733Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T08:48:31.839Z"
     },
     {
       "id": "cl_7952425585",
@@ -100577,6 +100581,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-09T05:48:45.342Z"
+    },
+    {
+      "id": "cl_7952457035",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-this-bed1-bath-home/7952457035.html",
+      "address": "This 2 bed,1 bath home combines lovely Victorian features",
+      "neighborhood": "San Francisco",
+      "price": 1375,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7709,
+      "lon": -122.4418,
+      "notes": "From Craigslist · posted Aug 9, 8:46 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-09T08:48:31.839Z"
+    },
+    {
+      "id": "cl_7952455972",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-bedroom-apartment/7952455972.html",
+      "address": "2br - 2 Bedroom Apartment Near Transportation",
+      "neighborhood": "Cathedral Hill",
+      "price": 1500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7891,
+      "lon": -122.4244,
+      "notes": "From Craigslist · posted Aug 9, 8:12 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-09T08:48:31.839Z"
     }
   ]
 }
