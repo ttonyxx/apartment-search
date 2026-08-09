@@ -97950,14 +97950,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Aug 7, 4:36 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-07T17:50:31.320Z"
+      "added_at": "2026-08-07T17:50:31.320Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T17:34:45.840Z"
     },
     {
       "id": "cl_7952134180",
@@ -97988,14 +97990,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Aug 7, 4:35 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-07T17:50:31.320Z"
+      "added_at": "2026-08-07T17:50:31.320Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T17:34:45.840Z"
     },
     {
       "id": "cl_7952116785",
@@ -98007,14 +98011,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7333,
       "lon": -122.4285,
       "notes": "From Craigslist · posted Aug 7, 4:30 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-07T17:50:31.320Z"
+      "added_at": "2026-08-07T17:50:31.320Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T17:34:45.840Z"
     },
     {
       "id": "cl_7952133397",
@@ -98795,14 +98801,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7902,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Aug 7, 4:36 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-08T01:53:38.973Z"
+      "added_at": "2026-08-08T01:53:38.973Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T17:34:45.840Z"
     },
     {
       "id": "cl_7952221208",
@@ -100680,14 +100688,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8007,
       "lon": -122.4404,
       "notes": "From Craigslist · posted Aug 9, 9:20 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-09T09:43:20.336Z"
+      "added_at": "2026-08-09T09:43:20.336Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T17:34:45.840Z"
     },
     {
       "id": "cl_7952460261",
@@ -101115,14 +101125,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7736,
       "lon": -122.4358,
       "notes": "From Craigslist · posted Aug 9, 1:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-09T14:38:14.319Z"
+      "added_at": "2026-08-09T14:38:14.319Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-09T17:34:45.840Z"
     },
     {
       "id": "cl_7952477312",
@@ -101298,6 +101310,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-09T16:39:55.315Z"
+    },
+    {
+      "id": "cl_7952508553",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-2br-2ba/7952508553.html",
+      "address": "Spacious 2BR/2BA Apartment in Prime Cole Valley",
+      "neighborhood": "Alamo Square / Nopa",
+      "price": 1972,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7645,
+      "lon": -122.4512,
+      "notes": "From Craigslist · posted Aug 9, 4:40 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-09T17:34:45.840Z"
+    },
+    {
+      "id": "cl_7952507578",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-bath/7952507578.html",
+      "address": "3 bed 3 bath",
+      "neighborhood": "Marina / Cow Hollow",
+      "price": 7000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7999,
+      "lon": -122.4342,
+      "notes": "From Craigslist · posted Aug 9, 5:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-09T17:34:45.840Z"
     }
   ]
 }
