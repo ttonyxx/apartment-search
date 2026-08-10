@@ -99582,14 +99582,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.799,
       "lon": -122.4129,
       "notes": "From Craigslist · posted Aug 8, 7:12 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-08T07:54:35.795Z"
+      "added_at": "2026-08-08T07:54:35.795Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T17:54:58.706Z"
     },
     {
       "id": "cl_7952264994",
@@ -102824,6 +102826,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-10T16:57:02.774Z"
+    },
+    {
+      "id": "cl_7952707508",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-outer-richmond-bedroom/7952707508.html",
+      "address": "Outer Richmond 2 Bedroom / 1 Bathroom Apartment",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 3800,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 850,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Aug 10, 5:09 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T17:54:58.706Z"
     }
   ]
 }
