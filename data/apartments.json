@@ -59949,14 +59949,16 @@
       "bathrooms": null,
       "sqft": 800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7226,
       "lon": -122.4515,
       "notes": "From Craigslist · posted Jul 14, 4:47 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-14T17:18:01.228Z"
+      "added_at": "2026-07-14T17:18:01.228Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T21:45:30.404Z"
     },
     {
       "id": "cl_7947148401",
@@ -59968,14 +59970,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7231,
       "lon": -122.4523,
       "notes": "From Craigslist · posted Jul 14, 5:08 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-14T17:18:01.228Z"
+      "added_at": "2026-07-14T17:18:01.228Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T21:45:30.404Z"
     },
     {
       "id": "cl_7947126900",
@@ -89565,14 +89569,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7759,
       "lon": -122.4457,
       "notes": "From Craigslist · posted Jul 31, 10:22 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-31T23:05:14.333Z"
+      "added_at": "2026-07-31T23:05:14.333Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-10T21:45:30.404Z"
     },
     {
       "id": "cl_7950789131",
@@ -102921,6 +102927,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-10T20:47:31.860Z"
+    },
+    {
+      "id": "cl_7952702887",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tues-740pm-800pm-4th/7952702887.html",
+      "address": "OPEN TUES 7:40pm-8:00pm. 4th Floor 2-3BR/1BA ( 660 Bush Street, #408)",
+      "neighborhood": "Lower Nob Hill",
+      "price": 5800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7902,
+      "lon": -122.4083,
+      "notes": "From Craigslist · posted Aug 10, 4:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T21:45:30.404Z"
+    },
+    {
+      "id": "cl_7952701850",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tues-600pm-620pm/7952701850.html",
+      "address": "OPEN TUES 6:00pm-6:20pm. Spacious, Bright,Great Loc!(312 20th Avenue)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4795,
+      "notes": "From Craigslist · posted Aug 10, 4:48 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T21:45:30.404Z"
     }
   ]
 }
