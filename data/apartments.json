@@ -102883,6 +102883,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-10T19:02:17.437Z"
+    },
+    {
+      "id": "cl_7952740890",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-2br-2ba-apt/7952740890.html",
+      "address": "Great 2BR/2BA Apt. Available Now!",
+      "neighborhood": "Inner Sunset / UCSF",
+      "price": 3800,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7638,
+      "lon": -122.4717,
+      "notes": "From Craigslist · posted Aug 10, 7:10 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T20:47:31.860Z"
+    },
+    {
+      "id": "cl_7952742123",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-inner-richmond-top-floor/7952742123.html",
+      "address": "INNER RICHMOND TOP FLOOR TWO BEDROOM APT WITH LAUNDRY AND PARKING",
+      "neighborhood": "Inner Richmond",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 843,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7768,
+      "lon": -122.467,
+      "notes": "From Craigslist · posted Aug 10, 7:15 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T20:47:31.860Z"
     }
   ]
 }
