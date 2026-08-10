@@ -102845,6 +102845,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-10T17:54:58.706Z"
+    },
+    {
+      "id": "cl_7952733947",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-25-bath-single-family/7952733947.html",
+      "address": "3-Bed, 2.5-Bath Single Family Home for Short Term Rental in Bernal",
+      "neighborhood": "Bernal Heights",
+      "price": 2500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2400,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Aug 10, 6:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T19:02:17.437Z"
+    },
+    {
+      "id": "cl_7948726911",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-basement-level-2br-with/7948726911.html",
+      "address": "*Basement Level* 2BR with In-Unit Laundry in Lower Nob Hill",
+      "neighborhood": "Nob Hill",
+      "price": 4495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.788,
+      "lon": -122.4134,
+      "notes": "From Craigslist · posted Aug 10, 10:41 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T19:02:17.437Z"
     }
   ]
 }
