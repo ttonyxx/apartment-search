@@ -102965,6 +102965,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-10T21:45:30.404Z"
+    },
+    {
+      "id": "cl_7952792414",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-2br-duplex-golden/7952792414.html",
+      "address": "Bright 2BR Duplex – Golden Gate Heights/Inner Sunset",
+      "neighborhood": "San Francisco",
+      "price": 1800,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7565,
+      "lon": -122.4669,
+      "notes": "From Craigslist · posted Aug 10, 11:13 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-10T23:38:17.685Z"
     }
   ]
 }
