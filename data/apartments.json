@@ -100132,7 +100132,7 @@
       "bathrooms": 1,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7563193,
       "lon": -122.4663587,
@@ -100140,7 +100140,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-08T12:55:55.168Z"
+      "added_at": "2026-08-08T12:55:55.168Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-11T11:47:08.845Z"
     },
     {
       "id": "rf_626096",
@@ -100899,7 +100901,7 @@
       "bathrooms": 1,
       "sqft": 840,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.791696,
       "lon": -122.478589,
@@ -100907,7 +100909,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-09T12:58:35.626Z"
+      "added_at": "2026-08-09T12:58:35.626Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-11T11:47:08.845Z"
     },
     {
       "id": "rf_177206478",
@@ -100919,7 +100923,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7287835,
       "lon": -122.3692296,
@@ -100927,7 +100931,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-09T12:58:35.626Z"
+      "added_at": "2026-08-09T12:58:35.626Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-11T11:47:08.845Z"
     },
     {
       "id": "rf_1987917",
@@ -102606,7 +102612,7 @@
       "bathrooms": 2.5,
       "sqft": 2281,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7568578,
       "lon": -122.4726292,
@@ -102614,7 +102620,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-10T11:50:33.796Z"
+      "added_at": "2026-08-10T11:50:33.796Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-11T11:47:08.845Z"
     },
     {
       "id": "cl_7952640671",
