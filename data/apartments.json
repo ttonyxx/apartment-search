@@ -103146,6 +103146,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-11T04:21:59.368Z"
+    },
+    {
+      "id": "cl_7952839564",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2600-mcallister-top/7952839564.html",
+      "address": "2600 McAllister:  Top Corner 2BD 1 Block From USF & Golden Gate Park",
+      "neighborhood": "USF / Panhandle",
+      "price": 3200,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 637,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7759,
+      "lon": -122.4551,
+      "notes": "From Craigslist · posted Aug 11, 5:34 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-11T05:54:16.999Z"
     }
   ]
 }
