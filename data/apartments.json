@@ -103192,6 +103192,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-11T10:53:04.768Z"
+    },
+    {
+      "id": "cl_7952860985",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-bedroom-bathroom/7952860985.html",
+      "address": "Bright 2-bedroom 1-bathroom",
+      "neighborhood": "SOMA / South Beach",
+      "price": 2595,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7725,
+      "lon": -122.4147,
+      "notes": "From Craigslist · posted Aug 11, 1:13 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-11T13:13:58.738Z"
     }
   ]
 }
