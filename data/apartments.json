@@ -103486,6 +103486,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-11T21:52:39.874Z"
+    },
+    {
+      "id": "cl_7953003488",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-well-maintained-bed-bath/7953003488.html",
+      "address": "*/*/*Well-Maintained 1-Bed/1-Bath for Rent*/*/*",
+      "neighborhood": "South Of Market",
+      "price": 1900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1525,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7727,
+      "lon": -122.4167,
+      "notes": "From Craigslist · posted Aug 11, 11:19 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-11T23:45:22.263Z"
+    },
+    {
+      "id": "cl_7953006927",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-bathroom/7953006927.html",
+      "address": "Spacious 2 Bedroom / 1 Bathroom Flat with Private Backyard",
+      "neighborhood": "San Francisco",
+      "price": 2185,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7293,
+      "lon": -122.386,
+      "notes": "From Craigslist · posted Aug 11, 11:38 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-11T23:45:22.263Z"
     }
   ]
 }
