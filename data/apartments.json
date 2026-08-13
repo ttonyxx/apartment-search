@@ -107857,6 +107857,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-13T16:59:07.411Z"
+    },
+    {
+      "id": "cl_7953349045",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-available-soon-rare-sf/7953349045.html",
+      "address": "AVAILABLE SOON | Rare SF Find: Remodeled 3BD/2BA with Private Balcony",
+      "neighborhood": "City Of San Francisco",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1250,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7372,
+      "lon": -122.3904,
+      "notes": "From Craigslist · posted Aug 13, 5:25 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-13T18:01:23.323Z"
+    },
+    {
+      "id": "cl_7953300329",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-large-br-2ba-plus-office/7953300329.html",
+      "address": "Large 3+ BR/2BA Plus Office",
+      "neighborhood": "San Francisco",
+      "price": 6950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1440,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7813,
+      "lon": -122.4167,
+      "notes": "From Craigslist · posted Aug 13, 2:55 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-13T18:01:23.323Z"
     }
   ]
 }
