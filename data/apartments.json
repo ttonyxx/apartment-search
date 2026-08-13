@@ -107283,14 +107283,16 @@
       "bathrooms": null,
       "sqft": 1318,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7831,
       "lon": -122.4445,
       "notes": "From Craigslist · posted Aug 13, 12:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T13:20:06.706Z"
+      "added_at": "2026-08-13T13:20:06.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-13T19:56:40.344Z"
     },
     {
       "id": "cl_7953285465",
@@ -107302,14 +107304,16 @@
       "bathrooms": null,
       "sqft": 2021,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.787,
       "lon": -122.4413,
       "notes": "From Craigslist · posted Aug 13, 12:59 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T13:20:06.706Z"
+      "added_at": "2026-08-13T13:20:06.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-13T19:56:40.344Z"
     },
     {
       "id": "cl_7953283618",
@@ -107441,14 +107445,16 @@
       "bathrooms": null,
       "sqft": 1807,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7871,
       "lon": -122.4405,
       "notes": "From Craigslist · posted Aug 13, 12:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T13:20:06.706Z"
+      "added_at": "2026-08-13T13:20:06.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-13T19:56:40.344Z"
     },
     {
       "id": "cl_7953282905",
@@ -107895,6 +107901,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-13T18:01:23.323Z"
+    },
+    {
+      "id": "cl_7953385077",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-265-lobos-st-san-francisco-ca/7953385077.html",
+      "address": "265 Lobos St, San Francisco, CA 94112",
+      "neighborhood": "City Of San Francisco",
+      "price": 4000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1025,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7147,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Aug 13, 7:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-13T19:56:40.344Z"
     }
   ]
 }
