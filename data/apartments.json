@@ -103532,14 +103532,16 @@
       "bathrooms": null,
       "sqft": 1350,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7946,
       "lon": -122.4748,
       "notes": "From Craigslist · posted Aug 11, 8:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-11T21:52:39.874Z"
+      "added_at": "2026-08-11T21:52:39.874Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-13T23:45:24.304Z"
     },
     {
       "id": "cl_7953003488",
@@ -107956,14 +107958,16 @@
       "bathrooms": null,
       "sqft": 1350,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7946,
       "lon": -122.4748,
       "notes": "From Craigslist · posted Aug 13, 10:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T22:47:32.584Z"
+      "added_at": "2026-08-13T22:47:32.584Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-13T23:45:24.304Z"
     },
     {
       "id": "cl_7953422470",
@@ -107983,6 +107987,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-13T22:47:32.584Z"
+    },
+    {
+      "id": "cl_7953429773",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-best-location-bdr-ba-with/7953429773.html",
+      "address": "Best Location !!! 4 bdr/2 ba with garden near GG Park and Beach.",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 5500,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Aug 13, 11:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-13T23:45:24.304Z"
     }
   ]
 }
