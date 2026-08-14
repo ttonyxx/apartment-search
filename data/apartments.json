@@ -86904,14 +86904,16 @@
       "bathrooms": null,
       "sqft": 961,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7161,
       "lon": -122.4773,
       "notes": "From Craigslist · posted Jul 29, 4:22 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-29T17:18:48.278Z"
+      "added_at": "2026-07-29T17:18:48.278Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T19:05:02.797Z"
     },
     {
       "id": "cl_7950253530",
@@ -108464,6 +108466,45 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-14T17:57:24.045Z"
+    },
+    {
+      "id": "cl_7953572508",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stunning-top-floor-2br2ba/7953572508.html",
+      "address": "*Stunning top-floor 2BR#2BA Apartment in North Beach*",
+      "neighborhood": "San Francisco, CA",
+      "price": 2365,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8002,
+      "lon": -122.4067,
+      "notes": "From Craigslist · posted Aug 14, 6:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-14T19:05:02.797Z"
+    },
+    {
+      "id": "rf_1947650",
+      "url": "https://www.redfin.com/CA/San-Francisco/Nob-Hill-Place/apartment/1947650",
+      "address": "1155 Jones St",
+      "neighborhood": "",
+      "price": 4250,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 288,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7921504,
+      "lon": -122.4144059,
+      "notes": "From Redfin · 0–2bd · updated Aug 14, 6:40 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-14T19:05:02.797Z"
     }
   ]
 }
