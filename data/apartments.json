@@ -104690,7 +104690,7 @@
       "bathrooms": 2,
       "sqft": 1080,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7526162,
       "lon": -122.430046,
@@ -104698,7 +104698,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-12T13:17:59.144Z"
+      "added_at": "2026-08-12T13:17:59.144Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T10:06:47.454Z"
     },
     {
       "id": "rf_1873563",
@@ -104732,7 +104734,7 @@
       "bathrooms": 1,
       "sqft": 843,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7769586,
       "lon": -122.4670571,
@@ -104740,7 +104742,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-12T13:17:59.144Z"
+      "added_at": "2026-08-12T13:17:59.144Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T10:06:47.454Z"
     },
     {
       "id": "cl_7953123591",
@@ -107170,7 +107174,7 @@
       "bathrooms": 2,
       "sqft": 1800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7245042,
       "lon": -122.4260073,
@@ -107178,7 +107182,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-13T11:50:46.779Z"
+      "added_at": "2026-08-13T11:50:46.779Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T10:06:47.454Z"
     },
     {
       "id": "rf_204565047",
@@ -107190,7 +107196,7 @@
       "bathrooms": 1,
       "sqft": 840,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7920988,
       "lon": -122.4790462,
@@ -107198,7 +107204,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-13T11:50:46.779Z"
+      "added_at": "2026-08-13T11:50:46.779Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T10:06:47.454Z"
     },
     {
       "id": "rf_204565066",
@@ -107210,7 +107218,7 @@
       "bathrooms": 1.5,
       "sqft": 1350,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7945292,
       "lon": -122.474849,
@@ -107218,7 +107226,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-13T11:50:46.779Z"
+      "added_at": "2026-08-13T11:50:46.779Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T10:06:47.454Z"
     },
     {
       "id": "cl_7953281301",
@@ -107582,7 +107592,7 @@
       "bathrooms": 2,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7462919,
       "lon": -122.4190642,
@@ -107590,7 +107600,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-13T13:20:06.706Z"
+      "added_at": "2026-08-13T13:20:06.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T10:06:47.454Z"
     },
     {
       "id": "cl_7953291981",
