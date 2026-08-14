@@ -98870,14 +98870,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7422,
       "lon": -122.4907,
       "notes": "From Craigslist · posted Aug 8, 12:10 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-08T01:53:38.973Z"
+      "added_at": "2026-08-08T01:53:38.973Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T16:57:21.552Z"
     },
     {
       "id": "cl_7952245563",
@@ -108340,6 +108342,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-14T14:54:54.233Z"
+    },
+    {
+      "id": "cl_7953533732",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-br-ba-apartment-perfect/7953533732.html",
+      "address": "* 2 BR, 1 BA Apartment - Perfect for Families or Roommates",
+      "neighborhood": "San Francisco",
+      "price": 2286,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 990,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7689,
+      "lon": -122.4324,
+      "notes": "From Craigslist · posted Aug 14, 4:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-14T16:57:21.552Z"
     }
   ]
 }
