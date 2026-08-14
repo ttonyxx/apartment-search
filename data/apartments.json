@@ -96556,14 +96556,16 @@
       "bathrooms": null,
       "sqft": 1350,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7114,
       "lon": -122.459,
       "notes": "From Craigslist · posted Aug 5, 1:58 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-05T04:13:38.651Z"
+      "added_at": "2026-08-05T04:13:38.651Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T02:14:42.534Z"
     },
     {
       "id": "rf_1645132",
@@ -108006,6 +108008,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-13T23:45:24.304Z"
+    },
+    {
+      "id": "cl_7953431850",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-huge-or-bdr-15-ba-sfh/7953431850.html",
+      "address": "HUGE 3 or 4 BDR/1.5 BA SFH Beauty in Parkside - RentalsInSF.com",
+      "neighborhood": "Sunset / Parkside",
+      "price": 7995,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7428,
+      "lon": -122.4813,
+      "notes": "From Craigslist · posted Aug 14, 12:04 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-14T02:14:42.534Z"
     }
   ]
 }
