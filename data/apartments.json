@@ -108269,14 +108269,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7293,
       "lon": -122.386,
       "notes": "From Craigslist · posted Aug 14, 1:06 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-14T13:14:19.512Z"
+      "added_at": "2026-08-14T13:14:19.512Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-14T14:54:54.233Z"
     },
     {
       "id": "rf_204583952",
@@ -108317,6 +108319,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-14T13:14:19.512Z"
+    },
+    {
+      "id": "cl_7953508804",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-1845-wk-family-home-for/7953508804.html",
+      "address": "$1845/wk Family Home for Sublet in Bernal Heights 10/13 - 11/09 2026",
+      "neighborhood": "Bernal Heights",
+      "price": 1845,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Aug 14, 2:41 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-14T14:54:54.233Z"
     }
   ]
 }
