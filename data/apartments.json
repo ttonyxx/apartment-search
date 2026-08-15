@@ -61255,14 +61255,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7823,
       "lon": -122.389,
       "notes": "From Craigslist · posted Jul 15, 4:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-15T16:27:02.062Z"
+      "added_at": "2026-07-15T16:27:02.062Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T07:33:43.736Z"
     },
     {
       "id": "cl_7947356051",
@@ -61589,14 +61591,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7639,
       "lon": -122.4684,
       "notes": "From Craigslist · posted Jul 16, 2:41 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-16T04:11:22.408Z"
+      "added_at": "2026-07-16T04:11:22.408Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T07:33:43.736Z"
     },
     {
       "id": "cl_7947466738",
@@ -109418,6 +109422,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-15T06:43:44.302Z"
+    },
+    {
+      "id": "cl_7953682257",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-north-beach-two/7953682257.html",
+      "address": "Bright North Beach Two-Bedroom Near Embarcadero",
+      "neighborhood": "City Of San Francisco",
+      "price": 1850,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8044,
+      "lon": -122.4133,
+      "notes": "From Craigslist · posted Aug 15, 6:47 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T07:33:43.736Z"
     }
   ]
 }
