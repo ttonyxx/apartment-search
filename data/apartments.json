@@ -109382,14 +109382,16 @@
       "bathrooms": null,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.788,
       "lon": -122.4333,
       "notes": "From Craigslist · posted Aug 15, 6:07 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T06:43:44.302Z"
+      "added_at": "2026-08-15T06:43:44.302Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T17:23:27.558Z"
     },
     {
       "id": "cl_7953678367",
@@ -109803,14 +109805,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7712,
       "lon": -122.4413,
       "notes": "From Craigslist · posted Aug 15, 12:03 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T12:43:28.591Z"
+      "added_at": "2026-08-15T12:43:28.591Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T17:23:27.558Z"
     },
     {
       "id": "cl_7953698836",
@@ -110101,14 +110105,16 @@
       "bathrooms": null,
       "sqft": 1252,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7929,
       "lon": -122.4178,
       "notes": "From Craigslist · posted Aug 15, 4:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T16:29:09.171Z"
+      "added_at": "2026-08-15T16:29:09.171Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T17:23:27.558Z"
     },
     {
       "id": "cl_7953727837",
@@ -110166,6 +110172,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-15T16:29:09.171Z"
+    },
+    {
+      "id": "cl_7953749028",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-2br-1ba/7953749028.html",
+      "address": "Charming 2BR/1BA Apartment in SF – Utilities Included",
+      "neighborhood": "San Francisco, CA",
+      "price": 1550,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 584,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7814,
+      "lon": -122.4051,
+      "notes": "From Craigslist · posted Aug 15, 4:53 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T17:23:27.558Z"
+    },
+    {
+      "id": "cl_7953736561",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-rear-deck-deep-yard-3b-2b/7953736561.html",
+      "address": "Rear Deck + Deep Yard 3b/2b w/1-Car Garage Cedar Pantry, Radiant Bath",
+      "neighborhood": "San Francisco",
+      "price": 5495,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2096,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7653,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Aug 15, 4:41 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T17:23:27.558Z"
     }
   ]
 }
