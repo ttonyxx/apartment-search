@@ -109241,14 +109241,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7434,
       "lon": -122.4309,
       "notes": "From Craigslist · posted Aug 15, 4:55 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T05:28:26.311Z"
+      "added_at": "2026-08-15T05:28:26.311Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T09:29:19.866Z"
     },
     {
       "id": "cl_7953675211",
@@ -109460,6 +109462,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-15T08:32:53.499Z"
+    },
+    {
+      "id": "cl_7953685683",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-2br1ba-apartment/7953685683.html",
+      "address": "Bright 2BR\\1BA  Apartment in Russian Hill",
+      "neighborhood": "San Francisco, CA",
+      "price": 2011,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7977,
+      "lon": -122.423,
+      "notes": "From Craigslist · posted Aug 15, 8:35 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T09:29:19.866Z"
     }
   ]
 }
