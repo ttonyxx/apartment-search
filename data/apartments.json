@@ -104772,14 +104772,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7124,
       "lon": -122.4416,
       "notes": "From Craigslist · posted Aug 12, 4:43 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-12T16:59:19.501Z"
+      "added_at": "2026-08-12T16:59:19.501Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T18:34:36.422Z"
     },
     {
       "id": "rf_622942",
@@ -109479,14 +109481,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7977,
       "lon": -122.423,
       "notes": "From Craigslist · posted Aug 15, 8:35 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T09:29:19.866Z"
+      "added_at": "2026-08-15T09:29:19.866Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T18:34:36.422Z"
     },
     {
       "id": "cl_7953690140",
@@ -110210,6 +110214,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-15T17:23:27.558Z"
+    },
+    {
+      "id": "cl_7953763927",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-inner-richmond-3br/7953763927.html",
+      "address": "Inner Richmond 3br apartment",
+      "neighborhood": "Inner Richmond",
+      "price": 6750,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1300,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Aug 15, 5:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T18:34:36.422Z"
+    },
+    {
+      "id": "cl_7953759913",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-5br-3ba-remodeled-house/7953759913.html",
+      "address": "5br/3ba ►Remodeled House & 2-car prkg ►Plus 2nd Detached Home",
+      "neighborhood": "Excelsior / Outer Mission",
+      "price": 8299,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7124,
+      "lon": -122.4416,
+      "notes": "From Craigslist · posted Aug 15, 5:35 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T18:34:36.422Z"
     }
   ]
 }
