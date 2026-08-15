@@ -107175,14 +107175,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7712,
       "lon": -122.4413,
       "notes": "From Craigslist · posted Aug 13, 11:23 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T11:50:46.779Z"
+      "added_at": "2026-08-13T11:50:46.779Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T23:23:47.549Z"
     },
     {
       "id": "rf_1222516",
@@ -107365,14 +107367,16 @@
       "bathrooms": null,
       "sqft": 1774,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7872,
       "lon": -122.4398,
       "notes": "From Craigslist · posted Aug 13, 12:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T13:20:06.706Z"
+      "added_at": "2026-08-13T13:20:06.706Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T23:23:47.549Z"
     },
     {
       "id": "cl_7953280757",
@@ -109545,14 +109549,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7695,
       "lon": -122.4367,
       "notes": "From Craigslist · posted Aug 15, 9:42 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T10:26:19.945Z"
+      "added_at": "2026-08-15T10:26:19.945Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T23:23:47.549Z"
     },
     {
       "id": "cl_7953690021",
@@ -110513,6 +110519,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-15T21:24:42.101Z"
+    },
+    {
+      "id": "cl_7953823451",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-really-cute-updated-flat/7953823451.html",
+      "address": "Really cute updated Flat in Arts and Crafts classic building",
+      "neighborhood": "1560 Noe St, San Francisco",
+      "price": 950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1350,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Aug 15, 11:00 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T23:23:47.549Z"
     }
   ]
 }
