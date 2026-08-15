@@ -103251,14 +103251,16 @@
       "bathrooms": null,
       "sqft": 637,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7759,
       "lon": -122.4551,
       "notes": "From Craigslist · posted Aug 11, 5:34 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-11T05:54:16.999Z"
+      "added_at": "2026-08-11T05:54:16.999Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:23:50.428Z"
     },
     {
       "id": "cl_7952846958",
@@ -109443,14 +109445,16 @@
       "bathrooms": null,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8044,
       "lon": -122.4133,
       "notes": "From Craigslist · posted Aug 15, 6:47 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T07:33:43.736Z"
+      "added_at": "2026-08-15T07:33:43.736Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:23:50.428Z"
     },
     {
       "id": "cl_7953686712",
@@ -109643,14 +109647,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7996,
       "lon": -122.4191,
       "notes": "From Craigslist · posted Aug 15, 11:03 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T11:23:13.985Z"
+      "added_at": "2026-08-15T11:23:13.985Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:23:50.428Z"
     },
     {
       "id": "cl_7953695847",
@@ -109951,14 +109957,16 @@
       "bathrooms": null,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8025,
       "lon": -122.4265,
       "notes": "From Craigslist · posted Aug 15, 2:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T14:26:32.916Z"
+      "added_at": "2026-08-15T14:26:32.916Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:23:50.428Z"
     },
     {
       "id": "cl_7953704382",
@@ -110168,14 +110176,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8045,
       "lon": -122.4149,
       "notes": "From Craigslist · posted Aug 15, 3:48 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T16:29:09.171Z"
+      "added_at": "2026-08-15T16:29:09.171Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-15T19:23:50.428Z"
     },
     {
       "id": "cl_7953749028",
@@ -110252,6 +110262,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-15T18:34:36.422Z"
+    },
+    {
+      "id": "cl_7953779712",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-bedroom-retreat/7953779712.html",
+      "address": "Renovated 2-Bedroom Retreat in Prime Nob Hill",
+      "neighborhood": "1329 Sacramento St APT 4, San Francisco, CA",
+      "price": 1980,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4186,
+      "notes": "From Craigslist · posted Aug 15, 6:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T19:23:50.428Z"
+    },
+    {
+      "id": "cl_7953776941",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-fully-furnished-single/7953776941.html",
+      "address": "Fully Furnished Single-Family | Sweeping Twin Peaks | Corona Heights",
+      "neighborhood": "San Francisco, CA",
+      "price": 3600,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7621,
+      "lon": -122.441,
+      "notes": "From Craigslist · posted Aug 15, 7:06 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T19:23:50.428Z"
+    },
+    {
+      "id": "cl_7953759913",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-5br-3ba-remodeled-home/7953759913.html",
+      "address": "5br/3ba ►Remodeled Home + 2-Car Parking + Detached 365 Sq. Ft Studio",
+      "neighborhood": "Excelsior / Outer Mission",
+      "price": 8299,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7124,
+      "lon": -122.4416,
+      "notes": "From Craigslist · posted Aug 15, 5:35 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-15T19:23:50.428Z"
     }
   ]
 }
