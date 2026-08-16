@@ -108431,14 +108431,16 @@
       "bathrooms": null,
       "sqft": 990,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7689,
       "lon": -122.4324,
       "notes": "From Craigslist · posted Aug 14, 5:04 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-14T17:57:24.045Z"
+      "added_at": "2026-08-14T17:57:24.045Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T18:34:06.610Z"
     },
     {
       "id": "cl_7953542965",
@@ -111044,6 +111046,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-16T17:22:37.498Z"
+    },
+    {
+      "id": "cl_7953932584",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newer-in-soma-in-unit/7953932584.html",
+      "address": "Newer in SOMA- in unit laundry, roof deck, PKG avail!",
+      "neighborhood": "SOMA / South Beach",
+      "price": 975,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7725,
+      "lon": -122.4147,
+      "notes": "From Craigslist · posted Aug 16, 5:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T18:34:06.610Z"
     }
   ]
 }
