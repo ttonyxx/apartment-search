@@ -108246,7 +108246,7 @@
       "bathrooms": 2,
       "sqft": 1550,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7748946,
       "lon": -122.4398011,
@@ -108254,7 +108254,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-14T11:47:31.705Z"
+      "added_at": "2026-08-14T11:47:31.705Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T16:29:38.470Z"
     },
     {
       "id": "rf_191648326",
@@ -108266,7 +108268,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7586753,
       "lon": -122.4237058,
@@ -108274,7 +108276,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-14T11:47:31.705Z"
+      "added_at": "2026-08-14T11:47:31.705Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T16:29:38.470Z"
     },
     {
       "id": "cl_7953489964",
@@ -108328,7 +108332,7 @@
       "bathrooms": 2,
       "sqft": 1101,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7719734,
       "lon": -122.4448618,
@@ -108336,7 +108340,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-14T13:14:19.512Z"
+      "added_at": "2026-08-14T13:14:19.512Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T16:29:38.470Z"
     },
     {
       "id": "rf_555561",
@@ -110866,14 +110872,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.801,
       "lon": -122.4048,
       "notes": "From Craigslist · posted Aug 16, 3:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-16T15:24:54.712Z"
+      "added_at": "2026-08-16T15:24:54.712Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T16:29:38.470Z"
     },
     {
       "id": "cl_7953901484",
@@ -110931,6 +110939,82 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-16T15:24:54.712Z"
+    },
+    {
+      "id": "cl_7953912930",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-potrero-hill-home/7953912930.html",
+      "address": "2BR Potrero Hill Home with Deck, City Views & Garage Parking",
+      "neighborhood": "San Francisco",
+      "price": 2100,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1015,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7607,
+      "lon": -122.4012,
+      "notes": "From Craigslist · posted Aug 16, 4:06 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T16:29:38.470Z"
+    },
+    {
+      "id": "cl_7953909754",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-2br-home-for/7953909754.html",
+      "address": "Beautiful 2BR Home for Rent in San Francisco!!@",
+      "neighborhood": "San Francisco",
+      "price": 3000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1137,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.742,
+      "lon": -122.436,
+      "notes": "From Craigslist · posted Aug 16, 4:15 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T16:29:38.470Z"
+    },
+    {
+      "id": "cl_7953918121",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-clean-updated/7953918121.html",
+      "address": "Bright/clean/updated 9 month furnished rental in Bernal Heights",
+      "neighborhood": "Bernal Heights",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1400,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.74,
+      "lon": -122.4138,
+      "notes": "From Craigslist · posted Aug 16, 4:28 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T16:29:38.470Z"
+    },
+    {
+      "id": "cl_7953905264",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-2ba-nob-hill-gem/7953905264.html",
+      "address": "2BR/2BA Nob Hill Gem — Charming Home • Classic Character •",
+      "neighborhood": "San Francisco, CA",
+      "price": 2565,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7929,
+      "lon": -122.4138,
+      "notes": "From Craigslist · posted Aug 16, 3:35 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T16:29:38.470Z"
     }
   ]
 }
