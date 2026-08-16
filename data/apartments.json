@@ -110651,6 +110651,25 @@
       "added_at": "2026-08-16T04:39:04.364Z",
       "prev_status": "to_see",
       "off_market_at": "2026-08-16T05:31:29.968Z"
+    },
+    {
+      "id": "cl_7953871469",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-2br-2ba-with/7953871469.html",
+      "address": "— Spacious • 2BR/2BA with Modern • Comfort & Prime Location•",
+      "neighborhood": "San Francisco, CA",
+      "price": 2400,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.744,
+      "lon": -122.422,
+      "notes": "From Craigslist · posted Aug 16, 9:11 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T09:30:20.789Z"
     }
   ]
 }
