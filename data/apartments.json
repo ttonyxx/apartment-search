@@ -110727,14 +110727,16 @@
       "bathrooms": null,
       "sqft": 1498,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7627,
       "lon": -122.4419,
       "notes": "From Craigslist · posted Aug 16, 12:43 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-16T12:46:07.291Z"
+      "added_at": "2026-08-16T12:46:07.291Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T14:26:22.906Z"
     },
     {
       "id": "cl_7953883850",
@@ -110754,6 +110756,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-16T13:34:00.886Z"
+    },
+    {
+      "id": "cl_7953889861",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gorgeous-house-bedroom/7953889861.html",
+      "address": "🍁Gorgeous house 2 bedroom 1 bathroom🍁",
+      "neighborhood": "San Francisco, CA",
+      "price": 1350,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1184,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7345,
+      "lon": -122.4454,
+      "notes": "From Craigslist · posted Aug 16, 2:01 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T14:26:22.906Z"
+    },
+    {
+      "id": "cl_7953885720",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-2ba-north-beach-gem/7953885720.html",
+      "address": "2BR/2BA North Beach Gem — Charming Home • Classic Character •",
+      "neighborhood": "San Francisco, CA",
+      "price": 2366,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1272,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.801,
+      "lon": -122.4048,
+      "notes": "From Craigslist · posted Aug 16, 1:39 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T14:26:22.906Z"
     }
   ]
 }
