@@ -108471,14 +108471,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Aug 14, 5:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-14T17:57:24.045Z"
+      "added_at": "2026-08-14T17:57:24.045Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T17:22:37.498Z"
     },
     {
       "id": "cl_7953552062",
@@ -108490,14 +108492,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7333,
       "lon": -122.4285,
       "notes": "From Craigslist · posted Aug 14, 5:18 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-14T17:57:24.045Z"
+      "added_at": "2026-08-14T17:57:24.045Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T17:22:37.498Z"
     },
     {
       "id": "cl_7953572508",
@@ -110470,14 +110474,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7942,
       "lon": -122.4141,
       "notes": "From Craigslist · posted Aug 15, 7:29 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T20:26:24.711Z"
+      "added_at": "2026-08-15T20:26:24.711Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T17:22:37.498Z"
     },
     {
       "id": "cl_7953800993",
@@ -110693,14 +110699,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7434,
       "lon": -122.4309,
       "notes": "From Craigslist · posted Aug 16, 10:45 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-16T11:23:35.546Z"
+      "added_at": "2026-08-16T11:23:35.546Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T17:22:37.498Z"
     },
     {
       "id": "cl_7953873526",
@@ -110853,14 +110861,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7184,
       "lon": -122.4043,
       "notes": "From Craigslist · posted Aug 16, 3:24 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-16T15:24:54.712Z"
+      "added_at": "2026-08-16T15:24:54.712Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T17:22:37.498Z"
     },
     {
       "id": "cl_7953900946",
@@ -111015,6 +111025,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-16T16:29:38.470Z"
+    },
+    {
+      "id": "cl_7953925327",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-ingleside-split-level-2br-1ba/7953925327.html",
+      "address": "Ingleside, split level 2BR/1BA legalized in-law unit for rent…",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 2600,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7165,
+      "lon": -122.468,
+      "notes": "From Craigslist · posted Aug 16, 5:05 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T17:22:37.498Z"
     }
   ]
 }
