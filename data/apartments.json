@@ -111222,6 +111222,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-16T20:26:55.995Z"
+    },
+    {
+      "id": "cl_7953996974",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remodeled-bernal-heights/7953996974.html",
+      "address": "Remodeled Bernal Heights Home with Decks & Garage",
+      "neighborhood": "209 Gates St, San Francisco",
+      "price": 1000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7509,
+      "lon": -122.4153,
+      "notes": "From Craigslist · posted Aug 16, 11:22 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T23:22:58.746Z"
     }
   ]
 }
