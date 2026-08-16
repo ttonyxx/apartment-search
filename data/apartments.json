@@ -109953,7 +109953,7 @@
       "bathrooms": 1.5,
       "sqft": 1025,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7147158,
       "lon": -122.4614076,
@@ -109961,7 +109961,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-15T12:43:28.591Z"
+      "added_at": "2026-08-15T12:43:28.591Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T12:46:07.291Z"
     },
     {
       "id": "rf_204596294",
@@ -110704,14 +110706,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7969,
       "lon": -122.4169,
       "notes": "From Craigslist · posted Aug 16, 10:40 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-16T11:23:35.546Z"
+      "added_at": "2026-08-16T11:23:35.546Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-16T12:46:07.291Z"
+    },
+    {
+      "id": "cl_7953880904",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-br-ba-san-francis-ca-990/7953880904.html",
+      "address": "3 BR/2 BA San Francis, CA– $990/mo –house for Rent – Vacant & Ready !!",
+      "neighborhood": "San Francisco",
+      "price": 990,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1498,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7627,
+      "lon": -122.4419,
+      "notes": "From Craigslist · posted Aug 16, 12:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-16T12:46:07.291Z"
     }
   ]
 }
