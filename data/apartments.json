@@ -97613,14 +97613,16 @@
       "bathrooms": null,
       "sqft": 1727,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7171,
       "lon": -122.4832,
       "notes": "From Craigslist · posted Aug 6, 5:20 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-07T00:42:12.266Z"
+      "added_at": "2026-08-07T00:42:12.266Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-17T16:31:30.611Z"
     },
     {
       "id": "cl_7951875331",
@@ -97672,14 +97674,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7162,
       "lon": -122.4821,
       "notes": "From Craigslist · posted Aug 6, 5:23 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-07T00:42:12.266Z"
+      "added_at": "2026-08-07T00:42:12.266Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-17T16:31:30.611Z"
     },
     {
       "id": "cl_7951906678",
@@ -113811,6 +113815,44 @@
       "added_at": "2026-08-17T13:41:21.558Z",
       "prev_status": "to_see",
       "off_market_at": "2026-08-17T14:31:40.905Z"
+    },
+    {
+      "id": "cl_7954097272",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-super-spacious/7954097272.html",
+      "address": "Updated Super Spacious 3BR/2.5BA Laundry In Unit Large Balcony",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 6525,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1727,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7171,
+      "lon": -122.4832,
+      "notes": "From Craigslist · posted Aug 17, 3:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-17T16:31:30.611Z"
+    },
+    {
+      "id": "cl_7954098393",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-updated-3br-2ba/7954098393.html",
+      "address": "Spacious Updated 3BR/2BA Townhome Laundry In Unit Park Merced",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 5125,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7162,
+      "lon": -122.4821,
+      "notes": "From Craigslist · posted Aug 17, 3:42 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-17T16:31:30.611Z"
     }
   ]
 }
