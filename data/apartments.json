@@ -111677,14 +111677,16 @@
       "bathrooms": null,
       "sqft": 784,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7719,
       "lon": -122.5099,
       "notes": "From Craigslist · posted Aug 17, 2:52 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T03:03:14.226Z"
+      "added_at": "2026-08-17T03:03:14.226Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-17T11:29:48.777Z"
     },
     {
       "id": "cl_7954023209",
@@ -111932,14 +111934,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.796,
       "lon": -122.4211,
       "notes": "From Craigslist · posted Aug 17, 2:48 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T03:03:14.226Z"
+      "added_at": "2026-08-17T03:03:14.226Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-17T11:29:48.777Z"
     },
     {
       "id": "cl_7954018102",
@@ -113311,6 +113315,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-17T10:35:09.445Z"
+    },
+    {
+      "id": "cl_7954052501",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-sunny-daly-city-3br-2ba/7954052501.html",
+      "address": "Sunny Daly City 3BR/2BA – Furnished + Game Room/Office!",
+      "neighborhood": "Daly City, CA",
+      "price": 2000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1030,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.706,
+      "lon": -122.4633,
+      "notes": "From Craigslist · posted Aug 17, 10:59 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-17T11:29:48.777Z"
     }
   ]
 }
