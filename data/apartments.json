@@ -112088,14 +112088,16 @@
       "bathrooms": null,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7512,
       "lon": -122.435,
       "notes": "From Craigslist · posted Aug 17, 4:41 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T04:46:51.535Z"
+      "added_at": "2026-08-17T04:46:51.535Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-17T10:35:09.445Z"
     },
     {
       "id": "cl_7954035089",
@@ -112763,14 +112765,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7999,
       "lon": -122.4342,
       "notes": "From Craigslist · posted Aug 17, 6:11 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T07:02:25.492Z"
+      "added_at": "2026-08-17T07:02:25.492Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-17T10:35:09.445Z"
     },
     {
       "id": "cl_7954039157",
@@ -112953,14 +112957,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7858,
       "lon": -122.4424,
       "notes": "From Craigslist · posted Aug 17, 6:56 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T07:02:25.492Z"
+      "added_at": "2026-08-17T07:02:25.492Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-17T10:35:09.445Z"
     },
     {
       "id": "cl_7954042320",
@@ -113286,6 +113292,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-17T09:46:29.546Z"
+    },
+    {
+      "id": "cl_7954049379",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-pet-friendly-bed-15-bath/7954049379.html",
+      "address": "Pet-friendly 3 bed / 1.5 bath home for rent",
+      "neighborhood": "San Francisco, CA",
+      "price": 1400,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Aug 17, 10:03 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-17T10:35:09.445Z"
     }
   ]
 }
