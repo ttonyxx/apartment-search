@@ -118206,14 +118206,16 @@
       "bathrooms": null,
       "sqft": 990,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7689,
       "lon": -122.4324,
       "notes": "From Craigslist · posted Aug 18, 7:22 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T19:30:21.159Z"
+      "added_at": "2026-08-18T19:30:21.159Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T22:27:07.990Z"
     },
     {
       "id": "cl_7954373204",
@@ -118225,14 +118227,16 @@
       "bathrooms": null,
       "sqft": 990,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7689,
       "lon": -122.4324,
       "notes": "From Craigslist · posted Aug 18, 7:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T19:30:21.159Z"
+      "added_at": "2026-08-18T19:30:21.159Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T22:27:07.990Z"
     },
     {
       "id": "cl_7954358532",
@@ -118263,14 +118267,16 @@
       "bathrooms": null,
       "sqft": 990,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7689,
       "lon": -122.4324,
       "notes": "From Craigslist · posted Aug 18, 7:40 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T20:27:56.355Z"
+      "added_at": "2026-08-18T20:27:56.355Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T22:27:07.990Z"
     },
     {
       "id": "cl_7954388453",
@@ -118329,6 +118335,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-18T21:27:52.271Z"
+    },
+    {
+      "id": "cl_7954420686",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2bed-1baths-550sqft/7954420686.html",
+      "address": "2bed 1baths 550sqft",
+      "neighborhood": "San Francisco",
+      "price": 2200,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7211,
+      "lon": -122.4754,
+      "notes": "From Craigslist · posted Aug 18, 10:10 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T22:27:07.990Z"
     }
   ]
 }
