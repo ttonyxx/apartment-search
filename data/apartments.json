@@ -115294,14 +115294,16 @@
       "bathrooms": null,
       "sqft": 1210,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7938,
       "lon": -122.4315,
       "notes": "From Craigslist · posted Aug 18, 2:04 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T02:58:22.386Z"
+      "added_at": "2026-08-18T02:58:22.386Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T11:28:30.157Z"
     },
     {
       "id": "cl_7954246633",
@@ -117192,6 +117194,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-18T10:32:15.098Z"
+    },
+    {
+      "id": "cl_7954278987",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-bathroom/7954278987.html",
+      "address": "Spacious 2-bedroom, 1-bathroom apartment available 2 month free",
+      "neighborhood": "39A Cook St, Unit A, San Francisco",
+      "price": 700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 930,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Aug 18, 11:25 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T11:28:30.157Z"
+    },
+    {
+      "id": "cl_7954278984",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-recently-renovated/7954278984.html",
+      "address": "Recently renovated contemporary condo-like 2-bedroom 2 Month Free",
+      "neighborhood": "268 2nd Ave, # 3, San Francisco",
+      "price": 750,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 750,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Aug 18, 11:25 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T11:28:30.157Z"
     }
   ]
 }
