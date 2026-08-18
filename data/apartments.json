@@ -113920,14 +113920,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Aug 17, 5:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T17:29:44.141Z"
+      "added_at": "2026-08-17T17:29:44.141Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T17:30:30.001Z"
     },
     {
       "id": "rf_202374316",
@@ -113961,14 +113963,16 @@
       "bathrooms": null,
       "sqft": 1900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7333,
       "lon": -122.4285,
       "notes": "From Craigslist · posted Aug 17, 5:36 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T18:44:14.674Z"
+      "added_at": "2026-08-17T18:44:14.674Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T17:30:30.001Z"
     },
     {
       "id": "cl_7954150301",
@@ -114978,14 +114982,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Aug 17, 5:14 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T01:24:47.133Z"
+      "added_at": "2026-08-18T01:24:47.133Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T17:30:30.001Z"
     },
     {
       "id": "cl_7954230530",
@@ -115375,14 +115381,16 @@
       "bathrooms": null,
       "sqft": 1224,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7901,
       "lon": -122.4464,
       "notes": "From Craigslist · posted Aug 18, 2:04 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T02:58:22.386Z"
+      "added_at": "2026-08-18T02:58:22.386Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T17:30:30.001Z"
     },
     {
       "id": "cl_7954239988",
@@ -118120,6 +118128,44 @@
       "added_at": "2026-08-18T15:34:54.960Z",
       "prev_status": "to_see",
       "off_market_at": "2026-08-18T16:35:21.154Z"
+    },
+    {
+      "id": "cl_7954341131",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-600pm-625pm/7954341131.html",
+      "address": "OPEN TUE 6:00pm-6:25pm Spacious, Bright,Great Loc!(312 20th Avenue)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4795,
+      "notes": "From Craigslist · posted Aug 18, 4:52 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T17:30:30.001Z"
+    },
+    {
+      "id": "cl_7954340239",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-story-homebonus/7954340239.html",
+      "address": "Spacious 2-Story Home,Bonus Room(115 Cuvier)",
+      "neighborhood": "Glen Park",
+      "price": 6200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7333,
+      "lon": -122.4285,
+      "notes": "From Craigslist · posted Aug 18, 4:48 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T17:30:30.001Z"
     }
   ]
 }
