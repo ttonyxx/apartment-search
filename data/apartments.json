@@ -97060,14 +97060,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7753,
       "lon": -122.4596,
       "notes": "From Craigslist · posted Aug 5, 7:36 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-05T19:40:48.384Z"
+      "added_at": "2026-08-05T19:40:48.384Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T20:27:56.355Z"
     },
     {
       "id": "cl_7951762954",
@@ -118183,14 +118185,16 @@
       "bathrooms": null,
       "sqft": 990,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7689,
       "lon": -122.4324,
       "notes": "From Craigslist · posted Aug 18, 7:26 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T19:30:21.159Z"
+      "added_at": "2026-08-18T19:30:21.159Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-18T20:27:56.355Z"
     },
     {
       "id": "cl_7954376113",
@@ -118248,6 +118252,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-18T19:30:21.159Z"
+    },
+    {
+      "id": "cl_7954378431",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-2br-1ba-rental/7954378431.html",
+      "address": "Beautiful 2BR/1BA Rental – Great Community & Convenient Location",
+      "neighborhood": "San Francisco",
+      "price": 2286,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 990,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7689,
+      "lon": -122.4324,
+      "notes": "From Craigslist · posted Aug 18, 7:40 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T20:27:56.355Z"
+    },
+    {
+      "id": "cl_7954388453",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-incredible-value-whole/7954388453.html",
+      "address": "Incredible Value! Whole mid city home, 3Bd, 2Bth, easy MUNI & Parking",
+      "neighborhood": "Inner Sunset / UCSF",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1250,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7493,
+      "lon": -122.4531,
+      "notes": "From Craigslist · posted Aug 18, 7:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T20:27:56.355Z"
     }
   ]
 }
