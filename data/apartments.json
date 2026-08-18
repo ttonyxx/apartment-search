@@ -118290,6 +118290,45 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-18T20:27:56.355Z"
+    },
+    {
+      "id": "cl_7954398666",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-700-sqft-lower-mission/7954398666.html",
+      "address": "700 SqFt Lower Mission 2 bed, Hardwood Floors, Near 24th Street BART",
+      "neighborhood": "San Francisco",
+      "price": 1300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 700,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7746,
+      "lon": -122.4044,
+      "notes": "From Craigslist · posted Aug 18, 8:53 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-18T21:27:52.271Z"
+    },
+    {
+      "id": "rf_1645808",
+      "url": "https://www.redfin.com/CA/San-Francisco/3440-20th-St-94110/apartment/1645808",
+      "address": "3440 20th St",
+      "neighborhood": "",
+      "price": 4195,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 569,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7589793,
+      "lon": -122.4178305,
+      "notes": "From Redfin · 0–2bd · updated Aug 18, 8:31 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-18T21:27:52.271Z"
     }
   ]
 }
