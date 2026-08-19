@@ -119764,14 +119764,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7737,
       "lon": -122.4832,
       "notes": "From Craigslist · posted Aug 19, 11:30 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T12:53:49.661Z"
+      "added_at": "2026-08-19T12:53:49.661Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T14:37:21.978Z"
     },
     {
       "id": "rf_194776288",
@@ -119950,6 +119952,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-19T13:47:30.960Z"
+    },
+    {
+      "id": "cl_7954521290",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-wake-up-to-panoramic-san/7954521290.html",
+      "address": "Wake up to panoramic San Francisco Bay water views",
+      "neighborhood": "481 Mississippi St, San Francisco",
+      "price": 700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7621,
+      "lon": -122.3971,
+      "notes": "From Craigslist · posted Aug 19, 2:36 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T14:37:21.978Z"
     }
   ]
 }
