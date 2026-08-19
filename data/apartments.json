@@ -120279,6 +120279,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-19T22:28:03.296Z"
+    },
+    {
+      "id": "cl_7954635748",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-stunning-top-floor-2br/7954635748.html",
+      "address": "Stunning Top-Floor 2BR with Parking & Updated Kitchen",
+      "neighborhood": "City Of San Francisco",
+      "price": 1650,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7877,
+      "lon": -122.4279,
+      "notes": "From Craigslist · posted Aug 19, 10:34 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T23:26:01.853Z"
+    },
+    {
+      "id": "cl_7954639640",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-5br-3ba-remodeled-home/7954639640.html",
+      "address": "5br/3ba ►Remodeled Home + 2-Car Parking + Detached 365 Sq. Ft. Studio",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 8299,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7124,
+      "lon": -122.4416,
+      "notes": "From Craigslist · posted Aug 19, 10:30 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T23:26:01.853Z"
     }
   ]
 }
