@@ -118908,14 +118908,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7441,
       "lon": -122.4863,
       "notes": "From Craigslist · posted Aug 19, 1:27 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T03:00:50.386Z"
+      "added_at": "2026-08-19T03:00:50.386Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T13:47:30.960Z"
     },
     {
       "id": "cl_7954454226",
@@ -119606,14 +119608,16 @@
       "bathrooms": null,
       "sqft": 1015,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7607,
       "lon": -122.4012,
       "notes": "From Craigslist · posted Aug 19, 12:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T12:53:49.661Z"
+      "added_at": "2026-08-19T12:53:49.661Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T13:47:30.960Z"
     },
     {
       "id": "cl_7954497153",
@@ -119644,14 +119648,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7783,
       "lon": -122.4819,
       "notes": "From Craigslist · posted Aug 19, 12:41 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T12:53:49.661Z"
+      "added_at": "2026-08-19T12:53:49.661Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T13:47:30.960Z"
     },
     {
       "id": "cl_7954498639",
@@ -119906,6 +119912,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-19T12:53:49.661Z"
+    },
+    {
+      "id": "cl_7954503182",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-classic-2br-potrero-hill/7954503182.html",
+      "address": "Classic 2BR Potrero Hill Home – Deck, Yard & Tandem Garage",
+      "neighborhood": "San Francisco, CA",
+      "price": 1290,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1015,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7607,
+      "lon": -122.4012,
+      "notes": "From Craigslist · posted Aug 19, 12:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T13:47:30.960Z"
+    },
+    {
+      "id": "cl_7954503539",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-unique-full-floor-flat/7954503539.html",
+      "address": "Unique Full-Floor Flat | Julia Morgan Architecture | 3BR + 2BA",
+      "neighborhood": "Lower Pac Hts",
+      "price": 5890,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1600,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7884,
+      "lon": -122.4374,
+      "notes": "From Craigslist · posted Aug 19, 1:01 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T13:47:30.960Z"
     }
   ]
 }
