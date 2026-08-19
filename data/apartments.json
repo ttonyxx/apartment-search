@@ -96097,14 +96097,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7561,
       "lon": -122.4085,
       "notes": "From Craigslist · posted Aug 4, 7:05 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-04T08:43:59.025Z"
+      "added_at": "2026-08-04T08:43:59.025Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T22:28:03.296Z"
     },
     {
       "id": "cl_7951422079",
@@ -111062,14 +111064,16 @@
       "bathrooms": null,
       "sqft": 1015,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7607,
       "lon": -122.4012,
       "notes": "From Craigslist · posted Aug 16, 4:06 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-16T16:29:38.470Z"
+      "added_at": "2026-08-16T16:29:38.470Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T22:28:03.296Z"
     },
     {
       "id": "cl_7953909754",
@@ -120237,6 +120241,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-19T21:28:30.092Z"
+    },
+    {
+      "id": "cl_7954635631",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-updated-large-bright-1250sf/7954635631.html",
+      "address": "UPDATED LARGE BRIGHT 1250sf 2BR/1BA/1GR Crocker Home AVAILABLE NOW",
+      "neighborhood": "Excelsior / Outer Mission",
+      "price": 4495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1250,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7086,
+      "lon": -122.449,
+      "notes": "From Craigslist · posted Aug 19, 10:09 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T22:28:03.296Z"
+    },
+    {
+      "id": "cl_7954638691",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-great-bedroom-bath-back/7954638691.html",
+      "address": "Great 2 bedroom 1 bath back on market",
+      "neighborhood": "Mission District",
+      "price": 3895,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7561,
+      "lon": -122.4085,
+      "notes": "From Craigslist · posted Aug 19, 10:24 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T22:28:03.296Z"
     }
   ]
 }
