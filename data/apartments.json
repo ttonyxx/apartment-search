@@ -119492,6 +119492,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-19T09:37:29.549Z"
+    },
+    {
+      "id": "cl_7954488226",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-182-alta-vista-way-daly-city/7954488226.html",
+      "address": "182 Alta Vista Way  Daly City, CA 94014 Home!",
+      "neighborhood": "Daly City",
+      "price": 1250,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7044,
+      "lon": -122.4375,
+      "notes": "From Craigslist · posted Aug 19, 10:06 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T10:32:29.606Z"
     }
   ]
 }
