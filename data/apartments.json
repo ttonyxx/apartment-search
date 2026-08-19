@@ -99704,14 +99704,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7149,
       "lon": -122.4561,
       "notes": "From Craigslist · posted Aug 8, 8:20 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-08T08:46:54.404Z"
+      "added_at": "2026-08-08T08:46:54.404Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T21:28:30.092Z"
     },
     {
       "id": "cl_7952268071",
@@ -103682,14 +103684,16 @@
       "bathrooms": null,
       "sqft": 1008,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7712,
       "lon": -122.4413,
       "notes": "From Craigslist · posted Aug 12, 2:03 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-12T02:14:00.335Z"
+      "added_at": "2026-08-12T02:14:00.335Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T21:28:30.092Z"
     },
     {
       "id": "cl_7953042331",
@@ -118323,14 +118327,16 @@
       "bathrooms": null,
       "sqft": 700,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7746,
       "lon": -122.4044,
       "notes": "From Craigslist · posted Aug 18, 8:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T21:27:52.271Z"
+      "added_at": "2026-08-18T21:27:52.271Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T21:28:30.092Z"
     },
     {
       "id": "rf_1645808",
@@ -119100,14 +119106,16 @@
       "bathrooms": null,
       "sqft": 2200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7856,
       "lon": -122.4358,
       "notes": "From Craigslist · posted Aug 19, 4:17 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T04:40:16.761Z"
+      "added_at": "2026-08-19T04:40:16.761Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T21:28:30.092Z"
     },
     {
       "id": "cl_7954468036",
@@ -120210,6 +120218,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-19T17:29:37.270Z"
+    },
+    {
+      "id": "cl_7954622132",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-income-qualified/7954622132.html",
+      "address": "Income Qualified Apartments with Stunning Bay and City Views",
+      "neighborhood": "SOMA / South Beach",
+      "price": 3843,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 986,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7823,
+      "lon": -122.389,
+      "notes": "From Craigslist · posted Aug 19, 9:08 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T21:28:30.092Z"
     }
   ]
 }
