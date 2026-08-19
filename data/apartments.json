@@ -119504,14 +119504,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7474,
       "lon": -122.4878,
       "notes": "From Craigslist · posted Aug 19, 9:27 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T09:37:29.549Z"
+      "added_at": "2026-08-19T09:37:29.549Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-19T17:29:37.270Z"
     },
     {
       "id": "cl_7954488226",
@@ -120107,6 +120109,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-19T16:35:15.538Z"
+    },
+    {
+      "id": "cl_7954552087",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-brightgreat/7954552087.html",
+      "address": "Spacious, Bright,Great Loc!(312 20th Avenue)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4795,
+      "notes": "From Craigslist · posted Aug 19, 4:39 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-19T17:29:37.270Z"
     }
   ]
 }
