@@ -117828,14 +117828,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7124,
       "lon": -122.4416,
       "notes": "From Craigslist · posted Aug 18, 1:32 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T13:45:11.214Z"
+      "added_at": "2026-08-18T13:45:11.214Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-20T18:44:21.257Z"
     },
     {
       "id": "cl_7954297754",
@@ -121484,6 +121486,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-20T17:33:00.976Z"
+    },
+    {
+      "id": "cl_7954791021",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-sfh-with-views/7954791021.html",
+      "address": "Spacious SFH with views, amazing location, laundry, yard",
+      "neighborhood": "Sunset / Parkside",
+      "price": 8495,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 2300,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7596,
+      "lon": -122.5005,
+      "notes": "From Craigslist · posted Aug 20, 6:16 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-20T18:44:21.257Z"
+    },
+    {
+      "id": "cl_7954789363",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-5br-3ba-remodeled-home/7954789363.html",
+      "address": "5br/3ba ►Remodeled Home + 2-Car Parking + Detached 365 Sq. Ft. Studio",
+      "neighborhood": "Excelsior / Outer Mission",
+      "price": 8299,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7124,
+      "lon": -122.4416,
+      "notes": "From Craigslist · posted Aug 20, 6:09 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-20T18:44:21.257Z"
     }
   ]
 }
