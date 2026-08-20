@@ -110368,14 +110368,16 @@
       "bathrooms": null,
       "sqft": 2096,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7653,
       "lon": -122.4153,
       "notes": "From Craigslist · posted Aug 15, 4:41 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T17:23:27.558Z"
+      "added_at": "2026-08-15T17:23:27.558Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-20T17:33:00.976Z"
     },
     {
       "id": "cl_7953763927",
@@ -116320,14 +116322,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7935,
       "lon": -122.4194,
       "notes": "From Craigslist · posted Aug 18, 5:26 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T05:32:47.066Z"
+      "added_at": "2026-08-18T05:32:47.066Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-20T17:33:00.976Z"
     },
     {
       "id": "cl_7954259237",
@@ -120348,14 +120352,16 @@
       "bathrooms": null,
       "sqft": 903,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7361,
       "lon": -122.501,
       "notes": "From Craigslist · posted Aug 20, 12:44 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-20T01:25:39.146Z"
+      "added_at": "2026-08-20T01:25:39.146Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-20T17:33:00.976Z"
     },
     {
       "id": "cl_7954652209",
@@ -121440,6 +121446,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-20T15:37:04.506Z"
+    },
+    {
+      "id": "cl_7954771279",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-brightgreat/7954771279.html",
+      "address": "Spacious, Bright,Great Loc!(312 20th Avenue)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4795,
+      "notes": "From Craigslist · posted Aug 20, 5:04 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-20T17:33:00.976Z"
+    },
+    {
+      "id": "cl_7954772286",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-story-homebonus/7954772286.html",
+      "address": "Spacious 2-Story Home,Bonus Room(115 Cuvier)",
+      "neighborhood": "Glen Park",
+      "price": 6200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7333,
+      "lon": -122.4285,
+      "notes": "From Craigslist · posted Aug 20, 5:07 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-20T17:33:00.976Z"
     }
   ]
 }
