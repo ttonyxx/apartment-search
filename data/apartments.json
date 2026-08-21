@@ -118506,14 +118506,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7211,
       "lon": -122.4754,
       "notes": "From Craigslist · posted Aug 18, 10:49 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T23:25:29.609Z"
+      "added_at": "2026-08-18T23:25:29.609Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T22:28:41.672Z"
     },
     {
       "id": "cl_7954427216",
@@ -123729,6 +123731,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-21T20:29:24.139Z"
+    },
+    {
+      "id": "cl_7955051977",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-cozy-garden-level-2br/7955051977.html",
+      "address": "Cozy garden level 2BR apartment on 3rd AVE",
+      "neighborhood": "Inner Richmond",
+      "price": 4000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7774,
+      "lon": -122.4608,
+      "notes": "From Craigslist · posted Aug 21, 10:23 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T22:28:41.672Z"
     }
   ]
 }
