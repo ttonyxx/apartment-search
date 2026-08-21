@@ -122453,14 +122453,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7708,
       "lon": -122.4479,
       "notes": "From Craigslist · posted Aug 21, 2:44 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T03:06:30.867Z"
+      "added_at": "2026-08-21T03:06:30.867Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T15:36:43.436Z"
     },
     {
       "id": "cl_7954882555",
@@ -123444,6 +123446,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-21T12:54:58.500Z"
+    },
+    {
+      "id": "cl_7954949409",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newley-renovated-bed-bath/7954949409.html",
+      "address": "Newley renovated 2 bed 1 bath",
+      "neighborhood": "272 Divisadero St, APT 2, San Francisco",
+      "price": 800,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 620,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7712,
+      "lon": -122.4413,
+      "notes": "From Craigslist · posted Aug 21, 3:13 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T15:36:43.436Z"
     }
   ]
 }
