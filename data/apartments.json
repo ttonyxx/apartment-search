@@ -122016,14 +122016,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7705,
       "lon": -122.4127,
       "notes": "From Craigslist · posted Aug 21, 12:53 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T01:36:19.125Z"
+      "added_at": "2026-08-21T01:36:19.125Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T18:41:00.659Z"
     },
     {
       "id": "cl_7954877550",
@@ -123270,14 +123272,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7348,
       "lon": -122.4949,
       "notes": "From Craigslist · posted Aug 21, 5:45 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T06:53:19.572Z"
+      "added_at": "2026-08-21T06:53:19.572Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T18:41:00.659Z"
     },
     {
       "id": "cl_7954900779",
@@ -123610,14 +123614,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7908,
       "lon": -122.4187,
       "notes": "From Craigslist · posted Aug 21, 5:20 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T17:32:15.247Z"
+      "added_at": "2026-08-21T17:32:15.247Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T18:41:00.659Z"
+    },
+    {
+      "id": "cl_7954988886",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-must-see-large-sunny-br/7954988886.html",
+      "address": "Must See! Large, Sunny 2 BR 1BA Full Floor Flat",
+      "neighborhood": "San Francisco, CA",
+      "price": 2458,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8014,
+      "lon": -122.4132,
+      "notes": "From Craigslist · posted Aug 21, 6:06 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T18:41:00.659Z"
     }
   ]
 }
