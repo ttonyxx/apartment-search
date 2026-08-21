@@ -108768,14 +108768,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7124,
       "lon": -122.4416,
       "notes": "From Craigslist · posted Aug 14, 9:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-14T21:28:11.015Z"
+      "added_at": "2026-08-14T21:28:11.015Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T17:32:15.247Z"
     },
     {
       "id": "cl_7953617988",
@@ -110567,14 +110569,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7124,
       "lon": -122.4416,
       "notes": "From Craigslist · posted Aug 14, 9:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-15T20:26:24.711Z"
+      "added_at": "2026-08-15T20:26:24.711Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T17:32:15.247Z"
     },
     {
       "id": "cl_7953783061",
@@ -121499,14 +121503,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Aug 20, 5:04 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-20T17:33:00.976Z"
+      "added_at": "2026-08-20T17:33:00.976Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T17:32:15.247Z"
     },
     {
       "id": "cl_7954772286",
@@ -121518,14 +121524,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7333,
       "lon": -122.4285,
       "notes": "From Craigslist · posted Aug 20, 5:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-20T17:33:00.976Z"
+      "added_at": "2026-08-20T17:33:00.976Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T17:32:15.247Z"
     },
     {
       "id": "cl_7954791021",
@@ -122048,14 +122056,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7333,
       "lon": -122.4285,
       "notes": "From Craigslist · posted Aug 20, 5:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T01:36:19.125Z"
+      "added_at": "2026-08-21T01:36:19.125Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-21T17:32:15.247Z"
     },
     {
       "id": "rf_1287538",
@@ -123551,6 +123561,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-21T16:38:29.260Z"
+    },
+    {
+      "id": "cl_7954983886",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bright-great-loc/7954983886.html",
+      "address": "Spacious, Bright, Great Loc! (312 20th Avenue)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4795,
+      "notes": "From Craigslist · posted Aug 21, 5:23 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T17:32:15.247Z"
+    },
+    {
+      "id": "cl_7954982403",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sat-500pm-530pm/7954982403.html",
+      "address": "OPEN SAT 5:00pm-5:30pm. Spacious 2-Story Home,Bonus Room(115 Cuvier)",
+      "neighborhood": "Glen Park",
+      "price": 6200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7333,
+      "lon": -122.4285,
+      "notes": "From Craigslist · posted Aug 21, 5:18 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T17:32:15.247Z"
+    },
+    {
+      "id": "cl_7954468616",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-prime-nob-hill/7954468616.html",
+      "address": "Top Floor Prime Nob Hill Location (1478 California#F)",
+      "neighborhood": "Nob Hill",
+      "price": 4200,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7908,
+      "lon": -122.4187,
+      "notes": "From Craigslist · posted Aug 21, 5:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-21T17:32:15.247Z"
     }
   ]
 }
