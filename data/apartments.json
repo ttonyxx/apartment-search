@@ -124703,14 +124703,35 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7774,
       "lon": -122.4813,
       "notes": "From Craigslist · posted Aug 22, 6:01 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-22T06:46:06.378Z"
+      "added_at": "2026-08-22T06:46:06.378Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-22T09:30:15.365Z"
+    },
+    {
+      "id": "cl_7955117146",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-3br-2ba-single/7955117146.html",
+      "address": "Charming 3BR, 2BA Single-Family Home in San Francisco",
+      "neighborhood": "San Francisco, CA",
+      "price": 2000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 875,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7594,
+      "lon": -122.493,
+      "notes": "From Craigslist · posted Aug 22, 9:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-22T09:30:15.365Z"
     }
   ]
 }
