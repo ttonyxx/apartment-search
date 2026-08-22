@@ -124177,14 +124177,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7897,
       "lon": -122.4357,
       "notes": "From Craigslist · posted Aug 22, 3:34 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-22T03:48:18.366Z"
+      "added_at": "2026-08-22T03:48:18.366Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-22T16:28:43.333Z"
     },
     {
       "id": "cl_7955099322",
@@ -124692,14 +124694,16 @@
       "bathrooms": null,
       "sqft": 1875,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7594,
       "lon": -122.493,
       "notes": "From Craigslist · posted Aug 22, 5:53 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-22T06:46:06.378Z"
+      "added_at": "2026-08-22T06:46:06.378Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-22T16:28:43.333Z"
     },
     {
       "id": "cl_7955109890",
@@ -124916,6 +124920,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-22T15:25:02.546Z"
+    },
+    {
+      "id": "cl_7955159604",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-st-ave-outer-sunset-ca/7955159604.html",
+      "address": "1442 31st Ave, Outer Sunset, CA",
+      "neighborhood": "Outer Sunset",
+      "price": 900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7593,
+      "lon": -122.4836,
+      "notes": "From Craigslist · posted Aug 22, 3:30 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-22T16:28:43.333Z"
     }
   ]
 }
