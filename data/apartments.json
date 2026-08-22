@@ -123931,14 +123931,16 @@
       "bathrooms": null,
       "sqft": 1150,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7609,
       "lon": -122.4682,
       "notes": "From Craigslist · posted Aug 22, 1:54 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-22T02:57:07.450Z"
+      "added_at": "2026-08-22T02:57:07.450Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-22T13:34:18.767Z"
     },
     {
       "id": "cl_7955094369",
@@ -124813,6 +124815,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-22T12:46:08.026Z"
+    },
+    {
+      "id": "cl_7955135161",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-recently-remodeled-2br/7955135161.html",
+      "address": "Recently Remodeled 2BR/1BA Across from Buena Vista",
+      "neighborhood": "Buena Vista",
+      "price": 1569,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7709,
+      "lon": -122.4437,
+      "notes": "From Craigslist · posted Aug 22, 1:13 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-22T13:34:18.767Z"
+    },
+    {
+      "id": "cl_7955131013",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-outer-sunset-gem-spacious/7955131013.html",
+      "address": "Outer Sunset Gem — Spacious 2BR/1BA • Bright & Charming Home",
+      "neighborhood": "San Francisco",
+      "price": 2400,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7638,
+      "lon": -122.4965,
+      "notes": "From Craigslist · posted Aug 22, 1:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-22T13:34:18.767Z"
     }
   ]
 }
