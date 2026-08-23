@@ -127069,14 +127069,16 @@
       "bathrooms": null,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7989,
       "lon": -122.4224,
       "notes": "From Craigslist · posted Aug 23, 9:49 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T10:27:34.504Z"
+      "added_at": "2026-08-23T10:27:34.504Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T16:30:02.760Z"
     },
     {
       "id": "cl_7955311089",
@@ -127088,14 +127090,16 @@
       "bathrooms": null,
       "sqft": 1098,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7892,
       "lon": -122.4394,
       "notes": "From Craigslist · posted Aug 23, 9:49 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T10:27:34.504Z"
+      "added_at": "2026-08-23T10:27:34.504Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T16:30:02.760Z"
     },
     {
       "id": "cl_7955312218",
@@ -127128,14 +127132,16 @@
       "bathrooms": null,
       "sqft": 725,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7934,
       "lon": -122.4107,
       "notes": "From Craigslist · posted Aug 23, 9:36 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T10:27:34.504Z"
+      "added_at": "2026-08-23T10:27:34.504Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T16:30:02.760Z"
     },
     {
       "id": "cl_7955311485",
@@ -127455,14 +127461,16 @@
       "bathrooms": null,
       "sqft": 1170,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7195,
       "lon": -122.4411,
       "notes": "From Craigslist · posted Aug 23, 2:25 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T14:26:54.187Z"
+      "added_at": "2026-08-23T14:26:54.187Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T16:30:02.760Z"
     },
     {
       "id": "cl_7955332927",
@@ -127645,14 +127653,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7247,
       "lon": -122.3946,
       "notes": "From Craigslist · posted Aug 23, 3:03 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T15:26:06.960Z"
+      "added_at": "2026-08-23T15:26:06.960Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T16:30:02.760Z"
     },
     {
       "id": "cl_7955339841",
@@ -127664,14 +127674,54 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7218,
       "lon": -122.4521,
       "notes": "From Craigslist · posted Aug 23, 2:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T15:26:06.960Z"
+      "added_at": "2026-08-23T15:26:06.960Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T16:30:02.760Z"
+    },
+    {
+      "id": "cl_7954910315",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-1ba-hayes-valley-unit/7954910315.html",
+      "address": "2BR/1BA Hayes Valley Unit",
+      "neighborhood": "San Francisco",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7813,
+      "lon": -122.4167,
+      "notes": "From Craigslist · posted Aug 23, 4:09 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T16:30:02.760Z"
+    },
+    {
+      "id": "cl_7955349289",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-welcoming-living-room/7955349289.html",
+      "address": "🔥 Welcoming living room with decorative fireplace",
+      "neighborhood": "Dellbrook Ave, San Francisco, CA",
+      "price": 4000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.745,
+      "lon": -122.4383,
+      "notes": "From Craigslist · posted Aug 23, 4:10 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T16:30:02.760Z"
     }
   ]
 }
