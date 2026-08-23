@@ -125389,14 +125389,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.77,
       "lon": -122.4453,
       "notes": "From Craigslist · posted Aug 22, 8:40 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-22T21:25:20.398Z"
+      "added_at": "2026-08-22T21:25:20.398Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T11:23:57.168Z"
     },
     {
       "id": "cl_7955233399",
@@ -127099,14 +127101,16 @@
       "bathrooms": null,
       "sqft": 725,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7934,
       "lon": -122.4107,
       "notes": "From Craigslist · posted Aug 23, 10:17 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T10:27:34.504Z"
+      "added_at": "2026-08-23T10:27:34.504Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T11:23:57.168Z"
     },
     {
       "id": "cl_7955310103",
@@ -127213,14 +127217,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7442,
       "lon": -122.4822,
       "notes": "From Craigslist · posted Aug 23, 10:14 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T10:27:34.504Z"
+      "added_at": "2026-08-23T10:27:34.504Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T11:23:57.168Z"
     },
     {
       "id": "cl_7955311860",
@@ -127240,6 +127246,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-23T10:27:34.504Z"
+    },
+    {
+      "id": "cl_7955312372",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-bed-bath-home/7955312372.html",
+      "address": "Beautiful 3 Bed 1 Bath Home In Excelsior Neighborhood!!",
+      "neighborhood": "San Francisco, CA",
+      "price": 900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7247,
+      "lon": -122.4261,
+      "notes": "From Craigslist · posted Aug 23, 10:41 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T11:23:57.168Z"
+    },
+    {
+      "id": "cl_7955312794",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-2br-with-new/7955312794.html",
+      "address": "Renovated 2BR with New Kitchen & Bathroom",
+      "neighborhood": "San Francisco, CA",
+      "price": 900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 752,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7934,
+      "lon": -122.4107,
+      "notes": "From Craigslist · posted Aug 23, 10:31 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T11:23:57.168Z"
     }
   ]
 }
