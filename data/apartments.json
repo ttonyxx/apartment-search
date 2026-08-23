@@ -121865,14 +121865,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7786,
       "lon": -122.4892,
       "notes": "From Craigslist · posted Aug 20, 11:03 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-20T23:28:43.522Z"
+      "added_at": "2026-08-20T23:28:43.522Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-23T20:27:25.382Z"
     },
     {
       "id": "cl_7954875973",
@@ -128057,6 +128059,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-23T18:34:10.651Z"
+    },
+    {
+      "id": "cl_7955407914",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-2br-2ba-furnished/7955407914.html",
+      "address": "BRIGHT 2BR / 2BA — FURNISHED & READY!",
+      "neighborhood": "San Francisco, CA",
+      "price": 961,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7725,
+      "lon": -122.4147,
+      "notes": "From Craigslist · posted Aug 23, 8:23 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T20:27:25.382Z"
     }
   ]
 }
