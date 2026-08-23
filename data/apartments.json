@@ -128084,6 +128084,44 @@
       "added_at": "2026-08-23T20:27:25.382Z",
       "prev_status": "to_see",
       "off_market_at": "2026-08-23T21:25:16.932Z"
+    },
+    {
+      "id": "cl_7955431877",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-spacious-bedroom/7955431877.html",
+      "address": "Bright & Spacious 2-Bedroom Retreat in Prime Potrero Hill!",
+      "neighborhood": "Potrero Hill",
+      "price": 2500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7646,
+      "lon": -122.3987,
+      "notes": "From Craigslist · posted Aug 23, 11:08 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T23:24:45.684Z"
+    },
+    {
+      "id": "cl_7955426309",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bdr-ba-great-place-for/7955426309.html",
+      "address": "4 bdr/2 ba Great place for friends!!! near GG Park and Beach!!!",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 5500,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Aug 23, 10:27 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-23T23:24:45.684Z"
     }
   ]
 }
