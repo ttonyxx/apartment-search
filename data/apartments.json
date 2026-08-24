@@ -129570,6 +129570,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-24T17:33:36.680Z"
+    },
+    {
+      "id": "cl_7955599135",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-remodeled-bedroom-bath/7955599135.html",
+      "address": "Remodeled 2 bedroom 1 bath flat with parking and laundry",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 4150,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7834,
+      "lon": -122.4839,
+      "notes": "From Craigslist · posted Aug 24, 7:37 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-24T20:34:11.568Z"
     }
   ]
 }
