@@ -123638,14 +123638,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Aug 21, 5:23 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T17:32:15.247Z"
+      "added_at": "2026-08-21T17:32:15.247Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-24T16:41:38.075Z"
     },
     {
       "id": "cl_7954982403",
@@ -123657,14 +123659,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7333,
       "lon": -122.4285,
       "notes": "From Craigslist · posted Aug 21, 5:18 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T17:32:15.247Z"
+      "added_at": "2026-08-21T17:32:15.247Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-24T16:41:38.075Z"
     },
     {
       "id": "cl_7954468616",
@@ -123853,14 +123857,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Aug 21, 5:23 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T23:27:24.956Z"
+      "added_at": "2026-08-21T23:27:24.956Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-24T16:41:38.075Z"
     },
     {
       "id": "cl_7955083049",
@@ -127867,14 +127873,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Aug 23, 1:37 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-23T14:26:54.187Z"
+      "added_at": "2026-08-23T14:26:54.187Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-24T16:41:38.075Z"
     },
     {
       "id": "cl_7955332996",
@@ -129517,6 +129525,26 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-24T15:42:41.920Z"
+    },
+    {
+      "id": "rf_146950327",
+      "url": "https://www.redfin.com/CA/San-Francisco/570-Innes-Ave-94124/unit-302/home/146950327",
+      "address": "570 Innes Ave #302",
+      "neighborhood": "",
+      "price": 4300,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 957,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7285068,
+      "lon": -122.3691404,
+      "notes": "From Redfin · updated Aug 24, 4:27 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-24T16:41:38.075Z"
     }
   ]
 }
