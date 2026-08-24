@@ -129285,6 +129285,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-24T08:52:28.293Z"
+    },
+    {
+      "id": "cl_7955489505",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-cozy-2bedroom-and/7955489505.html",
+      "address": "Cozy 2Bedroom, and functional kitchen for welcoming living area",
+      "neighborhood": "Dolores Heights",
+      "price": 1690,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7496,
+      "lon": -122.4248,
+      "notes": "From Craigslist · posted Aug 24, 9:58 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-24T10:40:04.896Z"
     }
   ]
 }
