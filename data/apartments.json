@@ -114242,14 +114242,16 @@
       "bathrooms": null,
       "sqft": 1550,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7272,
       "lon": -122.4346,
       "notes": "From Craigslist · posted Aug 17, 7:52 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T20:30:40.153Z"
+      "added_at": "2026-08-17T20:30:40.153Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-24T22:30:00.493Z"
     },
     {
       "id": "cl_7954167394",
@@ -114551,14 +114553,16 @@
       "bathrooms": null,
       "sqft": 850,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7218,
       "lon": -122.4521,
       "notes": "From Craigslist · posted Aug 17, 9:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-17T22:28:01.331Z"
+      "added_at": "2026-08-17T22:28:01.331Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-24T22:30:00.493Z"
     },
     {
       "id": "cl_7954203574",
@@ -122678,14 +122682,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7793,
       "lon": -122.4587,
       "notes": "From Craigslist · posted Aug 21, 2:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T03:06:30.867Z"
+      "added_at": "2026-08-21T03:06:30.867Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-24T22:30:00.493Z"
     },
     {
       "id": "cl_7954888561",
@@ -129608,6 +129614,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-24T21:33:13.445Z"
+    },
+    {
+      "id": "cl_7955629748",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-1ba-walk-score-94/7955629748.html",
+      "address": "2BR / 1BA  Walk Score 94 Garden Patio & W/D Hookups Laurel Heights",
+      "neighborhood": "San Francisco",
+      "price": 4200,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 930,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Aug 24, 9:44 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-24T22:30:00.493Z"
+    },
+    {
+      "id": "cl_7955628311",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-gated-2br-walk-in-shower/7955628311.html",
+      "address": "Gated 2BR w/ Walk-In Shower, Patio Deck & 2 Closets, Wi-Fi  Irving St",
+      "neighborhood": "San Francisco",
+      "price": 4200,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 700,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.752,
+      "lon": -122.4849,
+      "notes": "From Craigslist · posted Aug 24, 9:54 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-24T22:30:00.493Z"
     }
   ]
 }
