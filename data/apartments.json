@@ -129930,14 +129930,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7206,
       "lon": -122.469,
       "notes": "From Craigslist · posted Aug 25, 6:31 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-25T06:54:12.625Z"
+      "added_at": "2026-08-25T06:54:12.625Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-25T12:53:18.378Z"
     },
     {
       "id": "cl_7955704724",
@@ -130148,6 +130150,45 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-25T11:31:47.087Z"
+    },
+    {
+      "id": "cl_7955725019",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-bedroom/7955725019.html",
+      "address": "!!Renovated 1 bedroom, 1 bathroom available for rent!!",
+      "neighborhood": "North Beach",
+      "price": 900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8002,
+      "lon": -122.4091,
+      "notes": "From Craigslist · posted Aug 25, 11:51 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-25T12:53:18.378Z"
+    },
+    {
+      "id": "rf_204749796",
+      "url": "https://www.redfin.com/CA/San-Francisco/2035-Filbert-St-94123/unit-101/home/204749796",
+      "address": "2035 Filbert St Apt 101",
+      "neighborhood": "",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7981104,
+      "lon": -122.4330872,
+      "notes": "From Redfin · updated Aug 25, 12:28 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-25T12:53:18.378Z"
     }
   ]
 }
