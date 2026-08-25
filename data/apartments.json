@@ -123376,14 +123376,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7925,
       "lon": -122.4132,
       "notes": "From Craigslist · posted Aug 21, 7:33 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T07:46:24.374Z"
+      "added_at": "2026-08-21T07:46:24.374Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-25T01:26:34.138Z"
     },
     {
       "id": "cl_7954905639",
@@ -129652,6 +129654,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-24T22:30:00.493Z"
+    },
+    {
+      "id": "cl_7955670845",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-modern-comfort-looking/7955670845.html",
+      "address": "*Modern comfort looking 2-bedroom, 1-bath apartment for fent",
+      "neighborhood": "# 5605, San Francisco, CA",
+      "price": 2991,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 950,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7842,
+      "lon": -122.4776,
+      "notes": "From Craigslist · posted Aug 25, 12:52 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-25T01:26:34.138Z"
+    },
+    {
+      "id": "cl_7952949061",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-two-extra-clean-rooms-walk-to/7952949061.html",
+      "address": "TWO Extra Clean Rooms WALK to SFSU-CCSF",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 900,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7143,
+      "lon": -122.4689,
+      "notes": "From Craigslist · posted Aug 23, 4:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-25T01:26:34.138Z"
     }
   ]
 }
