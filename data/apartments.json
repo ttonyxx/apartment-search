@@ -130008,14 +130008,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.8,
       "lon": -122.4341,
       "notes": "From Craigslist · posted Aug 25, 8:04 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-25T08:47:59.913Z"
+      "added_at": "2026-08-25T08:47:59.913Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-25T13:53:13.414Z"
     },
     {
       "id": "cl_7955713951",
@@ -130189,6 +130191,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-25T12:53:18.378Z"
+    },
+    {
+      "id": "cl_7955739537",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-700-sqft-lower-mission/7955739537.html",
+      "address": "700 SqFt Lower Mission 2 bed, Hardwood Floors, Near 24th Stre",
+      "neighborhood": "San Francisco, CA",
+      "price": 1700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7746,
+      "lon": -122.4044,
+      "notes": "From Craigslist · posted Aug 25, 1:35 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-25T13:53:13.414Z"
     }
   ]
 }
