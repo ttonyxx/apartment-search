@@ -125144,14 +125144,16 @@
       "bathrooms": null,
       "sqft": 1070,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7593,
       "lon": -122.4836,
       "notes": "From Craigslist · posted Aug 22, 6:35 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-22T18:35:19.055Z"
+      "added_at": "2026-08-22T18:35:19.055Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-25T11:31:47.087Z"
     },
     {
       "id": "cl_7955202881",
@@ -129848,14 +129850,16 @@
       "bathrooms": null,
       "sqft": 1252,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7216,
       "lon": -122.3958,
       "notes": "From Craigslist · posted Aug 25, 4:45 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-25T05:34:46.511Z"
+      "added_at": "2026-08-25T05:34:46.511Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-25T11:31:47.087Z"
     },
     {
       "id": "cl_7955702138",
@@ -130125,6 +130129,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-25T09:38:55.902Z"
+    },
+    {
+      "id": "cl_7955721249",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-bath/7955721249.html",
+      "address": "Spacious 2-bedroom, 1-bath first-floor apartment",
+      "neighborhood": "San Francisco",
+      "price": 986,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7942,
+      "lon": -122.4208,
+      "notes": "From Craigslist · posted Aug 25, 11:08 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-25T11:31:47.087Z"
     }
   ]
 }
