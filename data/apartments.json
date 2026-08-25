@@ -27485,7 +27485,7 @@
       "bathrooms": 1,
       "sqft": 613,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7867398,
       "lon": -122.4142931,
@@ -27493,7 +27493,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-06-18T20:30:58.920Z"
+      "added_at": "2026-06-18T20:30:58.920Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-25T22:31:04.726Z"
     },
     {
       "id": "cl_7941836078",
