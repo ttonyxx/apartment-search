@@ -119016,14 +119016,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7745,
       "lon": -122.4278,
       "notes": "From Craigslist · posted Aug 18, 11:43 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-19T01:26:36.862Z"
+      "added_at": "2026-08-19T01:26:36.862Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T01:36:33.949Z"
     },
     {
       "id": "cl_7954437379",
@@ -130380,6 +130382,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-25T17:34:35.011Z"
+    },
+    {
+      "id": "cl_7955884545",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-and-spacious-flat/7955884545.html",
+      "address": "CHARMING AND SPACIOUS FLAT",
+      "neighborhood": "Noe Valley",
+      "price": 6375,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1450,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7455,
+      "lon": -122.424,
+      "notes": "From Craigslist · posted Aug 25, 11:47 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T01:36:33.949Z"
+    },
+    {
+      "id": "cl_7955787016",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-600pm-625pm/7955787016.html",
+      "address": "OPEN THU 6:00pm-6:25pm Spacious, Bright, Great Loc! (312 20th Avenue)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4795,
+      "notes": "From Craigslist · posted Aug 25, 4:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T01:36:33.949Z"
     }
   ]
 }
