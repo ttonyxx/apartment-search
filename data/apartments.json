@@ -130563,14 +130563,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7997,
       "lon": -122.4344,
       "notes": "From Craigslist · posted Aug 26, 6:01 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-26T06:55:09.905Z"
+      "added_at": "2026-08-26T06:55:09.905Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T16:21:51.790Z"
     },
     {
       "id": "cl_7955921834",
@@ -130737,14 +130739,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7725,
       "lon": -122.4147,
       "notes": "From Craigslist · posted Aug 26, 1:58 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-26T13:59:51.527Z"
+      "added_at": "2026-08-26T13:59:51.527Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T16:21:51.790Z"
     },
     {
       "id": "cl_7955951293",
@@ -130764,6 +130768,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-26T13:59:51.527Z"
+    },
+    {
+      "id": "cl_7955926580",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-good-location-neighborhood/7955926580.html",
+      "address": "Good location & neighborhood",
+      "neighborhood": "West Portal / Forest Hill",
+      "price": 3300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 728,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.747,
+      "lon": -122.4713,
+      "notes": "From Craigslist · posted Aug 26, 7:40 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T16:21:51.790Z"
+    },
+    {
+      "id": "cl_7955989119",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-please-read-whole-de-ion/7955989119.html",
+      "address": "**Please read whole description before messaging me***",
+      "neighborhood": "San Francisco",
+      "price": 888,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Aug 26, 4:19 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T16:21:51.790Z"
     }
   ]
 }
