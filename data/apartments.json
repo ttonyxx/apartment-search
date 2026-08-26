@@ -84052,14 +84052,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7646,
       "lon": -122.4717,
       "notes": "From Craigslist · posted Jul 26, 3:30 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T16:04:01.056Z"
+      "added_at": "2026-07-26T16:04:01.056Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T07:50:21.189Z"
     },
     {
       "id": "cl_7949612162",
@@ -84092,14 +84094,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7309,
       "lon": -122.3886,
       "notes": "From Craigslist · posted Jul 26, 4:50 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-26T18:02:56.495Z"
+      "added_at": "2026-07-26T18:02:56.495Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T07:50:21.189Z"
     },
     {
       "id": "cl_7949634991",
@@ -84825,14 +84829,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7725,
       "lon": -122.4147,
       "notes": "From Craigslist · posted Jul 27, 1:43 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-27T04:39:12.345Z"
+      "added_at": "2026-07-27T04:39:12.345Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T07:50:21.189Z"
     },
     {
       "id": "cl_7949736121",
@@ -130494,14 +130500,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7647,
       "lon": -122.4352,
       "notes": "From Craigslist · posted Aug 26, 5:01 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-26T05:37:19.460Z"
+      "added_at": "2026-08-26T05:37:19.460Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T07:50:21.189Z"
     },
     {
       "id": "cl_7955918719",
@@ -130578,6 +130586,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-26T06:55:09.905Z"
+    },
+    {
+      "id": "cl_7955926580",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-very-good-location/7955926580.html",
+      "address": "Very good Location",
+      "neighborhood": "West Portal / Forest Hill",
+      "price": 3000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 750,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.747,
+      "lon": -122.4713,
+      "notes": "From Craigslist · posted Aug 26, 7:40 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T07:50:21.189Z"
+    },
+    {
+      "id": "cl_7955925238",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-victorian-era-one-level/7955925238.html",
+      "address": "@#@Victorian-era one-level home with 2 bedrooms and 1.5 baths✅",
+      "neighborhood": "Cole Valley",
+      "price": 1289,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7668,
+      "lon": -122.4495,
+      "notes": "From Craigslist · posted Aug 26, 7:32 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T07:50:21.189Z"
     }
   ]
 }
