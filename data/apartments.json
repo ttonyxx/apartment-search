@@ -123823,14 +123823,16 @@
       "bathrooms": null,
       "sqft": 942,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7155,
       "lon": -122.4829,
       "notes": "From Craigslist · posted Aug 21, 8:17 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-21T20:29:24.139Z"
+      "added_at": "2026-08-21T20:29:24.139Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T13:59:51.527Z"
     },
     {
       "id": "cl_7955051977",
@@ -130722,6 +130724,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-08-26T12:59:30.789Z"
+    },
+    {
+      "id": "cl_7955952334",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-quiet2-in-military/7955952334.html",
+      "address": "Quiet,2/1 in Military/Okeechobee",
+      "neighborhood": "San Francisco",
+      "price": 900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7725,
+      "lon": -122.4147,
+      "notes": "From Craigslist · posted Aug 26, 1:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T13:59:51.527Z"
+    },
+    {
+      "id": "cl_7955951293",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-victorian-era-one-level/7955951293.html",
+      "address": "@#@Victorian-era one-level home with 2 bedrooms and 1.5 baths✅",
+      "neighborhood": "City Of San Francisco",
+      "price": 1000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7668,
+      "lon": -122.4495,
+      "notes": "From Craigslist · posted Aug 26, 1:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T13:59:51.527Z"
     }
   ]
 }
