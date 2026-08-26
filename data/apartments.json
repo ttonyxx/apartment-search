@@ -116140,14 +116140,16 @@
       "bathrooms": null,
       "sqft": 1920,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7323,
       "lon": -122.4445,
       "notes": "From Craigslist · posted Aug 18, 3:57 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-18T04:39:01.173Z"
+      "added_at": "2026-08-18T04:39:01.173Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-26T04:43:14.100Z"
     },
     {
       "id": "cl_7954255995",
@@ -130422,6 +130424,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-26T01:36:33.949Z"
+    },
+    {
+      "id": "cl_7955913552",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-four-bedroom-home-in/7955913552.html",
+      "address": "Four Bedroom Home in Miraloma Park!",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 7995,
+      "bedrooms": 4,
+      "bathrooms": null,
+      "sqft": 1920,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7323,
+      "lon": -122.4445,
+      "notes": "From Craigslist · posted Aug 26, 4:01 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-26T04:43:14.100Z"
     }
   ]
 }
