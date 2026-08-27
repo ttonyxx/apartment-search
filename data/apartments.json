@@ -85396,14 +85396,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7807,
       "lon": -122.4048,
       "notes": "From Craigslist · posted Jul 27, 4:44 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-27T17:45:35.942Z"
+      "added_at": "2026-07-27T17:45:35.942Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-27T16:16:08.617Z"
     },
     {
       "id": "cl_7949809398",
@@ -85478,14 +85480,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7807,
       "lon": -122.4048,
       "notes": "From Craigslist · posted Jul 27, 7:27 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-07-27T19:40:25.318Z"
+      "added_at": "2026-07-27T19:40:25.318Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-27T16:16:08.617Z"
     },
     {
       "id": "cl_7949809398",
@@ -130729,7 +130733,7 @@
       "bathrooms": 2,
       "sqft": 1075,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.73951,
       "lon": -122.504289,
@@ -130737,7 +130741,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-26T12:59:30.789Z"
+      "added_at": "2026-08-26T12:59:30.789Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-27T16:16:08.617Z"
     },
     {
       "id": "rf_1885445",
@@ -131062,14 +131068,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7994,
       "lon": -122.4174,
       "notes": "From Craigslist · posted Aug 27, 4:09 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-27T04:25:40.022Z"
+      "added_at": "2026-08-27T04:25:40.022Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-27T16:16:08.617Z"
     },
     {
       "id": "cl_7956113695",
@@ -131081,14 +131089,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7648,
       "lon": -122.4245,
       "notes": "From Craigslist · posted Aug 27, 3:01 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-27T04:25:40.022Z"
+      "added_at": "2026-08-27T04:25:40.022Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-27T16:16:08.617Z"
     },
     {
       "id": "cl_7956116821",
@@ -131100,14 +131110,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8002,
       "lon": -122.4091,
       "notes": "From Craigslist · posted Aug 27, 3:36 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-27T04:25:40.022Z"
+      "added_at": "2026-08-27T04:25:40.022Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-08-27T16:16:08.617Z"
     },
     {
       "id": "cl_7956079558",
@@ -131146,6 +131158,65 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-08-27T04:25:40.022Z"
+    },
+    {
+      "id": "cl_7956124897",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-br-ba-ft-cozy-new-duplex/7956124897.html",
+      "address": "$6,800/3 br 2 ba -1500 ft- Cozy, New duplex top floor  unit",
+      "neighborhood": "Inner Sunset / UCSF",
+      "price": 6800,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7593,
+      "lon": -122.4836,
+      "notes": "From Craigslist · posted Aug 27, 5:38 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-08-27T16:16:08.617Z"
+    },
+    {
+      "id": "rf_1386458",
+      "url": "https://www.redfin.com/CA/San-Francisco/2443-39th-Ave-94116/home/1386458",
+      "address": "2443 39th Ave",
+      "neighborhood": "",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1300,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.74129,
+      "lon": -122.4973474,
+      "notes": "From Redfin · updated Aug 27, 12:26 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-27T16:16:08.617Z"
+    },
+    {
+      "id": "rf_195422215",
+      "url": "https://www.redfin.com/CA/San-Francisco/3305-17th-St-94110/apartment/195422215",
+      "address": "3305 17th St",
+      "neighborhood": "",
+      "price": 4495,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 650,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7633307,
+      "lon": -122.4196881,
+      "notes": "From Redfin · 1–2bd · updated Aug 27, 4:30 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-08-27T16:16:08.617Z"
     }
   ]
 }
