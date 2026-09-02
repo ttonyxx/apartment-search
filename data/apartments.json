@@ -137664,14 +137664,16 @@
       "bathrooms": null,
       "sqft": 1360,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7505,
       "lon": -122.4208,
       "notes": "From Craigslist · posted Sep 2, 8:30 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-02T20:47:45.290Z"
+      "added_at": "2026-09-02T20:47:45.290Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-02T23:08:34.925Z"
     },
     {
       "id": "cl_7959586077",
@@ -137767,6 +137769,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-02T20:47:45.290Z"
+    },
+    {
+      "id": "cl_7959742551",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-pet-friendly-mission/7959742551.html",
+      "address": "Pet-Friendly Mission District Apartment near 24th St",
+      "neighborhood": "Mission District",
+      "price": 4300,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 690,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7523,
+      "lon": -122.4141,
+      "notes": "From Craigslist · posted Sep 2, 9:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-02T23:08:34.925Z"
     }
   ]
 }
