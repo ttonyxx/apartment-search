@@ -103673,14 +103673,16 @@
       "bathrooms": null,
       "sqft": 1867,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7323,
       "lon": -122.3869,
       "notes": "From Craigslist · posted Aug 11, 9:32 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-11T21:52:39.874Z"
+      "added_at": "2026-08-11T21:52:39.874Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-02T03:45:17.199Z"
     },
     {
       "id": "cl_7952967773",
@@ -135370,14 +135372,16 @@
       "bathrooms": null,
       "sqft": 1159,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7758,
       "lon": -122.4585,
       "notes": "From Craigslist · posted Aug 31, 4:23 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-31T16:53:44.323Z"
+      "added_at": "2026-08-31T16:53:44.323Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-02T03:45:17.199Z"
     },
     {
       "id": "cl_7958165660",
@@ -135564,14 +135568,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7746,
       "lon": -122.4225,
       "notes": "From Craigslist · posted Sep 1, 12:32 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-01T01:06:31.880Z"
+      "added_at": "2026-09-01T01:06:31.880Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-02T03:45:17.199Z"
     },
     {
       "id": "cl_7958476896",
@@ -135770,14 +135776,16 @@
       "bathrooms": null,
       "sqft": 897,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.801,
       "lon": -122.4123,
       "notes": "From Craigslist · posted Sep 1, 7:09 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-01T07:31:09.244Z"
+      "added_at": "2026-09-01T07:31:09.244Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-02T03:45:17.199Z"
     },
     {
       "id": "cl_7958618859",
@@ -135789,14 +135797,16 @@
       "bathrooms": null,
       "sqft": 897,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7917,
       "lon": -122.4186,
       "notes": "From Craigslist · posted Sep 1, 6:30 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-01T07:31:09.244Z"
+      "added_at": "2026-09-01T07:31:09.244Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-02T03:45:17.199Z"
     },
     {
       "id": "cl_7958609130",
@@ -136789,14 +136799,16 @@
       "bathrooms": null,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7441,
       "lon": -122.4863,
       "notes": "From Craigslist · posted Sep 1, 8:04 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-01T20:48:19.436Z"
+      "added_at": "2026-09-01T20:48:19.436Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-02T03:45:17.199Z"
     },
     {
       "id": "cl_7959021897",
@@ -136978,6 +136990,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-01T23:09:27.170Z"
+    },
+    {
+      "id": "cl_7959253074",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-1bath-flat-coming/7959253074.html",
+      "address": "3 bed /1bath  Flat coming soon October!  in the Richmond district!",
+      "neighborhood": "Inner Richmond",
+      "price": 4375,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 950,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Sep 2, 3:40 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-02T03:45:17.199Z"
+    },
+    {
+      "id": "cl_7959239577",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bernal-heights-home-for/7959239577.html",
+      "address": "Bernal Heights home for rent",
+      "neighborhood": "Bernal Heights",
+      "price": 5700,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1350,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7416,
+      "lon": -122.4088,
+      "notes": "From Craigslist · posted Sep 2, 2:30 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-02T03:45:17.199Z"
+    },
+    {
+      "id": "cl_7959256677",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-high-ceiling-bedroom-near/7959256677.html",
+      "address": "High Ceiling 3-Bedroom near Mission Dolores Park!",
+      "neighborhood": "Mission District",
+      "price": 6095,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7548,
+      "lon": -122.4209,
+      "notes": "From Craigslist · posted Sep 2, 3:30 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-02T03:45:17.199Z"
     }
   ]
 }
