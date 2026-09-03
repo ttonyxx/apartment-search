@@ -124063,14 +124063,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7608,
       "lon": -122.4682,
       "notes": "From Craigslist · posted Aug 22, 12:15 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-22T01:24:53.203Z"
+      "added_at": "2026-08-22T01:24:53.203Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-03T20:45:02.370Z"
     },
     {
       "id": "cl_7955090686",
@@ -135261,14 +135263,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7572,
       "lon": -122.5078,
       "notes": "From Craigslist · posted Aug 31, 12:30 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-31T01:13:32.831Z"
+      "added_at": "2026-08-31T01:13:32.831Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-03T20:45:02.370Z"
     },
     {
       "id": "cl_7957962863",
@@ -135560,14 +135564,16 @@
       "bathrooms": null,
       "sqft": 800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.775,
       "lon": -122.4724,
       "notes": "From Craigslist · posted Sep 1, 12:26 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-01T01:06:31.880Z"
+      "added_at": "2026-09-01T01:06:31.880Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-03T20:45:02.370Z"
     },
     {
       "id": "cl_7958474253",
@@ -138511,6 +138517,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-09-03T13:24:10.517Z"
+    },
+    {
+      "id": "cl_7960168977",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-735pm-8pm/7960168977.html",
+      "address": "OPEN THU 7:35pm-8pm. Spacious and Bright 2-1BR,Laundry(136 Gough St)",
+      "neighborhood": "Hayes Valley",
+      "price": 3495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7746,
+      "lon": -122.4225,
+      "notes": "From Craigslist · posted Sep 3, 5:43 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-03T20:45:02.370Z"
+    },
+    {
+      "id": "cl_7960173600",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-thu-6pm-630pm/7960173600.html",
+      "address": "OPEN THU 6pm-6:30pm. Spacious, Bright, Great Loc! (312 20th Avenue)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 6100,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4795,
+      "notes": "From Craigslist · posted Sep 3, 5:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-03T20:45:02.370Z"
     }
   ]
 }
