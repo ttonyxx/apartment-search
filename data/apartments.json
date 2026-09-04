@@ -137676,7 +137676,7 @@
       "bathrooms": 2,
       "sqft": 2300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7596215,
       "lon": -122.500782,
@@ -137684,7 +137684,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-09-02T17:45:14.110Z"
+      "added_at": "2026-09-02T17:45:14.110Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-04T13:18:45.514Z"
     },
     {
       "id": "rf_205249789",
@@ -138462,7 +138464,7 @@
       "bathrooms": 1,
       "sqft": 720,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7205051,
       "lon": -122.453896,
@@ -138470,7 +138472,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-09-03T13:24:10.517Z"
+      "added_at": "2026-09-03T13:24:10.517Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-04T13:18:45.514Z"
     },
     {
       "id": "rf_1264537",
@@ -138482,7 +138486,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7275508,
       "lon": -122.392433,
@@ -138490,7 +138494,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-09-03T13:24:10.517Z"
+      "added_at": "2026-09-03T13:24:10.517Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-04T13:18:45.514Z"
     },
     {
       "id": "rf_187354708",
@@ -138656,14 +138662,16 @@
       "bathrooms": null,
       "sqft": 1144,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7416,
       "lon": -122.4088,
       "notes": "From Craigslist · posted Sep 4, 1:58 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-04T03:45:48.660Z"
+      "added_at": "2026-09-04T03:45:48.660Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-04T13:18:45.514Z"
     },
     {
       "id": "cl_7960449372",
