@@ -140383,14 +140383,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7531,
       "lon": -122.4024,
       "notes": "From Craigslist · posted Sep 5, 4:28 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-05T16:39:39.026Z"
+      "added_at": "2026-09-05T16:39:39.026Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-06T03:47:48.029Z"
     },
     {
       "id": "cl_7961273034",
@@ -140564,14 +140566,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7756,
       "lon": -122.4447,
       "notes": "From Craigslist · posted Sep 5, 8:18 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-05T21:00:49.726Z"
+      "added_at": "2026-09-05T21:00:49.726Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-06T03:47:48.029Z"
     },
     {
       "id": "cl_7961409414",
@@ -140650,6 +140654,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-05T23:39:37.159Z"
+    },
+    {
+      "id": "cl_7961586807",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-well-kept-two-bedroom-one/7961586807.html",
+      "address": "Well kept two bedroom, one bath unit",
+      "neighborhood": "City Of San Francisco",
+      "price": 1995,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7232,
+      "lon": -122.4643,
+      "notes": "From Craigslist · posted Sep 6, 2:56 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-06T03:47:48.029Z"
     }
   ]
 }
