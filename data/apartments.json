@@ -107900,14 +107900,16 @@
       "bathrooms": null,
       "sqft": 1650,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7372,
       "lon": -122.3904,
       "notes": "From Craigslist · posted Aug 13, 2:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T15:01:01.714Z"
+      "added_at": "2026-08-13T15:01:01.714Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-06T23:37:31.852Z"
     },
     {
       "id": "cl_7953293874",
@@ -108108,14 +108110,16 @@
       "bathrooms": null,
       "sqft": 1250,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7372,
       "lon": -122.3904,
       "notes": "From Craigslist · posted Aug 13, 5:25 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-13T18:01:23.323Z"
+      "added_at": "2026-08-13T18:01:23.323Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-06T23:37:31.852Z"
     },
     {
       "id": "cl_7953300329",
@@ -142176,6 +142180,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-06T21:11:32.337Z"
+    },
+    {
+      "id": "cl_7961963088",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-soma-2br-with/7961963088.html",
+      "address": "Charming SOMA 2BR with City Views & Natural Light",
+      "neighborhood": "SOMA – By Moscone Center",
+      "price": 3595,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7725,
+      "lon": -122.4147,
+      "notes": "From Craigslist · posted Sep 6, 10:04 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-06T23:37:31.852Z"
     }
   ]
 }
