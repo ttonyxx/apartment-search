@@ -143815,6 +143815,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-09-07T19:42:43.470Z"
+    },
+    {
+      "id": "cl_7959801852",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-one-of-kind-spacious-3br/7959801852.html",
+      "address": "One of a kind spacious 3BR/2BA",
+      "neighborhood": "San Francisco",
+      "price": 6250,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1499,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7786,
+      "lon": -122.4892,
+      "notes": "From Craigslist · posted Sep 2, 11:42 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-07T22:38:59.675Z"
     }
   ]
 }
