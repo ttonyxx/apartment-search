@@ -143268,14 +143268,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7999,
       "lon": -122.4342,
       "notes": "From Craigslist · posted Sep 7, 7:43 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-07T09:08:11.989Z"
+      "added_at": "2026-09-07T09:08:11.989Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-08T01:00:54.535Z"
     },
     {
       "id": "cl_7962086913",
@@ -143834,6 +143836,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-07T22:38:59.675Z"
+    },
+    {
+      "id": "cl_7962554469",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-cozy-renovated-turn-key/7962554469.html",
+      "address": "Cozy renovated turn-key 3BD/2BA condo with an exclusive private garden",
+      "neighborhood": "Laurel Hts / Presidio",
+      "price": 6000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1690,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.788,
+      "lon": -122.4594,
+      "notes": "From Craigslist · posted Sep 8, 12:25 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-08T01:00:54.535Z"
+    },
+    {
+      "id": "cl_7962548481",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-single-family/7962548481.html",
+      "address": "Beautiful single-family home, with an expansive back deck",
+      "neighborhood": "Laurel Hts / Presidio",
+      "price": 6540,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 2200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7874,
+      "lon": -122.457,
+      "notes": "From Craigslist · posted Sep 8, 12:20 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-08T01:00:54.535Z"
     }
   ]
 }
