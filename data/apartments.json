@@ -145346,14 +145346,16 @@
       "bathrooms": null,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7441,
       "lon": -122.4863,
       "notes": "From Craigslist · posted Sep 9, 7:06 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-09T20:43:07.549Z"
+      "added_at": "2026-09-09T20:43:07.549Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-09T23:04:08.650Z"
     },
     {
       "id": "cl_7963607193",
@@ -145487,6 +145489,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-09T20:43:07.549Z"
+    },
+    {
+      "id": "cl_7963734366",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-coming-soon-bdrm/7963734366.html",
+      "address": "Coming soon! 3 BDRM apartment homes at Baker Beach!",
+      "neighborhood": "Laurel Hts / Presidio",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 840,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7936,
+      "lon": -122.4784,
+      "notes": "From Craigslist · posted Sep 9, 10:11 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-09T23:04:08.650Z"
+    },
+    {
+      "id": "cl_7963724025",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-perfect-3br-2ba-home-in/7963724025.html",
+      "address": "🍁🍂 +Perfect 3BR/2BA Home in a Great Spot++💙 (1663 22nd Ave)",
+      "neighborhood": "San Francisco, CA",
+      "price": 1450,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7567,
+      "lon": -122.4799,
+      "notes": "From Craigslist · posted Sep 9, 10:19 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-09T23:04:08.650Z"
     }
   ]
 }
