@@ -137250,14 +137250,16 @@
       "bathrooms": null,
       "sqft": 1144,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7509,
       "lon": -122.4153,
       "notes": "From Craigslist · posted Sep 2, 10:42 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-02T13:25:43.408Z"
+      "added_at": "2026-09-02T13:25:43.408Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-10T23:00:34.174Z"
     },
     {
       "id": "cl_7959340062",
@@ -145013,14 +145015,16 @@
       "bathrooms": null,
       "sqft": 1375,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7942,
       "lon": -122.4282,
       "notes": "From Craigslist · posted Sep 9, 3:34 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-09T03:56:03.903Z"
+      "added_at": "2026-09-09T03:56:03.903Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-10T23:00:34.174Z"
     },
     {
       "id": "cl_7963260990",
@@ -146200,6 +146204,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-10T17:34:49.652Z"
+    },
+    {
+      "id": "cl_7964277480",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-move-in-ready/7964277480.html",
+      "address": "Move In Ready",
+      "neighborhood": "Sunset / Parkside",
+      "price": 4560,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1300,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7441,
+      "lon": -122.4863,
+      "notes": "From Craigslist · posted Sep 10, 9:25 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-10T23:00:34.174Z"
+    },
+    {
+      "id": "cl_7954354678",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-updated-2bd-d-in-unit/7954354678.html",
+      "address": "Updated 2BD | W/D in Unit | Stainless Steel Appliances | Shared Yard",
+      "neighborhood": "Bernal Heights",
+      "price": 4495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 777,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7338,
+      "lon": -122.4182,
+      "notes": "From Craigslist · posted Aug 27, 11:40 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-10T23:00:34.174Z"
     }
   ]
 }
