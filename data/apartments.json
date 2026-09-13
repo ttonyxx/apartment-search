@@ -147787,14 +147787,16 @@
       "bathrooms": null,
       "sqft": 1067,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7707,
       "lon": -122.4327,
       "notes": "From Craigslist · posted Sep 12, 1:42 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-12T16:05:59.156Z"
+      "added_at": "2026-09-12T16:05:59.156Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-13T00:42:12.187Z"
     },
     {
       "id": "cl_7965131232",
@@ -148181,14 +148183,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.751,
       "lon": -122.4158,
       "notes": "From Craigslist · posted Sep 12, 7:50 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-12T22:02:39.829Z"
+      "added_at": "2026-09-12T22:02:39.829Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-13T00:42:12.187Z"
     },
     {
       "id": "cl_7965382959",
@@ -148257,14 +148261,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7861,
       "lon": -122.4502,
       "notes": "From Craigslist · posted Sep 12, 9:18 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-12T22:02:39.829Z"
+      "added_at": "2026-09-12T22:02:39.829Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-13T00:42:12.187Z"
     },
     {
       "id": "cl_7965434439",
@@ -148303,6 +148309,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-12T22:02:39.829Z"
+    },
+    {
+      "id": "cl_7965505863",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-hey-take-closer-look/7965505863.html",
+      "address": "Hey! Take a Closer Look Before You Decide",
+      "neighborhood": "South Beach",
+      "price": 1630,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 582,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7734,
+      "lon": -122.412,
+      "notes": "From Craigslist · posted Sep 13, 12:04 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-13T00:42:12.187Z"
+    },
+    {
+      "id": "cl_7965455217",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-spacious-1br-1ba/7965455217.html",
+      "address": "Bright & Spacious 1BR/1BA Home in Prime Location Nob Hill",
+      "neighborhood": "San Francisco, CA",
+      "price": 2015,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.792,
+      "lon": -122.4167,
+      "notes": "From Craigslist · posted Sep 12, 10:13 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-13T00:42:12.187Z"
     }
   ]
 }
