@@ -147889,14 +147889,16 @@
       "bathrooms": null,
       "sqft": 690,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7471,
       "lon": -122.4462,
       "notes": "From Craigslist · posted Sep 12, 2:28 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-12T16:05:59.156Z"
+      "added_at": "2026-09-12T16:05:59.156Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-14T23:44:47.047Z"
     },
     {
       "id": "cl_7965213081",
@@ -149138,14 +149140,16 @@
       "bathrooms": null,
       "sqft": 1742,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7385,
       "lon": -122.4589,
       "notes": "From Craigslist · posted Sep 13, 4:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-13T18:38:58.477Z"
+      "added_at": "2026-09-13T18:38:58.477Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-14T23:44:47.047Z"
     },
     {
       "id": "cl_7965804852",
@@ -150069,14 +150073,16 @@
       "bathrooms": null,
       "sqft": 1300,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7441,
       "lon": -122.4863,
       "notes": "From Craigslist · posted Sep 14, 7:41 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-14T20:48:01.611Z"
+      "added_at": "2026-09-14T20:48:01.611Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-14T23:44:47.047Z"
     },
     {
       "id": "cl_7966452021",
@@ -150172,6 +150178,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-14T20:48:01.611Z"
+    },
+    {
+      "id": "cl_7966493553",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-epicrea-rare-top-floor/7966493553.html",
+      "address": "EpicREA - Rare Top Floor 3 Bedroom / 2 Bath Remodeled Flat",
+      "neighborhood": "Bayview",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1375,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7349,
+      "lon": -122.3909,
+      "notes": "From Craigslist · posted Sep 14, 9:24 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-14T23:44:47.047Z"
     }
   ]
 }
