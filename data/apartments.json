@@ -131741,14 +131741,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7195,
       "lon": -122.4411,
       "notes": "From Craigslist · posted Aug 28, 9:53 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-08-28T23:56:37.915Z"
+      "added_at": "2026-08-28T23:56:37.915Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-16T22:45:38.160Z"
     },
     {
       "id": "cl_7956783581",
@@ -150816,7 +150818,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.756209,
       "lon": -122.409686,
@@ -150824,7 +150826,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-09-15T14:43:52.224Z"
+      "added_at": "2026-09-15T14:43:52.224Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-16T22:45:38.160Z"
     },
     {
       "id": "rf_2001793",
@@ -150836,7 +150840,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7168216,
       "lon": -122.457079,
@@ -150844,7 +150848,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-09-15T14:43:52.224Z"
+      "added_at": "2026-09-15T14:43:52.224Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-16T22:45:38.160Z"
     },
     {
       "id": "cl_7967016507",
@@ -151400,6 +151406,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-09-16T19:54:09.148Z"
+    },
+    {
+      "id": "cl_7967662989",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-available-now-bdrm-split/7967662989.html",
+      "address": "Available now! 3 BDRM Split apartment home at Baker Beach!",
+      "neighborhood": "Laurel Hts / Presidio",
+      "price": 6040,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 955,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.4778,
+      "notes": "From Craigslist · posted Sep 16, 7:57 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-16T22:45:38.160Z"
+    },
+    {
+      "id": "cl_7967753796",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-russian-hill/7967753796.html",
+      "address": "Top-Floor Russian Hill 2BR/2BA Apartment in a Prime Location!",
+      "neighborhood": "San Francisco, CA",
+      "price": 1999,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7998,
+      "lon": -122.4175,
+      "notes": "From Craigslist · posted Sep 16, 10:18 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-16T22:45:38.160Z"
     }
   ]
 }
