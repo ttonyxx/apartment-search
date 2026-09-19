@@ -152621,14 +152621,16 @@
       "bathrooms": null,
       "sqft": 1104,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7917,
       "lon": -122.4186,
       "notes": "From Craigslist · posted Sep 17, 9:22 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-17T21:59:05.186Z"
+      "added_at": "2026-09-17T21:59:05.186Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-19T22:46:22.855Z"
     },
     {
       "id": "cl_7968302757",
@@ -158602,6 +158604,45 @@
       "added_at": "2026-09-19T17:04:59.355Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-19T20:18:22.228Z"
+    },
+    {
+      "id": "cl_7969443564",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-13-mo-room-with-view/7969443564.html",
+      "address": "TMLP 13-mo. | Room with a View: Private Balconies Overlooking San Francisco!",
+      "neighborhood": "Tenderloin",
+      "price": 3894,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1104,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7917,
+      "lon": -122.4186,
+      "notes": "From Craigslist · posted Sep 19, 8:20 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-19T22:46:22.855Z"
+    },
+    {
+      "id": "rf_178659458",
+      "url": "https://www.redfin.com/CA/San-Francisco/400-Duboce-Ave-94117/home/178659458",
+      "address": "400 Duboce Ave",
+      "neighborhood": "",
+      "price": 5340,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 451,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7696523,
+      "lon": -122.4295781,
+      "notes": "From Redfin · 1–3bd · updated Sep 19, 8:44 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-09-19T22:46:22.855Z"
     }
   ]
 }
