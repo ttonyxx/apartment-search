@@ -142343,14 +142343,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7725,
       "lon": -122.4147,
       "notes": "From Craigslist · posted Sep 6, 10:04 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-06T23:37:31.852Z"
+      "added_at": "2026-09-06T23:37:31.852Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T21:18:09.407Z"
     },
     {
       "id": "cl_7962071919",
@@ -151240,14 +151242,16 @@
       "bathrooms": null,
       "sqft": 2500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7309,
       "lon": -122.4348,
       "notes": "From Craigslist · posted Sep 16, 8:45 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-16T11:09:44.696Z"
+      "added_at": "2026-09-16T11:09:44.696Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T21:18:09.407Z"
     },
     {
       "id": "cl_7967315055",
@@ -153111,14 +153115,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7124,
       "lon": -122.4416,
       "notes": "From Craigslist · posted Sep 18, 4:59 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-18T18:10:37.791Z"
+      "added_at": "2026-09-18T18:10:37.791Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T21:18:09.407Z"
     },
     {
       "id": "cl_7968684885",
@@ -158695,14 +158701,16 @@
       "bathrooms": null,
       "sqft": 1863,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7569,
       "lon": -122.4723,
       "notes": "From Craigslist · posted Sep 20, 12:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-20T00:50:19.138Z"
+      "added_at": "2026-09-20T00:50:19.138Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T21:18:09.407Z"
     },
     {
       "id": "cl_7969549944",
@@ -159034,14 +159042,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7421,
       "lon": -122.4261,
       "notes": "From Craigslist · posted Sep 20, 10:49 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-20T10:57:55.869Z"
+      "added_at": "2026-09-20T10:57:55.869Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T21:18:09.407Z"
     },
     {
       "id": "cl_7969669272",
@@ -159093,14 +159103,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7622,
       "lon": -122.5082,
       "notes": "From Craigslist · posted Sep 20, 10:54 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-20T10:57:55.869Z"
+      "added_at": "2026-09-20T10:57:55.869Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-20T21:18:09.407Z"
     },
     {
       "id": "cl_7969662561",
@@ -159886,6 +159898,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-20T18:07:06.015Z"
+    },
+    {
+      "id": "cl_7969915368",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-modern-bed-bath/7969915368.html",
+      "address": "Bright & Modern 2-Bed, 1-Bath Apartment for Rent",
+      "neighborhood": "481 Elizabeth St, San Francisco, CA",
+      "price": 1800,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Sep 20, 7:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-20T21:18:09.407Z"
+    },
+    {
+      "id": "cl_7969945386",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-brand-new-remodeled/7969945386.html",
+      "address": "Brand-New Remodeled Apartment in a Quiet Location",
+      "neighborhood": "City Of San Francisco",
+      "price": 1850,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.748,
+      "lon": -122.4217,
+      "notes": "From Craigslist · posted Sep 20, 8:24 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-20T21:18:09.407Z"
+    },
+    {
+      "id": "cl_7969887528",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-5br-3ba-remodeled-home/7969887528.html",
+      "address": "5br/3ba ►Remodeled Home + 2-Car Parking + Detached 365 Sq. Ft. Studio",
+      "neighborhood": "Ingleside / SFSU / CCSF",
+      "price": 7499,
+      "bedrooms": 5,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7124,
+      "lon": -122.4416,
+      "notes": "From Craigslist · posted Sep 20, 6:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-20T21:18:09.407Z"
     }
   ]
 }
