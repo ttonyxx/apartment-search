@@ -162768,7 +162768,7 @@
       "bathrooms": 1,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7760445,
       "lon": -122.5046296,
@@ -162776,7 +162776,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-09-22T14:30:23.927Z"
+      "added_at": "2026-09-22T14:30:23.927Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-22T21:53:18.475Z"
     },
     {
       "id": "rf_2012485",
@@ -162874,6 +162876,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-22T18:37:50.127Z"
+    },
+    {
+      "id": "cl_7971144534",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-lower-nob-hill-2br-1ba/7971144534.html",
+      "address": "Lower Nob Hill 2BR/1BA Apartment near Union Square",
+      "neighborhood": "San Francisco, CA",
+      "price": 1480,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7883,
+      "lon": -122.4158,
+      "notes": "From Craigslist · posted Sep 22, 8:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-22T21:53:18.475Z"
+    },
+    {
+      "id": "cl_7971121407",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-2ba-in-russian-hill/7971121407.html",
+      "address": "2BR/2BA in Russian Hill Apartment Near Cable Cars",
+      "neighborhood": "San Francisco, CA",
+      "price": 2250,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.8006,
+      "lon": -122.4193,
+      "notes": "From Craigslist · posted Sep 22, 8:21 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-22T21:53:18.475Z"
     }
   ]
 }
