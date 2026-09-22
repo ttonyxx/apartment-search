@@ -10,7 +10,7 @@
 - The return flight on October 25 is a morning departure from **Paris Charles de Gaulle (CDG)**. If it is Orly, the final-night logistics need to change.
 - You are staying in or close to Fontainebleau/Avon and will have a rental car. A car makes this plan substantially easier because the climbing sectors are spread around the forest.
 - Your climbing grades were not provided. Every climbing day therefore has an easier circuit lane, a middle classics lane, and a harder project lane.
-- No restaurant, spa, car, pad, château, or hotel reservation has been made by this plan.
+- Katherine has booked **Les Coqs for Monday, October 19 at 7:00 PM local time**. Other restaurant, spa, car, pad, château, and hotel reservations remain to be confirmed.
 
 ## The trip at a glance
 
@@ -18,7 +18,7 @@
 |---|---|---:|---|
 | Sat Oct 17 | Eurostar, car, pads, groceries, settle in | None | Early casual dinner and sleep |
 | Sun Oct 18 | **Katherine’s birthday:** Fontainebleau market + Éléphant | Moderate/fun | **L’Axel birthday dinner** |
-| Mon Oct 19 | Bas Cuvier + optional Cuvier Est | Hard/project | Recovery dinner at home |
+| Mon Oct 19 | Bas Cuvier + optional Cuvier Est | Hard/project | **Les Coqs at 7:00 PM — booked by Katherine** |
 | Tue Oct 20 | Market, Moret-sur-Loing, recovery spa | Rest | Quiet evening |
 | Wed Oct 21 | Franchard Isatis + Cuisinière | Hard/project | Casual town dinner |
 | Thu Oct 22 | **Tony’s birthday:** Roche aux Sabots + Cul de Chien | Moderate/project | **Le Magnum birthday dinner** |
@@ -26,7 +26,7 @@
 | Sat Oct 24 | Short victory-lap session, return pads, CDG | Easy/moderate | Airport hotel |
 | Sun Oct 25 | Morning flight to NYC | — | — |
 
-The outdoor dates are a template, not a command. Preserve the two birthday reservations, but move climbing and rest days around the driest conditions. Fontainebleau sandstone must be fully dry—not merely dry-looking on the surface.
+The outdoor dates are a template, not a command. Keep the booked Les Coqs dinner and the two planned birthday dinners fixed, but move climbing and rest days around the driest conditions. Fontainebleau sandstone must be fully dry—not merely dry-looking on the surface.
 
 ## Day-by-day plan
 
@@ -56,7 +56,8 @@ This is designed as a beautiful, celebratory first climbing day rather than a ma
 - **8:00 AM:** leave early with breakfast and lunch. Bas Cuvier is iconic and popular.
 - **8:30–9:15 AM:** long circuit-based warm-up. Font top-outs, polished feet, and technical slabs can feel much harder than the conversion grade suggests.
 - **9:15 AM–3:30 PM:** choose one lane from the Bas Cuvier menu, then add at most one true project. Cuvier Est is a short second stop only if energy and skin are good.
-- **4:00 PM onward:** food, shower, finger/skin care, and a genuinely easy evening.
+- **4:00 PM onward:** food, shower, and finger/skin care before heading to Milly-la-Forêt for dinner.
+- **7:00 PM local time:** dinner at **[Les Coqs](https://guide.michelin.com/us/en/ile-de-france/milly-la-fort/restaurant/les-coqs)**, 24 place du Marché, 91490 Milly-la-Forêt. **Booked by Katherine.**
 
 ### Tuesday, October 20 — recovery, town, and spa
 
@@ -204,6 +205,10 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 - Offline maps plus a Font-specific app/guide. Mountain Project alone is not comprehensive enough for navigation.
 - Basic first aid and travel insurance that covers outdoor bouldering.
 
+## Confirmed bookings
+
+- [x] **[Les Coqs](https://guide.michelin.com/us/en/ile-de-france/milly-la-fort/restaurant/les-coqs)** — Monday, October 19, 2026 at **7:00 PM local time**, booked by Katherine. Address: 24 place du Marché, 91490 Milly-la-Forêt.
+
 ## Book-now checklist
 
 1. Confirm October 25 airport, terminal, and exact flight time.
@@ -226,6 +231,7 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 - [Château de Fontainebleau hours](https://www.fontainebleau-tourisme.com/en/fiche/670011/chateau-de-fontainebleau/)
 - [Karma Fontainebleau](https://karma-escalade.fr/en/fontainebleau/the-gym)
 - [L’Axel, Michelin Guide](https://guide.michelin.com/us/en/ile-de-france/fontainebleau/restaurant/l-axel)
+- [Les Coqs, Michelin Guide](https://guide.michelin.com/us/en/ile-de-france/milly-la-fort/restaurant/les-coqs)
 - [Hôtel & Spa Napoléon](https://hotelnapoleon-fontainebleau.com/fr/page/hotel-spa-fontainebleau.17787.html)
 - [Le Magnum](https://www.lemagnum-fontainebleau.fr/en/)
 - [Crash-pad rental](https://www.climb-fontainebleau.com/location-crash-pad)

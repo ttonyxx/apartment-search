@@ -26,7 +26,8 @@ const days = [
       ["08:00", "Leave early with breakfast and lunch to get ahead of the crowds."],
       ["08:30", "Warm up on the circuits. Start two grades below the gym ego."],
       ["09:15", "Choose a lane: easy mileage, classics, or one serious project."],
-      ["15:30", "Hard stop. Food, finger care, and a genuinely easy evening."],
+      ["15:30", "Hard stop. Food, finger care, and time to shower before dinner."],
+      ["19:00", "Dinner at <a href=\"https://guide.michelin.com/us/en/ile-de-france/milly-la-fort/restaurant/les-coqs\" target=\"_blank\" rel=\"noreferrer\"><strong>Les Coqs</strong> ↗</a>, 24 place du Marché, Milly-la-Forêt. Booked by Katherine; 7:00 PM local time."],
     ],
     aside: "Add Cuvier Est only if both skin and energy are good. Duroxomanie and Goriak can wait for the right day."
   },
@@ -127,6 +128,7 @@ const bookings = [
   ["hotel", "Book the airport night", "October 24 near the correct CDG terminal—or Orly if the ticket says so.", "Critical"],
   ["pads", "Reserve two crash pads", "October 17–24; add a third for high or complex landings.", "Climbing"],
   ["laxel", "Reserve L’Axel", "Sunday, October 18 at 7:15 PM; mention Katherine’s birthday.", "Birthday"],
+  ["les-coqs", "Les Coqs — booked by Katherine", "Monday, October 19, 2026 at 7:00 PM local time. 24 place du Marché, Milly-la-Forêt.", "Dinner", true],
   ["magnum", "Reserve Le Magnum", "Thursday, October 22 around 7:00 PM; mention Tony’s birthday.", "Birthday"],
   ["spa", "Book the recovery spa", "Hôtel & Spa Napoléon on Tuesday afternoon.", "Recovery"],
   ["chateau", "Book château tickets", "Friday morning, movable to a rainy Sunday or Thursday.", "Culture"],
@@ -221,10 +223,10 @@ function renderBookings() {
   const checklist = document.querySelector("#bookingChecklist");
   let saved = {};
   try { saved = JSON.parse(localStorage.getItem("font-trip-bookings") || "{}"); } catch (_) { saved = {}; }
-  checklist.innerHTML = bookings.map(([id, title, detail, tag]) => `
+  checklist.innerHTML = bookings.map(([id, title, detail, tag, booked = false]) => `
     <div class="check-item">
       <label for="booking-${id}">
-        <input id="booking-${id}" type="checkbox" data-booking="${id}" ${saved[id] ? "checked" : ""}>
+        <input id="booking-${id}" type="checkbox" data-booking="${id}" ${(saved[id] ?? booked) ? "checked" : ""}>
         <span class="custom-check" aria-hidden="true"></span>
         <span class="check-copy"><strong>${title}</strong><small>${detail}</small></span>
         <span class="check-tag">${tag}</span>
