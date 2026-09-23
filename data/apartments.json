@@ -159906,14 +159906,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.748,
       "lon": -122.445,
       "notes": "From Craigslist · posted Sep 20, 12:57 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-20T14:39:14.587Z"
+      "added_at": "2026-09-20T14:39:14.587Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-23T20:02:12.619Z"
     },
     {
       "id": "rf_197414467",
@@ -162502,14 +162504,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7735,
       "lon": -122.429,
       "notes": "From Craigslist · posted Sep 22, 7:33 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-22T09:42:43.112Z"
+      "added_at": "2026-09-22T09:42:43.112Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-23T20:02:12.619Z"
     },
     {
       "id": "cl_7970734125",
@@ -162892,14 +162896,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.782,
       "lon": -122.4795,
       "notes": "From Craigslist · posted Sep 22, 5:48 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-22T18:37:50.127Z"
+      "added_at": "2026-09-22T18:37:50.127Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-23T20:02:12.619Z"
     },
     {
       "id": "cl_7971144534",
@@ -163079,14 +163085,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7593,
       "lon": -122.4836,
       "notes": "From Craigslist · posted Sep 23, 2:28 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-23T05:40:07.572Z"
+      "added_at": "2026-09-23T05:40:07.572Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-23T20:02:12.619Z"
     },
     {
       "id": "cl_7971311874",
@@ -163203,14 +163211,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.719,
       "lon": -122.4096,
       "notes": "From Craigslist · posted Sep 23, 2:31 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-23T05:40:07.572Z"
+      "added_at": "2026-09-23T05:40:07.572Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-23T20:02:12.619Z"
     },
     {
       "id": "cl_7971315837",
@@ -163723,14 +163733,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7952,
       "lon": -122.4199,
       "notes": "From Craigslist · posted Sep 23, 5:41 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-23T11:06:58.885Z"
+      "added_at": "2026-09-23T11:06:58.885Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-23T20:02:12.619Z"
     },
     {
       "id": "cl_7971362538",
@@ -163854,6 +163866,64 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-23T16:28:39.303Z"
+    },
+    {
+      "id": "cl_7971590355",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-backyard-has-plenty-of/7971590355.html",
+      "address": "Backyard has Plenty of Room to Entertain and Enjoy the Fruit Trees",
+      "neighborhood": "City Of San Francisco",
+      "price": 2199,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1359,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7309,
+      "lon": -122.3886,
+      "notes": "From Craigslist · posted Sep 23, 5:53 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-23T20:02:12.619Z"
+    },
+    {
+      "id": "cl_7971667824",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bright-great-loc/7971667824.html",
+      "address": "Spacious, Bright, Great Loc! (312 20th Avenue)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 5995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.782,
+      "lon": -122.4795,
+      "notes": "From Craigslist · posted Sep 23, 7:10 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-23T20:02:12.619Z"
+    },
+    {
+      "id": "rf_109315486",
+      "url": "https://www.redfin.com/CA/San-Francisco/451-Donahue-St-94124/unit-509/home/109315486",
+      "address": "451 Donahue St #509",
+      "neighborhood": "",
+      "price": 4450,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1012,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.729001,
+      "lon": -122.369639,
+      "notes": "From Redfin · updated Sep 23, 1:18 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-09-23T20:02:12.619Z"
     }
   ]
 }
