@@ -164132,14 +164132,16 @@
       "bathrooms": null,
       "sqft": 1400,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7437,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Sep 24, 3:01 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-24T03:58:56.237Z"
+      "added_at": "2026-09-24T03:58:56.237Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-24T09:13:40.368Z"
     },
     {
       "id": "cl_7971903957",
@@ -164170,14 +164172,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7917,
       "lon": -122.4186,
       "notes": "From Craigslist · posted Sep 24, 2:34 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-24T03:58:56.237Z"
+      "added_at": "2026-09-24T03:58:56.237Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-24T09:13:40.368Z"
     },
     {
       "id": "cl_7971906921",
@@ -164189,14 +164193,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7786,
       "lon": -122.4892,
       "notes": "From Craigslist · posted Sep 24, 3:06 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-24T03:58:56.237Z"
+      "added_at": "2026-09-24T03:58:56.237Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-24T09:13:40.368Z"
     },
     {
       "id": "cl_7971866565",
@@ -164235,6 +164241,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-24T03:58:56.237Z"
+    },
+    {
+      "id": "cl_7971936273",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-only-br-1ba-apartment/7971936273.html",
+      "address": "Only 1400 $ 2BR / 1BA Apartment ....//",
+      "neighborhood": "San Francisco, CA",
+      "price": 1400,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7673,
+      "lon": -122.4356,
+      "notes": "From Craigslist · posted Sep 24, 5:21 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-24T09:13:40.368Z"
+    },
+    {
+      "id": "cl_7971956913",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-only-br-1ba-apartment/7971956913.html",
+      "address": "Only 2700 $ 2BR / 1BA Apartment ....//",
+      "neighborhood": "San Francisco, CA",
+      "price": 2700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7673,
+      "lon": -122.4356,
+      "notes": "From Craigslist · posted Sep 24, 8:29 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-24T09:13:40.368Z"
     }
   ]
 }
