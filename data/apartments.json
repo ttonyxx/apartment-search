@@ -161848,14 +161848,16 @@
       "bathrooms": null,
       "sqft": 950,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7812,
       "lon": -122.4614,
       "notes": "From Craigslist · posted Sep 21, 7:12 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-21T20:53:21.058Z"
+      "added_at": "2026-09-21T20:53:21.058Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-25T07:22:45.398Z"
     },
     {
       "id": "cl_7970437119",
@@ -164563,14 +164565,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7652,
       "lon": -122.4477,
       "notes": "From Craigslist · posted Sep 25, 12:33 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-25T01:16:17.589Z"
+      "added_at": "2026-09-25T01:16:17.589Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-25T07:22:45.398Z"
     },
     {
       "id": "cl_7972436136",
@@ -164582,14 +164586,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7437,
       "lon": -122.4083,
       "notes": "From Craigslist · posted Sep 25, 1:05 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-25T01:16:17.589Z"
+      "added_at": "2026-09-25T01:16:17.589Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-25T07:22:45.398Z"
     },
     {
       "id": "cl_7972413651",
@@ -164601,14 +164607,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8015,
       "lon": -122.4085,
       "notes": "From Craigslist · posted Sep 24, 11:45 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-25T01:16:17.589Z"
+      "added_at": "2026-09-25T01:16:17.589Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-25T07:22:45.398Z"
     },
     {
       "id": "rf_1842098",
@@ -164629,6 +164637,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-09-25T01:16:17.589Z"
+    },
+    {
+      "id": "cl_7972508664",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-1bath-flat-coming/7972508664.html",
+      "address": "3 bed /1bath Flat coming soon October! Inner Richmond!",
+      "neighborhood": "Inner Richmond",
+      "price": 4295,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 950,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7812,
+      "lon": -122.4614,
+      "notes": "From Craigslist · posted Sep 25, 5:17 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-25T07:22:45.398Z"
     }
   ]
 }
