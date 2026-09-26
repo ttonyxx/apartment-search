@@ -1,12 +1,21 @@
-# Tony + Katherine: Fontainebleau climbing trip
+# Tony + Katherine: England + Fontainebleau trip
 
-**Dates:** Saturday, October 17–Sunday, October 25, 2026<br>
-**Base:** Fontainebleau/Avon<br>
-**Trip shape:** five outdoor climbing days, two recovery/culture days, and a low-stress airport night<br>
+**Dates:** Friday, October 9–Sunday, October 25, 2026<br>
+**England:** Saturday, October 10–Friday, October 16; accommodation and daily plans to be added<br>
+**France:** Saturday, October 17–Sunday, October 25; base in Fontainebleau/Avon<br>
+**Trip shape:** overnight flight, a week in England, then five outdoor climbing days, two recovery/culture days, and a low-stress airport night<br>
 **Special dates:** Katherine’s birthday Sunday, October 18; Tony’s birthday Thursday, October 22
+
+## Flight and train details
+
+- **United UA 948, San Francisco (SFO) → London Heathrow (LHR):** depart **Friday, October 9 at 4:45 PM San Francisco local time**; arrive **Saturday, October 10 at 11:10 AM London local time**, using the explicitly local times in the supplied flight description.
+- **Timing to recheck:** the calendar header instead shows October 9 at 5:35 PM–October 10 at 12:55 AM without a displayed time zone. It conflicts with the flight description, so confirm the current itinerary with United. This plan uses the description’s 11:10 AM Heathrow arrival.
+- **Eurostar 9002, London St Pancras → Paris Gare du Nord:** Saturday, October 17, **6:31 AM London departure → 9:57 AM Paris arrival**. Aim to reach St Pancras departures at **5:00 AM**; the ticket recommends **5:16 AM**.
+- All itinerary times are local to the named location. The flight crosses overnight into October 10; the Eurostar times use each station’s local clock.
 
 ## Assumptions to confirm
 
+- England accommodation, Heathrow transfer, and activities for October 10–16 are still to be added. Plan the October 16 night in London with access to St Pancras for the early departure.
 - The return flight on October 25 is a morning departure from **Paris Charles de Gaulle (CDG)**. If it is Orly, the final-night logistics need to change.
 - You are staying in or close to Fontainebleau/Avon and will have a rental car. A car makes this plan substantially easier because the climbing sectors are spread around the forest.
 - Your climbing grades were not provided. Every climbing day therefore has an easier circuit lane, a middle classics lane, and a harder project lane.
@@ -16,6 +25,14 @@
 
 | Date | Plan | Climbing load | Evening |
 |---|---|---:|---|
+| Fri Oct 9 | United UA 948: SFO → Heathrow; 4:45 PM departure per flight description, timing to recheck | None | Overnight flight |
+| Sat Oct 10 | **11:10 AM Heathrow arrival, London local time**; transfer and settle in | None planned | Flexible, allow time to rest |
+| Sun Oct 11 | England — plans open | Open | Open |
+| Mon Oct 12 | England — plans open | Open | Open |
+| Tue Oct 13 | England — plans open | Open | Open |
+| Wed Oct 14 | England — plans open | Open | Open |
+| Thu Oct 15 | England — plans open | Open | Open |
+| Fri Oct 16 | England; return to London if staying elsewhere | None planned | Pack and sleep early for Eurostar |
 | Sat Oct 17 | Eurostar, car, pads, groceries, settle in | None | Early casual dinner and sleep |
 | Sun Oct 18 | **Katherine’s birthday:** Fontainebleau market + Éléphant | Moderate/fun | **L’Axel birthday dinner** |
 | Mon Oct 19 | Bas Cuvier + optional Cuvier Est | Hard/project | **Les Coqs at 7:00 PM — booked by Katherine** |
@@ -30,9 +47,31 @@ The outdoor dates are a template, not a command. Keep the booked Les Coqs dinner
 
 ## Day-by-day plan
 
+### Friday, October 9 — San Francisco to London
+
+- **4:45 PM San Francisco local time:** United **UA 948** departs **SFO**, per the flight description. Confirm the current time with United because the calendar header differs.
+- Overnight flight to **London Heathrow (LHR)**; arrival is the next day.
+
+### Saturday, October 10 — arrive in England
+
+- **11:10 AM London local time:** arrive at **Heathrow** on United **UA 948**, per the flight description.
+- After landing: passport control, luggage collection, then transfer to the England accommodation. Add the address and transfer once known; no fixed connection or check-in time is assumed.
+- Keep the afternoon and evening flexible to settle in, eat, and rest.
+
+### Sunday, October 11–Thursday, October 15 — England, plans open
+
+- Five days reserved for the England portion. Locations, activities, visits, and reservations are still to be added.
+- Each date has an open day in the website itinerary; nothing is marked as booked for these days.
+
+### Friday, October 16 — England to London overnight
+
+- Keep daytime plans flexible. If staying elsewhere in England, return to London ahead of the next morning’s Eurostar.
+- Plan accommodation with access to St Pancras; the stay is not yet confirmed.
+- Pack, keep passports and tickets accessible, arrange the early transfer, and sleep early. Aim to reach St Pancras departures at **5:00 AM on Saturday**.
+
 ### Saturday, October 17 — London to Fontainebleau
 
-- **5:00 AM:** arrive at London St Pancras. Your screenshot shows Eurostar departing at **6:31 AM** and arriving Paris Gare du Nord at **9:57 AM**. Eurostar’s published guidance is to allow 60–90 minutes before a London departure.
+- **5:00 AM London time:** arrive at London St Pancras. The ticket recommends **5:16 AM**; the plan allows an extra buffer. Eurostar 9002 departs at **6:31 AM London time** and arrives at Paris Gare du Nord at **9:57 AM Paris time**.
 - **10:30–11:30 AM:** pick up a prebooked compact estate/small SUV near Gare du Nord. Book an automatic if needed and confirm a **one-way CDG return on October 24**. Two folded large pads plus luggage require more space than a tiny city car.
 - **11:30 AM–1:30 PM:** drive to Fontainebleau, allowing for Paris traffic; stop for lunch if needed.
 - **2:00–3:00 PM:** check in, then collect two large/triple crash pads. [Climb Fontainebleau](https://www.climb-fontainebleau.com/location-crash-pad) in Arbonne currently lists locker pickup/return and triple pads at €90 per week each. Reserve ahead and follow its cash/payment instructions. Add a third pad or join other climbers before trying high or poor-landed problems.
@@ -207,7 +246,16 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 
 ## Confirmed bookings
 
+- [x] **United UA 948, SFO → LHR** — October 9–10. Flight description: **4:45 PM departure in San Francisco → 11:10 AM arrival in London the next day**. Booking recorded from the supplied screenshot; current times need rechecking because the calendar header differs.
+- [x] **Eurostar 9002, London St Pancras → Paris Gare du Nord** — Saturday, October 17, **6:31 AM London time → 9:57 AM Paris time**, per the supplied ticket.
 - [x] **[Les Coqs](https://guide.michelin.com/us/en/ile-de-france/milly-la-fort/restaurant/les-coqs)** — Monday, October 19, 2026 at **7:00 PM local time**, booked by Katherine. Address: 24 place du Marché, 91490 Milly-la-Forêt.
+
+## England checklist
+
+- [ ] Recheck UA 948 departure and arrival times with United; the calendar header conflicts with the local times in the flight description.
+- [ ] Add England accommodation for October 10–16, check-in details, and the Heathrow transfer.
+- [ ] Add plans for the open England days.
+- [ ] Confirm the October 16 London overnight and the transfer to St Pancras for 5:00 AM on October 17.
 
 ## Book-now checklist
 

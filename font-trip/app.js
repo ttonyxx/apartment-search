@@ -1,10 +1,47 @@
 const days = [
   {
+    day: "Friday", date: "October 9", name: "San Francisco → London", type: "Flight",
+    events: [
+      ["16:45", "<strong>United UA 948</strong> departs San Francisco (SFO), per the flight details. This is San Francisco local time; recheck the current airline itinerary."],
+      ["Overnight", "Overnight flight to London Heathrow (LHR). Arrival is the following day."],
+    ],
+    aside: "The calendar header and flight description show different times. This plan uses the description’s explicitly local times: 4:45 PM at SFO and 11:10 AM at Heathrow. Confirm both with United."
+  },
+  {
+    day: "Saturday", date: "October 10", name: "Heathrow → England", type: "Arrival", open: true,
+    events: [
+      ["11:10", "Arrive at <strong>London Heathrow (LHR)</strong> on United UA 948. <strong>11:10 AM London local time</strong>, per the flight details."],
+      ["After", "Passport control, collect luggage, then travel to your England accommodation. Address and transfer are still to be added."],
+      ["Evening", "Leave room to settle in, eat, and rest after the overnight flight."],
+    ],
+    aside: "England: October 10–16. Daily plans and accommodation remain flexible. All England times are local to the UK."
+  },
+  ...[
+    ["Sunday", "October 11"],
+    ["Monday", "October 12"],
+    ["Tuesday", "October 13"],
+    ["Wednesday", "October 14"],
+    ["Thursday", "October 15"],
+  ].map(([day, date]) => ({
+    day, date, name: "England · open plans", type: "Flexible",
+    events: [["Flexible", "England day left open for your plans. Add activities, visits, or reservations as they are arranged."]],
+    aside: "No activities are scheduled for this day yet."
+  })),
+  {
+    day: "Friday", date: "October 16", name: "England → London overnight", type: "Before Paris",
+    events: [
+      ["Daytime", "Keep the day flexible; return to <strong>London</strong> if you have been staying elsewhere in England."],
+      ["Evening", "Pack, keep passports and Eurostar tickets accessible, and arrange transport to St Pancras for 5:00 AM tomorrow."],
+      ["Night", "Plan a London overnight with easy access to St Pancras. Accommodation still to confirm; get an early night."],
+    ],
+    aside: "Saturday’s Eurostar departs at 6:31 AM London time and arrives at Paris Gare du Nord at 9:57 AM Paris time. The ticket recommends reaching departures at 5:16 AM; the plan allows an extra buffer."
+  },
+  {
     day: "Saturday", date: "October 17", name: "London → Fontainebleau", type: "Arrival",
     events: [
-      ["05:00", "Arrive at <strong>London St Pancras</strong> for border control."],
-      ["06:31", "Eurostar departs London; breakfast on the train."],
-      ["09:57", "Arrive at <strong>Paris Gare du Nord</strong>, collect the rental car, and drive south."],
+      ["05:00", "Arrive at <strong>London St Pancras</strong> for border control. The ticket recommends 5:16 AM; this leaves an extra buffer."],
+      ["06:31", "Eurostar departs London, <strong>UK local time</strong>; breakfast on the train."],
+      ["09:57", "Arrive at <strong>Paris Gare du Nord</strong>, <strong>France local time</strong>, collect the rental car, and drive south."],
       ["14:00", "Check in, collect two large pads in Arbonne, buy groceries, and settle in."],
       ["17:00", "A garden walk and early dinner. No tired, first-day bouldering."],
     ],
@@ -123,7 +160,11 @@ const routes = [
 ];
 
 const bookings = [
-  ["flight", "Confirm the flight", "Airport, terminal, and exact departure time for October 25.", "Critical"],
+  ["outbound-flight", "United UA 948 — booked", "SFO → Heathrow, October 9–10. Flight details show 4:45 PM departure and 11:10 AM arrival, each local time; timing needs rechecking.", "Flight", true],
+  ["outbound-times", "Recheck United flight times", "The calendar header differs from the flight description. Confirm October 9 departure and October 10 arrival with United.", "Critical"],
+  ["england-stay", "Confirm England accommodation", "October 10–16: add the addresses, check-in details, and Heathrow transfer. Plan the final night in London for the early Eurostar.", "England"],
+  ["eurostar", "Eurostar to Paris — booked", "Saturday, October 17: London St Pancras 6:31 AM → Paris Gare du Nord 9:57 AM, each local time. Train 9002.", "Transport", true],
+  ["flight", "Confirm the return flight", "Airport, terminal, and exact departure time for October 25.", "Critical"],
   ["car", "Reserve the car", "Gare du Nord pickup; CDG return; room for two pads and luggage.", "Transport"],
   ["hotel", "Book the airport night", "October 24 near the correct CDG terminal—or Orly if the ticket says so.", "Critical"],
   ["pads", "Reserve two crash pads", "October 17–24; add a third for high or complex landings.", "Climbing"],
@@ -141,7 +182,7 @@ function renderTimeline() {
   timeline.innerHTML = days.map((day, index) => `
     <article class="day-row reveal${day.open ? " open" : ""}">
       <button class="day-summary" type="button" aria-expanded="${day.open ? "true" : "false"}" aria-controls="day-${index}">
-        <span class="day-num">0${index + 1}</span>
+        <span class="day-num">${String(index + 1).padStart(2, "0")}</span>
         <span class="day-date">${day.day}<strong>${day.date}</strong></span>
         <span class="day-name">${day.name}</span>
         <span class="day-type${day.birthday ? " birthday" : ""}">${day.type}</span>
@@ -248,12 +289,12 @@ function updateBookings() {
 }
 
 function updateCountdown() {
-  const trip = new Date("2026-10-17T05:00:00+01:00");
+  const trip = new Date("2026-10-10T11:10:00+01:00");
   const now = new Date();
   const diff = trip - now;
   const output = document.querySelector("#countdown");
   if (diff <= 0) {
-    output.textContent = now < new Date("2026-10-26T00:00:00+01:00") ? "You’re in the forest" : "Until next time";
+    output.textContent = now < new Date("2026-10-26T00:00:00+01:00") ? "Your trip is underway" : "Until next time";
     return;
   }
   const daysLeft = Math.floor(diff / 86400000);
