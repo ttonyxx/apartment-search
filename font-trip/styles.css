@@ -478,6 +478,28 @@ h1, h2, h3 { text-wrap: balance; }
 .swap-list span { color: var(--sand); font-family: var(--serif); }
 .swap-list strong { font-weight: 500; }
 
+/* Car and crash-pad rentals */
+.rentals { background: var(--cream); scroll-margin-top: 70px; }
+.rental-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: end; margin-bottom: 48px; }
+.rental-heading h2 { margin: 0; font-family: var(--serif); font-size: clamp(3.5rem, 6vw, 5.5rem); font-weight: 400; line-height: .98; }
+.rental-heading > p { max-width: 530px; margin: 0; color: var(--ink-soft); }
+.rental-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.rental-card { padding: clamp(22px, 3vw, 38px); background: var(--paper); border-top: 3px solid var(--forest); }
+.rental-label { color: var(--rust-dark); font-size: .68rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.rental-card h3 { font-family: var(--serif); font-size: 2.1rem; font-weight: 400; line-height: 1.1; }
+.rental-card > p:not(.rental-label), .rental-facts { font-size: .9rem; }
+.rental-facts { margin: 25px 0; }
+.rental-facts > div { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 14px; padding: 17px 0; border-top: 1px solid var(--line); }
+.rental-facts dt { color: var(--rust-dark); font-weight: 500; }
+.rental-facts dd { margin: 0; }
+.rental-note { padding-left: 14px; border-left: 2px solid var(--sand); }
+.rental-links { display: flex; flex-wrap: wrap; gap: 14px 24px; font-size: .8rem; }
+.rental-links a, .rental-backups a, .rental-sources a { text-underline-offset: 3px; }
+.rental-backups { margin-top: 26px; padding: 20px 0; border-block: 1px solid var(--line); }
+.rental-backups summary { cursor: pointer; font-weight: 500; }
+.rental-backups p { max-width: 960px; margin: 18px 0 0; font-size: .9rem; }
+.rental-sources { max-width: 960px; margin: 20px 0 0; font-size: .75rem; color: var(--ink-soft); }
+
 /* Bookings */
 .bookings { background: var(--paper); }
 .booking-layout { display: grid; grid-template-columns: .72fr 1.28fr; gap: clamp(60px, 10vw, 150px); }
@@ -544,6 +566,9 @@ footer { padding: 58px 0; color: var(--cream); background: var(--ink); }
 }
 
 @media (max-width: 720px) {
+  .rental-heading, .rental-grid { grid-template-columns: 1fr; gap: 28px; }
+  .rental-heading h2 { font-size: clamp(3.35rem, 17vw, 5.1rem); }
+  .rental-facts > div { grid-template-columns: 1fr; gap: 5px; }
   .section-shell { width: min(calc(100% - 32px), var(--max)); }
   .section-pad { padding: 82px 0; }
   .site-header { height: 68px; padding: 0 16px; }

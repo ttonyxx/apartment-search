@@ -89,11 +89,12 @@ const days = [
     events: [
       ["05:00", "Arrive at <strong>London St Pancras</strong> for border control. The ticket recommends 5:16 AM; this leaves an extra buffer."],
       ["06:31", "Eurostar departs London, <strong>UK local time</strong>; breakfast on the train."],
-      ["09:57", "Arrive at <strong>Paris Gare du Nord</strong>, <strong>France local time</strong>, collect the rental car, and drive south."],
-      ["14:00", "Check in, collect two large pads in Arbonne, buy groceries, and settle in."],
+      ["09:57", "Arrive at <strong>Paris Gare du Nord</strong>, <strong>France local time</strong>. Allow an hour to reach the rental desk and collect the car."],
+      ["11:00", "Planned <strong>SIXT Gare du Nord</strong> pickup: Hall 1, level −1 near platform 3, 18 rue de Dunkerque. Choose an automatic estate or midsize SUV with folding rear seats. Drive toward Arbonne with time for lunch."],
+      ["14:00", "Planned pickup of <strong>two triple pads from Climb Fontainebleau</strong>, 359 rue de la Libération, Arbonne-la-Forêt. Arrange the locker code beforehand, then continue to your accommodation and groceries."],
       ["17:00", "A garden walk and early dinner. No tired, first-day bouldering."],
     ],
-    aside: "Reserve a car large enough for two folded pads and luggage, with a one-way CDG return on October 24."
+    aside: "Car and pads are not booked. <a href=\"#rentals\">Rental plan ↓</a>: €180 listed weekly pad total; car quote pending for October 17 at 11 AM → October 24 at 5 PM, returning at CDG. Confirm the departure airport before booking."
   },
   {
     day: "Sunday", date: "October 18", name: "Katherine’s birthday · Éléphant", type: "Birthday", birthday: true, open: true,
@@ -160,11 +161,12 @@ const days = [
     day: "Saturday", date: "October 24", name: "Victory lap → CDG", type: "Travel",
     events: [
       ["08:00", "Choose the closest dry sector for easy mileage or favorite unfinished moves."],
-      ["11:30", "Stop before fatigue invites a poor decision. Eat and return the pads."],
-      ["14:00", "Depart for CDG with a generous traffic buffer."],
-      ["Evening", "Return the car, eat near the terminal, and sleep at an airport hotel."],
+      ["11:00", "Finish climbing, brush off the pads, and change into packed travel clothes. Arrange checkout before climbing unless late checkout is confirmed."],
+      ["12:00", "Planned <strong>pad return to the Climb Fontainebleau lockers in Arbonne</strong>, using the agreed instructions. Lunch afterward."],
+      ["14:00", "Depart for CDG at the latest. Allow up to three hours for traffic, refuelling, and finding the rental return."],
+      ["17:00", "Planned <strong>SIXT CDG car return</strong>, then airport hotel and dinner. Use the terminal and return lane on the rental confirmation."],
     ],
-    aside: "No late project attempts. If it rains, skip climbing entirely and enjoy an unhurried airport transition."
+    aside: "The car rental spans seven days plus six hours: budget for eight rental days. Pad return is before the pickup anniversary, but confirm the supplier’s weekly billing. If using the town-shop backup, return pads by noon before its lunch closure."
   },
   {
     day: "Sunday", date: "October 25", name: "Paris → New York", type: "Departure",
@@ -216,9 +218,9 @@ const bookings = [
   ["sen-visit", "Prepare for SEN together", "Wednesday, October 14, 7:45–9:15 PM London time, after both workdays. Each complete your own first-visit waiver and bring climbing shoes. Entry paid on arrival; visit not booked.", "Climbing"],
   ["eurostar", "Eurostar to Paris — booked", "Saturday, October 17: London St Pancras 6:31 AM → Paris Gare du Nord 9:57 AM, each local time. Train 9002.", "Transport", true],
   ["flight", "Confirm the return flight", "Airport, terminal, and exact departure time for October 25.", "Critical"],
-  ["car", "Reserve the car", "Gare du Nord pickup; CDG return; room for two pads and luggage.", "Transport"],
+  ["car", "Reserve SIXT Gare du Nord → CDG", "October 17, 11 AM → October 24, 5 PM; automatic estate/midsize SUV. Quote eight days including the one-way fee; check pad space, driver requirements, deposit, and cover. Not booked.", "Transport"],
   ["hotel", "Book the airport night", "October 24 near the correct CDG terminal—or Orly if the ticket says so.", "Critical"],
-  ["pads", "Reserve two crash pads", "October 17–24; add a third for high or complex landings.", "Climbing"],
+  ["pads", "Reserve two triple pads in Arbonne", "Climb Fontainebleau: October 17, 2 PM → October 24, noon. Listed €180 total/week; confirm availability, exact-period price, deposit, cash payment, and locker instructions. Not booked.", "Climbing"],
   ["laxel", "Reserve L’Axel", "Sunday, October 18 at 7:15 PM; mention Katherine’s birthday.", "Birthday"],
   ["les-coqs", "Les Coqs — booked by Katherine", "Monday, October 19, 2026 at 7:00 PM local time. 24 place du Marché, Milly-la-Forêt.", "Dinner", true],
   ["magnum", "Reserve Le Magnum", "Thursday, October 22 around 7:00 PM; mention Tony’s birthday.", "Birthday"],
