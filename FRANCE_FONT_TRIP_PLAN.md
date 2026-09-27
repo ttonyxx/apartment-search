@@ -1,7 +1,7 @@
 # Tony + Katherine: England + Fontainebleau trip
 
 **Dates:** Friday, October 9–Sunday, October 25, 2026<br>
-**England:** Saturday, October 10–Friday, October 16; accommodation and daily plans to be added<br>
+**England:** Saturday, October 10–Friday, October 16; London parks around work, accommodation to confirm<br>
 **France:** Saturday, October 17–Sunday, October 25; base in Fontainebleau/Avon<br>
 **Trip shape:** overnight flight, a week in England, then five outdoor climbing days, two recovery/culture days, and a low-stress airport night<br>
 **Special dates:** Katherine’s birthday Sunday, October 18; Tony’s birthday Thursday, October 22
@@ -15,7 +15,8 @@
 
 ## Assumptions to confirm
 
-- England accommodation, Heathrow transfer, and activities for October 10–16 are still to be added. Plan the October 16 night in London with access to St Pancras for the early departure.
+- England accommodation and Heathrow transfer are still to be added. The park plan assumes a London base with reliable Wi-Fi; weekday afternoons are reserved for work. Plan the October 16 night with access to St Pancras.
+- Friday’s late calls need resolving: the calendar may run until midnight into Saturday before the planned 5:00 AM St Pancras arrival. They remain in the itinerary until any rescheduling or coverage is confirmed.
 - The return flight on October 25 is a morning departure from **Paris Charles de Gaulle (CDG)**. If it is Orly, the final-night logistics need to change.
 - You are staying in or close to Fontainebleau/Avon and will have a rental car. A car makes this plan substantially easier because the climbing sectors are spread around the forest.
 - Your climbing grades were not provided. Every climbing day therefore has an easier circuit lane, a middle classics lane, and a harder project lane.
@@ -27,12 +28,12 @@
 |---|---|---:|---|
 | Fri Oct 9 | United UA 948: SFO → Heathrow; 4:45 PM departure per flight description, timing to recheck | None | Overnight flight |
 | Sat Oct 10 | **11:10 AM Heathrow arrival, London local time**; transfer and settle in | None planned | Flexible, allow time to rest |
-| Sun Oct 11 | England — plans open | Open | Open |
-| Mon Oct 12 | England — plans open | Open | Open |
-| Tue Oct 13 | England — plans open | Open | Open |
-| Wed Oct 14 | England — plans open | Open | Open |
-| Thu Oct 15 | England — plans open | Open | Open |
-| Fri Oct 16 | England; return to London if staying elsewhere | None planned | Pack and sleep early for Eurostar |
+| Sun Oct 11 | Hampstead Heath + Parliament Hill; lunch in Hampstead | None planned | Optional Discount Suit Company + dinner |
+| Mon Oct 12 | Hyde Park morning; afternoon work | None planned | Work at 6:30 PM and 7:30 PM |
+| Tue Oct 13 | Flexible local morning; afternoon work | None planned | Work at 6:30 PM and 10:00 PM |
+| Wed Oct 14 | Primrose Hill morning; afternoon work | None planned | Work at 6:30 PM, then dinner |
+| Thu Oct 15 | Morning park backup; afternoon work | None planned | Work at 6:00 PM, 6:30 PM, and 10:15 PM |
+| Fri Oct 16 | London; work and pack before evening | None planned | **10:30 PM / 11:00 PM calls conflict with early Eurostar preparation** |
 | Sat Oct 17 | Eurostar, car, pads, groceries, settle in | None | Early casual dinner and sleep |
 | Sun Oct 18 | **Katherine’s birthday:** Fontainebleau market + Éléphant | Moderate/fun | **L’Axel birthday dinner** |
 | Mon Oct 19 | Bas Cuvier + optional Cuvier Est | Hard/project | **Les Coqs at 7:00 PM — booked by Katherine** |
@@ -44,6 +45,23 @@
 | Sun Oct 25 | Morning flight to NYC | — | — |
 
 The outdoor dates are a template, not a command. Keep the booked Les Coqs dinner and the two planned birthday dinners fixed, but move climbing and rest days around the driest conditions. Fontainebleau sandstone must be fully dry—not merely dry-looking on the surface.
+
+## London work schedule — October 12–16
+
+The supplied calendar is displayed in **GMT−04**. London is on **BST (UTC+01)** that week, so **add five hours**. Meeting starts below are read from the screenshot; end times are estimates from the calendar grid. Weekday afternoons are provisionally kept for focused work rather than treated as free time between meetings. Suggested park visits are unbooked and can move with weather.
+
+| Date | Source calendar · GMT−04 | London · BST | Work commitment |
+|---|---|---|---|
+| Mon Oct 12 | 1:30 PM; 2:30 PM | 6:30 PM; 7:30 PM | Stand-up / 1:1 and sprint / 1:1 slots; about 30 minutes each, with overlapping entries to resolve |
+| Tue Oct 13 | 1:30 PM; 5:00 PM | 6:30 PM; 10:00 PM | Growth stand-up (~30 minutes); experiment review (hold to ~10:45 PM) |
+| Wed Oct 14 | 1:30 PM | 6:30 PM | Stand-up (~30 minutes) |
+| Thu Oct 15 | 1:00 PM; 1:30 PM; 5:15 PM | 6:00 PM; 6:30 PM; 10:15 PM | 1:1; growth stand-up; retrospective (hold to ~11:00 PM) |
+| Fri Oct 16 | 5:30 PM; 6:00 PM | 10:30 PM; 11:00 PM | 1:1 (~30 minutes); team huddle (hold to ~midnight into Saturday) |
+
+- The Wednesday 4:00 PM GMT−04 review converts to 9:00 PM London, but it is struck through and excluded from active commitments.
+- Monday’s overlaps stay as concurrent occupied slots; Thursday’s overlapping retrospective entries share one time block. Confirm attendance rather than scheduling them sequentially.
+- Friday’s outlined huddle is retained pending confirmation of attendance. The Monday holiday label does not cancel the visible meetings.
+- **Sleep conflict:** if Friday’s huddle finishes around midnight, there are under five hours for sleep, getting ready, and reaching St Pancras at 5:00 AM. Ask whether the late calls can move or be covered; this plan does not assume they have changed.
 
 ## Day-by-day plan
 
@@ -58,16 +76,55 @@ The outdoor dates are a template, not a command. Keep the booked Les Coqs dinner
 - After landing: passport control, luggage collection, then transfer to the England accommodation. Add the address and transfer once known; no fixed connection or check-in time is assumed.
 - Keep the afternoon and evening flexible to settle in, eat, and rest.
 
-### Sunday, October 11–Thursday, October 15 — England, plans open
+### Sunday, October 11 — Hampstead Heath + a London evening
 
-- Five days reserved for the England portion. Locations, activities, visits, and reservations are still to be added.
-- Each date has an open day in the website itinerary; nothing is marked as booked for these days.
+- **10:30 AM–12:30 PM, suggested:** [Hampstead Heath](https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath), including the [Parliament Hill viewpoint](https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/where-to-go-at-hampstead-heath/parliament-hill-viewpoint). Hampstead Heath and Gospel Oak stations are useful access points; choose the route once the accommodation address is known.
+- **1:00 PM:** lunch in Hampstead, then a flexible afternoon and time to return to the accommodation before heading out again.
+- **6:30 PM, optional:** [Discount Suit Company](https://discountsuitcompany.co.uk/opening-hours/), 29A Wentworth Street, London E1 7TB. Current Sunday opening is 5:00 PM–midnight. No reservation made.
+- Dinner nearby; adjust the bar time around any restaurant booking. [First Table](https://www.firsttable.co.uk/frequently-asked-questions) is an option: 50% off food at participating seatings, drinks at full price, plus a booking fee. Times and conditions vary by venue; 5 PM or 9 PM availability is not guaranteed. The platform currently lists fourteen days of availability.
+- No Sunday work meetings are visible. Save Hyde Park for Monday: the [Royal Parks notice](https://www.royalparks.org.uk/visit/parks/hyde-park) lists the half marathon on October 11 with road and cycle-route closures.
 
-### Friday, October 16 — England to London overnight
+### Monday, October 12 — Hyde Park + work
 
-- Keep daytime plans flexible. If staying elsewhere in England, return to London ahead of the next morning’s Eurostar.
-- Plan accommodation with access to St Pancras; the stay is not yet confirmed.
-- Pack, keep passports and tickets accessible, arrange the early transfer, and sleep early. Aim to reach St Pancras departures at **5:00 AM on Saturday**.
+- **9:30–11:30 AM, suggested:** [Hyde Park](https://www.royalparks.org.uk/visit/parks/hyde-park), with a relaxed Serpentine walk. Pedestrian gates currently open 5:00 AM–midnight.
+- **Noon:** lunch and return to the work base; transfer time depends on the lodging address.
+- **2:00 PM onward:** reserve the afternoon for focused work, with a meal break before calls.
+- **6:30 PM:** stand-up / overlapping 1:1 slot, about 30 minutes.
+- **7:30 PM:** sprint / overlapping 1:1 slot, about 30 minutes. Confirm which concurrent calls to attend.
+
+### Tuesday, October 13 — flexible morning + late review
+
+- Morning: short local walk, errands, or a park visit moved by weather; lunch near the work base.
+- **2:00 PM onward:** afternoon work.
+- **6:30 PM:** growth stand-up, about 30 minutes.
+- **7:15 PM:** dinner break near the base; return to the desk by **9:45 PM**.
+- **10:00 PM:** experiment review; hold until about **10:45 PM**. Avoid a late restaurant sitting.
+
+### Wednesday, October 14 — Primrose Hill + work
+
+- **10:00–11:30 AM, suggested:** [Primrose Hill](https://www.royalparks.org.uk/visit/parks/regents-park-primrose-hill/primrose-hill) for a relaxed walk and skyline views.
+- **Noon:** lunch and return to the work base.
+- **2:00 PM onward:** afternoon work.
+- **6:30 PM:** stand-up, about 30 minutes.
+- **7:30 PM:** dinner after the call, flexible around actual work needs. The crossed-out **9:00 PM** review is excluded unless it returns to the calendar.
+
+### Thursday, October 15 — park backup + late retrospective
+
+- Morning: weather backup for a missed park, or a short local walk. Finish before lunch.
+- **2:00 PM onward:** afternoon work; eat before the first call.
+- **6:00 PM:** 1:1, about 30 minutes.
+- **6:30 PM:** growth stand-up, about 30 minutes.
+- **7:15 PM:** dinner break near the base; return to the desk by **10:00 PM**.
+- **10:15 PM:** retrospective; hold until about **11:00 PM**. Overlapping entries occupy the same block.
+
+### Friday, October 16 — London + late calls before Eurostar
+
+- Keep the morning short and local. Be in London with access to St Pancras; accommodation is still to confirm.
+- **2:00 PM onward:** reserve the afternoon for work. Use a break to pack, keep passports and tickets accessible, and arrange the early transfer.
+- Finish dinner and all travel preparation before the calls; the earlier plan to sleep early is no longer assumed.
+- **10:30 PM:** 1:1, about 30 minutes.
+- **11:00 PM:** team huddle, held until about **midnight into Saturday** pending attendance confirmation.
+- **Resolve the sleep conflict:** seek a move or coverage for the late calls if possible. Keep them on the plan until agreed; the booked Eurostar and **5:00 AM Saturday** station target remain unchanged.
 
 ### Saturday, October 17 — London to Fontainebleau
 
@@ -254,7 +311,9 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 
 - [ ] Recheck UA 948 departure and arrival times with United; the calendar header conflicts with the local times in the flight description.
 - [ ] Add England accommodation for October 10–16, check-in details, and the Heathrow transfer.
-- [ ] Add plans for the open England days.
+- [ ] Confirm exact meeting end times and Monday overlaps; check reliable Wi-Fi at the work base.
+- [ ] Resolve Friday’s late calls versus Saturday’s early Eurostar; do not assume a meeting has moved.
+- [ ] Choose any optional Sunday bar/dinner reservation; check live First Table seatings and conditions if using it.
 - [ ] Confirm the October 16 London overnight and the transfer to St Pancras for 5:00 AM on October 17.
 
 ## Book-now checklist
@@ -271,6 +330,13 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 
 ## Sources used
 
+- User-supplied work calendar screenshot (GMT−04): October 12–16 meeting starts and visible status cues; end times estimated from the grid.
+- [Hampstead Heath, City of London](https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath)
+- [Parliament Hill viewpoint, City of London](https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/where-to-go-at-hampstead-heath/parliament-hill-viewpoint)
+- [Hyde Park, Royal Parks — hours and October 11 half-marathon notice](https://www.royalparks.org.uk/visit/parks/hyde-park)
+- [Primrose Hill, Royal Parks](https://www.royalparks.org.uk/visit/parks/regents-park-primrose-hill/primrose-hill)
+- [Discount Suit Company opening hours](https://discountsuitcompany.co.uk/opening-hours/)
+- [First Table FAQ — food discount, fees, availability, and conditions](https://www.firsttable.co.uk/frequently-asked-questions)
 - [Mountain Project: Fontainebleau](https://www.mountainproject.com/area/106008886/fontainebleau)
 - [Mountain Project: La Roche aux Sabots](https://www.mountainproject.com/area/106010442/la-roche-aux-sabots)
 - [Mountain Project: Le Cul de Chien](https://www.mountainproject.com/area/106010468/le-cul-de-chien)

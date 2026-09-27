@@ -14,27 +14,73 @@ const days = [
       ["After", "Passport control, collect luggage, then travel to your England accommodation. Address and transfer are still to be added."],
       ["Evening", "Leave room to settle in, eat, and rest after the overnight flight."],
     ],
-    aside: "England: October 10–16. Daily plans and accommodation remain flexible. All England times are local to the UK."
+    aside: "England: October 10–16. London park visits fit around work; accommodation is still to confirm. All England times below are London local time (BST)."
   },
-  ...[
-    ["Sunday", "October 11"],
-    ["Monday", "October 12"],
-    ["Tuesday", "October 13"],
-    ["Wednesday", "October 14"],
-    ["Thursday", "October 15"],
-  ].map(([day, date]) => ({
-    day, date, name: "England · open plans", type: "Flexible",
-    events: [["Flexible", "England day left open for your plans. Add activities, visits, or reservations as they are arranged."]],
-    aside: "No activities are scheduled for this day yet."
-  })),
   {
-    day: "Friday", date: "October 16", name: "England → London overnight", type: "Before Paris",
+    day: "Sunday", date: "October 11", name: "Hampstead Heath + a London evening", type: "Parks",
     events: [
-      ["Daytime", "Keep the day flexible; return to <strong>London</strong> if you have been staying elsewhere in England."],
-      ["Evening", "Pack, keep passports and Eurostar tickets accessible, and arrange transport to St Pancras for 5:00 AM tomorrow."],
-      ["Night", "Plan a London overnight with easy access to St Pancras. Accommodation still to confirm; get an early night."],
+      ["10:30", "Suggested: <a href=\"https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath\" target=\"_blank\" rel=\"noreferrer\"><strong>Hampstead Heath</strong> ↗</a>. Walk to Parliament Hill for the skyline, then wander the Heath at an easy pace."],
+      ["13:00", "Lunch in Hampstead, then a flexible afternoon. Leave time to return to your accommodation before heading out again."],
+      ["18:30", "Optional: <a href=\"https://discountsuitcompany.co.uk/opening-hours/\" target=\"_blank\" rel=\"noreferrer\"><strong>Discount Suit Company</strong> ↗</a>, 29A Wentworth Street, for a drink before dinner. Sunday hours currently 5 PM–midnight; no reservation made."],
+      ["Dinner", "Choose somewhere nearby. <a href=\"https://www.firsttable.co.uk/frequently-asked-questions\" target=\"_blank\" rel=\"noreferrer\">First Table ↗</a> offers 50% off food at participating seatings, plus a booking fee; drinks are full price. Times vary, so adjust the optional bar visit to any booking."],
     ],
-    aside: "Saturday’s Eurostar departs at 6:31 AM London time and arrives at Paris Gare du Nord at 9:57 AM Paris time. The ticket recommends reaching departures at 5:16 AM; the plan allows an extra buffer."
+    aside: "No work meetings are visible on Sunday. Hyde Park is saved for Monday because the Royal Parks Half Marathon is on October 11. Park and dinner plans are suggestions, not bookings."
+  },
+  {
+    day: "Monday", date: "October 12", name: "Hyde Park → work", type: "Park + work",
+    events: [
+      ["09:30", "Suggested: <a href=\"https://www.royalparks.org.uk/visit/parks/hyde-park\" target=\"_blank\" rel=\"noreferrer\"><strong>Hyde Park</strong> ↗</a>. Take a relaxed walk beside the Serpentine; allow about two hours."],
+      ["12:00", "Lunch, then return to your work base. Travel time depends on the accommodation address."],
+      ["14:00", "Afternoon reserved for focused work, with a meal break before the evening calls."],
+      ["18:30", "<strong>Work:</strong> stand-up / overlapping 1:1 slot, about 30 minutes. Calendar shows 1:30 PM GMT−04.", "work"],
+      ["19:30", "<strong>Work:</strong> sprint / overlapping 1:1 slot, about 30 minutes. Calendar shows 2:30 PM GMT−04.", "work"],
+    ],
+    aside: "Both Monday slots contain overlapping entries; confirm which calls you will attend. The holiday label does not erase the meetings. Return before work, with reliable Wi-Fi and headphones."
+  },
+  {
+    day: "Tuesday", date: "October 13", name: "Slow morning + late work review", type: "Work",
+    events: [
+      ["Morning", "Keep the morning flexible for a local walk, errands, or a rain-swapped park visit. Lunch near your work base."],
+      ["14:00", "Afternoon reserved for focused work."],
+      ["18:30", "<strong>Work:</strong> growth stand-up, about 30 minutes. Calendar shows 1:30 PM GMT−04.", "work"],
+      ["19:15", "Dinner break; keep the evening local and be settled back at your desk by 9:45 PM."],
+      ["22:00", "<strong>Work:</strong> experiment review, hold until about 10:45 PM. Calendar shows 5:00 PM GMT−04.", "work"],
+    ],
+    aside: "Avoid a late restaurant sitting tonight: the 10 PM review is a firm calendar commitment. Meeting end times are estimated from the screenshot."
+  },
+  {
+    day: "Wednesday", date: "October 14", name: "Primrose Hill → work", type: "Park + work",
+    events: [
+      ["10:00", "Suggested: <a href=\"https://www.royalparks.org.uk/visit/parks/regents-park-primrose-hill/primrose-hill\" target=\"_blank\" rel=\"noreferrer\"><strong>Primrose Hill</strong> ↗</a> for the skyline. Allow 60–90 minutes for a relaxed walk."],
+      ["12:00", "Lunch, then head back to your work base."],
+      ["14:00", "Afternoon reserved for focused work."],
+      ["18:30", "<strong>Work:</strong> stand-up, about 30 minutes. Calendar shows 1:30 PM GMT−04.", "work"],
+      ["19:30", "Dinner after the call. Keep any restaurant reservation flexible around actual work needs."],
+    ],
+    aside: "The 4 PM GMT−04 review (9 PM London) is struck through in the screenshot, so it is excluded from active commitments. If it returns to the calendar, protect that evening slot."
+  },
+  {
+    day: "Thursday", date: "October 15", name: "Park backup + evening meetings", type: "Work",
+    events: [
+      ["Morning", "Weather backup for whichever park you missed, or a short walk near your accommodation. Finish before lunch."],
+      ["14:00", "Afternoon reserved for focused work; eat before the first evening call."],
+      ["18:00", "<strong>Work:</strong> 1:1, about 30 minutes. Calendar shows 1:00 PM GMT−04.", "work"],
+      ["18:30", "<strong>Work:</strong> growth stand-up, about 30 minutes. Calendar shows 1:30 PM GMT−04.", "work"],
+      ["19:15", "Dinner break near your base; return to your desk by 10:00 PM."],
+      ["22:15", "<strong>Work:</strong> sprint retrospective, hold until about 11:00 PM. Calendar shows 5:15 PM GMT−04; overlapping entries share this slot.", "work"],
+    ],
+    aside: "Keep the late evening free for the retrospective. Monday and Wednesday park plans can swap with this morning if the weather changes."
+  },
+  {
+    day: "Friday", date: "October 16", name: "London · late calls before Eurostar", type: "Sleep conflict",
+    events: [
+      ["Morning", "Keep plans short and local. Be in <strong>London</strong> with easy access to St Pancras for tomorrow’s early train."],
+      ["14:00", "Afternoon reserved for work. Pack during a break, keep passports and tickets accessible, and arrange tomorrow’s early transfer."],
+      ["Evening", "Eat and finish all travel preparation before the calls. Keep the evening quiet; the original early-night plan needs resolving."],
+      ["22:30", "<strong>Work:</strong> 1:1, about 30 minutes. Calendar shows 5:30 PM GMT−04.", "work"],
+      ["23:00", "<strong>Work:</strong> team huddle; hold until about <strong>midnight into Saturday</strong>. Calendar shows 6:00 PM GMT−04. The outlined event remains blocked until attendance is confirmed.", "work"],
+    ],
+    aside: "Resolve before travel: calls may finish at midnight, leaving under five hours for sleep, getting ready, and reaching St Pancras at 5 AM. Ask whether the late calls can move or be covered; they remain in this plan until confirmed. Eurostar stays at 6:31 AM."
   },
   {
     day: "Saturday", date: "October 17", name: "London → Fontainebleau", type: "Arrival",
@@ -163,6 +209,8 @@ const bookings = [
   ["outbound-flight", "United UA 948 — booked", "SFO → Heathrow, October 9–10. Flight details show 4:45 PM departure and 11:10 AM arrival, each local time; timing needs rechecking.", "Flight", true],
   ["outbound-times", "Recheck United flight times", "The calendar header differs from the flight description. Confirm October 9 departure and October 10 arrival with United.", "Critical"],
   ["england-stay", "Confirm England accommodation", "October 10–16: add the addresses, check-in details, and Heathrow transfer. Plan the final night in London for the early Eurostar.", "England"],
+  ["work-calendar", "Confirm London work blocks", "GMT−04 calendar → London BST: add 5 hours. Check approximate end times, Monday overlaps, and reliable Wi-Fi; weekday afternoons are reserved for work.", "Work"],
+  ["friday-calls", "Resolve Friday’s late calls", "October 16 calls at 10:30 PM and 11:00 PM may run to midnight before the 5:00 AM St Pancras arrival. Confirm whether they can move or be covered.", "Critical"],
   ["eurostar", "Eurostar to Paris — booked", "Saturday, October 17: London St Pancras 6:31 AM → Paris Gare du Nord 9:57 AM, each local time. Train 9002.", "Transport", true],
   ["flight", "Confirm the return flight", "Airport, terminal, and exact departure time for October 25.", "Critical"],
   ["car", "Reserve the car", "Gare du Nord pickup; CDG return; room for two pads and luggage.", "Transport"],
@@ -191,7 +239,7 @@ function renderTimeline() {
       <div class="day-detail" id="day-${index}">
         <div class="day-detail-inner">
           <div class="day-events">
-            ${day.events.map(([time, copy]) => `<div class="day-event"><time>${time}</time><p>${copy}</p></div>`).join("")}
+            ${day.events.map(([time, copy, kind]) => `<div class="day-event${kind === "work" ? " work-event" : ""}"><time>${time}</time><p>${copy}</p></div>`).join("")}
           </div>
           <aside class="day-aside"><small>Keep in mind</small><p>${day.aside}</p></aside>
         </div>
