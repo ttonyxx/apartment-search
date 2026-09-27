@@ -49,15 +49,17 @@ const days = [
     aside: "Avoid a late restaurant sitting tonight: the 10 PM review is a firm calendar commitment. Meeting end times are estimated from the screenshot."
   },
   {
-    day: "Wednesday", date: "October 14", name: "Primrose Hill → work", type: "Park + work",
+    day: "Wednesday", date: "October 14", name: "Primrose Hill + SEN together", type: "Park + climb",
     events: [
       ["10:00", "Suggested: <a href=\"https://www.royalparks.org.uk/visit/parks/regents-park-primrose-hill/primrose-hill\" target=\"_blank\" rel=\"noreferrer\"><strong>Primrose Hill</strong> ↗</a> for the skyline. Allow 60–90 minutes for a relaxed walk."],
       ["12:00", "Lunch, then head back to your work base."],
       ["14:00", "Afternoon reserved for focused work."],
+      ["17:30", "Take a meal break before the stand-up and climbing. Katherine is working normal London hours; meet at the gym after both workdays."],
       ["18:30", "<strong>Work:</strong> stand-up, about 30 minutes. Calendar shows 1:30 PM GMT−04.", "work"],
-      ["19:30", "Dinner after the call. Keep any restaurant reservation flexible around actual work needs."],
+      ["19:45", "<strong>SEN together:</strong> meet Katherine at <a href=\"https://www.climbinggymsen.co.uk/\" target=\"_blank\" rel=\"noreferrer\"><strong>Climbing Gym SEN</strong> ↗</a>, Railway Arch 210, Newnham Terrace, SE1 7DR. First-visit check-in, then a relaxed session until 9:15 PM. Planned visit; no booking made."],
+      ["21:15", "Finish climbing and get food afterward if wanted. SEN closes at 10 PM; leave time to wind down."],
     ],
-    aside: "The 4 PM GMT−04 review (9 PM London) is struck through in the screenshot, so it is excluded from active commitments. If it returns to the calendar, protect that evening slot."
+    aside: "SEN is near Lambeth North / Waterloo and opens weekdays 11 AM–10 PM. Entry is £16 each; shoe hire £3.50. Complete your own <a href=\"https://www.climbinggymsen.co.uk/firstvisit\" target=\"_blank\" rel=\"noreferrer\">first-visit steps ↗</a>. The struck-through 9 PM review is excluded; if reinstated, move the gym visit. Check the journey from your work base once lodging is known."
   },
   {
     day: "Thursday", date: "October 15", name: "Park backup + evening meetings", type: "Work",
@@ -211,6 +213,7 @@ const bookings = [
   ["england-stay", "Confirm England accommodation", "October 10–16: add the addresses, check-in details, and Heathrow transfer. Plan the final night in London for the early Eurostar.", "England"],
   ["work-calendar", "Confirm London work blocks", "GMT−04 calendar → London BST: add 5 hours. Check approximate end times, Monday overlaps, and reliable Wi-Fi; weekday afternoons are reserved for work.", "Work"],
   ["friday-calls", "Resolve Friday’s late calls", "October 16 calls at 10:30 PM and 11:00 PM may run to midnight before the 5:00 AM St Pancras arrival. Confirm whether they can move or be covered.", "Critical"],
+  ["sen-visit", "Prepare for SEN together", "Wednesday, October 14, 7:45–9:15 PM London time, after both workdays. Each complete your own first-visit waiver and bring climbing shoes. Entry paid on arrival; visit not booked.", "Climbing"],
   ["eurostar", "Eurostar to Paris — booked", "Saturday, October 17: London St Pancras 6:31 AM → Paris Gare du Nord 9:57 AM, each local time. Train 9002.", "Transport", true],
   ["flight", "Confirm the return flight", "Airport, terminal, and exact departure time for October 25.", "Critical"],
   ["car", "Reserve the car", "Gare du Nord pickup; CDG return; room for two pads and luggage.", "Transport"],

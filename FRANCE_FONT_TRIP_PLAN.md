@@ -3,7 +3,7 @@
 **Dates:** Friday, October 9–Sunday, October 25, 2026<br>
 **England:** Saturday, October 10–Friday, October 16; London parks around work, accommodation to confirm<br>
 **France:** Saturday, October 17–Sunday, October 25; base in Fontainebleau/Avon<br>
-**Trip shape:** overnight flight, a week in England, then five outdoor climbing days, two recovery/culture days, and a low-stress airport night<br>
+**Trip shape:** overnight flight, London parks and one SEN gym session around work, then five outdoor climbing days, two recovery/culture days, and a low-stress airport night<br>
 **Special dates:** Katherine’s birthday Sunday, October 18; Tony’s birthday Thursday, October 22
 
 ## Flight and train details
@@ -16,6 +16,7 @@
 ## Assumptions to confirm
 
 - England accommodation and Heathrow transfer are still to be added. The park plan assumes a London base with reliable Wi-Fi; weekday afternoons are reserved for work. Plan the October 16 night with access to St Pancras.
+- Katherine is busy during normal London work hours. The joint SEN visit is scheduled for Wednesday evening after both workdays; the weekday morning park suggestions do not assume she is available.
 - Friday’s late calls need resolving: the calendar may run until midnight into Saturday before the planned 5:00 AM St Pancras arrival. They remain in the itinerary until any rescheduling or coverage is confirmed.
 - The return flight on October 25 is a morning departure from **Paris Charles de Gaulle (CDG)**. If it is Orly, the final-night logistics need to change.
 - You are staying in or close to Fontainebleau/Avon and will have a rental car. A car makes this plan substantially easier because the climbing sectors are spread around the forest.
@@ -31,7 +32,7 @@
 | Sun Oct 11 | Hampstead Heath + Parliament Hill; lunch in Hampstead | None planned | Optional Discount Suit Company + dinner |
 | Mon Oct 12 | Hyde Park morning; afternoon work | None planned | Work at 6:30 PM and 7:30 PM |
 | Tue Oct 13 | Flexible local morning; afternoon work | None planned | Work at 6:30 PM and 10:00 PM |
-| Wed Oct 14 | Primrose Hill morning; afternoon work | None planned | Work at 6:30 PM, then dinner |
+| Wed Oct 14 | Primrose Hill morning; afternoon work | Light indoor | Work at 6:30 PM, then **SEN together 7:45–9:15 PM** |
 | Thu Oct 15 | Morning park backup; afternoon work | None planned | Work at 6:00 PM, 6:30 PM, and 10:15 PM |
 | Fri Oct 16 | London; work and pack before evening | None planned | **10:30 PM / 11:00 PM calls conflict with early Eurostar preparation** |
 | Sat Oct 17 | Eurostar, car, pads, groceries, settle in | None | Early casual dinner and sleep |
@@ -100,13 +101,17 @@ The supplied calendar is displayed in **GMT−04**. London is on **BST (UTC+01)*
 - **7:15 PM:** dinner break near the base; return to the desk by **9:45 PM**.
 - **10:00 PM:** experiment review; hold until about **10:45 PM**. Avoid a late restaurant sitting.
 
-### Wednesday, October 14 — Primrose Hill + work
+### Wednesday, October 14 — Primrose Hill + work + SEN together
 
 - **10:00–11:30 AM, suggested:** [Primrose Hill](https://www.royalparks.org.uk/visit/parks/regents-park-primrose-hill/primrose-hill) for a relaxed walk and skyline views.
 - **Noon:** lunch and return to the work base.
 - **2:00 PM onward:** afternoon work.
+- **5:30 PM:** take a meal break before the stand-up and climbing. Katherine is working normal London hours; the joint gym visit follows both workdays.
 - **6:30 PM:** stand-up, about 30 minutes.
-- **7:30 PM:** dinner after the call, flexible around actual work needs. The crossed-out **9:00 PM** review is excluded unless it returns to the calendar.
+- **7:45–9:15 PM London time, planned:** meet Katherine at **[Climbing Gym SEN](https://www.climbinggymsen.co.uk/)**, Railway Arch 210, Newnham Terrace, London SE1 7DR, near Lambeth North / Waterloo. Allow first-visit check-in time and have a relaxed session together. This is an itinerary plan, not a reservation.
+- **9:15 PM:** finish and get food afterward if wanted. Current weekday hours are **11:00 AM–10:00 PM**.
+- [Adult day entry](https://www.climbinggymsen.co.uk/prices) is **£16 each (£32 for two)**; shoe hire is **£3.50 each** if needed. Entry can be purchased at reception. Each adult completes their own waiver and registers under the gym’s [first-visit instructions](https://www.climbinggymsen.co.uk/firstvisit); bring climbing clothes and shoes.
+- The crossed-out **9:00 PM** review is excluded; if reinstated, move the gym visit. Check travel from the work base once lodging is known; the plan allows roughly 45 minutes after the estimated stand-up finish.
 
 ### Thursday, October 15 — park backup + late retrospective
 
@@ -314,6 +319,7 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 - [ ] Confirm exact meeting end times and Monday overlaps; check reliable Wi-Fi at the work base.
 - [ ] Resolve Friday’s late calls versus Saturday’s early Eurostar; do not assume a meeting has moved.
 - [ ] Choose any optional Sunday bar/dinner reservation; check live First Table seatings and conditions if using it.
+- [ ] Prepare for SEN together on October 14, 7:45–9:15 PM: complete individual first-visit waivers, bring climbing shoes, and check travel from the work base after the stand-up.
 - [ ] Confirm the October 16 London overnight and the transfer to St Pancras for 5:00 AM on October 17.
 
 ## Book-now checklist
@@ -330,6 +336,9 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 
 ## Sources used
 
+- [Climbing Gym SEN — location and opening hours](https://www.climbinggymsen.co.uk/)
+- [SEN first-visit instructions](https://www.climbinggymsen.co.uk/firstvisit)
+- [SEN day-entry and rental prices](https://www.climbinggymsen.co.uk/prices)
 - User-supplied work calendar screenshot (GMT−04): October 12–16 meeting starts and visible status cues; end times estimated from the grid.
 - [Hampstead Heath, City of London](https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath)
 - [Parliament Hill viewpoint, City of London](https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath/where-to-go-at-hampstead-heath/parliament-hill-viewpoint)
