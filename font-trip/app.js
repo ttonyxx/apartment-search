@@ -132,10 +132,11 @@ const days = [
     events: [
       ["08:30", "Leave for Franchard with lunch and plenty of water."],
       ["09:00", "Warm up on the Isatis blue and red circuit problems."],
-      ["10:00", "<strong>Your picks:</strong> <a href=\"https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah\" target=\"_blank\" rel=\"noreferrer\"><strong>El Poussah</strong> ↗</a> (7A) and <a href=\"https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune\" target=\"_blank\" rel=\"noreferrer\"><strong>El Poussif / Dune</strong> ↗</a> (7A+) at Isatis. Warm up first, then choose which to focus on. Other classics and a Cuisinière visit are Codex suggestions."],
+      ["10:00", "<strong>Your Isatis picks:</strong> <a href=\"https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah\" target=\"_blank\" rel=\"noreferrer\"><strong>El Poussah</strong> ↗</a> (7A) and <a href=\"https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune\" target=\"_blank\" rel=\"noreferrer\"><strong>El Poussif / Dune</strong> ↗</a> (7A+). Warm up first, then choose which to focus on."],
+      ["Option", "<strong>Your Cuisinière picks:</strong> <a href=\"https://www.boolder.com/en/fontainebleau/franchard-cuisiniere/2609-karma\" target=\"_blank\" rel=\"noreferrer\"><strong>Karma</strong> ↗</a> (8A+) and <a href=\"https://www.boolder.com/fr/fontainebleau/franchard-cuisiniere/2641-pensees-cachees\" target=\"_blank\" rel=\"noreferrer\"><strong>Pensées Cachées</strong> ↗</a> (7B). Choose an Isatis or Cuisinière focus; these are options, not four projects to squeeze into one day."],
       ["15:30", "Stop before tomorrow’s birthday session becomes a recovery session."],
     ],
-    aside: "El Poussah and El Poussif were requested by you. October 21 is the suggested slot and can move with weather and access. L’Angle du Sérac, Composition des Forces, and L’Envie des Bêtes remain Codex suggestions."
+    aside: "The four Franchard picks were requested by you; October 21 is a suggested slot, flexible with weather and access. Other classics remain Codex suggestions. Karma here is the outdoor boulder; the indoor gym remains a separate rain option."
   },
   {
     day: "Thursday", date: "October 22", name: "Tony’s birthday · Trois Pignons", type: "Birthday", birthday: true,
@@ -183,6 +184,8 @@ const routes = [
   { name: "El Poussah", origin: "user", grade: "≈V6", font: "7A", area: "Franchard Isatis", group: "franchard", lane: "project", topoLabel: "Boolder topo", url: "https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah" },
   { name: "El Poussif / Dune", origin: "user", grade: "≈V7", font: "7A+", area: "Franchard Isatis", group: "franchard", lane: "project", topoLabel: "Boolder topo", url: "https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune" },
   { name: "La Barre Fixe (assis)", origin: "user", grade: "≈V8–9", font: "7B+", area: "Éléphant", group: "elephant", lane: "project", topoLabel: "Bleau.info topo", url: "https://bleau.info/elephant/8888.html" },
+  { name: "Karma", origin: "user", grade: "≈V12", font: "8A+", area: "Franchard Cuisinière", group: "franchard", lane: "project", topoLabel: "Boolder topo", url: "https://www.boolder.com/en/fontainebleau/franchard-cuisiniere/2609-karma" },
+  { name: "Pensées Cachées", origin: "user", grade: "≈V8", font: "7B", area: "Franchard Cuisinière", group: "franchard", lane: "project", topoLabel: "Boolder topo", url: "https://www.boolder.com/fr/fontainebleau/franchard-cuisiniere/2641-pensees-cachees" },
   { origin: "codex", name: "Pogo", grade: "V0", font: "4", area: "Éléphant", group: "elephant", lane: "circuit", stars: 3.0, votes: 1, url: "https://www.mountainproject.com/route/122677142/pogo" },
   { origin: "codex", name: "La Dalle à Poly", grade: "V2", font: "5+", area: "Éléphant", group: "elephant", lane: "circuit", stars: 4.0, votes: 15, url: "https://www.mountainproject.com/route/114543775/la-dalle-a-poly-black-n40-bis" },
   { origin: "codex", name: "Surplomb Éléphant", grade: "V3", font: "6A", area: "Éléphant", group: "elephant", lane: "classic", stars: 3.0, votes: 2, url: "https://www.mountainproject.com/route/113316893/surplomb-elephant" },

@@ -200,7 +200,8 @@ The Château de Fontainebleau is closed Tuesday, which is why it is not the reco
 
 - **8:30 AM:** depart for Franchard.
 - **9:00–10:00 AM:** warm up on the Isatis blue/red circuit problems, keeping attempts low.
-- **10:00 AM–3:30 PM:** **Your picks: [El Poussah — 7A](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah)** and **[El Poussif / Dune — 7A+](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune)** at Isatis. Warm up first, then choose which to focus on. This date is a suggested slot and can move with weather and access. Other Isatis classics and a Cuisinière visit for Beatle Juice remain Codex suggestions.
+- **10:00 AM–3:30 PM:** **Your Isatis picks: [El Poussah — 7A](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah)** and **[El Poussif / Dune — 7A+](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune)**. Warm up first, then choose which to focus on.
+- **Cuisinière option — your picks:** **[Karma — 8A+](https://www.boolder.com/en/fontainebleau/franchard-cuisiniere/2609-karma)** and **[Pensées Cachées — 7B](https://www.boolder.com/fr/fontainebleau/franchard-cuisiniere/2641-pensees-cachees)**. Choose an Isatis or Cuisinière focus rather than treating all four as a single-day checklist. October 21 is a suggested slot, flexible with weather and access. Other classics, including Beatle Juice, remain Codex suggestions.
 - **3:30 PM:** mandatory stop unless fingertips and elbows are unusually fresh. Tomorrow is Tony’s birthday climbing day.
 - Casual dinner in Fontainebleau and prepare the birthday picnic.
 
@@ -243,7 +244,7 @@ If the flight is actually from Orly, use an Orly hotel and return the car there 
 
 ## Climbing menus
 
-**Selection labels:** **Your pick** records a climb Tony explicitly asks to try; **Codex suggestion** records a climb added by the assistant. All pre-existing climbing-menu entries below are Codex suggestions. New user requests should retain their origin, including when they promote an existing suggestion to a personal pick.
+**Selection labels:** **Your pick** records a climb Tony explicitly asks to try; **Codex suggestion** records a climb added by the assistant. The Codex suggestions menus below contain only assistant-suggested climbs. New user requests should retain their origin, including when they promote an existing suggestion to a personal pick.
 
 ### Your picks — want to try
 
@@ -252,8 +253,10 @@ If the flight is actually from Orly, use an Orly hotel and return the car there 
 | [El Poussah](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah) | Franchard Isatis | **7A**, approximately V6 | Wed Oct 21, after warming up; weather-flexible | Tony’s explicit request, September 27, 2026 |
 | [El Poussif / Dune](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune) | Franchard Isatis | **7A+**, approximately V7 | Wed Oct 21, after warming up; weather-flexible | Tony’s explicit request, September 27, 2026 |
 | [La Barre Fixe (assis)](https://bleau.info/elephant/8888.html) | Éléphant | **7B+**, approximately V8–9 | Sun Oct 18, optional within the Éléphant session | Tony’s explicit request and confirmation of the sit start, September 27, 2026 |
+| [Karma](https://www.boolder.com/en/fontainebleau/franchard-cuisiniere/2609-karma) | Franchard Cuisinière | **8A+**, approximately V12 | Wed Oct 21, optional Cuisinière focus; weather-flexible | Tony’s explicit request, September 27, 2026 |
+| [Pensées Cachées](https://www.boolder.com/fr/fontainebleau/franchard-cuisiniere/2641-pensees-cachees) | Franchard Cuisinière | **7B**, approximately V8 | Wed Oct 21, optional Cuisinière focus; weather-flexible | Tony’s explicit request, September 27, 2026 |
 
-El Poussah is the standard 7A line listed by Boolder; the 7B extended variant has not been requested. La Barre Fixe is the **7B+ sit start (assis)**, explicitly confirmed by Tony, and is now a personal pick rather than a Codex suggestion. No ascent or completion is implied.
+El Poussah is the standard 7A line listed by Boolder; the 7B extended variant has not been requested. La Barre Fixe is the **7B+ sit start (assis)**, explicitly confirmed by Tony, and is now a personal pick rather than a Codex suggestion. Karma is the **8A+ outdoor boulder**, distinct from the indoor rain-fallback gym and the 8B static-start variant. No ascent or completion is implied.
 
 ### Codex suggestions
 
@@ -267,6 +270,7 @@ The Mountain Project Route Finder search covered Fontainebleau area ID `10600888
 | 6A to 6B+ | V3–V4/5 | Classic/moderate |
 | 6C to 7A | V5–V6 | Hard |
 | 7A+ to 7B+ | V7–V9 | Project |
+| 8A+ | V12 | Project |
 
 Treat this only as orientation. Style, polish, height, top-outs, and familiarity with Font movement matter enormously.
 
@@ -381,6 +385,8 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 - [Boolder — El Poussah, 7A, Franchard Isatis](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah)
 - [Boolder — El Poussif / Dune, 7A+, Franchard Isatis](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune)
 - [Bleau.info — La Barre Fixe (assis), 7B+, Éléphant](https://bleau.info/elephant/8888.html)
+- [Boolder — Karma, 8A+, Franchard Cuisinière](https://www.boolder.com/en/fontainebleau/franchard-cuisiniere/2609-karma)
+- [Boolder — Pensées Cachées, 7B, Franchard Cuisinière](https://www.boolder.com/fr/fontainebleau/franchard-cuisiniere/2641-pensees-cachees)
 - [SIXT Gare du Nord — desk location and hours](https://www.sixt.co.uk/car-hire/france/paris/paris-north-station/)
 - [SIXT CDG — return locations](https://www.sixt.com/car-rental/france/roissy/paris-cdg-airport/)
 - [SIXT France billing — 24-hour rental periods](https://www.sixt.fr/help-center/app/articles/SIXT-Wiki-facture/)
