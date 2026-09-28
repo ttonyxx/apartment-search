@@ -173,7 +173,7 @@ This is designed as a beautiful, celebratory first climbing day rather than a ma
 
 - **8:00 AM:** Fontainebleau market at Place de la République. Assemble a birthday picnic: pastries, fruit, cheese, bread, something sparkling for after climbing, and a small cake. The official tourism office lists the market Sunday morning from 8:00 AM–1:00 PM.
 - **9:30 AM:** drive to **Éléphant**. Warm up slowly on the painted circuits and keep enough energy for dinner.
-- **10:15 AM–3:30 PM:** climb from the Éléphant menu below. Prioritize variety—slab, mantle, arete, roof—over volume. Stop while everyone still has skin.
+- **10:15 AM–3:30 PM:** climb from the Éléphant menu below. **Your pick: [La Barre Fixe (assis) — 7B+](https://bleau.info/elephant/8888.html)**, the sit start confirmed by Tony, is an optional target if energy and landing coverage suit it. Keep the birthday session relaxed and stop while everyone still has skin.
 - **4:00–6:30 PM:** return, shower, nap, and dress up.
 - **7:15 PM:** reserve **L’Axel**, 43 rue de France. It has one Michelin star, serves modern French food with Japanese influence, and currently takes Sunday dinner bookings from 7:15–9:00 PM. Tell the restaurant that it is Katherine’s birthday when reserving.
 
@@ -251,8 +251,9 @@ If the flight is actually from Orly, use an Orly hotel and return the car there 
 |---|---|---|---|---|
 | [El Poussah](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah) | Franchard Isatis | **7A**, approximately V6 | Wed Oct 21, after warming up; weather-flexible | Tony’s explicit request, September 27, 2026 |
 | [El Poussif / Dune](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune) | Franchard Isatis | **7A+**, approximately V7 | Wed Oct 21, after warming up; weather-flexible | Tony’s explicit request, September 27, 2026 |
+| [La Barre Fixe (assis)](https://bleau.info/elephant/8888.html) | Éléphant | **7B+**, approximately V8–9 | Sun Oct 18, optional within the Éléphant session | Tony’s explicit request and confirmation of the sit start, September 27, 2026 |
 
-This is the standard El Poussah listed by Boolder; the 7B extended variant has not been requested. No ascent or completion is implied.
+El Poussah is the standard 7A line listed by Boolder; the 7B extended variant has not been requested. La Barre Fixe is the **7B+ sit start (assis)**, explicitly confirmed by Tony, and is now a personal pick rather than a Codex suggestion. No ascent or completion is implied.
 
 ### Codex suggestions
 
@@ -275,7 +276,7 @@ Treat this only as orientation. Style, polish, height, top-outs, and familiarity
 |---|---|
 | Circuit/easier | [Pogo — V0/4](https://www.mountainproject.com/route/122677142/pogo); [Gigabyte — V1/5](https://www.mountainproject.com/route/113316878/gigabyte); [La Dalle à Poly — V2/5+](https://www.mountainproject.com/route/114543775/la-dalle-a-poly-black-n40-bis) |
 | Classic/moderate | [Surplomb Éléphant — V3/6A](https://www.mountainproject.com/route/113316893/surplomb-elephant); [La Dalle Fléaux — V4/6B](https://www.mountainproject.com/route/115792899/la-dalle-fleaux); [La Voie Michaud — V5/6C](https://www.mountainproject.com/route/112053502/la-voie-michaud-noir-22) |
-| Hard/project | [La Traversée du Gruyère — V6-/7A](https://www.mountainproject.com/route/114543768/la-traversee-du-gruyere); [Terminator — V7/7A+](https://www.mountainproject.com/route/122346613/terminator); [La Barre Fixe assis — V8–9/7B+](https://www.mountainproject.com/route/113316789/la-barre-fixe-assis) |
+| Hard/project | [La Traversée du Gruyère — V6-/7A](https://www.mountainproject.com/route/114543768/la-traversee-du-gruyere); [Terminator — V7/7A+](https://www.mountainproject.com/route/122346613/terminator) |
 
 ### Bas Cuvier + Cuvier Est — Monday
 
@@ -379,6 +380,7 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 
 - [Boolder — El Poussah, 7A, Franchard Isatis](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah)
 - [Boolder — El Poussif / Dune, 7A+, Franchard Isatis](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune)
+- [Bleau.info — La Barre Fixe (assis), 7B+, Éléphant](https://bleau.info/elephant/8888.html)
 - [SIXT Gare du Nord — desk location and hours](https://www.sixt.co.uk/car-hire/france/paris/paris-north-station/)
 - [SIXT CDG — return locations](https://www.sixt.com/car-rental/france/roissy/paris-cdg-airport/)
 - [SIXT France billing — 24-hour rental periods](https://www.sixt.fr/help-center/app/articles/SIXT-Wiki-facture/)

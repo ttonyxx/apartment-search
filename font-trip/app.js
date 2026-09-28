@@ -100,7 +100,7 @@ const days = [
     day: "Sunday", date: "October 18", name: "Katherine’s birthday · Éléphant", type: "Birthday", birthday: true, open: true,
     events: [
       ["08:00", "Build a birthday picnic at the <strong>Fontainebleau market</strong>."],
-      ["10:15", "A joyful first session at <strong>Éléphant</strong>: circuits, slabs, mantles, no pressure."],
+      ["10:15", "A joyful first session at <strong>Éléphant</strong>: circuits, slabs, mantles, no pressure. <strong>Your pick:</strong> <a href=\"https://bleau.info/elephant/8888.html\" target=\"_blank\" rel=\"noreferrer\"><strong>La Barre Fixe (assis)</strong> ↗</a>, the 7B+ sit start, is an optional target if energy and landing coverage suit it."],
       ["15:30", "Leave with skin in reserve; nap, shower, and dress up."],
       ["19:15", "Birthday dinner at <strong>L’Axel</strong>, Michelin-starred French cooking with a Japanese point of view."],
     ],
@@ -180,8 +180,9 @@ const days = [
 ];
 
 const routes = [
-  { name: "El Poussah", origin: "user", grade: "≈V6", font: "7A", area: "Franchard Isatis", group: "franchard", lane: "project", url: "https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah" },
-  { name: "El Poussif / Dune", origin: "user", grade: "≈V7", font: "7A+", area: "Franchard Isatis", group: "franchard", lane: "project", url: "https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune" },
+  { name: "El Poussah", origin: "user", grade: "≈V6", font: "7A", area: "Franchard Isatis", group: "franchard", lane: "project", topoLabel: "Boolder topo", url: "https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah" },
+  { name: "El Poussif / Dune", origin: "user", grade: "≈V7", font: "7A+", area: "Franchard Isatis", group: "franchard", lane: "project", topoLabel: "Boolder topo", url: "https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune" },
+  { name: "La Barre Fixe (assis)", origin: "user", grade: "≈V8–9", font: "7B+", area: "Éléphant", group: "elephant", lane: "project", topoLabel: "Bleau.info topo", url: "https://bleau.info/elephant/8888.html" },
   { origin: "codex", name: "Pogo", grade: "V0", font: "4", area: "Éléphant", group: "elephant", lane: "circuit", stars: 3.0, votes: 1, url: "https://www.mountainproject.com/route/122677142/pogo" },
   { origin: "codex", name: "La Dalle à Poly", grade: "V2", font: "5+", area: "Éléphant", group: "elephant", lane: "circuit", stars: 4.0, votes: 15, url: "https://www.mountainproject.com/route/114543775/la-dalle-a-poly-black-n40-bis" },
   { origin: "codex", name: "Surplomb Éléphant", grade: "V3", font: "6A", area: "Éléphant", group: "elephant", lane: "classic", stars: 3.0, votes: 2, url: "https://www.mountainproject.com/route/113316893/surplomb-elephant" },
@@ -294,7 +295,7 @@ function renderRoutes() {
       <span class="route-arrow" aria-hidden="true">↗</span>
       <div class="route-bottom">
         <span class="route-lane">${laneLabel(route.lane)}</span>
-        <span class="route-stats">${typeof route.stars === "number" ? `${route.stars.toFixed(1)} ★ · ${route.votes} vote${route.votes === 1 ? "" : "s"}` : "Boolder topo"}</span>
+        <span class="route-stats">${typeof route.stars === "number" ? `${route.stars.toFixed(1)} ★ · ${route.votes} vote${route.votes === 1 ? "" : "s"}` : (route.topoLabel || "Route topo")}</span>
       </div>
     </article>
   `).join("") : `<div class="empty-state"><h3>No lines in this combination.</h3><p>Try another sector, lane, or pick filter.</p></div>`;
