@@ -132,10 +132,10 @@ const days = [
     events: [
       ["08:30", "Leave for Franchard with lunch and plenty of water."],
       ["09:00", "Warm up on the Isatis blue and red circuit problems."],
-      ["10:00", "Move through classics at Isatis; visit Cuisinière for Beatle Juice if that is the goal."],
+      ["10:00", "<strong>Your picks:</strong> <a href=\"https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah\" target=\"_blank\" rel=\"noreferrer\"><strong>El Poussah</strong> ↗</a> (7A) and <a href=\"https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune\" target=\"_blank\" rel=\"noreferrer\"><strong>El Poussif / Dune</strong> ↗</a> (7A+) at Isatis. Warm up first, then choose which to focus on. Other classics and a Cuisinière visit are Codex suggestions."],
       ["15:30", "Stop before tomorrow’s birthday session becomes a recovery session."],
     ],
-    aside: "The sweet spot: L’Angle du Sérac, Composition des Forces, L’Envie des Bêtes, and one harder dream line."
+    aside: "El Poussah and El Poussif were requested by you. October 21 is the suggested slot and can move with weather and access. L’Angle du Sérac, Composition des Forces, and L’Envie des Bêtes remain Codex suggestions."
   },
   {
     day: "Thursday", date: "October 22", name: "Tony’s birthday · Trois Pignons", type: "Birthday", birthday: true,
@@ -180,33 +180,35 @@ const days = [
 ];
 
 const routes = [
-  { name: "Pogo", grade: "V0", font: "4", area: "Éléphant", group: "elephant", lane: "circuit", stars: 3.0, votes: 1, url: "https://www.mountainproject.com/route/122677142/pogo" },
-  { name: "La Dalle à Poly", grade: "V2", font: "5+", area: "Éléphant", group: "elephant", lane: "circuit", stars: 4.0, votes: 15, url: "https://www.mountainproject.com/route/114543775/la-dalle-a-poly-black-n40-bis" },
-  { name: "Surplomb Éléphant", grade: "V3", font: "6A", area: "Éléphant", group: "elephant", lane: "classic", stars: 3.0, votes: 2, url: "https://www.mountainproject.com/route/113316893/surplomb-elephant" },
-  { name: "La Dalle Fléaux", grade: "V4", font: "6B", area: "Éléphant", group: "elephant", lane: "classic", stars: 4.0, votes: 4, url: "https://www.mountainproject.com/route/115792899/la-dalle-fleaux" },
-  { name: "La Voie Michaud", grade: "V5", font: "6C", area: "Éléphant", group: "elephant", lane: "classic", stars: 3.5, votes: 17, url: "https://www.mountainproject.com/route/112053502/la-voie-michaud-noir-22" },
-  { name: "La Traversée du Gruyère", grade: "V6−", font: "7A", area: "Éléphant", group: "elephant", lane: "project", stars: 4.0, votes: 4, url: "https://www.mountainproject.com/route/114543768/la-traversee-du-gruyere" },
-  { name: "Terminator", grade: "V7", font: "7A+", area: "Éléphant", group: "elephant", lane: "project", stars: 3.5, votes: 2, url: "https://www.mountainproject.com/route/122346613/terminator" },
-  { name: "La Marie-Rose", grade: "V3", font: "6A", area: "Bas Cuvier", group: "cuvier", lane: "circuit", stars: 4.0, votes: 26, url: "https://www.mountainproject.com/route/119450250/la-marie-rose" },
-  { name: "Hier Encore", grade: "V4+", font: "6B+", area: "Bas Cuvier", group: "cuvier", lane: "classic", stars: 3.5, votes: 6, url: "https://www.mountainproject.com/route/122946469/hier-encore" },
-  { name: "Le Participe Présent", grade: "V5", font: "6C", area: "Bas Cuvier", group: "cuvier", lane: "classic", stars: 3.5, votes: 5, url: "https://www.mountainproject.com/route/122197168/le-participe-present" },
-  { name: "Hélicoptère", grade: "V6", font: "7A", area: "Bas Cuvier", group: "cuvier", lane: "classic", stars: 3.5, votes: 13, url: "https://www.mountainproject.com/route/114271940/helicoptere" },
-  { name: "Charcuterie", grade: "V6+", font: "7A", area: "Bas Cuvier", group: "cuvier", lane: "project", stars: 4.0, votes: 3, url: "https://www.mountainproject.com/route/117640832/charcuterie" },
-  { name: "Goriak", grade: "V8", font: "7B", area: "Cuvier Est", group: "cuvier", lane: "project", stars: 3.0, votes: 6, url: "https://www.mountainproject.com/route/123255876/goriak" },
-  { name: "Contrôle Technique", grade: "V10", font: "7C+", area: "Bas Cuvier", group: "cuvier", lane: "project", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/122952704/controle-technique" },
-  { name: "Red 18", grade: "V2", font: "5+", area: "Franchard Isatis", group: "franchard", lane: "circuit", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/113317267/red-18" },
-  { name: "Le Crocodil", grade: "V3", font: "6A", area: "Franchard Isatis", group: "franchard", lane: "circuit", stars: 3.5, votes: 9, url: "https://www.mountainproject.com/route/122964563/le-crocodil" },
-  { name: "L’Angle du Sérac", grade: "V4+", font: "6B+", area: "Franchard Isatis", group: "franchard", lane: "classic", stars: 4.0, votes: 10, url: "https://www.mountainproject.com/route/114527214/langle-du-serac" },
-  { name: "Composition des Forces", grade: "V5", font: "6C", area: "Franchard Isatis", group: "franchard", lane: "classic", stars: 3.5, votes: 4, url: "https://www.mountainproject.com/route/113581152/composition-des-forces" },
-  { name: "L’Envie des Bêtes", grade: "V6", font: "7A", area: "Franchard Isatis", group: "franchard", lane: "classic", stars: 3.5, votes: 3, url: "https://www.mountainproject.com/route/114527204/lenvie-des-betes-assis" },
-  { name: "Beatle Juice", grade: "V7", font: "7A+", area: "Franchard Cuisinière", group: "franchard", lane: "project", stars: 4.0, votes: 7, url: "https://www.mountainproject.com/route/113316770/beatle-juice" },
-  { name: "Froggy D", grade: "V8", font: "7B", area: "Franchard Isatis", group: "franchard", lane: "project", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/122964472/froggy-d" },
-  { name: "Blue Circuit", grade: "V2–3", font: "5+", area: "Roche aux Sabots", group: "sabots", lane: "circuit", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/122052175/blue-circuit" },
-  { name: "Le Surplomb à Coulisse", grade: "V3+", font: "6A+", area: "Roche aux Sabots", group: "sabots", lane: "classic", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/114564269/red-3-le-surplomb-a-coulisse" },
-  { name: "Le Mur à Michaud", grade: "V4", font: "6B", area: "Roche aux Sabots", group: "sabots", lane: "classic", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/114564239/red-29-le-mur-a-michaud" },
-  { name: "Jeux de Toit", grade: "V6+", font: "7A", area: "Roche aux Sabots", group: "sabots", lane: "project", stars: 4.0, votes: 4, url: "https://www.mountainproject.com/route/113316930/jeux-de-toit" },
-  { name: "L’Oblique", grade: "V6–7", font: "7A+", area: "Roche aux Sabots", group: "sabots", lane: "project", stars: 3.5, votes: 9, url: "https://www.mountainproject.com/route/113316948/loblique" },
-  { name: "Le Toit du Cul de Chien", grade: "V6", font: "7A", area: "Cul de Chien", group: "sabots", lane: "project", stars: 4.0, votes: 10, url: "https://www.mountainproject.com/route/123870127/le-toit-du-cul-de-chien" }
+  { name: "El Poussah", origin: "user", grade: "≈V6", font: "7A", area: "Franchard Isatis", group: "franchard", lane: "project", url: "https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah" },
+  { name: "El Poussif / Dune", origin: "user", grade: "≈V7", font: "7A+", area: "Franchard Isatis", group: "franchard", lane: "project", url: "https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune" },
+  { origin: "codex", name: "Pogo", grade: "V0", font: "4", area: "Éléphant", group: "elephant", lane: "circuit", stars: 3.0, votes: 1, url: "https://www.mountainproject.com/route/122677142/pogo" },
+  { origin: "codex", name: "La Dalle à Poly", grade: "V2", font: "5+", area: "Éléphant", group: "elephant", lane: "circuit", stars: 4.0, votes: 15, url: "https://www.mountainproject.com/route/114543775/la-dalle-a-poly-black-n40-bis" },
+  { origin: "codex", name: "Surplomb Éléphant", grade: "V3", font: "6A", area: "Éléphant", group: "elephant", lane: "classic", stars: 3.0, votes: 2, url: "https://www.mountainproject.com/route/113316893/surplomb-elephant" },
+  { origin: "codex", name: "La Dalle Fléaux", grade: "V4", font: "6B", area: "Éléphant", group: "elephant", lane: "classic", stars: 4.0, votes: 4, url: "https://www.mountainproject.com/route/115792899/la-dalle-fleaux" },
+  { origin: "codex", name: "La Voie Michaud", grade: "V5", font: "6C", area: "Éléphant", group: "elephant", lane: "classic", stars: 3.5, votes: 17, url: "https://www.mountainproject.com/route/112053502/la-voie-michaud-noir-22" },
+  { origin: "codex", name: "La Traversée du Gruyère", grade: "V6−", font: "7A", area: "Éléphant", group: "elephant", lane: "project", stars: 4.0, votes: 4, url: "https://www.mountainproject.com/route/114543768/la-traversee-du-gruyere" },
+  { origin: "codex", name: "Terminator", grade: "V7", font: "7A+", area: "Éléphant", group: "elephant", lane: "project", stars: 3.5, votes: 2, url: "https://www.mountainproject.com/route/122346613/terminator" },
+  { origin: "codex", name: "La Marie-Rose", grade: "V3", font: "6A", area: "Bas Cuvier", group: "cuvier", lane: "circuit", stars: 4.0, votes: 26, url: "https://www.mountainproject.com/route/119450250/la-marie-rose" },
+  { origin: "codex", name: "Hier Encore", grade: "V4+", font: "6B+", area: "Bas Cuvier", group: "cuvier", lane: "classic", stars: 3.5, votes: 6, url: "https://www.mountainproject.com/route/122946469/hier-encore" },
+  { origin: "codex", name: "Le Participe Présent", grade: "V5", font: "6C", area: "Bas Cuvier", group: "cuvier", lane: "classic", stars: 3.5, votes: 5, url: "https://www.mountainproject.com/route/122197168/le-participe-present" },
+  { origin: "codex", name: "Hélicoptère", grade: "V6", font: "7A", area: "Bas Cuvier", group: "cuvier", lane: "classic", stars: 3.5, votes: 13, url: "https://www.mountainproject.com/route/114271940/helicoptere" },
+  { origin: "codex", name: "Charcuterie", grade: "V6+", font: "7A", area: "Bas Cuvier", group: "cuvier", lane: "project", stars: 4.0, votes: 3, url: "https://www.mountainproject.com/route/117640832/charcuterie" },
+  { origin: "codex", name: "Goriak", grade: "V8", font: "7B", area: "Cuvier Est", group: "cuvier", lane: "project", stars: 3.0, votes: 6, url: "https://www.mountainproject.com/route/123255876/goriak" },
+  { origin: "codex", name: "Contrôle Technique", grade: "V10", font: "7C+", area: "Bas Cuvier", group: "cuvier", lane: "project", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/122952704/controle-technique" },
+  { origin: "codex", name: "Red 18", grade: "V2", font: "5+", area: "Franchard Isatis", group: "franchard", lane: "circuit", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/113317267/red-18" },
+  { origin: "codex", name: "Le Crocodil", grade: "V3", font: "6A", area: "Franchard Isatis", group: "franchard", lane: "circuit", stars: 3.5, votes: 9, url: "https://www.mountainproject.com/route/122964563/le-crocodil" },
+  { origin: "codex", name: "L’Angle du Sérac", grade: "V4+", font: "6B+", area: "Franchard Isatis", group: "franchard", lane: "classic", stars: 4.0, votes: 10, url: "https://www.mountainproject.com/route/114527214/langle-du-serac" },
+  { origin: "codex", name: "Composition des Forces", grade: "V5", font: "6C", area: "Franchard Isatis", group: "franchard", lane: "classic", stars: 3.5, votes: 4, url: "https://www.mountainproject.com/route/113581152/composition-des-forces" },
+  { origin: "codex", name: "L’Envie des Bêtes", grade: "V6", font: "7A", area: "Franchard Isatis", group: "franchard", lane: "classic", stars: 3.5, votes: 3, url: "https://www.mountainproject.com/route/114527204/lenvie-des-betes-assis" },
+  { origin: "codex", name: "Beatle Juice", grade: "V7", font: "7A+", area: "Franchard Cuisinière", group: "franchard", lane: "project", stars: 4.0, votes: 7, url: "https://www.mountainproject.com/route/113316770/beatle-juice" },
+  { origin: "codex", name: "Froggy D", grade: "V8", font: "7B", area: "Franchard Isatis", group: "franchard", lane: "project", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/122964472/froggy-d" },
+  { origin: "codex", name: "Blue Circuit", grade: "V2–3", font: "5+", area: "Roche aux Sabots", group: "sabots", lane: "circuit", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/122052175/blue-circuit" },
+  { origin: "codex", name: "Le Surplomb à Coulisse", grade: "V3+", font: "6A+", area: "Roche aux Sabots", group: "sabots", lane: "classic", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/114564269/red-3-le-surplomb-a-coulisse" },
+  { origin: "codex", name: "Le Mur à Michaud", grade: "V4", font: "6B", area: "Roche aux Sabots", group: "sabots", lane: "classic", stars: 4.0, votes: 1, url: "https://www.mountainproject.com/route/114564239/red-29-le-mur-a-michaud" },
+  { origin: "codex", name: "Jeux de Toit", grade: "V6+", font: "7A", area: "Roche aux Sabots", group: "sabots", lane: "project", stars: 4.0, votes: 4, url: "https://www.mountainproject.com/route/113316930/jeux-de-toit" },
+  { origin: "codex", name: "L’Oblique", grade: "V6–7", font: "7A+", area: "Roche aux Sabots", group: "sabots", lane: "project", stars: 3.5, votes: 9, url: "https://www.mountainproject.com/route/113316948/loblique" },
+  { origin: "codex", name: "Le Toit du Cul de Chien", grade: "V6", font: "7A", area: "Cul de Chien", group: "sabots", lane: "project", stars: 4.0, votes: 10, url: "https://www.mountainproject.com/route/123870127/le-toit-du-cul-de-chien" }
 ];
 
 const bookings = [
@@ -266,6 +268,7 @@ function renderTimeline() {
 
 let activeArea = "all";
 let activeLane = "all";
+let activeOrigin = "all";
 
 function laneLabel(lane) {
   return { circuit: "Circuit", classic: "Classic", project: "Project" }[lane];
@@ -274,11 +277,13 @@ function laneLabel(lane) {
 function renderRoutes() {
   const visible = routes.filter((route) =>
     (activeArea === "all" || route.group === activeArea) &&
-    (activeLane === "all" || route.lane === activeLane)
-  );
+    (activeLane === "all" || route.lane === activeLane) &&
+    (activeOrigin === "all" || route.origin === activeOrigin)
+  ).sort((a, b) => Number(b.origin === "user") - Number(a.origin === "user"));
   document.querySelector("#routeCount").textContent = `${visible.length} problem${visible.length === 1 ? "" : "s"}`;
   document.querySelector("#routeGrid").innerHTML = visible.length ? visible.map((route) => `
-    <article class="route-card">
+    <article class="route-card${route.origin === "user" ? " route-user" : ""}">
+      <span class="route-origin${route.origin === "user" ? " user-pick" : ""}">${route.origin === "user" ? "Your pick · Want to try" : "Codex suggestion"}</span>
       <div class="route-top">
         <div>
           <p class="route-area">${route.area}</p>
@@ -289,11 +294,24 @@ function renderRoutes() {
       <span class="route-arrow" aria-hidden="true">↗</span>
       <div class="route-bottom">
         <span class="route-lane">${laneLabel(route.lane)}</span>
-        <span class="route-stats">${route.stars.toFixed(1)} ★ · ${route.votes} vote${route.votes === 1 ? "" : "s"}</span>
+        <span class="route-stats">${typeof route.stars === "number" ? `${route.stars.toFixed(1)} ★ · ${route.votes} vote${route.votes === 1 ? "" : "s"}` : "Boolder topo"}</span>
       </div>
     </article>
-  `).join("") : `<div class="empty-state"><h3>No lines in this combination.</h3><p>Try another sector or lane.</p></div>`;
+  `).join("") : `<div class="empty-state"><h3>No lines in this combination.</h3><p>Try another sector, lane, or pick filter.</p></div>`;
 }
+
+document.querySelectorAll("#originFilters .filter").forEach((button) => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll("#originFilters .filter").forEach((item) => {
+      item.classList.remove("active");
+      item.setAttribute("aria-pressed", "false");
+    });
+    button.classList.add("active");
+    button.setAttribute("aria-pressed", "true");
+    activeOrigin = button.dataset.origin;
+    renderRoutes();
+  });
+});
 
 document.querySelectorAll("#areaFilters .filter").forEach((button) => {
   button.addEventListener("click", () => {

@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/fontainebleau-hero.webp" type="image/webp">
-  <link rel="stylesheet" href="styles.css?v=20260927-rentals">
+  <link rel="stylesheet" href="styles.css?v=20260927-picks">
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -169,11 +169,11 @@
       <div class="section-shell">
         <div class="climb-heading reveal">
           <div>
-            <p class="eyebrow">Mountain Project shortlist</p>
+            <p class="eyebrow">Your picks + Codex suggestions</p>
             <h2 id="climbsTitle">Choose your<br><em>line.</em></h2>
           </div>
           <div class="climb-heading-copy">
-            <p>Start below your normal gym limit. Font grades hide polish, mantles, balance, and consequence. Pick three must-tries—not twelve.</p>
+            <p><strong>Your pick</strong> means a climb you explicitly asked to try. <strong>Codex suggestion</strong> marks a climb I added to the plan. Your picks appear first; use the filter below to see just those.</p>
             <a href="https://www.mountainproject.com/area/106008886/fontainebleau" target="_blank" rel="noreferrer">Open Fontainebleau on Mountain Project ↗</a>
           </div>
         </div>
@@ -196,7 +196,12 @@
             </select>
           </label>
         </div>
-        <div class="route-meta reveal"><span id="routeCount">0 problems</span><span>Font grade + V grade</span></div>
+        <div class="origin-filters reveal" id="originFilters" role="group" aria-label="Filter by who chose the climb">
+          <button class="filter active" type="button" data-origin="all" aria-pressed="true">All picks</button>
+          <button class="filter" type="button" data-origin="user" aria-pressed="false">Your picks</button>
+          <button class="filter" type="button" data-origin="codex" aria-pressed="false">Codex suggestions</button>
+        </div>
+        <div class="route-meta reveal"><span id="routeCount">0 problems</span><span>Font + V grades · ≈ approximate</span></div>
         <div class="route-grid" id="routeGrid" aria-live="polite"></div>
       </div>
     </section>
@@ -348,6 +353,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20260927-rentals"></script>
+  <script src="app.js?v=20260927-picks"></script>
 </body>
 </html>

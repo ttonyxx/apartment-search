@@ -200,7 +200,7 @@ The Château de Fontainebleau is closed Tuesday, which is why it is not the reco
 
 - **8:30 AM:** depart for Franchard.
 - **9:00–10:00 AM:** warm up on the Isatis blue/red circuit problems, keeping attempts low.
-- **10:00 AM–3:30 PM:** work through the Isatis menu. Move to Cuisinière only if specifically trying Beatle Juice or if the first zone is crowded.
+- **10:00 AM–3:30 PM:** **Your picks: [El Poussah — 7A](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah)** and **[El Poussif / Dune — 7A+](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune)** at Isatis. Warm up first, then choose which to focus on. This date is a suggested slot and can move with weather and access. Other Isatis classics and a Cuisinière visit for Beatle Juice remain Codex suggestions.
 - **3:30 PM:** mandatory stop unless fingertips and elbows are unusually fresh. Tomorrow is Tony’s birthday climbing day.
 - Casual dinner in Fontainebleau and prepare the birthday picnic.
 
@@ -242,6 +242,19 @@ If the flight is actually from Orly, use an Orly hotel and return the car there 
 - Carry climbing shoes in hand luggage if they are difficult to replace; pads stay in France.
 
 ## Climbing menus
+
+**Selection labels:** **Your pick** records a climb Tony explicitly asks to try; **Codex suggestion** records a climb added by the assistant. All pre-existing climbing-menu entries below are Codex suggestions. New user requests should retain their origin, including when they promote an existing suggestion to a personal pick.
+
+### Your picks — want to try
+
+| Climb | Area | Grade | Suggested day | Recorded from |
+|---|---|---|---|---|
+| [El Poussah](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah) | Franchard Isatis | **7A**, approximately V6 | Wed Oct 21, after warming up; weather-flexible | Tony’s explicit request, September 27, 2026 |
+| [El Poussif / Dune](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune) | Franchard Isatis | **7A+**, approximately V7 | Wed Oct 21, after warming up; weather-flexible | Tony’s explicit request, September 27, 2026 |
+
+This is the standard El Poussah listed by Boolder; the 7B extended variant has not been requested. No ascent or completion is implied.
+
+### Codex suggestions
 
 The Mountain Project Route Finder search covered Fontainebleau area ID `106008886`, boulders V0–V10, and routes rated at least 2.5/4 stars. It returned **272 routes**. Mountain Project’s Fontainebleau inventory and vote counts are incomplete, so use these as shortlists and use [Bleau.info](https://bleau.info/) or [Boolder](https://www.boolder.com/) for the final approach, circuit numbering, current grade consensus, and maps.
 
@@ -364,6 +377,8 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 
 ## Sources used
 
+- [Boolder — El Poussah, 7A, Franchard Isatis](https://www.boolder.com/fr/fontainebleau/franchard-isatis/1455-el-poussah)
+- [Boolder — El Poussif / Dune, 7A+, Franchard Isatis](https://www.boolder.com/en/fontainebleau/franchard-isatis/1462-el-poussif-dune)
 - [SIXT Gare du Nord — desk location and hours](https://www.sixt.co.uk/car-hire/france/paris/paris-north-station/)
 - [SIXT CDG — return locations](https://www.sixt.com/car-rental/france/roissy/paris-cdg-airport/)
 - [SIXT France billing — 24-hour rental periods](https://www.sixt.fr/help-center/app/articles/SIXT-Wiki-facture/)
