@@ -163924,7 +163924,7 @@
       "bathrooms": 1,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7880882,
       "lon": -122.415838,
@@ -163932,7 +163932,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-09-23T11:06:58.885Z"
+      "added_at": "2026-09-23T11:06:58.885Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-29T15:32:00.886Z"
     },
     {
       "id": "cl_7971504894",
@@ -169251,6 +169253,46 @@
       "added_at": "2026-09-29T01:37:11.053Z",
       "prev_status": "to_see",
       "off_market_at": "2026-09-29T08:07:41.617Z"
+    },
+    {
+      "id": "rf_2031634",
+      "url": "https://www.redfin.com/CA/San-Francisco/341-Molimo-Dr-94127/home/2031634",
+      "address": "341 Molimo Dr",
+      "neighborhood": "",
+      "price": 6300,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": 1460,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7372277,
+      "lon": -122.4521411,
+      "notes": "From Redfin · updated Sep 29, 12:51 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-09-29T15:32:00.886Z"
+    },
+    {
+      "id": "rf_205965523",
+      "url": "https://www.redfin.com/CA/San-Francisco/450-Page-St-94102/unit-450/home/205965523",
+      "address": "450 Page St Unit 450",
+      "neighborhood": "",
+      "price": 7995,
+      "bedrooms": 4,
+      "bathrooms": 1.5,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.773601,
+      "lon": -122.428277,
+      "notes": "From Redfin · updated Sep 29, 12:51 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-09-29T15:32:00.886Z"
     }
   ]
 }
