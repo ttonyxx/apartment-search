@@ -164530,14 +164530,16 @@
       "bathrooms": null,
       "sqft": 1727,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7171,
       "lon": -122.4832,
       "notes": "From Craigslist · posted Sep 24, 5:12 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-24T18:53:56.340Z"
+      "added_at": "2026-09-24T18:53:56.340Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-29T01:37:11.053Z"
     },
     {
       "id": "cl_7972042893",
@@ -169094,14 +169096,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7493,
       "lon": -122.4531,
       "notes": "From Craigslist · posted Sep 28, 12:58 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-28T15:08:25.629Z"
+      "added_at": "2026-09-28T15:08:25.629Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-29T01:37:11.053Z"
     },
     {
       "id": "cl_7974493920",
@@ -169113,14 +169117,16 @@
       "bathrooms": null,
       "sqft": 835,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7919,
       "lon": -122.4159,
       "notes": "From Craigslist · posted Sep 28, 8:48 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-28T21:42:01.905Z"
+      "added_at": "2026-09-28T21:42:01.905Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-09-29T01:37:11.053Z"
     },
     {
       "id": "cl_7974544017",
@@ -169197,6 +169203,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-28T21:42:01.905Z"
+    },
+    {
+      "id": "cl_7974535002",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bright-spacious-1br/7974535002.html",
+      "address": "Bright & Spacious 1BR + Office in SOMA",
+      "neighborhood": "City Of San Francisco",
+      "price": 3495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 766,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7745,
+      "lon": -122.4125,
+      "notes": "From Craigslist · posted Sep 28, 9:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-29T01:37:11.053Z"
+    },
+    {
+      "id": "cl_7974628914",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-rapid-move-in-updated-2/7974628914.html",
+      "address": "RAPID MOVE IN !! updated 2/2 with wd in apt -full gym",
+      "neighborhood": "San Francisco, CA",
+      "price": 2250,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7725,
+      "lon": -122.4147,
+      "notes": "From Craigslist · posted Sep 29, 12:44 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-09-29T01:37:11.053Z"
     }
   ]
 }
