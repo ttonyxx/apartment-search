@@ -171386,14 +171386,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7715,
       "lon": -122.4424,
       "notes": "From Craigslist · posted Sep 30, 8:45 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-30T22:55:36.269Z"
+      "added_at": "2026-09-30T22:55:36.269Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-01T01:55:07.373Z"
     },
     {
       "id": "cl_7975762980",
@@ -171432,6 +171434,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-09-30T22:55:36.269Z"
+    },
+    {
+      "id": "cl_7975779168",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bd-ba/7975779168.html",
+      "address": "3 bd 1 ba",
+      "neighborhood": "San Francisco",
+      "price": 5000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.768,
+      "lon": -122.393,
+      "notes": "From Craigslist · posted Oct 1, 12:08 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-01T01:55:07.373Z"
+    },
+    {
+      "id": "cl_7975775634",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bd-ba/7975775634.html",
+      "address": "3 bd 1 ba",
+      "neighborhood": "San Francisco",
+      "price": 5000,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.768,
+      "lon": -122.393,
+      "notes": "From Craigslist · posted Sep 30, 11:58 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-01T01:55:07.373Z"
     }
   ]
 }
