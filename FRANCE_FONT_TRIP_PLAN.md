@@ -2,7 +2,7 @@
 
 **Dates:** Friday, October 9–Sunday, October 25, 2026<br>
 **England:** Saturday, October 10–Friday, October 16; London parks around work, accommodation to confirm<br>
-**France:** Saturday, October 17–Sunday, October 25; base in Fontainebleau/Avon<br>
+**France:** Saturday, October 17–Sunday, October 25; Airbnb base in Milly-la-Forêt, then the planned airport night<br>
 **Trip shape:** overnight flight, London parks and one SEN gym session around work, then five outdoor climbing days, two recovery/culture days, and a low-stress airport night<br>
 **Special dates:** Katherine’s birthday Sunday, October 18; Tony’s birthday Thursday, October 22
 
@@ -19,7 +19,7 @@
 - Katherine is busy during normal London work hours. The joint SEN visit is scheduled for Wednesday evening after both workdays; the weekday morning park suggestions do not assume she is available.
 - Friday’s late calls need resolving: the calendar may run until midnight into Saturday before the planned 5:00 AM St Pancras arrival. They remain in the itinerary until any rescheduling or coverage is confirmed.
 - The return flight on October 25 is a morning departure from **Paris Charles de Gaulle (CDG)**. If it is Orly, the final-night logistics need to change.
-- You are staying in or close to Fontainebleau/Avon and will have a rental car. A car makes this plan substantially easier because the climbing sectors are spread around the forest.
+- The France Airbnb address is **7 Bis Rue de Melun, 91490 Milly-la-Forêt, France**, supplied by Tony. Check-in, checkout, arrival access and parking details remain to be added. The rental-car plan still uses pickup and return in Avon.
 - Your climbing grades were not provided. Every climbing day therefore has an easier circuit lane, a middle classics lane, and a harder project lane.
 - Katherine has booked **Les Coqs for Monday, October 19 at 7:00 PM local time**. Other restaurant, spa, car, pad, château, and hotel reservations remain to be confirmed.
 
@@ -64,6 +64,16 @@ The supplied calendar is displayed in **GMT−04**. London is on **BST (UTC+01)*
 - Friday’s outlined huddle is retained pending confirmation of attendance. The Monday holiday label does not cancel the visible meetings.
 - **Sleep conflict:** if Friday’s huddle finishes around midnight, there are under five hours for sleep, getting ready, and reaching St Pancras at 5:00 AM. Ask whether the late calls can move or be covered; this plan does not assume they have changed.
 
+## France Airbnb — Milly-la-Forêt
+
+**Your accommodation, supplied by Tony:** 7 Bis Rue de Melun, 91490 Milly-la-Forêt, France. This replaces the previous Fontainebleau/Avon lodging assumption; Avon remains the proposed car pickup and return location.
+
+- [Navigate to the Airbnb in Google Maps](https://www.google.com/maps/dir/?api=1&destination=7+Bis+Rue+de+Melun,+91490+Milly-la-Foret,+France&travelmode=driving).
+- **Arrival:** collect the car in Avon, collect pads in Arbonne, then continue to Milly-la-Forêt. [Pad lockers → Airbnb](https://www.google.com/maps/dir/?api=1&origin=359+rue+de+la+Liberation,+77630+Arbonne-la-Foret,+France&destination=7+Bis+Rue+de+Melun,+91490+Milly-la-Foret,+France&travelmode=driving). Check-in time is not yet known.
+- **Departure:** confirm October 24 checkout, return pads around 11:30 AM, then refuel and reach the proposed Avon car return by 1:00 PM. [Airbnb → pad return](https://www.google.com/maps/dir/?api=1&origin=7+Bis+Rue+de+Melun,+91490+Milly-la-Foret,+France&destination=359+rue+de+la+Liberation,+77630+Arbonne-la-Foret,+France&travelmode=driving).
+- Les Coqs is also in Milly-la-Forêt. Allow a separate journey to Fontainebleau for the planned L’Axel dinner and other town activities; do not assume those start at your doorstep.
+- **Still to add from the Airbnb reservation:** check-in and checkout times, arrival access instructions and parking arrangements. No access codes or parking space are assumed.
+
 ## Car and crash-pad rental plan — October 17–24
 
 **Recommended plan, not booked.** Car quotes and rail guidance checked **October 2, 2026**; pad information checked **September 27**. Use France local time for all rental appointments. Recheck the final checkout price, pad stock and appointment times before reserving.
@@ -103,7 +113,7 @@ Official service updates: [RER D](https://www.transilien.com/fr/page-lignes/lign
 - Each pad is **100 × 50 × 30 cm folded**, opening to **100 × 150 × 10 cm**. Use these dimensions when checking the car. Select problems to suit the available landing coverage; add pads/spotters for wider or more complex landings.
 - **Backup:** [Fontainebleau Crash-Pads](https://fontainebleau-crashpads.com/), **179 rue Grande**, lists I’BBZ Triple MaxX and Black Diamond Mondo at **€90/week each**. Request pickup **October 17 at 3:00 PM** and return **October 24 around 11:30 AM**, with exact-period pricing confirmed. Its [hours page](https://fontainebleau-crashpads.com/about/agencies/) differs between noon and 12:30 for the lunch closure. Stop any short climb by 10:30 AM and leave time to refuel and reach the Avon car return by 1:00 PM.
 
-**Travel sequence:** October 17: Eurostar → RER D → Line R → Avon car pickup at 1:00 PM → Arbonne pads at 2:00 PM → accommodation/groceries. October 24: checkout arrangements → optional short climb ending 10:30 AM → pads around 11:30 AM → refuel → Avon car return at 1:00 PM → rail to CDG and airport hotel. Appointments are planning targets until booked; use live routes and traffic.
+**Travel sequence:** October 17: Eurostar → RER D → Line R → Avon car pickup at 1:00 PM → Arbonne pads at 2:00 PM → Milly-la-Forêt Airbnb/groceries. October 24: Airbnb checkout arrangements → optional short climb ending 10:30 AM → pads around 11:30 AM → refuel → Avon car return at 1:00 PM → rail to CDG and airport hotel. Appointments are planning targets until booked; use live routes and traffic.
 
 ## Day-by-day plan
 
@@ -177,9 +187,9 @@ Official service updates: [RER D](https://www.transilien.com/fr/page-lignes/lign
 - **5:00 AM London time:** arrive at London St Pancras. The ticket recommends **5:16 AM**; the plan allows an extra buffer. Eurostar 9002 departs at **6:31 AM London time** and arrives at Paris Gare du Nord at **9:57 AM Paris time**.
 - **After 9:57 AM:** RER D to Gare de Lyon, then Line R to Fontainebleau–Avon. Follow the transfer map and live Google Maps links above; check the stop list and platform.
 - **1:00 PM, planned:** Turo Grand C4 Picasso pickup in Avon. Get the exact address and key instructions after booking, and confirm the last leg from the station. No reservation made yet.
-- **2:00 PM, planned:** collect **two triple pads at Climb Fontainebleau**, 359 rue de la Libération, Arbonne-la-Forêt, using the prearranged locker access. Then continue to the accommodation. See the rental plan above for dimensions, payment, and the €180 listed weekly total.
-- **3:30–5:00 PM:** groceries, bakery supplies, water, tape, and a cheap clean doormat/carpet square for shoes.
-- **5:00 PM onward:** short château-garden or town walk, early dinner, and sleep. Do not squeeze in a tired first-day bouldering session.
+- **2:00 PM, planned:** collect **two triple pads at Climb Fontainebleau**, 359 rue de la Libération, Arbonne-la-Forêt, using the prearranged locker access. Then continue to the **Airbnb at 7 Bis Rue de Melun, 91490 Milly-la-Forêt, France** when check-in permits. See the rental plan above for dimensions, payment, and the €180 listed weekly total.
+- **Afternoon:** settle in and get groceries, bakery supplies, water, tape, and a cheap clean doormat/carpet square for shoes. Check-in time still needs confirmation.
+- **5:00 PM onward:** short Milly-la-Forêt town walk, early dinner, and sleep. Do not squeeze in a tired first-day bouldering session.
 
 ### Sunday, October 18 — Katherine’s birthday at Éléphant
 
@@ -188,7 +198,7 @@ This is designed as a beautiful, celebratory first climbing day rather than a ma
 - **8:00 AM:** Fontainebleau market at Place de la République. Assemble a birthday picnic: pastries, fruit, cheese, bread, something sparkling for after climbing, and a small cake. The official tourism office lists the market Sunday morning from 8:00 AM–1:00 PM.
 - **9:30 AM:** drive to **Éléphant**. Warm up slowly on the painted circuits and keep enough energy for dinner.
 - **10:15 AM–3:30 PM:** climb from the Éléphant menu below. **Your pick: [La Barre Fixe (assis) — 7B+](https://bleau.info/elephant/8888.html)**, the sit start confirmed by Tony, is an optional target if energy and landing coverage suit it. Keep the birthday session relaxed and stop while everyone still has skin.
-- **4:00–6:30 PM:** return, shower, nap, and dress up.
+- **4:00–6:30 PM:** return to the Milly-la-Forêt Airbnb, shower, nap, and dress up; allow time to drive to Fontainebleau for dinner.
 - **7:15 PM:** reserve **L’Axel**, 43 rue de France. It has one Michelin star, serves modern French food with Japanese influence, and currently takes Sunday dinner bookings from 7:15–9:00 PM. Tell the restaurant that it is Katherine’s birthday when reserving.
 
 **If it rains:** keep the market and L’Axel. Replace climbing with the Château de Fontainebleau (open Sunday 9:30 AM–5:00 PM in October) and, if desired, a prebooked spa treatment.
@@ -198,7 +208,7 @@ This is designed as a beautiful, celebratory first climbing day rather than a ma
 - **8:00 AM:** leave early with breakfast and lunch. Bas Cuvier is iconic and popular.
 - **8:30–9:15 AM:** long circuit-based warm-up. Font top-outs, polished feet, and technical slabs can feel much harder than the conversion grade suggests.
 - **9:15 AM–3:30 PM:** choose one lane from the Bas Cuvier menu, then add at most one true project. Cuvier Est is a short second stop only if energy and skin are good.
-- **4:00 PM onward:** food, shower, and finger/skin care before heading to Milly-la-Forêt for dinner.
+- **4:00 PM onward:** return to the Milly-la-Forêt Airbnb for food, a shower, and finger/skin care. Dinner at Les Coqs is in the same town.
 - **7:00 PM local time:** dinner at **[Les Coqs](https://guide.michelin.com/us/en/ile-de-france/milly-la-fort/restaurant/les-coqs)**, 24 place du Marché, 91490 Milly-la-Forêt. **Booked by Katherine.**
 
 ### Tuesday, October 20 — recovery, town, and spa
@@ -241,7 +251,7 @@ The Château de Fontainebleau is closed Tuesday, which is why it is not the reco
 
 ### Saturday, October 24 — victory lap and CDG transition
 
-- Arrange checkout before climbing unless late checkout is confirmed; pack travel clothes separately.
+- Arrange checkout from the Milly-la-Forêt Airbnb before climbing unless late checkout is confirmed; pack travel clothes separately.
 - **8:00–10:30 AM, optional:** choose the closest fully dry sector for a short victory lap. Prioritize the car-return deadline.
 - **11:30 AM target:** return pads to the **Climb Fontainebleau lockers in Arbonne** using the agreed instructions, then refuel with diesel and drive to Avon. Confirm the appointment. If using the town-shop backup, use the same early target before its lunch closure.
 - Change into travel clothes; only return to the lodging for a shower if late checkout and the timing allow it.
@@ -370,6 +380,7 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 
 - [x] **United UA 948, SFO → LHR** — October 9–10. Flight description: **4:45 PM departure in San Francisco → 11:10 AM arrival in London the next day**. Booking recorded from the supplied screenshot; current times need rechecking because the calendar header differs.
 - [x] **Eurostar 9002, London St Pancras → Paris Gare du Nord** — Saturday, October 17, **6:31 AM London time → 9:57 AM Paris time**, per the supplied ticket.
+- [x] **France Airbnb — address saved from Tony:** 7 Bis Rue de Melun, 91490 Milly-la-Forêt, France. Check-in, checkout, access and parking details remain unconfirmed.
 - [x] **[Les Coqs](https://guide.michelin.com/us/en/ile-de-france/milly-la-fort/restaurant/les-coqs)** — Monday, October 19, 2026 at **7:00 PM local time**, booked by Katherine. Address: 24 place du Marché, 91490 Milly-la-Forêt.
 
 ## England checklist
@@ -386,7 +397,7 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 
 1. Confirm October 25 airport, terminal, and exact flight time.
 2. Car: recheck the **Turo Avon October 17, 1:00 PM → October 24, 1:00 PM** quote with age 22. Confirm pad space, protection and driver requirements, then reserve. Complete verification and save the exact pickup/return address, key instructions and station connection. Prepare the physical licence and IDP or official French translation if using a US licence.
-3. CDG terminal hotel for October 24.
+3. Save the Milly-la-Forêt Airbnb’s check-in, checkout, access and parking details; arrange checkout before the final morning’s activities. Book the CDG terminal hotel for October 24.
 4. Request two Climb Fontainebleau triple pads **October 17, 2:00 PM → October 24, 11:30 AM target**; confirm stock, the €180 listed weekly total for those times, deposit/payment, and locker code/return instructions. Use Fontainebleau Crash-Pads if unavailable.
 5. L’Axel for **Sunday, October 18 at 7:15 PM**, noting Katherine’s birthday.
 6. Le Magnum for **Thursday, October 22 around 7:00 PM**, noting Tony’s birthday.

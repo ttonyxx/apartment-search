@@ -518,6 +518,8 @@ h1, h2, h3 { text-wrap: balance; }
 .map-link-primary:hover { background: var(--ink); }
 .map-link:focus-visible, .return-transfer summary:focus-visible { outline: 3px solid var(--rust); outline-offset: 4px; }
 .transfer-live-note { margin: 15px 0 0; font-size: .76rem; color: var(--ink-soft); }
+.stay-card { margin-top: 40px; scroll-margin-top: 90px; }
+.stay-card .return-links { margin-bottom: 0; }
 .return-transfer { margin-top: 40px; border-block: 1px solid var(--line); scroll-margin-top: 90px; }
 .return-transfer summary { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 25px 0; cursor: pointer; list-style: none; font: 400 1.8rem/1.2 var(--serif); }
 .return-transfer summary::-webkit-details-marker { display: none; }

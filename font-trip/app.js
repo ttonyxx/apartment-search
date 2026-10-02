@@ -85,14 +85,15 @@ const days = [
     aside: "Resolve before travel: calls may finish at midnight, leaving under five hours for sleep, getting ready, and reaching St Pancras at 5 AM. Ask whether the late calls can move or be covered; they remain in this plan until confirmed. Eurostar stays at 6:31 AM."
   },
   {
-    day: "Saturday", date: "October 17", name: "London → Fontainebleau", type: "Arrival",
+    day: "Saturday", date: "October 17", name: "London → Milly-la-Forêt", type: "Arrival",
     events: [
       ["05:00", "Arrive at <strong>London St Pancras</strong> for border control. The ticket recommends 5:16 AM; this leaves an extra buffer."],
       ["06:31", "Eurostar departs London, <strong>UK local time</strong>; breakfast on the train."],
       ["09:57", "Arrive at <strong>Paris Gare du Nord</strong>, <strong>France local time</strong>. Follow signs for RER D, take a train stopping at <strong>Gare de Lyon</strong>, then change to <strong>Line R for Fontainebleau–Avon</strong>. <a href=\"#transfers\">Transfer map + Google Maps directions ↓</a>. Check live boards for platforms and stopping patterns."],
       ["13:00", "Proposed <strong>Turo pickup in Avon</strong>: Iftikhar’s automatic Citroën Grand C4 Picasso. Exact address and key instructions arrive after booking; the final leg from the station may be a walk, bus or taxi. Station pickup is not confirmed."],
-      ["14:00", "Planned pickup of <strong>two triple pads from Climb Fontainebleau</strong>, 359 rue de la Libération, Arbonne-la-Forêt. Arrange the locker code beforehand, then continue to your accommodation and groceries."],
-      ["17:00", "A garden walk and early dinner. No tired, first-day bouldering."],
+      ["14:00", "Planned pickup of <strong>two triple pads from Climb Fontainebleau</strong>, 359 rue de la Libération, Arbonne-la-Forêt. Arrange the locker code beforehand."],
+      ["After", "Continue to your <a href=\"#stay\"><strong>Airbnb in Milly-la-Forêt</strong></a>: 7 Bis Rue de Melun, 91490 Milly-la-Forêt, France. Settle in when check-in permits, then get groceries. <a href=\"#stay\">Address + Google Maps directions ↓</a>."],
+      ["17:00", "A short walk in Milly-la-Forêt and early dinner. No tired, first-day bouldering."],
     ],
     aside: "Car and pads are not booked. <a href=\"#rentals\">Rental plan ↓</a>: Turo October 17, 13:00 → October 24, 13:00, pickup and return in Avon. October 2 quote: €408.98 non-refundable / €440.98 refundable with age 22 and Standard protection. Train to CDG after return; airport still to confirm."
   },
@@ -101,7 +102,7 @@ const days = [
     events: [
       ["08:00", "Build a birthday picnic at the <strong>Fontainebleau market</strong>."],
       ["10:15", "A joyful first session at <strong>Éléphant</strong>: circuits, slabs, mantles, no pressure. <strong>Your pick:</strong> <a href=\"https://bleau.info/elephant/8888.html\" target=\"_blank\" rel=\"noreferrer\"><strong>La Barre Fixe (assis)</strong> ↗</a>, the 7B+ sit start, is an optional target if energy and landing coverage suit it."],
-      ["15:30", "Leave with skin in reserve; nap, shower, and dress up."],
+      ["15:30", "Leave with skin in reserve; return to the Milly-la-Forêt Airbnb to nap, shower, and dress up. Allow time to drive to Fontainebleau for dinner."],
       ["19:15", "Birthday dinner at <strong>L’Axel</strong>, Michelin-starred French cooking with a Japanese point of view."],
     ],
     aside: "Rain version: market, Château de Fontainebleau, spa, and L’Axel. The birthday stays special even if the rock is wet."
@@ -112,7 +113,7 @@ const days = [
       ["08:00", "Leave early with breakfast and lunch to get ahead of the crowds."],
       ["08:30", "Warm up on the circuits. Start two grades below the gym ego."],
       ["09:15", "Choose a lane: easy mileage, classics, or one serious project."],
-      ["15:30", "Hard stop. Food, finger care, and time to shower before dinner."],
+      ["15:30", "Hard stop. Return to the Milly-la-Forêt Airbnb for food, finger care, and a shower. Tonight’s Les Coqs dinner is in the same town."],
       ["19:00", "Dinner at <a href=\"https://guide.michelin.com/us/en/ile-de-france/milly-la-fort/restaurant/les-coqs\" target=\"_blank\" rel=\"noreferrer\"><strong>Les Coqs</strong> ↗</a>, 24 place du Marché, Milly-la-Forêt. Booked by Katherine; 7:00 PM local time."],
     ],
     aside: "Add Cuvier Est only if both skin and energy are good. Duroxomanie and Goriak can wait for the right day."
@@ -162,7 +163,7 @@ const days = [
     day: "Saturday", date: "October 24", name: "Victory lap → CDG", type: "Travel",
     events: [
       ["08:00", "Choose the closest dry sector for easy mileage or favorite unfinished moves."],
-      ["10:30", "Finish any short climb, brush off the pads, and change into packed travel clothes. Arrange checkout before climbing unless late checkout is confirmed. Prioritize the car-return deadline."],
+      ["10:30", "Finish any short climb, brush off the pads, and change into packed travel clothes. Arrange checkout from the Milly-la-Forêt Airbnb before climbing unless late checkout is confirmed. Prioritize the car-return deadline."],
       ["11:30", "Target <strong>pad return to the Climb Fontainebleau lockers in Arbonne</strong>, using the agreed instructions. Then refuel with diesel and drive to the Avon car-return address."],
       ["13:00", "Proposed <strong>Turo car return in Avon</strong>. Complete the app’s return steps and reach Fontainebleau–Avon station using the confirmed address."],
       ["After", "Train toward the airport: <strong>Line R → Gare de Lyon → RER D → Gare du Nord → RER B to CDG</strong>. Check the airport branch and your terminal/hotel. <a href=\"#return-transfer\">Return map + Google Maps directions ↓</a>."],
@@ -223,6 +224,8 @@ const bookings = [
   ["friday-calls", "Resolve Friday’s late calls", "October 16 calls at 10:30 PM and 11:00 PM may run to midnight before the 5:00 AM St Pancras arrival. Confirm whether they can move or be covered.", "Critical"],
   ["sen-visit", "Prepare for SEN together", "Wednesday, October 14, 7:45–9:15 PM London time, after both workdays. Each complete your own first-visit waiver and bring climbing shoes. Entry paid on arrival; visit not booked.", "Climbing"],
   ["eurostar", "Eurostar to Paris — booked", "Saturday, October 17: London St Pancras 6:31 AM → Paris Gare du Nord 9:57 AM, each local time. Train 9002.", "Transport", true],
+  ["france-stay", "France Airbnb — address saved", "7 Bis Rue de Melun, 91490 Milly-la-Forêt, France. Your France base, supplied by Tony.", "Stay", true],
+  ["airbnb-access", "Save Airbnb access + parking details", "Confirm check-in and checkout times, arrival instructions, and parking for the Milly-la-Forêt Airbnb. Plan October 24 checkout before any climbing unless late checkout is agreed.", "Stay"],
   ["flight", "Confirm the return flight", "Airport, terminal, and exact departure time for October 25.", "Critical"],
   ["car-avon", "Reserve Turo in Avon", "October 17, 13:00 → October 24, 13:00; automatic Grand C4 Picasso. Recheck age-22 price, protection and pad space. Pickup and return in Avon. Not booked.", "Transport"],
   ["turo-pickup", "Save the exact Turo address + key instructions", "After booking, confirm the final leg from Fontainebleau–Avon station and the return location. Save the Transfers section; recheck live train times and platforms on the day.", "Transport"],
@@ -416,7 +419,7 @@ window.addEventListener("hashchange", openTransferAnchor);
 window.addEventListener("load", async () => {
   if (document.fonts) await document.fonts.ready;
   const hash = window.location.hash;
-  if (hash !== "#transfers" && hash !== "#return-transfer") return;
+  if (hash !== "#transfers" && hash !== "#return-transfer" && hash !== "#stay") return;
   openTransferAnchor();
   document.querySelector(hash).scrollIntoView({ behavior: "instant", block: "start" });
 });
