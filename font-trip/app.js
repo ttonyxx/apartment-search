@@ -89,12 +89,12 @@ const days = [
     events: [
       ["05:00", "Arrive at <strong>London St Pancras</strong> for border control. The ticket recommends 5:16 AM; this leaves an extra buffer."],
       ["06:31", "Eurostar departs London, <strong>UK local time</strong>; breakfast on the train."],
-      ["09:57", "Arrive at <strong>Paris Gare du Nord</strong>, <strong>France local time</strong>. Allow an hour to reach the rental desk and collect the car."],
-      ["11:00", "Planned <strong>SIXT Gare du Nord</strong> pickup: Hall 1, level −1 near platform 3, 18 rue de Dunkerque. Choose an automatic estate or midsize SUV with folding rear seats. Drive toward Arbonne with time for lunch."],
+      ["09:57", "Arrive at <strong>Paris Gare du Nord</strong>, <strong>France local time</strong>. Follow signs for RER D, take a train stopping at <strong>Gare de Lyon</strong>, then change to <strong>Line R for Fontainebleau–Avon</strong>. <a href=\"#transfers\">Transfer map + Google Maps directions ↓</a>. Check live boards for platforms and stopping patterns."],
+      ["13:00", "Proposed <strong>Turo pickup in Avon</strong>: Iftikhar’s automatic Citroën Grand C4 Picasso. Exact address and key instructions arrive after booking; the final leg from the station may be a walk, bus or taxi. Station pickup is not confirmed."],
       ["14:00", "Planned pickup of <strong>two triple pads from Climb Fontainebleau</strong>, 359 rue de la Libération, Arbonne-la-Forêt. Arrange the locker code beforehand, then continue to your accommodation and groceries."],
       ["17:00", "A garden walk and early dinner. No tired, first-day bouldering."],
     ],
-    aside: "Car and pads are not booked. <a href=\"#rentals\">Rental plan ↓</a>: €180 listed weekly pad total; car quote pending for October 17 at 11 AM → October 24 at 5 PM, returning at CDG. Confirm the departure airport before booking."
+    aside: "Car and pads are not booked. <a href=\"#rentals\">Rental plan ↓</a>: Turo October 17, 13:00 → October 24, 13:00, pickup and return in Avon. October 2 quote: €408.98 non-refundable / €440.98 refundable with age 22 and Standard protection. Train to CDG after return; airport still to confirm."
   },
   {
     day: "Sunday", date: "October 18", name: "Katherine’s birthday · Éléphant", type: "Birthday", birthday: true, open: true,
@@ -162,12 +162,12 @@ const days = [
     day: "Saturday", date: "October 24", name: "Victory lap → CDG", type: "Travel",
     events: [
       ["08:00", "Choose the closest dry sector for easy mileage or favorite unfinished moves."],
-      ["11:00", "Finish climbing, brush off the pads, and change into packed travel clothes. Arrange checkout before climbing unless late checkout is confirmed."],
-      ["12:00", "Planned <strong>pad return to the Climb Fontainebleau lockers in Arbonne</strong>, using the agreed instructions. Lunch afterward."],
-      ["14:00", "Depart for CDG at the latest. Allow up to three hours for traffic, refuelling, and finding the rental return."],
-      ["17:00", "Planned <strong>SIXT CDG car return</strong>, then airport hotel and dinner. Use the terminal and return lane on the rental confirmation."],
+      ["10:30", "Finish any short climb, brush off the pads, and change into packed travel clothes. Arrange checkout before climbing unless late checkout is confirmed. Prioritize the car-return deadline."],
+      ["11:30", "Target <strong>pad return to the Climb Fontainebleau lockers in Arbonne</strong>, using the agreed instructions. Then refuel with diesel and drive to the Avon car-return address."],
+      ["13:00", "Proposed <strong>Turo car return in Avon</strong>. Complete the app’s return steps and reach Fontainebleau–Avon station using the confirmed address."],
+      ["After", "Train toward the airport: <strong>Line R → Gare de Lyon → RER D → Gare du Nord → RER B to CDG</strong>. Check the airport branch and your terminal/hotel. <a href=\"#return-transfer\">Return map + Google Maps directions ↓</a>."],
     ],
-    aside: "The car rental spans seven days plus six hours: budget for eight rental days. Pad return is before the pickup anniversary, but confirm the supplier’s weekly billing. If using the town-shop backup, return pads by noon before its lunch closure."
+    aside: "The proposed Avon rental is exactly seven days. Pad return at 11:30 leaves a buffer before the 13:00 car return; confirm both appointments. Keep the afternoon free for rail travel and the airport hotel."
   },
   {
     day: "Sunday", date: "October 25", name: "Paris → New York", type: "Departure",
@@ -176,7 +176,7 @@ const days = [
       ["Morning", "Follow the airline’s international check-in guidance for the exact terminal."],
       ["Flight", "Climbing shoes in hand luggage; pads stay in France."],
     ],
-    aside: "This itinerary assumes CDG. If the ticket says Orly, return the car and sleep there instead."
+    aside: "This itinerary assumes CDG. If the ticket says Orly, revise the rail transfer and airport hotel; the proposed car return remains in Avon."
   }
 ];
 
@@ -224,9 +224,11 @@ const bookings = [
   ["sen-visit", "Prepare for SEN together", "Wednesday, October 14, 7:45–9:15 PM London time, after both workdays. Each complete your own first-visit waiver and bring climbing shoes. Entry paid on arrival; visit not booked.", "Climbing"],
   ["eurostar", "Eurostar to Paris — booked", "Saturday, October 17: London St Pancras 6:31 AM → Paris Gare du Nord 9:57 AM, each local time. Train 9002.", "Transport", true],
   ["flight", "Confirm the return flight", "Airport, terminal, and exact departure time for October 25.", "Critical"],
-  ["car", "Reserve SIXT Gare du Nord → CDG", "October 17, 11 AM → October 24, 5 PM; automatic estate/midsize SUV. Quote eight days including the one-way fee; check pad space, driver requirements, deposit, and cover. Not booked.", "Transport"],
+  ["car-avon", "Reserve Turo in Avon", "October 17, 13:00 → October 24, 13:00; automatic Grand C4 Picasso. Recheck age-22 price, protection and pad space. Pickup and return in Avon. Not booked.", "Transport"],
+  ["turo-pickup", "Save the exact Turo address + key instructions", "After booking, confirm the final leg from Fontainebleau–Avon station and the return location. Save the Transfers section; recheck live train times and platforms on the day.", "Transport"],
+  ["driver-documents", "Prepare driving documents + verification", "Turo requires two years with a full licence. Bring the physical licence and, for a US licence, an IDP or official French translation; complete the app’s verification checklist before travel.", "Transport"],
   ["hotel", "Book the airport night", "October 24 near the correct CDG terminal—or Orly if the ticket says so.", "Critical"],
-  ["pads", "Reserve two triple pads in Arbonne", "Climb Fontainebleau: October 17, 2 PM → October 24, noon. Listed €180 total/week; confirm availability, exact-period price, deposit, cash payment, and locker instructions. Not booked.", "Climbing"],
+  ["pads", "Reserve two triple pads in Arbonne", "Climb Fontainebleau: October 17, 14:00 → October 24, 11:30 target, ahead of the 13:00 Avon car return. Listed €180/week; confirm stock, total, deposit, cash payment and locker instructions. Not booked.", "Climbing"],
   ["laxel", "Reserve L’Axel", "Sunday, October 18 at 7:15 PM; mention Katherine’s birthday.", "Birthday"],
   ["les-coqs", "Les Coqs — booked by Katherine", "Monday, October 19, 2026 at 7:00 PM local time. 24 place du Marché, Milly-la-Forêt.", "Dinner", true],
   ["magnum", "Reserve Le Magnum", "Thursday, October 22 around 7:00 PM; mention Tony’s birthday.", "Birthday"],
@@ -403,6 +405,21 @@ menuButton.addEventListener("click", () => {
 });
 
 mobileMenu.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+
+function openTransferAnchor() {
+  if (window.location.hash === "#return-transfer") {
+    document.querySelector("#return-transfer").open = true;
+  }
+}
+
+window.addEventListener("hashchange", openTransferAnchor);
+window.addEventListener("load", async () => {
+  if (document.fonts) await document.fonts.ready;
+  const hash = window.location.hash;
+  if (hash !== "#transfers" && hash !== "#return-transfer") return;
+  openTransferAnchor();
+  document.querySelector(hash).scrollIntoView({ behavior: "instant", block: "start" });
+});
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {

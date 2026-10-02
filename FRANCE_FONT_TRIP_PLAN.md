@@ -66,30 +66,44 @@ The supplied calendar is displayed in **GMT−04**. London is on **BST (UTC+01)*
 
 ## Car and crash-pad rental plan — October 17–24
 
-**Recommended plan, not booked.** Supplier information checked **September 27, 2026**. Use France local time for all rental appointments. Exact-date stock, the car quote, and the pad supplier’s final total still need confirmation.
+**Recommended plan, not booked.** Car quotes and rail guidance checked **October 2, 2026**; pad information checked **September 27**. Use France local time for all rental appointments. Recheck the final checkout price, pad stock and appointment times before reserving.
 
 | Rental | Where | Planned pickup | Planned return | Price status |
 |---|---|---|---|---|
-| Automatic estate or midsize SUV | **[SIXT Gare du Nord](https://www.sixt.co.uk/car-hire/france/paris/paris-north-station/)** → **[SIXT CDG](https://www.sixt.com/car-rental/france/roissy/paris-cdg-airport/)** | Sat Oct 17, **11:00 AM** | Sat Oct 24, **5:00 PM** | Quote pending; budget for **eight rental days** and any one-way fee |
-| Two Peter Bouldering triple pads | **[Climb Fontainebleau](https://www.climb-fontainebleau.com/location-crash-pad)**, Arbonne-la-Forêt | Sat Oct 17, **2:00 PM** | Sat Oct 24, **noon** | Listed **€90/week each; €180 for two**, exact-period total to confirm |
+| 2012 Citroën Grand C4 Picasso automatic | **[Turo / Iftikhar](https://turo.com/us/en/minivan-rental/france/avon-77/citroen/grand-c4-picasso/2255350?endDate=10%2F24%2F2026&endTime=13%3A00&startDate=10%2F17%2F2026&startTime=13%3A00)**, pickup and return in Avon | Sat Oct 17, **1:00 PM** | Sat Oct 24, **1:00 PM** | **€408.98 non-refundable / €440.98 refundable**, age 22, taxes and Standard protection included; seven days |
+| Two Peter Bouldering triple pads | **[Climb Fontainebleau](https://www.climb-fontainebleau.com/location-crash-pad)**, Arbonne-la-Forêt | Sat Oct 17, **2:00 PM** | Sat Oct 24, **11:30 AM target** | Listed **€90/week each; €180 for two**, exact-period total to confirm |
 
-### Car: collect at the train station, return at the airport
+### Car: collect and return in Avon
 
-- **Pickup desk:** 18 rue de Dunkerque, Paris, Hall 1, level −1 near platform 3. SIXT lists Saturday hours of 7:00 AM–8:00 PM. The 11:00 AM appointment leaves about an hour after the 9:57 AM Eurostar arrival.
-- **Vehicle recommendation:** an automatic estate or midsize SUV, with folding rear seats. Ask for enough cargo space for two folded pads plus both travellers’ luggage; a category name alone does not guarantee the fit. Automatic is a planning recommendation, not a confirmed preference or reserved vehicle.
-- **Return:** SIXT Paris CDG Airport at 5:00 PM October 24, before the airport hotel night. There are Terminal 1 and 2D locations; save the return instructions for the booked branch. Confirm the October 25 airport first; use Orly instead if that is on the flight ticket.
-- **Pricing detail:** seven days plus six hours exceeds a weekly rental. SIXT’s [24-hour billing policy](https://www.sixt.fr/help-center/app/articles/SIXT-Wiki-facture/) means planning for eight rental days. Enter the real return time when quoting. [One-way availability and fees](https://www.sixt.com/rental-services/one-way-car-rental/france/) depend on the stations and vehicle.
-- Compare the complete quote, including station/airport charges, one-way fee, and any age/additional-driver charges. Check mileage allowance, cover/excess, the separate deposit hold, and driver-document/payment-card requirements. Fuel, tolls, and parking are separate. No live car price has been obtained.
-- **Backup quote:** [Europcar Gare du Nord](https://www.europcar.fr/fr-fr/places/location-voiture-france/paris/paris-gare-du-nord), also level −1 opposite platform 3, with the same dates and CDG return. Prefer the better complete quote if luggage space and terms are comparable.
+- **Pickup:** Avon, 77210. Turo supplies the exact address after booking. Save the host’s key-handoff instructions and confirm the final leg from Fontainebleau–Avon station; station pickup is not confirmed.
+- **Vehicle:** seven seats, automatic, diesel. Confirm two folded pads plus luggage fit with the rear seats down. Refuel with diesel and return tidy.
+- **Return:** Avon at **1:00 PM October 24**, then rail to CDG. The quote covers exactly seven days. Confirm the flight airport, terminal and airport hotel; if Orly, revise the rail connection after the Avon return.
+- **Price detail:** Standard protection has a €250 damage liability limit, subject to exclusions. 1,050 km included; €0.27 per additional km. Fuel, parking, rail and local transfers are extra. Prices can change before booking.
+- **Documents:** Turo requires a full licence held for two years. For a US licence, bring the physical licence plus an International Driving Permit or official French translation; complete Turo verification before travel. [Turo France requirements](https://help.turo.com/booking-a-car-france-SJgUrcDAp).
+- **Backup:** [2022 Citroën C5 X automatic in Avon](https://turo.com/us/en/car-rental/france/avon-77/citroen/c5-x/2746582?endDate=10%2F24%2F2026&endTime=13%3A00&startDate=10%2F17%2F2026&startTime=13%3A00), €437.34 non-refundable / €474.30 refundable with age 22 and Standard protection in the October 2 quote. Confirm pad space. The former SIXT Gare du Nord → CDG plan was €1,172.76 for eight days without damage/theft protection and is no longer the proposed route.
+
+### Transfer map and directions
+
+**October 17: Gare du Nord → RER D → Gare de Lyon → Line R → Fontainebleau–Avon → host’s Avon address.** The main transfer is train-to-train; the final walk, bus or taxi depends on the address provided after booking. The website has a schematic map and the following links:
+
+1. After the **9:57 AM Eurostar arrival**, follow RER D signs. Take a southbound train whose stop list includes Gare de Lyon, staying on through Châtelet–Les Halles. [Gare du Nord → Gare de Lyon in Google Maps](https://www.google.com/maps/dir/?api=1&origin=Gare+du+Nord,+Paris,+France&destination=Gare+de+Lyon,+Paris,+France&travelmode=transit).
+2. At Gare de Lyon, follow Transilien / Line R signs and choose a train explicitly stopping at Fontainebleau–Avon. Use live boards for the hall and platform. [Gare de Lyon → Fontainebleau–Avon in Google Maps](https://www.google.com/maps/dir/?api=1&origin=Gare+de+Lyon,+Paris,+France&destination=Gare+de+Fontainebleau-Avon,+Avon,+France&travelmode=transit).
+3. Reach the host’s address for the **1:00 PM proposed pickup**. No exact address or station handoff is confirmed. [Fontainebleau–Avon station pin](https://www.google.com/maps/search/?api=1&query=Gare+de+Fontainebleau-Avon,+Avon,+France).
+
+[Full outward rail journey](https://www.google.com/maps/dir/?api=1&origin=Gare+du+Nord,+Paris,+France&destination=Gare+de+Fontainebleau-Avon,+Avon,+France&travelmode=transit). Maps opens current transit options; for advance planning set “Depart at” to October 17, 2026 after the Eurostar arrival with time to reach RER D. Connections and platforms are live, and 1:00 PM is a pickup target rather than a guaranteed connection.
+
+**October 24: Avon car return → station → Line R to Gare de Lyon → RER D to Gare du Nord → RER B to CDG.** Board the Aéroport Charles de Gaulle branch and choose the airport station for the confirmed terminal/hotel. [Full return journey in Google Maps](https://www.google.com/maps/dir/?api=1&origin=Gare+de+Fontainebleau-Avon,+Avon,+France&destination=Paris+Charles+de+Gaulle+Airport,+Roissy-en-France,+France&travelmode=transit). Set October 24 and a departure after the 1:00 PM car handoff and transfer to the station. CDG is still an assumption pending the return flight details.
+
+Official service updates: [RER D](https://www.transilien.com/fr/page-lignes/ligne-d), [Line R](https://www.transilien.com/fr/page-lignes/ligne-r), [RER B](https://www.transilien.com/fr/page-lignes/ligne-b).
 
 ### Pads: Arbonne lockers, with a town-shop backup
 
 - **Address:** 359 rue de la Libération, 77630 Arbonne-la-Forêt. Climb Fontainebleau lists daily collection from 9:00 AM and locker returns. Call **+33 7 82 96 90 39** ahead for stock and access instructions; cash is requested.
 - Reserve **two triple pads** for the exact Saturday-to-Saturday times above. Confirm whether that period qualifies for the listed weekly total, plus any deposit, cancellation terms, and return procedure. The supplier has not been contacted.
 - Each pad is **100 × 50 × 30 cm folded**, opening to **100 × 150 × 10 cm**. Use these dimensions when checking the car. Select problems to suit the available landing coverage; add pads/spotters for wider or more complex landings.
-- **Backup:** [Fontainebleau Crash-Pads](https://fontainebleau-crashpads.com/), **179 rue Grande**, lists I’BBZ Triple MaxX and Black Diamond Mondo at **€90/week each**. Request pickup **October 17 at 3:00 PM** and return **October 24 by noon**, with exact-period pricing confirmed. Its [hours page](https://fontainebleau-crashpads.com/about/agencies/) differs between noon and 12:30 for the lunch closure, so plan for noon. This backup requires stopping climbing by 11:00 AM to allow time to get back to town.
+- **Backup:** [Fontainebleau Crash-Pads](https://fontainebleau-crashpads.com/), **179 rue Grande**, lists I’BBZ Triple MaxX and Black Diamond Mondo at **€90/week each**. Request pickup **October 17 at 3:00 PM** and return **October 24 around 11:30 AM**, with exact-period pricing confirmed. Its [hours page](https://fontainebleau-crashpads.com/about/agencies/) differs between noon and 12:30 for the lunch closure. Stop any short climb by 10:30 AM and leave time to refuel and reach the Avon car return by 1:00 PM.
 
-**Travel sequence:** October 17: Eurostar → car → lunch/drive → Arbonne pads → accommodation/groceries. October 24: checkout arrangements → short climb ending 11:00 AM → pads at noon → lunch → leave by 2:00 PM → refuel and return car by 5:00 PM → airport hotel. Drive windows are planning buffers, not live traffic estimates.
+**Travel sequence:** October 17: Eurostar → RER D → Line R → Avon car pickup at 1:00 PM → Arbonne pads at 2:00 PM → accommodation/groceries. October 24: checkout arrangements → optional short climb ending 10:30 AM → pads around 11:30 AM → refuel → Avon car return at 1:00 PM → rail to CDG and airport hotel. Appointments are planning targets until booked; use live routes and traffic.
 
 ## Day-by-day plan
 
@@ -161,8 +175,8 @@ The supplied calendar is displayed in **GMT−04**. London is on **BST (UTC+01)*
 ### Saturday, October 17 — London to Fontainebleau
 
 - **5:00 AM London time:** arrive at London St Pancras. The ticket recommends **5:16 AM**; the plan allows an extra buffer. Eurostar 9002 departs at **6:31 AM London time** and arrives at Paris Gare du Nord at **9:57 AM Paris time**.
-- **11:00 AM, planned:** collect the car at **SIXT Gare du Nord**, Hall 1, level −1 near platform 3. Reserve an automatic estate or midsize SUV with confirmed pad/luggage space and a **5:00 PM CDG return on October 24**; no reservation made yet.
-- **11:30 AM–2:00 PM:** drive toward Arbonne-la-Forêt, allowing for Paris traffic and lunch.
+- **After 9:57 AM:** RER D to Gare de Lyon, then Line R to Fontainebleau–Avon. Follow the transfer map and live Google Maps links above; check the stop list and platform.
+- **1:00 PM, planned:** Turo Grand C4 Picasso pickup in Avon. Get the exact address and key instructions after booking, and confirm the last leg from the station. No reservation made yet.
 - **2:00 PM, planned:** collect **two triple pads at Climb Fontainebleau**, 359 rue de la Libération, Arbonne-la-Forêt, using the prearranged locker access. Then continue to the accommodation. See the rental plan above for dimensions, payment, and the €180 listed weekly total.
 - **3:30–5:00 PM:** groceries, bakery supplies, water, tape, and a cheap clean doormat/carpet square for shoes.
 - **5:00 PM onward:** short château-garden or town walk, early dinner, and sleep. Do not squeeze in a tired first-day bouldering session.
@@ -228,13 +242,13 @@ The Château de Fontainebleau is closed Tuesday, which is why it is not the reco
 ### Saturday, October 24 — victory lap and CDG transition
 
 - Arrange checkout before climbing unless late checkout is confirmed; pack travel clothes separately.
-- **8:00–11:00 AM:** choose the closest fully dry sector and do a low-risk victory lap. Revisit favorite unfinished moves, complete an easier circuit, and avoid exhausted highball attempts.
-- **Noon, planned:** return pads to the **Climb Fontainebleau lockers in Arbonne** using the agreed instructions; lunch afterward. If using the town-shop backup, return there by noon before its lunch closure.
+- **8:00–10:30 AM, optional:** choose the closest fully dry sector for a short victory lap. Prioritize the car-return deadline.
+- **11:30 AM target:** return pads to the **Climb Fontainebleau lockers in Arbonne** using the agreed instructions, then refuel with diesel and drive to Avon. Confirm the appointment. If using the town-shop backup, use the same early target before its lunch closure.
 - Change into travel clothes; only return to the lodging for a shower if late checkout and the timing allow it.
-- **By 2:00 PM:** depart for CDG. Traffic can expand the drive considerably, so do not make a late-afternoon project plan.
-- **5:00 PM, planned:** return the car to **SIXT CDG**, with refuelling and the correct rental-return lane included in the afternoon buffer. Eat near the terminal and sleep at the airport hotel. Reserve through this time, which spans eight rental days under 24-hour billing.
+- **1:00 PM, planned:** return the Turo car in **Avon**, following the reservation’s return instructions. The proposed rental spans exactly seven days.
+- **After return:** reach Fontainebleau–Avon station, then Line R → Gare de Lyon → RER D → Gare du Nord → RER B to CDG. Follow the transfer links above; leave the afternoon free for the journey and airport hotel.
 
-If the flight is actually from Orly, use an Orly hotel and return the car there instead.
+If the flight is actually from Orly, revise the rail transfer and airport hotel; the proposed car return remains in Avon.
 
 ### Sunday, October 25 — fly to NYC
 
@@ -371,9 +385,9 @@ Do not “make up” all lost days. Skin, elbows, and wet sandstone set the sche
 ## Book-now checklist
 
 1. Confirm October 25 airport, terminal, and exact flight time.
-2. Car: obtain a SIXT Gare du Nord **October 17, 11:00 AM → CDG October 24, 5:00 PM** quote; compare Europcar. Confirm luggage capacity, eight-day pricing, one-way fee, driver requirements, cover/excess, and deposit, then reserve.
+2. Car: recheck the **Turo Avon October 17, 1:00 PM → October 24, 1:00 PM** quote with age 22. Confirm pad space, protection and driver requirements, then reserve. Complete verification and save the exact pickup/return address, key instructions and station connection. Prepare the physical licence and IDP or official French translation if using a US licence.
 3. CDG terminal hotel for October 24.
-4. Request two Climb Fontainebleau triple pads **October 17, 2:00 PM → October 24, noon**; confirm stock, the €180 listed weekly total for those times, deposit/payment, and locker code/return instructions. Use Fontainebleau Crash-Pads if unavailable.
+4. Request two Climb Fontainebleau triple pads **October 17, 2:00 PM → October 24, 11:30 AM target**; confirm stock, the €180 listed weekly total for those times, deposit/payment, and locker code/return instructions. Use Fontainebleau Crash-Pads if unavailable.
 5. L’Axel for **Sunday, October 18 at 7:15 PM**, noting Katherine’s birthday.
 6. Le Magnum for **Thursday, October 22 around 7:00 PM**, noting Tony’s birthday.
 7. Couples recovery treatment at Hôtel & Spa Napoléon for Tuesday afternoon.

@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/fontainebleau-hero.webp" type="image/webp">
-  <link rel="stylesheet" href="styles.css?v=20260927-picks">
+  <link rel="stylesheet" href="styles.css?v=20261002-transfers">
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -26,6 +26,7 @@
       <a href="#journey">The trip</a>
       <a href="#birthdays">Birthdays</a>
       <a href="#climbs">Climbs</a>
+      <a href="#transfers">Transfers</a>
       <a href="#rentals">Car + pads</a>
       <a href="#field-notes">Field notes</a>
     </nav>
@@ -37,6 +38,7 @@
       <a href="#journey">The trip</a>
       <a href="#birthdays">Birthdays</a>
       <a href="#climbs">Climbs</a>
+      <a href="#transfers">Transfers</a>
       <a href="#rentals">Car + pads</a>
       <a href="#field-notes">Field notes</a>
       <a href="#bookings">Before we go</a>
@@ -267,6 +269,58 @@
       </div>
     </section>
 
+    <section class="transfers section-pad" id="transfers" aria-labelledby="transferTitle">
+      <div class="section-shell">
+        <div class="rental-heading reveal">
+          <div>
+            <p class="eyebrow">Save for travel day · France local time</p>
+            <h2 id="transferTitle">Paris to<br><em>the forest.</em></h2>
+          </div>
+          <p>A train-to-train transfer, then the last leg to the car. Eurostar arrives at 09:57; the proposed Turo pickup is 13:00 in Avon. The car is <strong>not booked</strong> and its exact address is still pending.</p>
+        </div>
+        <div class="transfer-layout">
+          <figure class="transfer-map reveal">
+            <figcaption><span>Saturday 17 October</span><strong>The transfer map</strong><small>Schematic · not to scale</small></figcaption>
+            <ol class="rail-map">
+              <li class="rail-stop rail-d"><span class="rail-dot" aria-hidden="true"></span><h3>Paris Gare du Nord</h3><p>09:57 · Eurostar arrival</p><div class="rail-leg"><b>D</b><span>RER D · toward Gare de Lyon<br>Stay on through Châtelet–Les Halles</span></div></li>
+              <li class="rail-stop rail-r"><span class="rail-dot" aria-hidden="true"></span><h3>Paris Gare de Lyon</h3><p>Change trains inside the station</p><div class="rail-leg"><b>R</b><span>Transilien Line R<br>Check Fontainebleau–Avon is a stop</span></div></li>
+              <li class="rail-stop rail-pending"><span class="rail-dot" aria-hidden="true"></span><h3>Fontainebleau–Avon</h3><p>Your arrival station</p><div class="rail-leg"><b>?</b><span>Walk, local bus or taxi<br>Decide once the address is known</span></div></li>
+              <li class="rail-stop"><span class="rail-dot rail-dot-pending" aria-hidden="true"></span><h3>Turo pickup · Avon</h3><p>13:00 target · address after booking</p></li>
+            </ol>
+            <p class="map-key">Solid lines: planned rail route.<br>Dashed line: final connection to confirm.</p>
+          </figure>
+          <div class="transfer-steps reveal delay-1">
+            <p class="transfer-status">Train route planned · pickup not confirmed</p>
+            <ol class="transfer-instructions">
+              <li><span class="step-number">01</span><div><h3>Follow signs for RER D</h3><p>After leaving Eurostar arrivals at Gare du Nord, follow the RER signs. Board a southbound RER D train whose stop list includes <strong>Gare de Lyon</strong>. Check the live boards for the platform.</p><a class="map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Gare+du+Nord,+Paris,+France&amp;destination=Gare+de+Lyon,+Paris,+France&amp;travelmode=transit" target="_blank" rel="noreferrer">Gare du Nord → Gare de Lyon <span>↗</span></a></div></li>
+              <li><span class="step-number">02</span><div><h3>Change to Line R</h3><p>At Gare de Lyon, follow signs for <strong>Transilien / Line R</strong>. Choose a train that explicitly stops at <strong>Fontainebleau–Avon</strong>; check the departure board for its hall and platform. The planned change is within the station.</p><a class="map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Gare+de+Lyon,+Paris,+France&amp;destination=Gare+de+Fontainebleau-Avon,+Avon,+France&amp;travelmode=transit" target="_blank" rel="noreferrer">Gare de Lyon → Fontainebleau–Avon <span>↗</span></a></div></li>
+              <li><span class="step-number">03</span><div><h3>Get to the host’s address</h3><p>Turo sends the exact Avon address after booking. Save the pickup and key instructions in the app, then route from the station to that address. Station pickup and the final transport mode are <strong>not confirmed</strong>.</p><div class="rental-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Gare+de+Fontainebleau-Avon,+Avon,+France" target="_blank" rel="noreferrer">Station pin ↗</a><a href="https://turo.com/us/en/minivan-rental/france/avon-77/citroen/grand-c4-picasso/2255350?endDate=10%2F24%2F2026&amp;endTime=13%3A00&amp;startDate=10%2F17%2F2026&amp;startTime=13%3A00" target="_blank" rel="noreferrer">Turo listing ↗</a></div></div></li>
+            </ol>
+            <a class="map-link map-link-primary" href="https://www.google.com/maps/dir/?api=1&amp;origin=Gare+du+Nord,+Paris,+France&amp;destination=Gare+de+Fontainebleau-Avon,+Avon,+France&amp;travelmode=transit" target="_blank" rel="noreferrer">Open the full rail journey in Google Maps <span>↗</span></a>
+            <p class="transfer-live-note"><strong>Use live directions on the day.</strong> Maps opens public-transport options for the current time. For advance planning, set “Depart at” to October 17, 2026 after the 09:57 arrival, allowing time to leave Eurostar and reach RER D. Platforms, connections and disruptions can change; 13:00 is a pickup target, not a guaranteed connection.</p>
+          </div>
+        </div>
+        <details class="return-transfer reveal" id="return-transfer">
+          <summary><span><small>Saturday 24 October</small>Back to CDG after the car return</span><span class="return-toggle" aria-hidden="true">+</span></summary>
+          <div class="return-content">
+            <p>Return pads around <strong>11:30</strong>, refuel and return the car in <strong>Avon by 13:00</strong>, then reach Fontainebleau–Avon station. Keep any morning climb short. Pad and car appointments are planning targets until booked.</p>
+            <ol class="return-map" aria-label="Planned rail route to CDG">
+              <li><strong>Fontainebleau–Avon</strong><span>Line R → Paris</span></li><li><strong>Gare de Lyon</strong><span>RER D → Gare du Nord</span></li><li><strong>Gare du Nord</strong><span>RER B → Aéroport Charles de Gaulle</span></li><li><strong>CDG</strong><span>Then your terminal / airport hotel</span></li>
+            </ol>
+            <p>On RER B, board the <strong>Aéroport Charles de Gaulle</strong> branch and choose the airport station for your terminal or hotel. The return flight’s airport, terminal and hotel still need confirmation; these directions assume CDG.</p>
+            <div class="return-links">
+              <a class="map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Gare+de+Fontainebleau-Avon,+Avon,+France&amp;destination=Gare+de+Lyon,+Paris,+France&amp;travelmode=transit" target="_blank" rel="noreferrer">1. Avon → Gare de Lyon ↗</a>
+              <a class="map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Gare+de+Lyon,+Paris,+France&amp;destination=Gare+du+Nord,+Paris,+France&amp;travelmode=transit" target="_blank" rel="noreferrer">2. Gare de Lyon → Gare du Nord ↗</a>
+              <a class="map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Gare+du+Nord,+Paris,+France&amp;destination=Paris+Charles+de+Gaulle+Airport,+Roissy-en-France,+France&amp;travelmode=transit" target="_blank" rel="noreferrer">3. Gare du Nord → CDG ↗</a>
+            </div>
+            <a class="map-link map-link-primary" href="https://www.google.com/maps/dir/?api=1&amp;origin=Gare+de+Fontainebleau-Avon,+Avon,+France&amp;destination=Paris+Charles+de+Gaulle+Airport,+Roissy-en-France,+France&amp;travelmode=transit" target="_blank" rel="noreferrer">Full return journey in Google Maps <span>↗</span></a>
+            <p class="transfer-live-note">For advance planning, set October 24 and a departure time after the car handoff and transfer to the station. Recheck the live route before leaving.</p>
+          </div>
+        </details>
+        <p class="rental-sources">Route guidance checked October 2, 2026. Official service updates: <a href="https://www.transilien.com/fr/page-lignes/ligne-d" target="_blank" rel="noreferrer">RER D ↗</a> · <a href="https://www.transilien.com/fr/page-lignes/ligne-r" target="_blank" rel="noreferrer">Line R ↗</a> · <a href="https://www.transilien.com/fr/page-lignes/ligne-b" target="_blank" rel="noreferrer">RER B ↗</a>. Save this section and your Turo instructions before travel.</p>
+      </div>
+    </section>
+
     <section class="rentals section-pad" id="rentals" aria-labelledby="rentalTitle">
       <div class="section-shell">
         <div class="rental-heading reveal">
@@ -274,20 +328,20 @@
             <p class="eyebrow">France · October 17—24</p>
             <h2 id="rentalTitle">The car.<br>The <em>crash pads.</em></h2>
           </div>
-          <p>Collect the car after Eurostar, then pick up pads on the way to your base. Return both before the airport night. These are recommended rentals, not confirmed bookings. All times are France local time.</p>
+          <p>Take the train to Fontainebleau–Avon, collect the car locally, then pick up pads. Return the car in Avon and travel to CDG by train. These are recommended rentals, not confirmed bookings. All times are France local time. <a href="#transfers">Transfer map + directions ↑</a></p>
         </div>
         <div class="rental-grid">
           <article class="rental-card reveal">
-            <p class="rental-label">01 / Car · quote pending</p>
-            <h3>SIXT Gare du Nord → CDG</h3>
-            <p>An automatic estate or midsize SUV with folding rear seats is the recommended starting point for two people, pads, and luggage. Confirm the actual cargo space.</p>
+            <p class="rental-label">01 / Car · proposed, not booked</p>
+            <h3>Turo · collect + return in Avon</h3>
+            <p>Iftikhar’s 2012 Citroën Grand C4 Picasso: automatic, diesel, seven seats. Confirm room for two folded pads and luggage with the rear seats down.</p>
             <dl class="rental-facts">
-              <div><dt>Pick up</dt><dd><strong>Sat Oct 17 · 11:00</strong><br>18 rue de Dunkerque, Paris. Hall 1, level −1, near platform 3. Saturday desk hours: 07:00–20:00.</dd></div>
-              <div><dt>Return</dt><dd><strong>Sat Oct 24 · 17:00</strong><br>SIXT Paris CDG Airport. Terminal 1 / 2D locations; follow the terminal instructions on your reservation.</dd></div>
-              <div><dt>Quote for</dt><dd><strong>Eight rental days + one-way return</strong><br>The planned period is seven days and six hours. Compare the total price, mileage allowance, cover/excess, driver fees, and the separate deposit hold.</dd></div>
+              <div><dt>Pick up</dt><dd><strong>Sat Oct 17 · 13:00</strong><br>Avon, 77210. Exact address is supplied after booking. Save the host’s key-handoff instructions; station pickup is not confirmed.</dd></div>
+              <div><dt>Return</dt><dd><strong>Sat Oct 24 · 13:00</strong><br>Avon, following the reservation’s return instructions. Then train to CDG via Paris.</dd></div>
+              <div><dt>Quote</dt><dd><strong>€408.98 non-refundable / €440.98 refundable</strong><br>Seven days, age 22 entered, taxes and Standard protection included. €250 damage liability limit, subject to exclusions. 1,050 km included; €0.27 per extra km. Quote checked October 2; recheck at checkout.</dd></div>
             </dl>
-            <p class="rental-note">Confirm the October 25 flight is from CDG before reserving. Price and vehicle availability for these dates have not been checked in a booking quote.</p>
-            <div class="rental-links"><a href="https://www.sixt.co.uk/car-hire/france/paris/paris-north-station/" target="_blank" rel="noreferrer">Pickup branch / booking ↗</a><a href="https://www.sixt.com/car-rental/france/roissy/paris-cdg-airport/" target="_blank" rel="noreferrer">CDG return ↗</a></div>
+            <p class="rental-note">Complete Turo verification before travel. Bring your physical licence and, for a US licence, an International Driving Permit or official French translation. Turo requires at least two years with a full licence. Refuel with diesel and return the car tidy.</p>
+            <div class="rental-links"><a href="https://turo.com/us/en/minivan-rental/france/avon-77/citroen/grand-c4-picasso/2255350?endDate=10%2F24%2F2026&amp;endTime=13%3A00&amp;startDate=10%2F17%2F2026&amp;startTime=13%3A00" target="_blank" rel="noreferrer">Turo listing + dates ↗</a><a href="https://help.turo.com/booking-a-car-france-SJgUrcDAp" target="_blank" rel="noreferrer">Driver requirements ↗</a></div>
           </article>
           <article class="rental-card reveal delay-1">
             <p class="rental-label">02 / Pads · €180 listed weekly total</p>
@@ -295,19 +349,19 @@
             <p>Reserve two Peter Bouldering triple pads. The Arbonne lockers fit the arrival route and avoid a shop lunch closure on the final Saturday.</p>
             <dl class="rental-facts">
               <div><dt>Pick up</dt><dd><strong>Sat Oct 17 · 14:00</strong><br>359 rue de la Libération, 77630 Arbonne-la-Forêt. Daily pickup from 09:00; arrange access beforehand.</dd></div>
-              <div><dt>Return</dt><dd><strong>Sat Oct 24 · 12:00</strong><br>Same lockers, using the agreed return instructions. Then lunch and depart for CDG by 14:00.</dd></div>
+              <div><dt>Return</dt><dd><strong>Sat Oct 24 · 11:30 target</strong><br>Same lockers, using the agreed return instructions. Allow time to refuel and reach the Avon car return by 13:00.</dd></div>
               <div><dt>Size + cost</dt><dd><strong>€90 per pad / week · two = €180</strong><br>Each is 100 × 150 × 10 cm open; 100 × 50 × 30 cm folded. Check two folded pads plus luggage fit the car.</dd></div>
             </dl>
             <p class="rental-note">Call ahead for availability and the locker code. Cash is requested. Confirm the exact-period total, deposit, and cancellation terms. Add coverage as needed for each landing.</p>
-            <div class="rental-links"><a href="https://www.climb-fontainebleau.com/location-crash-pad" target="_blank" rel="noreferrer">Pad rental details ↗</a><a href="tel:+33782969039">Call +33 7 82 96 90 39</a></div>
+            <div class="rental-links"><a href="https://www.climb-fontainebleau.com/location-crash-pad" target="_blank" rel="noreferrer">Pad rental details ↗</a><a href="https://www.google.com/maps/dir/?api=1&amp;destination=359+rue+de+la+Liberation,+77630+Arbonne-la-Foret,+France&amp;travelmode=driving" target="_blank" rel="noreferrer">Drive to the pad lockers ↗</a><a href="tel:+33782969039">Call +33 7 82 96 90 39</a></div>
           </article>
         </div>
         <details class="rental-backups reveal">
           <summary>If the first choices are unavailable</summary>
-          <p><strong>Car:</strong> <a href="https://www.europcar.fr/fr-fr/places/location-voiture-france/paris/paris-gare-du-nord" target="_blank" rel="noreferrer">Europcar Gare du Nord ↗</a> is also on level −1 opposite platform 3. Compare the same October 17, 11:00 → October 24, 17:00 one-way CDG booking and luggage capacity.</p>
-          <p><strong>Pads:</strong> <a href="https://fontainebleau-crashpads.com/" target="_blank" rel="noreferrer">Fontainebleau Crash-Pads ↗</a>, 179 rue Grande, lists I’BBZ Triple MaxX and Black Diamond Mondo at €90/week each. Plan pickup October 17 at 15:00 and return October 24 by noon. Its <a href="https://fontainebleau-crashpads.com/about/agencies/" target="_blank" rel="noreferrer">hours page ↗</a> varies between noon and 12:30 for lunch closure, so use noon and confirm. Availability and the exact-period total remain to be checked.</p>
+          <p><strong>Car:</strong> <a href="https://turo.com/us/en/car-rental/france/avon-77/citroen/c5-x/2746582?endDate=10%2F24%2F2026&amp;endTime=13%3A00&amp;startDate=10%2F17%2F2026&amp;startTime=13%3A00" target="_blank" rel="noreferrer">2022 Citroën C5 X automatic in Avon ↗</a>: October 2 quote of €437.34 non-refundable / €474.30 refundable with age 22 and Standard protection. Confirm pad space. The earlier SIXT Gare du Nord → CDG option was €1,172.76 for eight days without damage/theft protection; it is no longer the proposed route.</p>
+          <p><strong>Pads:</strong> <a href="https://fontainebleau-crashpads.com/" target="_blank" rel="noreferrer">Fontainebleau Crash-Pads ↗</a>, 179 rue Grande, lists I’BBZ Triple MaxX and Black Diamond Mondo at €90/week each. Plan pickup October 17 at 15:00 and return October 24 around 11:30, ahead of the 13:00 Avon car return. Its <a href="https://fontainebleau-crashpads.com/about/agencies/" target="_blank" rel="noreferrer">hours page ↗</a> varies between noon and 12:30 for lunch closure. Confirm the appointments, availability and exact-period total.</p>
         </details>
-        <p class="rental-sources">Supplier information checked September 27, 2026. <a href="https://www.sixt.fr/help-center/app/articles/SIXT-Wiki-facture/" target="_blank" rel="noreferrer">SIXT bills in 24-hour periods ↗</a>; <a href="https://www.sixt.com/rental-services/one-way-car-rental/france/" target="_blank" rel="noreferrer">one-way fees depend on the booking ↗</a>. Fuel, tolls, and parking are separate from the rental comparison.</p>
+        <p class="rental-sources">Car quotes checked October 2, 2026; pad supplier information checked September 27. Fuel, rail fares, local transfers, tolls and parking are separate. Confirm stock, the final checkout price and all pickup appointments before travel.</p>
       </div>
     </section>
 
@@ -353,6 +407,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20260927-picks-v3"></script>
+  <script src="app.js?v=20261002-transfers"></script>
 </body>
 </html>
