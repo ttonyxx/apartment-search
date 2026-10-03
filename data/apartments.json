@@ -174544,14 +174544,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7247,
       "lon": -122.4403,
       "notes": "From Craigslist · posted Oct 3, 6:57 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-03T12:20:44.681Z"
+      "added_at": "2026-10-03T12:20:44.681Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-03T23:37:15.515Z"
     },
     {
       "id": "cl_7977149706",
@@ -174917,14 +174919,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7247,
       "lon": -122.4403,
       "notes": "From Craigslist · posted Oct 3, 3:13 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-03T17:05:48.416Z"
+      "added_at": "2026-10-03T17:05:48.416Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-03T23:37:15.515Z"
     },
     {
       "id": "cl_7977206274",
@@ -175104,6 +175108,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-03T20:48:16.090Z"
+    },
+    {
+      "id": "cl_7977540849",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/daly-city-luxury-living-in-excelsior/7977540849.html",
+      "address": "Luxury Living in Excelsior – 4bed 2ba with parking, close to BART",
+      "neighborhood": "City Of San Francisco",
+      "price": 4988,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1700,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7109,
+      "lon": -122.4495,
+      "notes": "From Craigslist · posted Oct 3, 9:50 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-03T23:37:15.515Z"
     }
   ]
 }
