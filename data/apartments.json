@@ -171516,14 +171516,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.768,
       "lon": -122.393,
       "notes": "From Craigslist · posted Sep 30, 11:58 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-01T01:55:07.373Z"
+      "added_at": "2026-10-01T01:55:07.373Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-05T00:34:30.558Z"
     },
     {
       "id": "cl_7975923768",
@@ -172167,14 +172169,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.768,
       "lon": -122.393,
       "notes": "From Craigslist · posted Oct 1, 11:17 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-02T01:25:54.301Z"
+      "added_at": "2026-10-02T01:25:54.301Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-05T00:34:30.558Z"
     },
     {
       "id": "cl_7976397327",
@@ -174749,7 +174753,7 @@
       "bathrooms": 2,
       "sqft": 1500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7465546,
       "lon": -122.4939712,
@@ -174757,7 +174761,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-10-03T12:20:44.681Z"
+      "added_at": "2026-10-03T12:20:44.681Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-05T00:34:30.558Z"
     },
     {
       "id": "rf_180600709",
@@ -175559,14 +175565,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8023,
       "lon": -122.4242,
       "notes": "From Craigslist · posted Oct 4, 5:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-04T21:03:55.654Z"
+      "added_at": "2026-10-04T21:03:55.654Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-05T00:34:30.558Z"
     },
     {
       "id": "cl_7977905955",
@@ -175597,7 +175605,7 @@
       "bathrooms": 1,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7218862,
       "lon": -122.4026173,
@@ -175605,7 +175613,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-10-04T21:03:55.654Z"
+      "added_at": "2026-10-04T21:03:55.654Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-05T00:34:30.558Z"
     }
   ]
 }
