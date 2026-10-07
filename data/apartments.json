@@ -175824,7 +175824,7 @@
       "bathrooms": 2,
       "sqft": 992,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7169939,
       "lon": -122.4584479,
@@ -175832,7 +175832,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-10-05T15:42:14.511Z"
+      "added_at": "2026-10-05T15:42:14.511Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-07T16:12:38.624Z"
     },
     {
       "id": "rf_206090001",
@@ -175844,7 +175846,7 @@
       "bathrooms": 3,
       "sqft": 1276,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.716765,
       "lon": -122.4584671,
@@ -175852,7 +175854,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-10-05T15:42:14.511Z"
+      "added_at": "2026-10-05T15:42:14.511Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-07T16:12:38.624Z"
     },
     {
       "id": "rf_206091290",
@@ -175864,7 +175868,7 @@
       "bathrooms": 2,
       "sqft": 1225,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7317916,
       "lon": -122.4423629,
@@ -175872,7 +175876,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-10-05T15:42:14.511Z"
+      "added_at": "2026-10-05T15:42:14.511Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-07T16:12:38.624Z"
     },
     {
       "id": "rf_1962937",
@@ -175904,7 +175910,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.784369,
       "lon": -122.441227,
@@ -175912,7 +175918,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-10-05T15:42:14.511Z"
+      "added_at": "2026-10-05T15:42:14.511Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-07T16:12:38.624Z"
     },
     {
       "id": "cl_7978497612",
@@ -177244,14 +177252,56 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7247,
       "lon": -122.4403,
       "notes": "From Craigslist · posted Oct 7, 5:51 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-07T08:20:34.994Z"
+      "added_at": "2026-10-07T08:20:34.994Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-07T16:12:38.624Z"
+    },
+    {
+      "id": "rf_1861355",
+      "url": "https://www.redfin.com/CA/San-Francisco/291-Capistrano-Ave-94112/home/1861355",
+      "address": "291 Capistrano Ave",
+      "neighborhood": "",
+      "price": 3650,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1078,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7267275,
+      "lon": -122.4379474,
+      "notes": "From Redfin · updated Oct 7, 4:03 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-10-07T16:12:38.624Z"
+    },
+    {
+      "id": "rf_206122486",
+      "url": "https://www.redfin.com/CA/San-Francisco/436-Clementina-St-94103/unit-403/home/206122486",
+      "address": "436 Clementina St Apt 403",
+      "neighborhood": "",
+      "price": 3795,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.780115,
+      "lon": -122.404948,
+      "notes": "From Redfin · updated Oct 7, 1:44 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-10-07T16:12:38.624Z"
     }
   ]
 }
