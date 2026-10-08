@@ -177450,6 +177450,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-10-07T21:49:14.236Z"
+    },
+    {
+      "id": "cl_7979810046",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-breathtaking-views/7979810046.html",
+      "address": "BREATHTAKING Views & UNBEATABLE Convenience – San Francisco!",
+      "neighborhood": "Mission District",
+      "price": 2580,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 842,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7569,
+      "lon": -122.4206,
+      "notes": "From Craigslist · posted Oct 8, 12:18 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-08T01:37:55.455Z"
+    },
+    {
+      "id": "cl_7979760084",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beach-view-room-for-rent/7979760084.html",
+      "address": "Beach view room for rent in Presidio - $1,300",
+      "neighborhood": "Presidio Of San Francisco",
+      "price": 1300,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7914,
+      "lon": -122.4791,
+      "notes": "From Craigslist · posted Oct 7, 10:18 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-08T01:37:55.455Z"
     }
   ]
 }
