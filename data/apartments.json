@@ -169969,14 +169969,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7315,
       "lon": -122.4489,
       "notes": "From Craigslist · posted Sep 30, 5:03 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-30T06:26:38.538Z"
+      "added_at": "2026-09-30T06:26:38.538Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-10T22:19:49.880Z"
     },
     {
       "id": "cl_7975244889",
@@ -179793,14 +179795,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7936,
       "lon": -122.4129,
       "notes": "From Craigslist · posted Oct 10, 6:01 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-10T18:19:59.844Z"
+      "added_at": "2026-10-10T18:19:59.844Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-10T22:19:49.880Z"
     },
     {
       "id": "rf_1898274",
@@ -179821,6 +179825,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-10-10T18:19:59.844Z"
+    },
+    {
+      "id": "cl_7981379562",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-charming-noe-valley-flat/7981379562.html",
+      "address": "Charming Noe Valley Flat with Updated Kitchen & In-Unit Laundry",
+      "neighborhood": "Noe Valley",
+      "price": 3495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1000,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7587,
+      "lon": -122.433,
+      "notes": "From Craigslist · posted Oct 10, 7:45 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-10T22:19:49.880Z"
     }
   ]
 }
