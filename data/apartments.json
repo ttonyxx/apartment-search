@@ -179657,6 +179657,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-09T20:45:46.419Z"
+    },
+    {
+      "id": "cl_7981065111",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-unit-in/7981065111.html",
+      "address": "Top floor unit in beautiful bldg hardwood laundry backyard FREE applic",
+      "neighborhood": "Lower Pac Hts",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 750,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7846,
+      "lon": -122.4451,
+      "notes": "From Craigslist · posted Oct 10, 5:21 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-10T06:49:30.032Z"
     }
   ]
 }
