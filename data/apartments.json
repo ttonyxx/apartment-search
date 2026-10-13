@@ -181400,7 +181400,7 @@
       "bathrooms": 1.5,
       "sqft": 1150,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7293451,
       "lon": -122.3719977,
@@ -181408,7 +181408,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-10-12T17:34:46.224Z"
+      "added_at": "2026-10-12T17:34:46.224Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-13T07:30:30.499Z"
     },
     {
       "id": "rf_1278974",
@@ -181440,14 +181442,16 @@
       "bathrooms": null,
       "sqft": 1615,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7464,
       "lon": -122.415,
       "notes": "From Craigslist · posted Oct 12, 5:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-13T00:22:12.461Z"
+      "added_at": "2026-10-13T00:22:12.461Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-13T07:30:30.499Z"
     },
     {
       "id": "cl_7982317998",
@@ -181478,14 +181482,16 @@
       "bathrooms": null,
       "sqft": 802,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7929,
       "lon": -122.4079,
       "notes": "From Craigslist · posted Oct 12, 9:09 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-13T00:22:12.461Z"
+      "added_at": "2026-10-13T00:22:12.461Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-13T07:30:30.499Z"
     },
     {
       "id": "cl_7982565306",
@@ -181562,6 +181568,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-13T00:22:12.461Z"
+    },
+    {
+      "id": "cl_7982635716",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bed-room-apartment/7982635716.html",
+      "address": "2 bed room apartment   ( showing on 10/17/26 @ 11:00am - 12:00pm)",
+      "neighborhood": "Bayview",
+      "price": 3500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7387,
+      "lon": -122.3893,
+      "notes": "From Craigslist · posted Oct 13, 4:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-13T07:30:30.499Z"
+    },
+    {
+      "id": "cl_7982248011",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-5pm/7982248011.html",
+      "address": "OPEN TUE 5pm-5:30pm.Spacious 3-2BR,Pet Friendly,W/D(2011 Sacramento#1)",
+      "neighborhood": "Pacific Heights",
+      "price": 5950,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7909,
+      "lon": -122.426,
+      "notes": "From Craigslist · posted Oct 12, 4:29 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-13T07:30:30.499Z"
+    },
+    {
+      "id": "cl_7982245689",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue/7982245689.html",
+      "address": "OPEN TUE 6:50-7:20pm.Spacious,Deck,Yard,Laundry,Pkg(730 San Jose Ave)",
+      "neighborhood": "Bernal Heights",
+      "price": 5995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7434,
+      "lon": -122.4229,
+      "notes": "From Craigslist · posted Oct 12, 4:26 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-13T07:30:30.499Z"
     }
   ]
 }
