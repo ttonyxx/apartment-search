@@ -185370,14 +185370,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7712,
       "lon": -122.4413,
       "notes": "From Craigslist · posted Oct 18, 4:37 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-18T05:34:00.413Z"
+      "added_at": "2026-10-18T05:34:00.413Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-18T22:53:24.814Z"
     },
     {
       "id": "cl_7985517018",
@@ -185912,14 +185914,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7941,
       "lon": -122.4147,
       "notes": "From Craigslist · posted Oct 18, 4:10 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-18T17:54:20.049Z"
+      "added_at": "2026-10-18T17:54:20.049Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-18T22:53:24.814Z"
     },
     {
       "id": "cl_7985627046",
@@ -186007,14 +186011,16 @@
       "bathrooms": null,
       "sqft": 1935,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7503,
       "lon": -122.4375,
       "notes": "From Craigslist · posted Oct 18, 7:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-18T20:20:45.827Z"
+      "added_at": "2026-10-18T20:20:45.827Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-18T22:53:24.814Z"
     },
     {
       "id": "cl_7985790207",
@@ -186064,14 +186070,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7466,
       "lon": -122.4325,
       "notes": "From Craigslist · posted Oct 18, 6:34 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-18T20:20:45.827Z"
+      "added_at": "2026-10-18T20:20:45.827Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-18T22:53:24.814Z"
     },
     {
       "id": "cl_7985786352",
@@ -186129,6 +186137,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-18T20:20:45.827Z"
+    },
+    {
+      "id": "cl_7985855415",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedroom-bath-home-offers/7985855415.html",
+      "address": "2 bedroom, 1 bath home offers comfortable living above a spacious garage\n",
+      "neighborhood": "San Francisco",
+      "price": 3550,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "notes": "From Craigslist · posted Oct 18, 10:10 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-18T22:53:24.814Z"
+    },
+    {
+      "id": "cl_7985630784",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-tue-630pm-645pmtop/7985630784.html",
+      "address": "OPEN TUE 6:30pm-6:45pm.Top Floor,Laundry (42 1/2 Via Ferlinghetti)",
+      "neighborhood": "North Beach / Telegraph Hill",
+      "price": 3695,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.8004,
+      "lon": -122.4088,
+      "notes": "From Craigslist · posted Oct 18, 2:32 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-18T22:53:24.814Z"
     }
   ]
 }
