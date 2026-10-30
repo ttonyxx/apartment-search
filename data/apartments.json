@@ -169578,14 +169578,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7622,
       "lon": -122.4859,
       "notes": "From Craigslist · posted Sep 29, 10:23 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-09-30T00:10:58.249Z"
+      "added_at": "2026-09-30T00:10:58.249Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-30T05:02:33.437Z"
     },
     {
       "id": "cl_7975124529",
@@ -184166,14 +184168,16 @@
       "bathrooms": null,
       "sqft": 800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7541,
       "lon": -122.4808,
       "notes": "From Craigslist · posted Oct 16, 6:59 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-16T20:43:16.892Z"
+      "added_at": "2026-10-16T20:43:16.892Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-30T05:02:33.437Z"
     },
     {
       "id": "cl_7984752048",
@@ -187165,14 +187169,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.775,
       "lon": -122.4378,
       "notes": "From Craigslist · posted Oct 19, 9:12 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-19T23:28:07.282Z"
+      "added_at": "2026-10-19T23:28:07.282Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-30T05:02:33.437Z"
     },
     {
       "id": "cl_7986567528",
@@ -194840,14 +194846,16 @@
       "bathrooms": null,
       "sqft": 1149,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7861,
       "lon": -122.441,
       "notes": "From Craigslist · posted Oct 29, 10:54 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-29T23:08:29.361Z"
+      "added_at": "2026-10-29T23:08:29.361Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-10-30T05:02:33.437Z"
     },
     {
       "id": "cl_7992123987",
@@ -194943,6 +194951,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-10-29T23:08:29.361Z"
+    },
+    {
+      "id": "cl_7992138831",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-converted-prime-condo/7992138831.html",
+      "address": "Converted prime condo featuring In-unit washer dryer and 1 car parking",
+      "neighborhood": "Inner Richmond",
+      "price": 3700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1322,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7828,
+      "lon": -122.467,
+      "notes": "From Craigslist · posted Oct 29, 11:08 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-30T05:02:33.437Z"
+    },
+    {
+      "id": "cl_7992135201",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2bd-2ba-inner-richmond/7992135201.html",
+      "address": "2BD/2BA Inner Richmond condo, Boasting an unbeatable location",
+      "neighborhood": "Inner Richmond",
+      "price": 4240,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1217,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7813,
+      "lon": -122.4589,
+      "notes": "From Craigslist · posted Oct 29, 11:08 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-10-30T05:02:33.437Z"
     }
   ]
 }
