@@ -188345,14 +188345,16 @@
       "bathrooms": null,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7195,
       "lon": -122.4411,
       "notes": "From Craigslist · posted Oct 21, 6:31 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-21T09:17:22.468Z"
+      "added_at": "2026-10-21T09:17:22.468Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-02T02:11:48.994Z"
     },
     {
       "id": "cl_7987187850",
@@ -194671,14 +194673,16 @@
       "bathrooms": null,
       "sqft": 791,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7775,
       "lon": -122.418,
       "notes": "From Craigslist · posted Oct 29, 5:47 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-29T18:50:48.826Z"
+      "added_at": "2026-10-29T18:50:48.826Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-02T02:11:48.994Z"
     },
     {
       "id": "cl_7991993478",
@@ -195296,14 +195300,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7832,
       "lon": -122.4327,
       "notes": "From Craigslist · posted Oct 30, 10:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-30T22:50:59.868Z"
+      "added_at": "2026-10-30T22:50:59.868Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-02T02:11:48.994Z"
     },
     {
       "id": "cl_7992654180",
@@ -197077,14 +197083,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7812,
       "lon": -122.4614,
       "notes": "From Craigslist · posted Nov 1, 9:47 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-01T22:37:42.609Z"
+      "added_at": "2026-11-01T22:37:42.609Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-02T02:11:48.994Z"
     },
     {
       "id": "cl_7993649142",
@@ -197096,14 +197104,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7749,
       "lon": -122.4194,
       "notes": "From Craigslist · posted Nov 1, 9:35 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-01T22:37:42.609Z"
+      "added_at": "2026-11-01T22:37:42.609Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-02T02:11:48.994Z"
     },
     {
       "id": "cl_7993634268",
@@ -197123,6 +197133,63 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-01T22:37:42.609Z"
+    },
+    {
+      "id": "cl_7993766079",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-peaceful-place-to-call/7993766079.html",
+      "address": "A PEACEFUL PLACE TO CALL HOME",
+      "neighborhood": "San Francisco",
+      "price": 900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 700,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7619,
+      "lon": -122.464,
+      "notes": "From Craigslist · posted Nov 2, 2:10 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-02T02:11:48.994Z"
+    },
+    {
+      "id": "cl_7993744005",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-garage-and-basement-314/7993744005.html",
+      "address": "garage and basement. 314 Lily St",
+      "neighborhood": "San Francisco, CA",
+      "price": 3660,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 987,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7813,
+      "lon": -122.4167,
+      "notes": "From Craigslist · posted Nov 2, 1:07 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-02T02:11:48.994Z"
+    },
+    {
+      "id": "cl_7993753314",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-weeks-free-2x1perfect-if/7993753314.html",
+      "address": "3 WEEKS FREE! 2x1*Perfect if Looking for 2nd Room as Work/Office Space",
+      "neighborhood": "Hayes Valley",
+      "price": 4485,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 4485,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7775,
+      "lon": -122.418,
+      "notes": "From Craigslist · posted Nov 2, 1:09 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-02T02:11:48.994Z"
     }
   ]
 }
