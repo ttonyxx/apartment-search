@@ -42549,7 +42549,7 @@
       "bathrooms": 2,
       "sqft": 798,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7739854,
       "lon": -122.4134109,
@@ -42557,7 +42557,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-07-03T17:36:57.753Z"
+      "added_at": "2026-07-03T17:36:57.753Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T10:36:07.416Z"
     },
     {
       "id": "rf_1374264",
@@ -108778,7 +108780,7 @@
       "bathrooms": 1,
       "sqft": 288,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7921504,
       "lon": -122.4144059,
@@ -108786,7 +108788,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-08-14T19:05:02.797Z"
+      "added_at": "2026-08-14T19:05:02.797Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T10:36:07.416Z"
     },
     {
       "id": "cl_7953574660",
@@ -194584,14 +194588,16 @@
       "bathrooms": null,
       "sqft": 1375,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7537,
       "lon": -122.4947,
       "notes": "From Craigslist · posted Oct 29, 5:27 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-29T12:34:43.468Z"
+      "added_at": "2026-10-29T12:34:43.468Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T10:36:07.416Z"
     },
     {
       "id": "cl_7991716311",
@@ -195903,14 +195909,16 @@
       "bathrooms": null,
       "sqft": 821,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7753,
       "lon": -122.4159,
       "notes": "From Craigslist · posted Oct 31, 4:07 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-31T09:24:40.907Z"
+      "added_at": "2026-10-31T09:24:40.907Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T10:36:07.416Z"
     },
     {
       "id": "cl_7992825696",
@@ -196757,7 +196765,7 @@
       "bathrooms": 2.5,
       "sqft": 1259,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7242091,
       "lon": -122.4195142,
@@ -196765,7 +196773,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-01T05:14:47.083Z"
+      "added_at": "2026-11-01T05:14:47.083Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T10:36:07.416Z"
     },
     {
       "id": "cl_7993332336",
@@ -197611,7 +197621,7 @@
       "bathrooms": 2,
       "sqft": 1367,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7528714,
       "lon": -122.4161472,
@@ -197619,7 +197629,69 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-03T02:48:33.072Z"
+      "added_at": "2026-11-03T02:48:33.072Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-03T10:36:07.416Z"
+    },
+    {
+      "id": "rf_1254014",
+      "url": "https://www.redfin.com/CA/San-Francisco/2267-42nd-Ave-94116/home/1254014",
+      "address": "2267 42nd Ave",
+      "neighborhood": "",
+      "price": 7500,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 1547,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7444532,
+      "lon": -122.5007397,
+      "notes": "From Redfin · updated Nov 3, 9:14 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-03T10:36:07.416Z"
+    },
+    {
+      "id": "rf_1883689",
+      "url": "https://www.redfin.com/CA/San-Francisco/1347-23rd-Ave-94122/home/1883689",
+      "address": "1347 23rd Ave",
+      "neighborhood": "",
+      "price": 8150,
+      "bedrooms": 4,
+      "bathrooms": 1.5,
+      "sqft": 2100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7624769,
+      "lon": -122.4816048,
+      "notes": "From Redfin · updated Nov 3, 10:10 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-03T10:36:07.416Z"
+    },
+    {
+      "id": "rf_206798455",
+      "url": "https://www.redfin.com/CA/San-Francisco/1275-Washington-St-94108/unit-11/home/206798455",
+      "address": "1275 Washington St Apt 11",
+      "neighborhood": "",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 900,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7940202,
+      "lon": -122.4141993,
+      "notes": "From Redfin · updated Nov 3, 5:53 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-03T10:36:07.416Z"
     }
   ]
 }
