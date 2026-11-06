@@ -189505,14 +189505,16 @@
       "bathrooms": null,
       "sqft": 1100,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7603,
       "lon": -122.5081,
       "notes": "From Craigslist · posted Oct 22, 7:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-22T19:08:22.947Z"
+      "added_at": "2026-10-22T19:08:22.947Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-05T23:58:05.384Z"
     },
     {
       "id": "cl_7987999368",
@@ -192515,14 +192517,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.762,
       "lon": -122.483,
       "notes": "From Craigslist · posted Oct 25, 7:22 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-25T21:32:28.728Z"
+      "added_at": "2026-10-25T21:32:28.728Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-05T23:58:05.384Z"
     },
     {
       "id": "cl_7989861819",
@@ -193326,14 +193330,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.762,
       "lon": -122.483,
       "notes": "From Craigslist · posted Oct 26, 10:27 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-27T01:53:35.126Z"
+      "added_at": "2026-10-27T01:53:35.126Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-05T23:58:05.384Z"
     },
     {
       "id": "cl_7990201998",
@@ -196987,14 +196993,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.762,
       "lon": -122.483,
       "notes": "From Craigslist · posted Nov 1, 5:40 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-01T18:18:41.875Z"
+      "added_at": "2026-11-01T18:18:41.875Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-05T23:58:05.384Z"
     },
     {
       "id": "cl_7993431777",
@@ -197382,14 +197390,16 @@
       "bathrooms": null,
       "sqft": 911,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7753,
       "lon": -122.4159,
       "notes": "From Craigslist · posted Nov 2, 7:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-02T20:39:41.863Z"
+      "added_at": "2026-11-02T20:39:41.863Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-05T23:58:05.384Z"
     },
     {
       "id": "cl_7994046573",
@@ -199093,6 +199103,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-11-05T18:34:42.095Z"
+    },
+    {
+      "id": "cl_7995941244",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedroom-bath-sunny/7995941244.html",
+      "address": "2 Bedroom 1 Bath Sunny Apartment In Lake Street Neighborhood",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 4000,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7844,
+      "lon": -122.484,
+      "notes": "From Craigslist · posted Nov 5, 11:09 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-05T23:58:05.384Z"
+    },
+    {
+      "id": "cl_7995369132",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-must-see-modern-large-bed/7995369132.html",
+      "address": "Must-See Modern, Large 2 Bed 1 Bath in Quiet Building",
+      "neighborhood": "Inner Richmond",
+      "price": 4495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.781,
+      "lon": -122.5061,
+      "notes": "From Craigslist · posted Nov 4, 11:22 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-05T23:58:05.384Z"
     }
   ]
 }
