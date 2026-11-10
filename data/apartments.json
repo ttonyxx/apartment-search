@@ -201705,7 +201705,7 @@
       "bathrooms": 2,
       "sqft": 1450,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7365462,
       "lon": -122.4229904,
@@ -201713,7 +201713,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-09T07:45:34.726Z"
+      "added_at": "2026-11-09T07:45:34.726Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-10T09:29:14.288Z"
     },
     {
       "id": "cl_7997716035",
@@ -201888,14 +201890,16 @@
       "bathrooms": null,
       "sqft": 1200,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7544,
       "lon": -122.4065,
       "notes": "From Craigslist · posted Nov 9, 6:45 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-10T01:55:18.742Z"
+      "added_at": "2026-11-10T01:55:18.742Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-10T09:29:14.288Z"
     },
     {
       "id": "cl_7997989230",
@@ -202048,6 +202052,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-10T01:55:18.742Z"
+    },
+    {
+      "id": "cl_7998187725",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-gorgeous/7998187725.html",
+      "address": "Spacious 2 Bedroom w/ Gorgeous views of Downtown SF!",
+      "neighborhood": "North Beach / Telegraph Hill",
+      "price": 3700,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7907,
+      "lon": -122.4123,
+      "notes": "From Craigslist · posted Nov 10, 6:04 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-10T09:29:14.288Z"
+    },
+    {
+      "id": "cl_7998199908",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-gorgeous/7998199908.html",
+      "address": "Spacious 2 Bedroom w/ Gorgeous views of Downtown SF!",
+      "neighborhood": "Nob Hill",
+      "price": 3900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7949,
+      "lon": -122.4156,
+      "notes": "From Craigslist · posted Nov 10, 8:04 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-10T09:29:14.288Z"
     }
   ]
 }
