@@ -201870,7 +201870,7 @@
       "bathrooms": 2,
       "sqft": 1251,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7277601,
       "lon": -122.3695241,
@@ -201878,7 +201878,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-09T18:30:57.244Z"
+      "added_at": "2026-11-09T18:30:57.244Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-10T17:33:58.397Z"
     },
     {
       "id": "cl_7997867145",
@@ -202090,6 +202092,45 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-10T09:29:14.288Z"
+    },
+    {
+      "id": "cl_7998212694",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom-gorgeous/7998212694.html",
+      "address": "Spacious 2 Bedroom w/ Gorgeous views of Downtown SF!",
+      "neighborhood": "Nob Hill",
+      "price": 3900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7944,
+      "lon": -122.4197,
+      "notes": "From Craigslist · posted Nov 10, 10:26 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-10T17:33:58.397Z"
+    },
+    {
+      "id": "rf_1391969",
+      "url": "https://www.redfin.com/CA/San-Francisco/645-Stockton-St-94108/apartment/1391969",
+      "address": "645 Stockton St",
+      "neighborhood": "",
+      "price": 4500,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 566,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7918316,
+      "lon": -122.4077119,
+      "notes": "From Redfin · 1–2bd · updated Nov 10, 2:58 PM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-10T17:33:58.397Z"
     }
   ]
 }
