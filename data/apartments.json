@@ -202939,7 +202939,7 @@
       "bathrooms": 2.5,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7888453,
       "lon": -122.4239615,
@@ -202947,7 +202947,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-12T01:23:28.556Z"
+      "added_at": "2026-11-12T01:23:28.556Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T14:17:00.472Z"
     },
     {
       "id": "cl_7999293087",
@@ -202999,7 +203001,7 @@
       "bathrooms": 1,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7725566,
       "lon": -122.4320678,
@@ -203007,7 +203009,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-12T09:30:26.355Z"
+      "added_at": "2026-11-12T09:30:26.355Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T14:17:00.472Z"
     },
     {
       "id": "cl_7983983349",
@@ -203059,7 +203063,7 @@
       "bathrooms": 2,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7844794,
       "lon": -122.4621132,
@@ -203067,7 +203071,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-12T17:59:46.006Z"
+      "added_at": "2026-11-12T17:59:46.006Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T14:17:00.472Z"
     },
     {
       "id": "rf_552221",
@@ -203272,14 +203278,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7235,
       "lon": -122.4543,
       "notes": "From Craigslist · posted Nov 13, 4:49 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-13T05:51:44.274Z"
+      "added_at": "2026-11-13T05:51:44.274Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T14:17:00.472Z"
     },
     {
       "id": "cl_7999823295",
@@ -203291,14 +203299,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7583,
       "lon": -122.4205,
       "notes": "From Craigslist · posted Nov 13, 4:29 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-13T05:51:44.274Z"
+      "added_at": "2026-11-13T05:51:44.274Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T14:17:00.472Z"
     },
     {
       "id": "cl_7999799952",
@@ -203329,14 +203339,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "in_unit",
       "lat": 37.7712,
       "lon": -122.4413,
       "notes": "From Craigslist · posted Nov 13, 1:39 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-13T05:51:44.274Z"
+      "added_at": "2026-11-13T05:51:44.274Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T14:17:00.472Z"
     },
     {
       "id": "cl_7999765872",
@@ -203462,7 +203474,7 @@
       "bathrooms": 1,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7360608,
       "lon": -122.5023519,
@@ -203470,7 +203482,49 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-13T05:51:44.274Z"
+      "added_at": "2026-11-13T05:51:44.274Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-13T14:17:00.472Z"
+    },
+    {
+      "id": "rf_1623409",
+      "url": "https://www.redfin.com/CA/San-Francisco/130-S-Hill-Blvd-94112/home/1623409",
+      "address": "130 S Hill Blvd",
+      "neighborhood": "",
+      "price": 2700,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 844,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7102203,
+      "lon": -122.431161,
+      "notes": "From Redfin · updated Nov 13, 11:31 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-13T14:17:00.472Z"
+    },
+    {
+      "id": "rf_206972926",
+      "url": "https://www.redfin.com/CA/San-Francisco/65-Kissling-St-94103/home/206972926",
+      "address": "65 Kissling St",
+      "neighborhood": "",
+      "price": 3950,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7729388,
+      "lon": -122.4144739,
+      "notes": "From Redfin · updated Nov 13, 11:31 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-13T14:17:00.472Z"
     }
   ]
 }
