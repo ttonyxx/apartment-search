@@ -204007,14 +204007,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7594,
       "lon": -122.4431,
       "notes": "From Craigslist · posted Nov 14, 1:36 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-14T16:29:25.260Z"
+      "added_at": "2026-11-14T16:29:25.260Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-14T21:12:24.406Z"
     },
     {
       "id": "cl_8000444190",
@@ -204026,14 +204028,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7728,
       "lon": -122.4148,
       "notes": "From Craigslist · posted Nov 14, 1:21 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-14T16:29:25.260Z"
+      "added_at": "2026-11-14T16:29:25.260Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-14T21:12:24.406Z"
     },
     {
       "id": "rf_177358243",
@@ -204054,6 +204058,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-11-14T16:29:25.260Z"
+    },
+    {
+      "id": "cl_7996325274",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sunday-10-12pmsunny/7996325274.html",
+      "address": "OPEN Sunday 10-12pm.Sunny 3 bedrooms, 1 office or sunroom, wash/dryer",
+      "neighborhood": "San Francisco",
+      "price": 5685,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 1500,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7822,
+      "lon": -122.4806,
+      "notes": "From Craigslist · posted Nov 14, 1:46 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-14T21:12:24.406Z"
     }
   ]
 }
