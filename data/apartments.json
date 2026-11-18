@@ -185963,14 +185963,16 @@
       "bathrooms": null,
       "sqft": 1465,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7247,
       "lon": -122.4416,
       "notes": "From Craigslist · posted Oct 18, 3:19 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-18T17:54:20.049Z"
+      "added_at": "2026-10-18T17:54:20.049Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-18T12:47:34.935Z"
     },
     {
       "id": "cl_7985707188",
@@ -197823,7 +197825,7 @@
       "bathrooms": 3,
       "sqft": 1547,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7444532,
       "lon": -122.5007397,
@@ -197831,7 +197833,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-03T10:36:07.416Z"
+      "added_at": "2026-11-03T10:36:07.416Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-18T12:47:34.935Z"
     },
     {
       "id": "rf_1883689",
@@ -200918,14 +200922,16 @@
       "bathrooms": null,
       "sqft": 1465,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7247,
       "lon": -122.4416,
       "notes": "From Craigslist · posted Nov 8, 4:00 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-08T16:36:46.699Z"
+      "added_at": "2026-11-08T16:36:46.699Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-18T12:47:34.935Z"
     },
     {
       "id": "cl_7997193954",
@@ -205794,7 +205800,7 @@
       "bathrooms": 2,
       "sqft": 1450,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7512453,
       "lon": -122.4130855,
@@ -205802,7 +205808,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-17T03:31:30.283Z"
+      "added_at": "2026-11-17T03:31:30.283Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-18T12:47:34.935Z"
     },
     {
       "id": "rf_207028027",
@@ -206207,14 +206215,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.781,
       "lon": -122.495,
       "notes": "From Craigslist · posted Nov 17, 9:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-17T21:36:03.683Z"
+      "added_at": "2026-11-17T21:36:03.683Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-18T12:47:34.935Z"
     },
     {
       "id": "cl_8002163883",
@@ -206368,6 +206378,64 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-11-18T03:26:58.421Z"
+    },
+    {
+      "id": "cl_8002507287",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-bedroom/8002507287.html",
+      "address": "Renovated 2-Bedroom- 1-Bathroom heart of Buena Vista",
+      "neighborhood": "Alamo Square / Nopa",
+      "price": 2795,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7755,
+      "lon": -122.4362,
+      "notes": "From Craigslist · posted Nov 18, 8:52 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-18T12:47:34.935Z"
+    },
+    {
+      "id": "cl_8002525218",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-bedroom/8002525218.html",
+      "address": "Renovated 2-Bedroom- 1-Bathroom heart of Buena Vista",
+      "neighborhood": "Alamo Square / Nopa",
+      "price": 3295,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7755,
+      "lon": -122.4362,
+      "notes": "From Craigslist · posted Nov 18, 11:46 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-18T12:47:34.935Z"
+    },
+    {
+      "id": "rf_207036516",
+      "url": "https://www.redfin.com/CA/San-Francisco/1651-McKinnon-Ave-94124/unit-2/home/207036516",
+      "address": "1651 McKinnon Ave Unit 2",
+      "neighborhood": "",
+      "price": 4850,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1150,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7365738,
+      "lon": -122.3908952,
+      "notes": "From Redfin · updated Nov 18, 3:42 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-18T12:47:34.935Z"
     }
   ]
 }
