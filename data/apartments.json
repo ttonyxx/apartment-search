@@ -203179,14 +203179,16 @@
       "bathrooms": null,
       "sqft": 791,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7775,
       "lon": -122.418,
       "notes": "From Craigslist · posted Nov 12, 8:11 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-12T23:30:28.667Z"
+      "added_at": "2026-11-12T23:30:28.667Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-19T02:59:46.128Z"
     },
     {
       "id": "cl_7999623801",
@@ -206375,7 +206377,7 @@
       "bathrooms": 1,
       "sqft": 800,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.75488,
       "lon": -122.424561,
@@ -206383,7 +206385,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-18T03:26:58.421Z"
+      "added_at": "2026-11-18T03:26:58.421Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-19T02:59:46.128Z"
     },
     {
       "id": "cl_8002507287",
@@ -206395,14 +206399,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7755,
       "lon": -122.4362,
       "notes": "From Craigslist · posted Nov 18, 8:52 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-18T12:47:34.935Z"
+      "added_at": "2026-11-18T12:47:34.935Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-19T02:59:46.128Z"
     },
     {
       "id": "cl_8002525218",
@@ -206414,14 +206420,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7755,
       "lon": -122.4362,
       "notes": "From Craigslist · posted Nov 18, 11:46 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-18T12:47:34.935Z"
+      "added_at": "2026-11-18T12:47:34.935Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-19T02:59:46.128Z"
     },
     {
       "id": "rf_207036516",
@@ -206433,7 +206441,7 @@
       "bathrooms": 2,
       "sqft": 1150,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7365738,
       "lon": -122.3908952,
@@ -206441,7 +206449,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-18T12:47:34.935Z"
+      "added_at": "2026-11-18T12:47:34.935Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-19T02:59:46.128Z"
     },
     {
       "id": "cl_8002746057",
@@ -206575,6 +206585,65 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-18T21:11:35.679Z"
+    },
+    {
+      "id": "cl_8002940658",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-beautiful-spacious-and/8002940658.html",
+      "address": "Beautiful spacious and fully furnished two bedroom apartment",
+      "neighborhood": "Bayview",
+      "price": 2900,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7309,
+      "lon": -122.3886,
+      "notes": "From Craigslist · posted Nov 18, 11:57 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-19T02:59:46.128Z"
+    },
+    {
+      "id": "rf_207046396",
+      "url": "https://www.redfin.com/CA/San-Francisco/1672-Revere-Ave-94124/unit-1672/home/207046396",
+      "address": "1672 Revere Ave Unit 1672",
+      "neighborhood": "",
+      "price": 3000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7323812,
+      "lon": -122.3910215,
+      "notes": "From Redfin · updated Nov 19, 1:42 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-19T02:59:46.128Z"
+    },
+    {
+      "id": "rf_207046740",
+      "url": "https://www.redfin.com/CA/San-Francisco/1639-Fulton-St-94117/unit-D/home/207046740",
+      "address": "1639 Fulton St Apt D",
+      "neighborhood": "",
+      "price": 4295,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 100,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7758314,
+      "lon": -122.4437724,
+      "notes": "From Redfin · updated Nov 19, 1:50 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-19T02:59:46.128Z"
     }
   ]
 }
