@@ -187375,14 +187375,16 @@
       "bathrooms": null,
       "sqft": 1500,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.745,
       "lon": -122.4383,
       "notes": "From Craigslist · posted Oct 20, 2:06 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-20T04:11:18.750Z"
+      "added_at": "2026-10-20T04:11:18.750Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-19T11:28:11.992Z"
     },
     {
       "id": "cl_7986565137",
@@ -204796,14 +204798,16 @@
       "bathrooms": null,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7846,
       "lon": -122.4451,
       "notes": "From Craigslist · posted Nov 15, 4:28 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-15T21:32:11.604Z"
+      "added_at": "2026-11-15T21:32:11.604Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-19T11:28:11.992Z"
     },
     {
       "id": "cl_8001027828",
@@ -206644,6 +206648,26 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-11-19T02:59:46.128Z"
+    },
+    {
+      "id": "rf_207047389",
+      "url": "https://www.redfin.com/CA/San-Francisco/363-6th-St-94103/unit-313/home/207047389",
+      "address": "363 6th St Apt 313",
+      "neighborhood": "",
+      "price": 5500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 965,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7779352,
+      "lon": -122.4046117,
+      "notes": "From Redfin · updated Nov 19, 4:32 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-19T11:28:11.992Z"
     }
   ]
 }
