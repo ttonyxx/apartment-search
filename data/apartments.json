@@ -204959,14 +204959,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7393,
       "lon": -122.46,
       "notes": "From Craigslist · posted Nov 15, 7:55 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-15T21:32:11.604Z"
+      "added_at": "2026-11-15T21:32:11.604Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-21T22:55:06.185Z"
     },
     {
       "id": "cl_8001087711",
@@ -207315,14 +207317,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7832,
       "lon": -122.4327,
       "notes": "From Craigslist · posted Nov 20, 11:16 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-21T01:12:18.547Z"
+      "added_at": "2026-11-21T01:12:18.547Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-21T22:55:06.185Z"
     },
     {
       "id": "cl_8004048318",
@@ -207613,14 +207617,16 @@
       "bathrooms": null,
       "sqft": 870,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7775,
       "lon": -122.4366,
       "notes": "From Craigslist · posted Nov 21, 2:29 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-21T17:12:48.280Z"
+      "added_at": "2026-11-21T17:12:48.280Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-21T22:55:06.185Z"
     },
     {
       "id": "cl_8004166284",
@@ -207659,6 +207665,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-21T17:12:48.280Z"
+    },
+    {
+      "id": "cl_8004368088",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-2br-2ba-in-visitacion/8004368088.html",
+      "address": "2BR/2BA in Visitacion Valley.",
+      "neighborhood": "Visitacion Valley",
+      "price": 3850,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1050,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7138,
+      "lon": -122.4092,
+      "notes": "From Craigslist · posted Nov 21, 7:14 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-21T22:55:06.185Z"
+    },
+    {
+      "id": "cl_8004457536",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-tmlp-12-mo-cable-ready/8004457536.html",
+      "address": "TMLP 12-mo. | Cable Ready, Garage, Sundeck, Green Building",
+      "neighborhood": "Downtown / Civic / Van Ness",
+      "price": 4433,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 794,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7791,
+      "lon": -122.4142,
+      "notes": "From Craigslist · posted Nov 21, 9:12 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-21T22:55:06.185Z"
     }
   ]
 }
