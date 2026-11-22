@@ -189788,14 +189788,16 @@
       "bathrooms": null,
       "sqft": 1700,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7109,
       "lon": -122.4495,
       "notes": "From Craigslist · posted Oct 22, 11:01 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-22T23:05:13.190Z"
+      "added_at": "2026-10-22T23:05:13.190Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-22T10:54:58.317Z"
     },
     {
       "id": "cl_7988162559",
@@ -189807,14 +189809,16 @@
       "bathrooms": null,
       "sqft": 1724,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7812,
       "lon": -122.4891,
       "notes": "From Craigslist · posted Oct 22, 9:38 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-22T23:05:13.190Z"
+      "added_at": "2026-10-22T23:05:13.190Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-22T10:54:58.317Z"
     },
     {
       "id": "cl_7988139030",
@@ -190225,14 +190229,16 @@
       "bathrooms": null,
       "sqft": 0,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7547,
       "lon": -122.482,
       "notes": "From Craigslist · posted Oct 22, 11:07 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-23T04:03:04.885Z"
+      "added_at": "2026-10-23T04:03:04.885Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-22T10:54:58.317Z"
     },
     {
       "id": "cl_7987610937",
@@ -206264,14 +206270,16 @@
       "bathrooms": null,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": "shared",
       "lat": 37.7846,
       "lon": -122.4451,
       "notes": "From Craigslist · posted Nov 17, 4:15 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-17T21:36:03.683Z"
+      "added_at": "2026-11-17T21:36:03.683Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-22T10:54:58.317Z"
     },
     {
       "id": "cl_8002265241",
@@ -207725,6 +207733,25 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-11-22T02:54:30.328Z"
+    },
+    {
+      "id": "cl_8004656025",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-top-floor-apartment/8004656025.html",
+      "address": "top floor apartment beautiful bldg hardwood laundry backyard FREE appl",
+      "neighborhood": "Lower Pac Hts",
+      "price": 4500,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 750,
+      "available": null,
+      "status": "to_see",
+      "laundry": "shared",
+      "lat": 37.7846,
+      "lon": -122.4451,
+      "notes": "From Craigslist · posted Nov 22, 10:22 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-22T10:54:58.317Z"
     }
   ]
 }
