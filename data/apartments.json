@@ -207638,14 +207638,16 @@
       "bathrooms": null,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.8048,
       "lon": -122.4198,
       "notes": "From Craigslist · posted Nov 21, 11:13 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-21T17:12:48.280Z"
+      "added_at": "2026-11-21T17:12:48.280Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-22T02:54:30.328Z"
     },
     {
       "id": "cl_8004304836",
@@ -207703,6 +207705,26 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-21T22:55:06.185Z"
+    },
+    {
+      "id": "rf_1576248",
+      "url": "https://www.redfin.com/CA/San-Francisco/140-Kingston-St-94110/home/1576248",
+      "address": "140 Kingston St",
+      "neighborhood": "",
+      "price": 4400,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 800,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.741309,
+      "lon": -122.4218477,
+      "notes": "From Redfin · updated Nov 22, 12:31 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-22T02:54:30.328Z"
     }
   ]
 }
