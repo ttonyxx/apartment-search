@@ -192366,14 +192366,16 @@
       "bathrooms": null,
       "sqft": 1042,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7787,
       "lon": -122.4022,
       "notes": "From Craigslist · posted Oct 25, 3:26 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-10-25T18:14:53.715Z"
+      "added_at": "2026-10-25T18:14:53.715Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "cl_7989658575",
@@ -208180,7 +208182,7 @@
       "bathrooms": 2,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7379504,
       "lon": -122.3925047,
@@ -208188,7 +208190,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-23T08:44:11.822Z"
+      "added_at": "2026-11-23T08:44:11.822Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "cl_8005113402",
@@ -208505,7 +208509,7 @@
       "bathrooms": 2,
       "sqft": 1030,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7830211,
       "lon": -122.479865,
@@ -208513,7 +208517,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-24T05:15:33.104Z"
+      "added_at": "2026-11-24T05:15:33.104Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "cl_8005655370",
@@ -208582,7 +208588,7 @@
       "bathrooms": 2,
       "sqft": 1021,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7105653,
       "lon": -122.4677947,
@@ -208590,7 +208596,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-24T17:15:31.200Z"
+      "added_at": "2026-11-24T17:15:31.200Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "rf_180251406",
@@ -208602,7 +208610,7 @@
       "bathrooms": 1,
       "sqft": 931,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7760859,
       "lon": -122.4317854,
@@ -208610,7 +208618,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-24T17:15:31.200Z"
+      "added_at": "2026-11-24T17:15:31.200Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "rf_191136950",
@@ -208622,7 +208632,7 @@
       "bathrooms": 1,
       "sqft": 750,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7905047,
       "lon": -122.4115947,
@@ -208630,7 +208640,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-11-24T17:15:31.200Z"
+      "added_at": "2026-11-24T17:15:31.200Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "cl_8006057688",
@@ -208642,14 +208654,16 @@
       "bathrooms": null,
       "sqft": 1023,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7378,
       "lon": -122.3927,
       "notes": "From Craigslist · posted Nov 25, 12:50 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-25T02:03:04.874Z"
+      "added_at": "2026-11-25T02:03:04.874Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "cl_8006006193",
@@ -208661,14 +208675,16 @@
       "bathrooms": null,
       "sqft": 1380,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7712,
       "lon": -122.4413,
       "notes": "From Craigslist · posted Nov 24, 10:50 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-25T02:03:04.874Z"
+      "added_at": "2026-11-25T02:03:04.874Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "cl_8006059161",
@@ -208680,14 +208696,16 @@
       "bathrooms": null,
       "sqft": 876,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7378,
       "lon": -122.3927,
       "notes": "From Craigslist · posted Nov 25, 12:43 AM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-25T02:03:04.874Z"
+      "added_at": "2026-11-25T02:03:04.874Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "cl_8006036685",
@@ -208699,14 +208717,16 @@
       "bathrooms": null,
       "sqft": 900,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7757,
       "lon": -122.4551,
       "notes": "From Craigslist · posted Nov 24, 11:46 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-25T02:03:04.874Z"
+      "added_at": "2026-11-25T02:03:04.874Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-25T12:20:39.249Z"
     },
     {
       "id": "cl_8005034979",
@@ -208878,6 +208898,103 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-25T02:03:04.874Z"
+    },
+    {
+      "id": "cl_8006124720",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-seeking-one-roomate-to/8006124720.html",
+      "address": "Seeking One Roomate to Share SF Apartment",
+      "neighborhood": "City Of San Francisco",
+      "price": 1750,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1125,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7866,
+      "lon": -122.472,
+      "notes": "From Craigslist · posted Nov 25, 3:49 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-25T12:20:39.249Z"
+    },
+    {
+      "id": "cl_8006182647",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-renovated-modern/8006182647.html",
+      "address": "Newly Renovated & Modern 2-Bedroom, 1-Bathroom nearly 1000 sq ft",
+      "neighborhood": "San Francisco, CA",
+      "price": 1288,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7277,
+      "lon": -122.4189,
+      "notes": "From Craigslist · posted Nov 25, 12:03 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-25T12:20:39.249Z"
+    },
+    {
+      "id": "cl_8006175750",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-newly-renovated-modern/8006175750.html",
+      "address": "Newly Renovated & Modern 2-Bedroom, 1-Bathroom nearly 1000 sq ft",
+      "neighborhood": "San Francisco",
+      "price": 1288,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7277,
+      "lon": -122.4189,
+      "notes": "From Craigslist · posted Nov 25, 11:07 AM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-25T12:20:39.249Z"
+    },
+    {
+      "id": "rf_206858094",
+      "url": "https://www.redfin.com/CA/San-Francisco/565-Page-St-94117/unit-2/home/206858094",
+      "address": "565 Page St Apt 2",
+      "neighborhood": "",
+      "price": 8500,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1001,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7730209,
+      "lon": -122.4299883,
+      "notes": "From Redfin · updated Nov 14, 3:43 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-25T12:20:39.249Z"
+    },
+    {
+      "id": "rf_206790779",
+      "url": "https://www.redfin.com/CA/San-Francisco/3356-16th-St-94114/unit-3358A/home/206790779",
+      "address": "3356 16th St Unit 3358A",
+      "neighborhood": "",
+      "price": 6995,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": null,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7647737,
+      "lon": -122.4278804,
+      "notes": "From Redfin · updated Nov 16, 5:30 AM",
+      "seen_by": [],
+      "added_by": "redfin",
+      "source": "redfin",
+      "added_at": "2026-11-25T12:20:39.249Z"
     }
   ]
 }
