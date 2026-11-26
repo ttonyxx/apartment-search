@@ -195049,7 +195049,7 @@
       "bathrooms": 1,
       "sqft": null,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7779281,
       "lon": -122.3982327,
@@ -195057,7 +195057,9 @@
       "seen_by": [],
       "added_by": "redfin",
       "source": "redfin",
-      "added_at": "2026-10-29T18:50:48.826Z"
+      "added_at": "2026-10-29T18:50:48.826Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-26T14:50:03.396Z"
     },
     {
       "id": "cl_7992125856",
@@ -199657,14 +199659,16 @@
       "bathrooms": null,
       "sqft": 1000,
       "available": null,
-      "status": "to_see",
+      "status": "off_market",
       "laundry": null,
       "lat": 37.7572,
       "lon": -122.4949,
       "notes": "From Craigslist · posted Nov 6, 4:58 PM",
       "seen_by": [],
       "added_by": "craigslist",
-      "added_at": "2026-11-06T20:44:30.644Z"
+      "added_at": "2026-11-06T20:44:30.644Z",
+      "prev_status": "to_see",
+      "off_market_at": "2026-11-26T14:50:03.396Z"
     },
     {
       "id": "cl_7996298862",
@@ -209206,6 +209210,25 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-26T04:46:18.196Z"
+    },
+    {
+      "id": "cl_8006687988",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-renovated-bedroom/8006687988.html",
+      "address": "Renovated 2-Bedroom Apartment in Prime Nob Hill Location!",
+      "neighborhood": "Nob Hill",
+      "price": 3465,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 1200,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.794,
+      "lon": -122.4222,
+      "notes": "From Craigslist · posted Nov 26, 1:05 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-26T14:50:03.396Z"
     }
   ]
 }
