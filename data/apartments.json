@@ -209229,6 +209229,44 @@
       "seen_by": [],
       "added_by": "craigslist",
       "added_at": "2026-11-26T14:50:03.396Z"
+    },
+    {
+      "id": "cl_8006849013",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-your-next-san-francisco/8006849013.html",
+      "address": "*Your Next San Francisco Chapter Starts Here!",
+      "neighborhood": "City Of San Francisco",
+      "price": 2200,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 910,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7727,
+      "lon": -122.4256,
+      "notes": "From Craigslist · posted Nov 26, 8:47 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-26T23:34:52.463Z"
+    },
+    {
+      "id": "cl_8006898942",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-spacious-bedroom/8006898942.html",
+      "address": "Spacious 2-Bedroom Apartment – 950 Sq. Ft. | Modern Four-Unit Building",
+      "neighborhood": "City Of San Francisco",
+      "price": 1650,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 950,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7482,
+      "lon": -122.4163,
+      "notes": "From Craigslist · posted Nov 26, 11:05 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-26T23:34:52.463Z"
     }
   ]
 }
