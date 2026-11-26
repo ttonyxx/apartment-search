@@ -209168,6 +209168,44 @@
       "added_by": "redfin",
       "source": "redfin",
       "added_at": "2026-11-25T22:13:28.094Z"
+    },
+    {
+      "id": "cl_8005008378",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-200pm-230pm-in/8005008378.html",
+      "address": "OPEN SUN 2:00pm-2:30pm In-Unit W/D, Great Location! (647 18th Ave)",
+      "neighborhood": "Richmond / Seacliff",
+      "price": 3495,
+      "bedrooms": 2,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": "in_unit",
+      "lat": 37.7758,
+      "lon": -122.4769,
+      "notes": "From Craigslist · posted Nov 25, 5:44 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-26T04:46:18.196Z"
+    },
+    {
+      "id": "cl_8006349615",
+      "url": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-open-sun-1245pm-115pm/8006349615.html",
+      "address": "OPEN SUN 12:45pm-1:15pm 2-Level Home,Pet Friendly,Pkg,Yard(491 Gates)",
+      "neighborhood": "Bernal Heights",
+      "price": 5995,
+      "bedrooms": 3,
+      "bathrooms": null,
+      "sqft": 0,
+      "available": null,
+      "status": "to_see",
+      "laundry": null,
+      "lat": 37.7372,
+      "lon": -122.4141,
+      "notes": "From Craigslist · posted Nov 25, 5:51 PM",
+      "seen_by": [],
+      "added_by": "craigslist",
+      "added_at": "2026-11-26T04:46:18.196Z"
     }
   ]
 }
